@@ -32,7 +32,7 @@ header, #main-content, footer
 
 // Automatically reset the grid width & re-apply the grid background
 // to responsive layouts.
-$layouts: $break-tablet, $break-desktop, $break-huge
+$layouts: $break-tablet, $break-desktop
 @each $layout in $layouts
   @include at-breakpoint($layout)
     .container
