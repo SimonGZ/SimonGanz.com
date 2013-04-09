@@ -19,23 +19,27 @@
 
     -# Place favicon.ico and apple-touch-icon.png in the root directory
 
+    = stylesheet_link_tag "http://fnt.webink.com/wfs/webink.css/?project=E380B95A-DD67-4CF8-8D01-AD22A80E8ABB&fonts=3F939205-2E1F-8370-4903-74CC502B3FFA:f=ProximaNovaACond-Semibold,ABBFFA35-35F3-42FE-6706-6F5111FC61A6:f=StanPlusPro-NormalItalic,4286BE54-931D-56DF-F1FE-7E8A07336350:f=StanPlusPro-BoldItalic,6452D7B0-322C-4BE0-CC4F-35CE263462E1:f=StanPlusPro-Bold,2675A460-2FDF-6734-0395-9CACD36AD986:f=StanPlusPro-Normal,10E65415-D088-34FC-7EDB-E8BD0CE7C811:f=ProximaNovaACond-Bold"
     = stylesheet_link_tag "screen"
     = javascript_include_tag "libs/modernizr-2.6.1.min"
+    
 
   %body{:class => current_page.data.bodyclass}
     /[if lt IE 7]
       %p.chromeframe
         You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.
-    .container
-      %header
-        %h1= current_page.data.title
-      #main-content{:role => "main"}
 
+    .container
+    
+      %header 
+        %h1.title 
+          %a{href: "/", title: "Simon Ganz.com"} SIMON GANZ
+        %hr
+      
+      #main-content{:role => "main"}
+        
         -# Page content gets rendered here
         = yield
-
-      %footer
-        %p &copy; #{copyright_years(2011)} AmicusUser
 
     = javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"
     :javascript

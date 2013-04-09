@@ -42,6 +42,8 @@ require 'susy'
 #   page "/admin/*"
 # end
 
+page "/*.html", layout: "article_layout"
+
 # Proxy (fake) files
 # page "/this-page-has-no-template.html", :proxy => "/template-file.html" do
 #   @which_fake_page = "Rendering a fake page with a variable"
@@ -114,6 +116,8 @@ activate :blog do |blog|
   # set options on blog
   blog.permalink = ":year/:title.html"
   blog.paginate = true
+  blog.layout = "article_layout"
+  blog.default_extension = ".markdown"
 end
 
 activate :directory_indexes

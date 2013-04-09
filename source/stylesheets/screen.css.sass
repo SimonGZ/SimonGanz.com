@@ -17,12 +17,30 @@
 @import "grid/magic"
 
 // Your own styles go here.
+body
+  font-family: StanPlusPro-Normal 
+  font-size: 19px
+
+h1, h2, h3
+  font-weight: normal
+
 h1
+  font-family: ProximaNovaACond-Bold
+  font-size: 40px
   color: #999
   text-transform: uppercase
   line-height: 1em
+  margin: 8px 0 0 0
 h2
-  line-height: 1.3em
+  font-family: ProximaNovaACond-Semibold 
+  font-size: 32px
+  line-height: 1em
+  margin: 5px 0 0 0
+h3
+  font-family: ProximaNovaACond-Semibold
+  text-decoration: underline
+  line-height: 1em
+  margin: 1em 0 -4px 0 
 kbd
   background-color: #f5f5f5
   border: 1px solid #dedede
@@ -31,13 +49,54 @@ footer
   margin-top: 3em
   text-align: right
 
+a, a:hover, a:visited
+  text-decoration: none
+  color: red
+
+blockquote
+  font-family: StanPlusPro-NormalItalic 
+  color: #7f7f7f
+  padding-left: 14px
+  border-left: 6px gray solid
+  
+strong
+  font-family: StanPlusPro-Bold 
+  font-weight: normal
+
+hr
+  border: none
+  font-size: 16px
+  color: #bfbfbf
+  text-align: center
+  margin: 1em 0 2em 0
+  &:after
+    content: "✧✧✧"
+    letter-spacing: 2em
+    padding-left: 2em
+
+// Main layout styling
+
 .container
   // Force images to scale down to their container widths.
   img
     max-width: 100%
     height: auto
+    padding-bottom: 10px
 
-
+  .title
+    font-size: 24px
+    margin-top: 16px
+    a, a:visited
+      color: gray
+    
+  hr.postDivider
+    font-size: 24px
+    color: gray
+    margin: 2em 0 3em 0
+    
+  .postDate
+    color: gray
+          
 // H5BP helper classes & mixins.
 // @include h5bp-helpers
 

@@ -2,11 +2,11 @@
 title: "The DeHulkifier"
 ---
 
-![](http://i.imgur.com/lekk6WX.jpg)
+![The Hulk](/images/hulk.jpg)
 
 [Film Crit Hulk][] offers some of the most detailed, insightful film criticism on the web. But there's a catch...
 
-## Hulk Shouts:
+## Hulk Shouts
 
 > HULK HAS TALKED ON AND ON ABOUT HOW MUCH SOUND IS "THE ACTUAL VISCERAL EXPERIENCE OF MOVIES," AND THAT IS VERY MUCH TRUE, BUT THAT STATEMENT IS NOT TO DOWNPLAY THE STUNNING IMPORTANCE OF CINEMATOGRAPHY THAT CONVEYS BOTH INFORMATION AND FEELING TOO. 
 

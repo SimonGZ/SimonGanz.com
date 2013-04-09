@@ -1,0 +1,8 @@
+- wrap_layout :layout do
+  %article
+    %header
+      %h1
+        %a{href: current_page.url, title: current_page.data.title}= current_page.data.title
+      .postDate
+        %small= current_page.date.strftime('%b %e %Y')
+    = yield
