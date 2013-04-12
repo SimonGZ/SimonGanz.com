@@ -214,7 +214,7 @@ if (!canvas.getContext) {
 var fluid_images = [];
 
 var settings = {
-	domain: "holder.js",
+	domain: "holder-978664da.js",
 	images: "img",
 	bgnodes: ".holderjs",
 	themes: {
