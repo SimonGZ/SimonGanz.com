@@ -1,4 +1,0 @@
-SimonGanz.com
-=============
-
-Personal site.
