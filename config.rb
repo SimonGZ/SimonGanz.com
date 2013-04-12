@@ -89,6 +89,11 @@ end
 # Change the images directory
 # set :images_dir, "alternative_image_directory"
 
+set :markdown, :layout_engine => :erb, 
+               :tables => true, 
+               :autolink => true,
+               :smartypants => true
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
@@ -117,7 +122,7 @@ activate :blog do |blog|
   blog.permalink = ":year/:title.html"
   blog.paginate = true
   blog.layout = "article_layout"
-  blog.default_extension = ".markdown"
+  blog.default_extension = ".markdown.erb"
 end
 
 activate :directory_indexes

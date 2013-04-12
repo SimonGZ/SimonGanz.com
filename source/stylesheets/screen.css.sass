@@ -81,7 +81,7 @@ hr
   img
     max-width: 100%
     height: auto
-    padding-bottom: 10px
+    margin-bottom: 10px
 
   .title
     font-size: 24px
@@ -94,11 +94,18 @@ hr
     color: gray
     margin: 2em 0 3em 0
     
-  .postDate
+  .postDate,
+  .postDate a
     color: gray
+    padding-bottom: 0.25em
+    &:link, &:hover, &:visited
+      color: gray
           
 // H5BP helper classes & mixins.
 // @include h5bp-helpers
 
 // Print styles.
 @include h5bp-media
+
+// Bootstrap Pagination
+@import "bootstrap-pagination"
