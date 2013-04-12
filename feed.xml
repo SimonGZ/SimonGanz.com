@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>SimonGanz.com</title>
+  <id>http://simonganz.com/</id>
+  <link href="http://simonganz.com/"/>
+  <link href="http://simonganz.com/feed.xml" rel="self"/>
+  <updated>2013-04-04T07:00:00Z</updated>
+  <author>
+    <name>Simon Ganz</name>
+  </author>
+  <entry>
+    <title>The DeHulkifier</title>
+    <link rel="alternate" href="/2013/04/the-dehulkifier/"/>
+    <id>/2013/04/the-dehulkifier/</id>
+    <published>2013-04-04T07:00:00Z</published>
+    <updated>2013-04-04T07:00:00Z</updated>
+    <author>
+      <name>Simon Ganz</name>
+    </author>
+    <content type="html">&lt;img src='/images/hulk.jpg' /&gt;
+&lt;p&gt;&lt;a href='http://badassdigest.com/author/67'&gt;Film Crit Hulk&lt;/a&gt; offers some of the most detailed, insightful film criticism on the web. But there&amp;#8217;s a catch&amp;#8230;&lt;/p&gt;
+
+&lt;h2 id='hulk_shouts'&gt;Hulk Shouts&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;HULK HAS TALKED ON AND ON ABOUT HOW MUCH SOUND IS &amp;#8220;THE ACTUAL VISCERAL EXPERIENCE OF MOVIES,&amp;#8221; AND THAT IS VERY MUCH TRUE, BUT THAT STATEMENT IS NOT TO DOWNPLAY THE STUNNING IMPORTANCE OF CINEMATOGRAPHY THAT CONVEYS BOTH INFORMATION AND FEELING TOO.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Blech. I understand that he&amp;#8217;s a half-ton, gamma-irradiated super being, but that&amp;#8217;s really unpleasant.&lt;/p&gt;
+
+&lt;p&gt;So during a particularly fierce procrastination session I developed &lt;strong&gt;a cure for Hulk&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I have talked on and on about how much sound is &amp;#8220;the actual visceral experience of movies,&amp;#8221; and that is very much true, but that statement is not to downplay the stunning importance of cinematography that conveys both information and feeling too.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Much better, right? He even uses &amp;#8220;I&amp;#8221; instead of &amp;#8220;Hulk.&amp;#8221;&lt;/p&gt;
+
+&lt;h2 id='installing_the_cure'&gt;Installing the Cure&lt;/h2&gt;
+
+&lt;p&gt;The cure is a &lt;a href='http://en.wikipedia.org/wiki/Bookmarklet'&gt;bookmarklet&lt;/a&gt; that uses Javascript and regular expressions to de-gamma-irradiate Film Crit Hulk and turn him into Film Crit Bruce Banner. He still has a few grammar issues, likely due to brain damage, but I personally find him a lot more pleasant.&lt;/p&gt;
+
+&lt;p&gt;You can install the cure by dragging the link below to your bookmarks bar.&lt;/p&gt;
+&lt;a href='javascript:(function()%7Bfunction%20callback()%7B(function(%24)%7Bvar%20jQuery%3D%24%3B%24(function()%20%7BString.prototype.reverse%20%3D%20function()%20%7Breturn%20this.split(&amp;apos;&amp;apos;).reverse().join(&amp;apos;&amp;apos;)%3B%7D%3B%24(%22.entry%20p%22).not(%22%3Ahas(img)%22).replaceWith(function()%20%7Bvar%20dehulked%3Bdehulked%20%3D%20%24(this).html().toLowerCase().replace(%2Fhulk%20has%2Fg%2C%20%22I%20have%22).replace(%2F(taught%7Cbrought%7Cshowed)%20hulk%20is%2Fg%2C%20&amp;apos;%241%20me%20is&amp;apos;).replace(%2F(taught%7Cbrought%7Cshowed)%20hulk%20that%2Fg%2C%20&amp;apos;%241%20me%20that&amp;apos;).replace(%2F(taken%7Cremind%7Cmakes%7Cstrike%7Cgive%7Cmade%7Chits)%20hulk%2Fg%2C%20&amp;apos;%241%20me&amp;apos;).replace(%2Fhulk%20isn%5B&amp;apos;%E2%80%99%5Dt%2Fg%2C%20&amp;apos;I%20am%20not&amp;apos;).replace(%2Fto%20hulk%2Fg%2C%20&amp;apos;to%20me&amp;apos;).replace(%2Fhulk%20is%2Fg%2C%20&amp;apos;I%20am&amp;apos;).replace(%2Ffor%20hulk%2Fg%2C%20&amp;apos;for%20me&amp;apos;).replace(%2Fhulk%5B&amp;apos;%E2%80%99%5Ds%20(got%7Cloved)%2Fg%2C%20&amp;apos;I%20have%20%241&amp;apos;).replace(%2Fhulk%5B&amp;apos;%E2%80%99%5Ds%2Fg%2C%20&amp;apos;my&amp;apos;).replace(%2Fmy%20(not%7Cpositive%7Cseen%7Cjust%7Cstruck%7Cpretty)%2Fg%2C%20&amp;apos;I%20am%20%241&amp;apos;).replace(%2Fthis%20my%2Fg%2C%20&amp;apos;my&amp;apos;).replace(%2Fhulk%2Fg%2C%20&amp;apos;I&amp;apos;).replace(%2FI%5B&amp;apos;%E2%80%99%5Ds%2Fg%2C%20&amp;apos;I%20have&amp;apos;).replace(%2FI%20doesn%5B&amp;apos;%E2%80%99%5Dt%2Fg%2C%20%22I%20don&amp;apos;t%22).replace(%2FI%20does%2Fg%2C%20%22I%20do%22).replace(%2FI%20really%20doesn%5B&amp;apos;%E2%80%99%5Dt%2Fg%2C%20%22I%20really%20don&amp;apos;t%22).replace(%2FI%20really%20does%2Fg%2C%20&amp;apos;I%20really%20do&amp;apos;).replace(%2FI-self%2Fg%2C%20&amp;apos;myself&amp;apos;).replace(%2Fgave%20I%20%2Fg%2C%20&amp;apos;gave%20me%20&amp;apos;).replace(%2FI%20to%5Cs%2Fg%2C%20&amp;apos;me%20to%20&amp;apos;).replace(%2Fto%20I%2Fg%2C%20&amp;apos;to%20me&amp;apos;).replace(%2FI%20uses%2Fg%2C%20&amp;apos;I%20use&amp;apos;).replace(%2FI-related%2Fg%2C%20&amp;apos;me-related&amp;apos;).replace(%2FI%20believes%2Fg%2C%20&amp;apos;I%20believe&amp;apos;).replace(%2F(I%20%5B%5Cw%5D%2B)s%5Cs%2Fg%2C%20%22%241%20%22).replace(%2FI%20wa%20%2Fg%2C%20%22I%20was%20%22).replace(%2FI%20alway%20%2Fg%2C%20%22I%20always%20%22).replace(%2Fupon%20I%2Fg%2C%20&amp;apos;upon%20me&amp;apos;).replace(%2F%5CsI%5C.(%3F%3D%5B%24%5Cs%5D)%2Fg%2C%20&amp;apos;%20me.%20&amp;apos;).replace(%2Ftroubles%20I%2Fg%2C%20&amp;apos;troubles%20me&amp;apos;).replace(%2F%5E%5B%5Cs%5D*(%5Ba-zA-Z%5D)%2Fg%2C%20function(%240)%20%7Breturn%20%240.toUpperCase()%3B%7D).reverse().replace(%2F(%5Ba-zA-Z%5D)(%5B%5Cs*%5D(%5B.!%3F%5D%7C%5B%22%E2%80%9D%5D%5B%5C.%3F!%5D))%2Fg%2C%20function(%240%2C%20%241)%20%7Breturn%20%240.toUpperCase()%3B%7D).reverse().replace(%2Fmr%5C.%2Fg%2C%20%22Mr.%22)%3Breturn%20%22%3Cp%3E%22%20%2B%20dehulked%20%2B%20%22%3C%2Fp%3E%22%3B%7D)%3B%24(%22.entry%20p%20strong%22).replaceWith(function()%20%7Breturn%20%22%3Cstrong%3E%22%20%2B%20%24(this).text().toUpperCase()%20%2B%20%22%3C%2Fstrong%3E%22%3B%7D)%3B%24(%22.authorbox%20img%22).attr(%22src%22%2C%20%22http%3A%2F%2Fi.imgur.com%2FhgWFM9j.jpg%22)%3Breturn%20%24(%22.authorbox%22).html(function()%20%7Breturn%20%24(this).html().replace(%22FILM%20CRIT%20HULK%20WAS%20CREATED%20IN%20A%20CHAOTIC%20LAB%20EXPERIMENT%20INVOLVING%20GAMMA%20RADIATION%2C%20TELEPODS%2C%20AND%20THE%20GHOST%20OF%20PAULINE%20KAEL.%20NOW%20HULK%20HAVE%20DEEP%20AND%20ABIDING%20LOVE%20CINEMA.%22%2C%20%22Film%20Crit%20Bruce%20Banner%20is%20currently%20recuperating%20from%20a%20chaotic%20lab%20experiment%20involving%20gamma%20radiation%2C%20telepods%2C%20and%20the%20ghost%20of%20Pauline%20Kael.%20Bruce%20has%20a%20deep%20and%20abiding%20love%20of%20cinema.%22)%3B%7D)%3B%7D)%7D)(jQuery.noConflict(true))%7Dvar%20s%3Ddocument.createElement(%22script%22)%3Bs.src%3D%22https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F1.7.1%2Fjquery.min.js%22%3Bif(s.addEventListener)%7Bs.addEventListener(%22load%22%2Ccallback%2Cfalse)%7Delse%20if(s.readyState)%7Bs.onreadystatechange%3Dcallback%7Ddocument.body.appendChild(s)%3B%7D)()'&gt;DeHulkifier&lt;/a&gt;
+&lt;p&gt;Then just visit a Film Crit Hulk article (here&amp;#8217;s &lt;a href='http://badassdigest.com/2013/01/09/film-crit-hulk-smash-hulk-vs.-tom-hooper-and-art-of-cinematic-affectation/'&gt;a good one&lt;/a&gt;) and click the bookmarklet.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Grandma's Shiny Button</title>
+    <link rel="alternate" href="/2011/04/Grandma's Shiny Button/"/>
+    <id>/2011/04/Grandma's Shiny Button/</id>
+    <published>2011-04-06T07:00:00Z</published>
+    <updated>2011-04-06T07:00:00Z</updated>
+    <author>
+      <name>Simon Ganz</name>
+    </author>
+    <content type="html">&lt;img src='/images/powermate.jpg' /&gt;
+&lt;h2 id='the_problem'&gt;The Problem&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Grandma moved from New York to Los Angeles&lt;/li&gt;
+
+&lt;li&gt;Grandma wants to listen to every Mets game&lt;/li&gt;
+
+&lt;li&gt;Grandma is legally blind and has never used a computer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='first_solution_internet_radio'&gt;First Solution: Internet Radio&lt;/h2&gt;
+
+&lt;h3 id='steps_for_me'&gt;Steps for Me&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Buy Grandma a Squeezebox Internet Radio Player&lt;/li&gt;
+
+&lt;li&gt;Set the first preset to WFAN, the Mets radio station&lt;/li&gt;
+
+&lt;li&gt;Teach grandma to use the preset&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id='steps_for_grandma'&gt;Steps for Grandma&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Press the preset&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id='outcome'&gt;Outcome&lt;/h3&gt;
+
+&lt;p&gt;Fuck, they blackout all the games.&lt;/p&gt;
+
+&lt;h2 id='second_solution_drive_an_ipad_over'&gt;Second Solution: Drive an iPad Over&lt;/h2&gt;
+
+&lt;h3 id='steps_for_my_mom'&gt;Steps for My Mom&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Subscribe to MLB Gameday Audio on the iPad&lt;/li&gt;
+
+&lt;li&gt;Remember there&amp;#8217;s a Mets game&lt;/li&gt;
+
+&lt;li&gt;Drive the iPad over to Grandma&amp;#8217;s place&lt;/li&gt;
+
+&lt;li&gt;Turn on the game and leave&lt;/li&gt;
+
+&lt;li&gt;Come back four hours later to retrieve the iPad&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id='steps_for_grandma'&gt;Steps for Grandma&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Call my mom to remind her there&amp;#8217;s a game&lt;/li&gt;
+
+&lt;li&gt;Call my mom when the game is over so mom can turn the iPad off&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id='outcome'&gt;Outcome&lt;/h3&gt;
+
+&lt;p&gt;Mom says, &amp;#8220;162 games in a season!?&amp;#8221;&lt;/p&gt;
+
+&lt;h2 id='third_solution_remote_vnc'&gt;Third Solution: Remote VNC&lt;/h2&gt;
+
+&lt;h3 id='steps_for_me'&gt;Steps for Me&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Purchase Mac Mini&lt;/li&gt;
+
+&lt;li&gt;Purchase speakers&lt;/li&gt;
+
+&lt;li&gt;Install Mac Mini and Speakers under Grandma&amp;#8217;s TV&lt;/li&gt;
+
+&lt;li&gt;Install VNC software on Mac Mini&lt;/li&gt;
+
+&lt;li&gt;Remotely launch MLB Gameday Audio in Safari, find WFAN link, enter login credentials everytime Grandma calls&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id='steps_for_grandma'&gt;Steps for Grandma&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Call me to turn the game on&lt;/li&gt;
+
+&lt;li&gt;Get spooked out when sound suddenly starts coming out of her TV&lt;/li&gt;
+
+&lt;li&gt;Call me to turn the game off&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id='outcome'&gt;Outcome&lt;/h3&gt;
+
+&lt;p&gt;Simon says, &amp;#8220;162 fucking games in a season!?&amp;#8221;&lt;/p&gt;
+
+&lt;h2 id='the__solution'&gt;The (!?) Solution&lt;/h2&gt;
+
+&lt;h3 id='steps_for_me'&gt;Steps for Me&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Write Safari Extension to automatically load WFAN whenever Safari is launched&lt;/li&gt;
+
+&lt;li&gt;Write Safari Extension to automatically log into MLB Gameday Audio when necessary&lt;/li&gt;
+
+&lt;li&gt;Buy &lt;a href='http://www.griffintechnology.com/products/powermate'&gt;GriffinPowermate&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;Setup PowerMate so that one button press launches Safari and raises the volume, and one long button press quits Safari and mutes the volume&lt;/li&gt;
+
+&lt;li&gt;Teach Grandma to use the button&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id='steps_for_grandma'&gt;Steps for Grandma&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Push the button to turn on the game&lt;/li&gt;
+
+&lt;li&gt;Hold the button to turn off the game&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id='outcome'&gt;Outcome&lt;/h3&gt;
+
+&lt;p&gt;I&amp;#8217;ll let you know!&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id='update'&gt;Update:&lt;/h1&gt;
+
+&lt;p&gt;The button worked well for a year until a much better solution presented itself. SiriusXM now offers &lt;a href='http://www.siriusxm.com/newyorkmets'&gt;a special internet radio channel that automatically tunes to Mets games&lt;/a&gt;. That means Grandma can use the internet radio preset to listen to games.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;ve since repurposed the PowerMate button so control iTunes and play/pause audio books for Grandma.&lt;/p&gt;</content>
+  </entry>
+</feed>
