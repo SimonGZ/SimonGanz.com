@@ -42,7 +42,11 @@ require 'susy'
 #   page "/admin/*"
 # end
 
+Time.zone = "America/Los_Angeles"
+
 page "/*.html", layout: "article_layout"
+
+page "/feed.xml", :layout => false
 
 # Proxy (fake) files
 # page "/this-page-has-no-template.html", :proxy => "/template-file.html" do
@@ -91,8 +95,7 @@ end
 
 set :markdown, :layout_engine => :erb, 
                :tables => true, 
-               :autolink => true,
-               :smartypants => true
+               :autolink => true
 
 # Build-specific configuration
 configure :build do
@@ -119,7 +122,7 @@ end
 
 activate :blog do |blog|
   # set options on blog
-  blog.permalink = ":year/:title.html"
+  blog.permalink = ":year/:month/:title.html"
   blog.paginate = true
   blog.layout = "article_layout"
   blog.default_extension = ".markdown.erb"

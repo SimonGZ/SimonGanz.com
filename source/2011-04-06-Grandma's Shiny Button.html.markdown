@@ -2,7 +2,7 @@
 title: "Grandma's Shiny Button"
 ---
 
-![powermateImage](/images/powermate.jpg)
+![powermateImage](images/powermate.jpg)
 
 ## The Problem ##
 
