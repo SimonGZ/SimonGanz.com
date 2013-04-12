@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Simon Ganz -- Site Creator -- @simonganz
 
 # THANKS
 
-    <name>
+    
 
 # TECHNOLOGY COLOPHON
 
