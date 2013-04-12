@@ -99,6 +99,9 @@ set :markdown, :layout_engine => :erb,
 
 # Build-specific configuration
 configure :build do
+  activate :asset_hash
+  # Turning on cache system to fight github's aggressive cacheing.
+  
   # For example, change the Compass output style for deployment
   # activate :minify_css
 
