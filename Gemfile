@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem "middleman", "~> 3.0.13"
 
 gem "middleman-blog"
+gem 'middleman-gh-pages'
 
 # Compass plugins
 gem 'susy', "~> 1.0.8" # Susy
