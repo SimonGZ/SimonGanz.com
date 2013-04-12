@@ -405,9 +405,9 @@ h1 {
 /* line 34, screen.css.sass */
 h2 {
   font-family: ProximaNovaACond-Semibold;
-  font-size: 32px;
+  font-size: 34px;
   line-height: 1em;
-  margin: 5px 0 0 0; }
+  margin: 30px 0 0 0; }
 
 /* line 39, screen.css.sass */
 h3 {
@@ -416,70 +416,75 @@ h3 {
   line-height: 1em;
   margin: 1em 0 -4px 0; }
 
-/* line 44, screen.css.sass */
+/* line 45, screen.css.sass */
+p, pre {
+  line-height: 150%;
+  margin: 20px 0 20px 0; }
+
+/* line 49, screen.css.sass */
 kbd {
   background-color: whitesmoke;
   border: 1px solid #dedede;
   padding: 0px 3px 2px; }
 
-/* line 48, screen.css.sass */
+/* line 53, screen.css.sass */
 footer {
   margin-top: 3em;
   text-align: right; }
 
-/* line 52, screen.css.sass */
+/* line 57, screen.css.sass */
 a, a:hover, a:visited {
   text-decoration: none;
   color: red; }
 
-/* line 56, screen.css.sass */
+/* line 61, screen.css.sass */
 blockquote {
   font-family: StanPlusPro-NormalItalic;
   color: #7f7f7f;
   padding-left: 14px;
   border-left: 6px gray solid; }
 
-/* line 62, screen.css.sass */
+/* line 67, screen.css.sass */
 strong {
   font-family: StanPlusPro-Bold;
   font-weight: normal; }
 
-/* line 66, screen.css.sass */
+/* line 71, screen.css.sass */
 hr {
   border: none;
   font-size: 16px;
   color: #bfbfbf;
   text-align: center;
   margin: 1em 0 2em 0; }
-  /* line 72, screen.css.sass */
+  /* line 77, screen.css.sass */
   hr:after {
     content: "✧✧✧";
     letter-spacing: 2em;
     padding-left: 2em; }
 
-/* line 81, screen.css.sass */
+/* line 86, screen.css.sass */
 .container img {
   max-width: 100%;
   height: auto;
   margin-bottom: 10px; }
-/* line 86, screen.css.sass */
+/* line 91, screen.css.sass */
 .container .title {
   font-size: 24px;
   margin-top: 16px; }
-  /* line 89, screen.css.sass */
+  /* line 94, screen.css.sass */
   .container .title a, .container .title a:visited {
     color: gray; }
-/* line 92, screen.css.sass */
+/* line 97, screen.css.sass */
 .container hr.postDivider {
   font-size: 24px;
   color: gray;
   margin: 2em 0 3em 0; }
-/* line 97, screen.css.sass */
+/* line 102, screen.css.sass */
 .container .postDate,
 .container .postDate a {
   color: gray;
   padding-bottom: 0.25em; }
-  /* line 101, screen.css.sass */
+  /* line 106, screen.css.sass */
   .container .postDate:link, .container .postDate:hover, .container .postDate:visited,
   .container .postDate a:link,
   .container .postDate a:hover,
