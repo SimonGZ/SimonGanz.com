@@ -410,86 +410,114 @@ h2 {
   margin: 30px 0 0 0; }
 
 /* line 39, screen.css.sass */
+header h2 {
+  margin: 0; }
+  /* line 41, screen.css.sass */
+  header h2 a, header h2 a:link, header h2 a:hover, header h2 a:visited {
+    color: gray; }
+
+/* line 43, screen.css.sass */
 h3 {
   font-family: ProximaNovaACond-Semibold;
   text-decoration: underline;
   line-height: 1em;
   margin: 1em 0 -4px 0; }
 
-/* line 45, screen.css.sass */
+/* line 49, screen.css.sass */
 p, pre {
   line-height: 150%;
-  margin: 20px 0 20px 0; }
+  margin: 30px 0 30px 0; }
 
-/* line 49, screen.css.sass */
+/* line 53, screen.css.sass */
 kbd {
   background-color: whitesmoke;
   border: 1px solid #dedede;
   padding: 0px 3px 2px; }
 
-/* line 53, screen.css.sass */
+/* line 57, screen.css.sass */
 footer {
   margin-top: 3em;
   text-align: right; }
 
-/* line 57, screen.css.sass */
+/* line 61, screen.css.sass */
 a, a:hover, a:visited {
   text-decoration: none;
   color: red; }
 
-/* line 61, screen.css.sass */
+/* line 65, screen.css.sass */
 blockquote {
   font-family: StanPlusPro-NormalItalic;
   color: #7f7f7f;
   padding-left: 14px;
   border-left: 6px gray solid; }
 
-/* line 67, screen.css.sass */
+/* line 71, screen.css.sass */
 strong {
   font-family: StanPlusPro-Bold;
   font-weight: normal; }
 
-/* line 71, screen.css.sass */
+/* line 75, screen.css.sass */
 hr {
   border: none;
   font-size: 16px;
   color: #bfbfbf;
   text-align: center;
   margin: 1em 0 2em 0; }
-  /* line 77, screen.css.sass */
+  /* line 81, screen.css.sass */
   hr:after {
     content: "✧✧✧";
     letter-spacing: 2em;
     padding-left: 2em; }
 
-/* line 86, screen.css.sass */
+/* line 90, screen.css.sass */
 .container img {
   max-width: 100%;
   height: auto;
   margin-bottom: 10px; }
-/* line 91, screen.css.sass */
+/* line 95, screen.css.sass */
+.container img {
+  margin: 5px 0 0 5px;
+  max-width: 98%;
+  -webkit-box-shadow: gray 0 0 10px;
+  -moz-box-shadow: gray 0 0 10px;
+  box-shadow: gray 0 0 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px; }
+/* line 101, screen.css.sass */
 .container .title {
   font-size: 24px;
   margin-top: 16px; }
-  /* line 94, screen.css.sass */
+  /* line 104, screen.css.sass */
   .container .title a, .container .title a:visited {
     color: gray; }
-/* line 97, screen.css.sass */
+/* line 107, screen.css.sass */
 .container hr.postDivider {
   font-size: 24px;
   color: gray;
   margin: 2em 0 3em 0; }
-/* line 102, screen.css.sass */
+/* line 112, screen.css.sass */
 .container .postDate,
 .container .postDate a {
   color: gray;
   padding-bottom: 0.25em; }
-  /* line 106, screen.css.sass */
+  /* line 116, screen.css.sass */
   .container .postDate:link, .container .postDate:hover, .container .postDate:visited,
   .container .postDate a:link,
   .container .postDate a:hover,
   .container .postDate a:visited {
     color: gray; }
+/* line 119, screen.css.sass */
+.container .footnotes {
+  font-size: 16px; }
+  /* line 121, screen.css.sass */
+  .container .footnotes li {
+    margin-bottom: 1em; }
+  /* line 123, screen.css.sass */
+  .container .footnotes p {
+    display: inline; }
 
 @media print {
   /* line 11, ../../../../.rvm/gems/ruby-1.9.3-p0/gems/compass-h5bp-0.1.0/stylesheets/h5bp/_media.scss */
