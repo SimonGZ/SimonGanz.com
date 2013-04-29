@@ -470,14 +470,13 @@ hr {
     padding-left: 2em; }
 
 /* line 90, screen.css.sass */
+.container #main-content {
+  overflow: visible; }
+/* line 94, screen.css.sass */
 .container img {
   max-width: 100%;
   height: auto;
-  margin-bottom: 10px; }
-/* line 95, screen.css.sass */
-.container img {
-  margin: 5px 0 0 6px;
-  max-width: 97%;
+  margin-top: 30px;
   -webkit-box-shadow: gray 0 0 10px;
   -moz-box-shadow: gray 0 0 10px;
   box-shadow: gray 0 0 10px;
