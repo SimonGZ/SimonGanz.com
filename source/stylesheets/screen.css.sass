@@ -36,6 +36,10 @@ h2
   font-size: 34px
   line-height: 1em
   margin: 30px 0 0 0
+header h2
+  margin: 0
+  a, a:link, a:hover, a:visited
+    color: gray
 h3
   font-family: ProximaNovaACond-Semibold
   text-decoration: underline
@@ -44,7 +48,7 @@ h3
   
 p, pre
   line-height: 150%
-  margin: 20px 0 20px 0
+  margin: 30px 0 30px 0
 
 kbd
   background-color: #f5f5f5
@@ -87,6 +91,12 @@ hr
     max-width: 100%
     height: auto
     margin-bottom: 10px
+  
+  img
+    margin: 5px 0 0 5px
+    max-width: 98%
+    @include box-shadow(gray 0 0 10px)
+    @include border-radius
 
   .title
     font-size: 24px
@@ -105,6 +115,13 @@ hr
     padding-bottom: 0.25em
     &:link, &:hover, &:visited
       color: gray
+      
+  .footnotes
+    font-size: 16px
+    li
+      margin-bottom: 1em
+    p
+      display: inline
           
 // H5BP helper classes & mixins.
 // @include h5bp-helpers
