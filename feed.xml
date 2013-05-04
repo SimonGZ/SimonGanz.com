@@ -4,10 +4,40 @@
   <id>http://simonganz.com/</id>
   <link href="http://simonganz.com/"/>
   <link href="http://simonganz.com/feed.xml" rel="self"/>
-  <updated>2013-04-27T07:00:00Z</updated>
+  <updated>2013-05-04T17:12:00Z</updated>
   <author>
     <name>Simon Ganz</name>
   </author>
+  <entry>
+    <title>Craigslist Tips</title>
+    <link rel="alternate" href="/2013/05/craigslist-tips/"/>
+    <id>/2013/05/craigslist-tips/</id>
+    <published>2013-05-04T17:12:00Z</published>
+    <updated>2013-05-04T17:12:00Z</updated>
+    <author>
+      <name>Simon Ganz</name>
+    </author>
+    <content type="html">&lt;img src='/images/garageSale-6e8e7607.jpg' title='Craigslist sales' /&gt;&lt;small&gt;&lt;a href='http://www.flickr.com/photos/wonderal/3532838482/'&gt;Photo Credit: wonder_al&lt;/a&gt;&lt;/small&gt;
+&lt;p&gt;There are a lot of sites out there offering tips for selling on Craigslist. Putting pictures in your ad, setting a reasonable price, deciding on a public place, etc. That&amp;#8217;s all fine.&lt;/p&gt;
+
+&lt;p&gt;But they don&amp;#8217;t mention the most important Craigslist tip: &lt;em&gt;How to Avoid Morons&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;And it&amp;#8217;s actually pretty damn simple.&lt;/p&gt;
+
+&lt;h2 id='pick_up_a_phone_call_someone'&gt;Pick Up a Phone, Call Someone&lt;/h2&gt;
+
+&lt;p&gt;Craigslist requires human interaction, and trying to avoid that interaction with emails or text messages is self-defeating.&lt;/p&gt;
+
+&lt;p&gt;Think about it. Craigslist uses an &lt;a href='http://www.craigslist.org/about/help/replying_to_posts' title='craigslist | replying to posts'&gt;anonymized email system&lt;/a&gt; that reduces each email address to a string of randomized characters. Would you try to negotiate a sale and meeting via the anonymous comments section on YouTube? Of course not. &lt;strong&gt;Because SpunkyChowChik89 is not a person and cannot be trusted&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;To successfully set up an exchange with minimum bullshit you have to break down the &lt;a href='http://www.penny-arcade.com/comic/2004/03/19' title='Penny Arcade - Green Blackboards (And Other Anomalies'&gt;anonymity&lt;/a&gt; by picking up the phone and talking to a human being.&lt;/p&gt;
+
+&lt;p&gt;In thirty seconds on the phone you&amp;#8217;ll instantly get a gut feeling about whether you&amp;#8217;re dealing with a moron or a serious buyer. Just as importantly, you will become a person in the buyer&amp;#8217;s mind rather than an anonymous douche.&lt;/p&gt;
+
+&lt;p&gt;Almost every Craigslist meeting I&amp;#8217;ve set via txt message has resulted in the buyer flaking out. Almost every call has resulted in a quick and easy sale. It&amp;#8217;s much harder to ignore a commitment made with your own voice.&lt;/p&gt;
+
+&lt;p&gt;Craigslist is about trading time/convenience for cash. It&amp;#8217;s not always worth it, but don&amp;#8217;t make it harder on yourself by pretending you&amp;#8217;re dealing with Amazon or an ATM machine. You&amp;#8217;re not. You&amp;#8217;re dealing with a weird guy named Chaz who wants to buy your used Blackberry Playbook. Give Chaz a call.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Coding vs. Screenwriting</title>
     <link rel="alternate" href="/2013/04/coding-vs-screenwriting-fear-of-the-blank-page/"/>
@@ -17,7 +47,7 @@
     <author>
       <name>Simon Ganz</name>
     </author>
-    <content type="html">&lt;img src='/images/scriptAsCode-7b16b8f5.png' /&gt;
+    <content type="html">&lt;img src='/images/scriptAsCode-7b16b8f5.png' title='Screenplays as Code' /&gt;
 &lt;p&gt;There are two types of writing that consume most of my time. One is a passion and something I hope will be my career, screenwriting. The other is a hobby, coding.&lt;/p&gt;
 
 &lt;p&gt;But even though creative writing is so much more important to me, I start and complete far more coding projects. Why?&lt;/p&gt;
@@ -52,7 +82,7 @@
     <author>
       <name>Simon Ganz</name>
     </author>
-    <content type="html">&lt;img src='/images/hulk-8eafcaa5.jpg' /&gt;
+    <content type="html">&lt;img src='/images/hulk-8eafcaa5.jpg' title='The Hulk' /&gt;
 &lt;p&gt;&lt;a href='http://badassdigest.com/author/67'&gt;Film Crit Hulk&lt;/a&gt; offers some of the most detailed, insightful film criticism on the web. But there&amp;#8217;s a catch&amp;#8230;&lt;/p&gt;
 
 &lt;h2 id='hulk_shouts'&gt;Hulk Shouts&lt;/h2&gt;
@@ -90,7 +120,7 @@
     <author>
       <name>Simon Ganz</name>
     </author>
-    <content type="html">&lt;img src='/images/powermate-f3510579.jpg' /&gt;
+    <content type="html">&lt;img src='/images/powermate-f3510579.jpg' title='Griffin Powermate' /&gt;
 &lt;h2 id='the_problem'&gt;The Problem&lt;/h2&gt;
 
 &lt;ul&gt;
