@@ -16,23 +16,29 @@
 // @import "grid/fixed"
 @import "grid/magic"
 
+$bodyfont: StanPlusPro-Normal
+$bodyfontitalic: StanPlusPro-NormalItalic 
+$bodyfontbold: StanPlusPro-Bold
+$headerfont1: ProximaNovaACond-Bold
+$headerfont2: ProximaNovaACond-Semibold
+
 // Your own styles go here.
 body
-  font-family: StanPlusPro-Normal 
+  font-family: $bodyfont
   font-size: 19px
 
 h1, h2, h3
   font-weight: normal
 
 h1
-  font-family: ProximaNovaACond-Bold
+  font-family: $headerfont1
   font-size: 40px
   color: #999
   text-transform: uppercase
   line-height: 1em
   margin: 8px 0 0 0
 h2
-  font-family: ProximaNovaACond-Semibold 
+  font-family: $headerfont2
   font-size: 34px
   line-height: 1em
   margin: 30px 0 0 0
@@ -41,7 +47,7 @@ header h2
   a, a:link, a:hover, a:visited
     color: gray
 h3
-  font-family: ProximaNovaACond-Semibold
+  font-family: $headerfont2
   text-decoration: underline
   line-height: 1em
   margin: 1em 0 -4px 0  
@@ -63,13 +69,13 @@ a, a:hover, a:visited
   color: red
 
 blockquote
-  font-family: StanPlusPro-NormalItalic 
+  font-family: $bodyfontitalic
   color: #7f7f7f
   padding-left: 14px
   border-left: 6px gray solid
   
 strong
-  font-family: StanPlusPro-Bold 
+  font-family: $bodyfontbold 
   font-weight: normal
 
 hr
@@ -112,9 +118,12 @@ hr
   .postDate,
   .postDate a
     color: gray
-    padding-bottom: 0.25em
     &:link, &:hover, &:visited
       color: gray
+      
+  sup
+    vertical-align: super
+    font-size: 0.5em
       
   .footnotes
     font-size: 16px
