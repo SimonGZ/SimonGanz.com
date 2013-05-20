@@ -384,16 +384,16 @@ header, #main-content, footer {
   /* line 46, grid/_magic.sass */
   .container hr {
     margin: 2em 0 3em 0; } }
-/* line 20, screen.css.sass */
+/* line 26, screen.css.sass */
 body {
   font-family: StanPlusPro-Normal;
   font-size: 19px; }
 
-/* line 24, screen.css.sass */
+/* line 30, screen.css.sass */
 h1, h2, h3 {
   font-weight: normal; }
 
-/* line 27, screen.css.sass */
+/* line 33, screen.css.sass */
 h1 {
   font-family: ProximaNovaACond-Bold;
   font-size: 40px;
@@ -402,77 +402,77 @@ h1 {
   line-height: 1em;
   margin: 8px 0 0 0; }
 
-/* line 34, screen.css.sass */
+/* line 40, screen.css.sass */
 h2 {
   font-family: ProximaNovaACond-Semibold;
   font-size: 34px;
   line-height: 1em;
   margin: 30px 0 0 0; }
 
-/* line 39, screen.css.sass */
+/* line 45, screen.css.sass */
 header h2 {
   margin: 0; }
-  /* line 41, screen.css.sass */
+  /* line 47, screen.css.sass */
   header h2 a, header h2 a:link, header h2 a:hover, header h2 a:visited {
     color: gray; }
 
-/* line 43, screen.css.sass */
+/* line 49, screen.css.sass */
 h3 {
   font-family: ProximaNovaACond-Semibold;
   text-decoration: underline;
   line-height: 1em;
   margin: 1em 0 -4px 0; }
 
-/* line 49, screen.css.sass */
+/* line 55, screen.css.sass */
 p, pre {
   line-height: 150%;
   margin: 30px 0 30px 0; }
 
-/* line 53, screen.css.sass */
+/* line 59, screen.css.sass */
 kbd {
   background-color: whitesmoke;
   border: 1px solid #dedede;
   padding: 0px 3px 2px; }
 
-/* line 57, screen.css.sass */
+/* line 63, screen.css.sass */
 footer {
   margin-top: 3em;
   text-align: right; }
 
-/* line 61, screen.css.sass */
+/* line 67, screen.css.sass */
 a, a:hover, a:visited {
   text-decoration: none;
   color: red; }
 
-/* line 65, screen.css.sass */
+/* line 71, screen.css.sass */
 blockquote {
   font-family: StanPlusPro-NormalItalic;
   color: #7f7f7f;
   padding-left: 14px;
   border-left: 6px gray solid; }
 
-/* line 71, screen.css.sass */
+/* line 77, screen.css.sass */
 strong {
   font-family: StanPlusPro-Bold;
   font-weight: normal; }
 
-/* line 75, screen.css.sass */
+/* line 81, screen.css.sass */
 hr {
   border: none;
   font-size: 16px;
   color: #bfbfbf;
   text-align: center;
   margin: 1em 0 2em 0; }
-  /* line 81, screen.css.sass */
+  /* line 87, screen.css.sass */
   hr:after {
     content: "✧✧✧";
     letter-spacing: 2em;
     padding-left: 2em; }
 
-/* line 90, screen.css.sass */
+/* line 96, screen.css.sass */
 .container #main-content {
   overflow: visible; }
-/* line 94, screen.css.sass */
+/* line 100, screen.css.sass */
 .container img {
   max-width: 100%;
   height: auto;
@@ -485,36 +485,39 @@ hr {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px; }
-/* line 101, screen.css.sass */
+/* line 107, screen.css.sass */
 .container .title {
   font-size: 24px;
   margin-top: 16px; }
-  /* line 104, screen.css.sass */
+  /* line 110, screen.css.sass */
   .container .title a, .container .title a:visited {
     color: gray; }
-/* line 107, screen.css.sass */
+/* line 113, screen.css.sass */
 .container hr.postDivider {
   font-size: 24px;
   color: gray;
   margin: 2em 0 3em 0; }
-/* line 112, screen.css.sass */
+/* line 118, screen.css.sass */
 .container .postDate,
 .container .postDate a {
-  color: gray;
-  padding-bottom: 0.25em; }
-  /* line 116, screen.css.sass */
+  color: gray; }
+  /* line 121, screen.css.sass */
   .container .postDate:link, .container .postDate:hover, .container .postDate:visited,
   .container .postDate a:link,
   .container .postDate a:hover,
   .container .postDate a:visited {
     color: gray; }
-/* line 119, screen.css.sass */
+/* line 124, screen.css.sass */
+.container sup {
+  vertical-align: super;
+  font-size: 0.5em; }
+/* line 128, screen.css.sass */
 .container .footnotes {
   font-size: 16px; }
-  /* line 121, screen.css.sass */
+  /* line 130, screen.css.sass */
   .container .footnotes li {
     margin-bottom: 1em; }
-  /* line 123, screen.css.sass */
+  /* line 132, screen.css.sass */
   .container .footnotes p {
     display: inline; }
 
