@@ -27,6 +27,12 @@ body
   font-family: $bodyfont
   font-size: 19px
 
+a, a:hover, a:visited
+  text-decoration: none
+  color: #FF3333
+  &.linklog
+    color: #669999
+
 h1, h2, h3
   font-weight: normal
 
@@ -37,6 +43,7 @@ h1
   text-transform: uppercase
   line-height: 1em
   margin: 8px 0 0 0
+  
 h2
   font-family: $headerfont2
   font-size: 34px
@@ -45,7 +52,7 @@ h2
 header h2
   margin: 0
   a, a:link, a:hover, a:visited
-    color: gray
+    color: #999999
 h3
   font-family: $headerfont2
   text-decoration: underline
@@ -64,15 +71,11 @@ footer
   margin-top: 3em
   text-align: right
 
-a, a:hover, a:visited
-  text-decoration: none
-  color: red
-
 blockquote
   font-family: $bodyfontitalic
   color: #7f7f7f
   padding-left: 14px
-  border-left: 6px gray solid
+  border-left: 6px #999999 solid
   
 strong
   font-family: $bodyfontbold 
@@ -101,25 +104,23 @@ hr
     max-width: 100%
     height: auto
     margin-top: 30px
-    @include box-shadow(gray 0 0 10px)
+    @include box-shadow(#999999 0 0 10px)
     @include border-radius
 
   .title
     font-size: 24px
     margin-top: 16px
     a, a:visited
-      color: gray
+      color: #999999
     
   hr.postDivider
     font-size: 24px
-    color: gray
+    color: #999999
     margin: 2em 0 3em 0
     
-  .postDate,
-  .postDate a
-    color: gray
+  .postDate, .postDate a
     &:link, &:hover, &:visited
-      color: gray
+      color: #999999
       
   sup
     vertical-align: super

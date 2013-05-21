@@ -81,6 +81,10 @@ helpers do
 
     img
   end
+  
+  def linklog?(article)
+    return true unless article.data.external_url.nil?
+  end
 
 end
 

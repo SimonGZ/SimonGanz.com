@@ -1,13 +1,7 @@
 - wrap_layout :layout do
   %article
-    %header
-      %h1
-        %a{href: current_page.url, title: current_page.data.title}= current_page.data.title
-      - unless current_page.data.subtitle.nil?
-        %h2
-          %a{href: current_page.url, title: current_page.data.subtitle}= current_page.data.subtitle
-      .postDate
-        %small= current_page.date.strftime('%b %e %Y')
+    = partial "layouts/post_header", locals: {article: current_page}
+      
     = yield
     
     %hr.postDivider
