@@ -9,3 +9,4 @@
     %a{href: article.url, title: "Permalink"}
       %small
         = article.date.strftime('%b %e %Y')
+        = "- Permalink" if linklog?(article)
