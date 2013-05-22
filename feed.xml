@@ -4,10 +4,23 @@
   <id>http://simonganz.com/</id>
   <link href="http://simonganz.com/"/>
   <link href="http://simonganz.com/feed.xml" rel="self"/>
-  <updated>2013-05-20T02:53:00Z</updated>
+  <updated>2013-05-22T05:37:00Z</updated>
   <author>
     <name>Simon Ganz</name>
   </author>
+  <entry>
+    <title>Wired: Xbox One Revealed</title>
+    <link rel="alternate" href="/2013/05/wired-xbox-one-revealed/"/>
+    <id>/2013/05/wired-xbox-one-revealed/</id>
+    <published>2013-05-22T05:37:00Z</published>
+    <updated>2013-05-22T05:37:00Z</updated>
+    <author>
+      <name>Simon Ganz</name>
+    </author>
+    <content type="html">&lt;p&gt;Wired.com has an exclusive look at the design of the new Xbox. More interesting to me though, is the web design of the Wired article itself. There are some clever presentational elements, including a scrolling effect which reveals an image of the new Xbox at the same moment you&amp;#8217;re reading the author&amp;#8217;s description of a Microsoft executive pulling a cloth cover off the prototype.&lt;/p&gt;
+
+&lt;p&gt;I usually dislike attempts to make magazine articles into interactive websites, but this is an interactive element that compliments and enhances the actual content of the article, creating an experience you couldn&amp;#8217;t get in print.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Star Trek Into Darkness review</title>
     <link rel="alternate" href="/2013/05/star-trek-into-darkness-review/"/>
