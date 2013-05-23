@@ -495,25 +495,47 @@ hr {
   /* line 113, screen.css.sass */
   .container .title a, .container .title a:visited {
     color: #999999; }
-/* line 116, screen.css.sass */
+  /* line 115, screen.css.sass */
+  .container .title img {
+    margin: 0;
+    margin-top: -4px;
+    float: right;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    width: 30px;
+    height: 30px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+    opacity: 0.3; }
+/* line 127, screen.css.sass */
+.container .twitter a, .container .twitter a:visited {
+  color: #999999;
+  font-size: 12px; }
+/* line 131, screen.css.sass */
 .container hr.postDivider {
   font-size: 24px;
   color: #999999;
   margin: 2em 0 3em 0; }
-/* line 122, screen.css.sass */
+/* line 137, screen.css.sass */
 .container .postDate:link, .container .postDate:hover, .container .postDate:visited, .container .postDate a:link, .container .postDate a:hover, .container .postDate a:visited {
   color: #999999; }
-/* line 125, screen.css.sass */
+/* line 140, screen.css.sass */
 .container sup {
   vertical-align: super;
   font-size: 0.5em; }
-/* line 129, screen.css.sass */
+/* line 144, screen.css.sass */
 .container .footnotes {
   font-size: 16px; }
-  /* line 131, screen.css.sass */
+  /* line 146, screen.css.sass */
   .container .footnotes li {
     margin-bottom: 1em; }
-  /* line 133, screen.css.sass */
+  /* line 148, screen.css.sass */
   .container .footnotes p {
     display: inline; }
 
