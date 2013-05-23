@@ -1,10 +1,9 @@
-- post_url = linklog?(article) ? article.data.external_url : article.url
 %header
   %h1
-    %a{href: post_url, title: article.data.title, class: ("linklog" if linklog?(article))}= ( linklog?(article) ? "→" : "" ) + article.data.title
+    %a{href: post_url(article), title: article.data.title, class: ("linklog" if linklog?(article))}= ( linklog?(article) ? "→" : "" ) + article.data.title
   - unless article.data.subtitle.nil?
     %h2
-      %a{href: post_url, title: article.data.subtitle}= article.data.subtitle
+      %a{href: post_url(article), title: article.data.subtitle}= article.data.subtitle
   .postDate
     %a{href: article.url, title: "Permalink"}
       %small

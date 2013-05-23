@@ -85,6 +85,10 @@ helpers do
   def linklog?(article)
     return true unless article.data.external_url.nil?
   end
+  
+  def post_url(article)
+    return linklog?(article) ? article.data.external_url : article.url
+  end
 
 end
 

@@ -9,14 +9,14 @@ xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
 
   blog.articles[0..5].each do |article|
     xml.entry do
-      xml.title article.title
-      xml.link "rel" => "alternate", "href" => article.url
-      xml.id article.url
+      xml.title ( linklog?(article) ? "→ " : "" ) + article.title + ( linklog?(article) ? " [link]" : "" )
+      xml.link "rel" => "alternate", "href" => post_url(article)
+      xml.id "http://simonganz.com#{article.url}"
       xml.published article.date.to_time.iso8601
       xml.updated article.date.to_time.iso8601
       xml.author { xml.name "Simon Ganz" }
       # xml.summary article.summary, "type" => "html"
-      xml.content article.body, "type" => "html"
+      xml.content article.body + ( linklog?(article) ? "<p><a href='#{article.url}'>Permalink</a></p>" : "" ), "type" => "html"
     end
   end
 end
