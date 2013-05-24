@@ -384,24 +384,26 @@ header, #main-content, footer {
   /* line 46, grid/_magic.sass */
   .container hr {
     margin: 2em 0 3em 0; } }
-/* line 26, screen.css.sass */
+/* line 37, screen.css.sass */
 body {
   font-family: StanPlusPro-Normal;
-  font-size: 19px; }
+  font-size: 19px;
+  color: #252525;
+  background-color: #fdfdfd; }
 
-/* line 30, screen.css.sass */
+/* line 43, screen.css.sass */
 a, a:hover, a:visited {
   text-decoration: none;
   color: #ff3333; }
-  /* line 33, screen.css.sass */
+  /* line 46, screen.css.sass */
   a.linklog, a:hover.linklog, a:visited.linklog {
     color: #669999; }
 
-/* line 36, screen.css.sass */
+/* line 49, screen.css.sass */
 h1, h2, h3 {
   font-weight: normal; }
 
-/* line 39, screen.css.sass */
+/* line 52, screen.css.sass */
 h1 {
   font-family: ProximaNovaACond-Bold;
   font-size: 40px;
@@ -410,72 +412,72 @@ h1 {
   line-height: 1em;
   margin: 8px 0 0 0; }
 
-/* line 47, screen.css.sass */
+/* line 60, screen.css.sass */
 h2 {
   font-family: ProximaNovaACond-Semibold;
   font-size: 34px;
   line-height: 1em;
   margin: 30px 0 0 0; }
 
-/* line 52, screen.css.sass */
+/* line 65, screen.css.sass */
 header h2 {
   margin: 0; }
-  /* line 54, screen.css.sass */
+  /* line 67, screen.css.sass */
   header h2 a, header h2 a:link, header h2 a:hover, header h2 a:visited {
     color: #999999; }
 
-/* line 56, screen.css.sass */
+/* line 69, screen.css.sass */
 h3 {
   font-family: ProximaNovaACond-Semibold;
   text-decoration: underline;
   line-height: 1em;
   margin: 1em 0 -4px 0; }
 
-/* line 62, screen.css.sass */
+/* line 75, screen.css.sass */
 p, pre {
-  line-height: 150%;
+  line-height: 30px;
   margin: 30px 0 30px 0; }
 
-/* line 66, screen.css.sass */
+/* line 79, screen.css.sass */
 kbd {
   background-color: whitesmoke;
   border: 1px solid #dedede;
   padding: 0px 3px 2px; }
 
-/* line 70, screen.css.sass */
+/* line 83, screen.css.sass */
 footer {
   margin-top: 3em;
   text-align: right; }
 
-/* line 74, screen.css.sass */
+/* line 87, screen.css.sass */
 blockquote {
   font-family: StanPlusPro-NormalItalic;
   color: #7f7f7f;
   padding-left: 14px;
   border-left: 6px #999999 solid; }
 
-/* line 80, screen.css.sass */
+/* line 93, screen.css.sass */
 strong {
   font-family: StanPlusPro-Bold;
   font-weight: normal; }
 
-/* line 84, screen.css.sass */
+/* line 97, screen.css.sass */
 hr {
   border: none;
   font-size: 16px;
   color: #bfbfbf;
   text-align: center;
   margin: 1em 0 2em 0; }
-  /* line 90, screen.css.sass */
+  /* line 103, screen.css.sass */
   hr:after {
     content: "✧✧✧";
     letter-spacing: 2em;
     padding-left: 2em; }
 
-/* line 99, screen.css.sass */
+/* line 112, screen.css.sass */
 .container #main-content {
   overflow: visible; }
-/* line 103, screen.css.sass */
+/* line 116, screen.css.sass */
 .container img {
   max-width: 100%;
   height: auto;
@@ -488,14 +490,14 @@ hr {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px; }
-/* line 110, screen.css.sass */
+/* line 123, screen.css.sass */
 .container .title {
   font-size: 24px;
   margin-top: 16px; }
-  /* line 113, screen.css.sass */
+  /* line 126, screen.css.sass */
   .container .title a, .container .title a:visited {
     color: #999999; }
-  /* line 115, screen.css.sass */
+  /* line 128, screen.css.sass */
   .container .title img {
     margin: 0;
     margin-top: -4px;
@@ -513,29 +515,29 @@ hr {
     height: 30px;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
     opacity: 0.3; }
-/* line 127, screen.css.sass */
+/* line 140, screen.css.sass */
 .container .twitter a, .container .twitter a:visited {
   color: #999999;
   font-size: 12px; }
-/* line 131, screen.css.sass */
+/* line 144, screen.css.sass */
 .container hr.postDivider {
   font-size: 24px;
   color: #999999;
   margin: 2em 0 3em 0; }
-/* line 137, screen.css.sass */
+/* line 150, screen.css.sass */
 .container .postDate:link, .container .postDate:hover, .container .postDate:visited, .container .postDate a:link, .container .postDate a:hover, .container .postDate a:visited {
   color: #999999; }
-/* line 140, screen.css.sass */
+/* line 153, screen.css.sass */
 .container sup {
   vertical-align: super;
   font-size: 0.5em; }
-/* line 144, screen.css.sass */
+/* line 157, screen.css.sass */
 .container .footnotes {
   font-size: 16px; }
-  /* line 146, screen.css.sass */
+  /* line 159, screen.css.sass */
   .container .footnotes li {
     margin-bottom: 1em; }
-  /* line 148, screen.css.sass */
+  /* line 161, screen.css.sass */
   .container .footnotes p {
     display: inline; }
 
