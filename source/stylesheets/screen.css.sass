@@ -16,28 +16,41 @@
 // @import "grid/fixed"
 @import "grid/magic"
 
-$bodyfont: StanPlusPro-Normal
-$bodyfontitalic: StanPlusPro-NormalItalic 
-$bodyfontbold: StanPlusPro-Bold
-$headerfont1: ProximaNovaACond-Bold
-$headerfont2: ProximaNovaACond-Semibold
+// Variables
+
+// Fonts
+$body-font: StanPlusPro-Normal
+$body-font-italic: StanPlusPro-NormalItalic 
+$body-font-bold: StanPlusPro-Bold
+$header-font1: ProximaNovaACond-Bold
+$header-font2: ProximaNovaACond-Semibold
+
+// Colors
+
+$linklog-color: #669999
+$gray-color: #999999
+$red-color: #FF3333
+$background-color: #FDFDFD
+$text-color: #252525
 
 // Your own styles go here.
 body
-  font-family: $bodyfont
+  font-family: $body-font
   font-size: 19px
+  color: $text-color
+  background-color: $background-color
 
 a, a:hover, a:visited
   text-decoration: none
-  color: #FF3333
+  color: $red-color
   &.linklog
-    color: #669999
+    color: $linklog-color
 
 h1, h2, h3
   font-weight: normal
 
 h1
-  font-family: $headerfont1
+  font-family: $header-font1
   font-size: 40px
   color: #999
   text-transform: uppercase
@@ -45,22 +58,22 @@ h1
   margin: 8px 0 0 0
   
 h2
-  font-family: $headerfont2
+  font-family: $header-font2
   font-size: 34px
   line-height: 1em
   margin: 30px 0 0 0
 header h2
   margin: 0
   a, a:link, a:hover, a:visited
-    color: #999999
+    color: $gray-color
 h3
-  font-family: $headerfont2
+  font-family: $header-font2
   text-decoration: underline
   line-height: 1em
   margin: 1em 0 -4px 0  
   
 p, pre
-  line-height: 150%
+  line-height: 30px
   margin: 30px 0 30px 0
 
 kbd
@@ -72,13 +85,13 @@ footer
   text-align: right
 
 blockquote
-  font-family: $bodyfontitalic
+  font-family: $body-font-italic
   color: #7f7f7f
   padding-left: 14px
-  border-left: 6px #999999 solid
+  border-left: 6px $gray-color solid
   
 strong
-  font-family: $bodyfontbold 
+  font-family: $body-font-bold 
   font-weight: normal
 
 hr
@@ -104,14 +117,14 @@ hr
     max-width: 100%
     height: auto
     margin-top: 30px
-    @include box-shadow(#999999 0 0 10px)
+    @include box-shadow($gray-color 0 0 10px)
     @include border-radius
 
   .title
     font-size: 24px
     margin-top: 16px
     a, a:visited
-      color: #999999
+      color: $gray-color
     img
       margin: 0
       margin-top: -4px
@@ -125,17 +138,17 @@ hr
       
   .twitter
     a, a:visited
-      color: #999999
+      color: $gray-color
       font-size: 12px
     
   hr.postDivider
     font-size: 24px
-    color: #999999
+    color: $gray-color
     margin: 2em 0 3em 0
     
   .postDate, .postDate a
     &:link, &:hover, &:visited
-      color: #999999
+      color: $gray-color
       
   sup
     vertical-align: super
