@@ -4,10 +4,50 @@
   <id>http://simonganz.com/</id>
   <link href="http://simonganz.com/"/>
   <link href="http://simonganz.com/feed.xml" rel="self"/>
-  <updated>2013-05-23T18:04:00Z</updated>
+  <updated>2013-05-28T23:40:00Z</updated>
   <author>
     <name>Simon Ganz</name>
   </author>
+  <entry>
+    <title>Conversation Tip for Weirdos</title>
+    <link rel="alternate" href="/2013/05/conversation-tips/"/>
+    <id>http://simonganz.com/2013/05/conversation-tips/</id>
+    <published>2013-05-28T23:40:00Z</published>
+    <updated>2013-05-28T23:40:00Z</updated>
+    <author>
+      <name>Simon Ganz</name>
+    </author>
+    <content type="html">&lt;p&gt;I am not a social person and do not especially enjoy social events. For years in college, I would repeatedly say the wrong thing to people, horribly offending them with no idea how or why it had happened. My friends would then laugh and remark how I'd "done it again."&lt;/p&gt;
+
+&lt;p&gt;But I have cobbled together one simple strategy that my fellow weirdos may find helpful.&lt;/p&gt;
+
+&lt;h2 id="how-to-talk-to-a-stranger"&gt;How to Talk to a Stranger&lt;/h2&gt;
+
+&lt;p&gt;Ask questions. Then ask more questions. Then keep asking questions. &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;"Oh, you work at X? What's that like? Uh huh. So what companies do you represent? Oh really. What are they like? Oh really? What type of software do you use for that? How did you get that job? Oh you used to work at Y? What was that like? What's the craziest Z you've seen?"&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This sounds stupid. In fact, it's basically the way &lt;a href="http://en.wikipedia.org/wiki/Chatterbot" title="Wikipedia - Chatterbot"&gt;computer chatbots&lt;/a&gt; operate.&lt;/p&gt;
+
+&lt;p&gt;But it is remarkably effective. And it's not as creepy as it sounds. I've found that by asking many questions, I can eventually land on a topic that genuinely interests me and have a real conversation. &lt;/p&gt;
+
+&lt;p&gt;Here's why it works. Everyone you meet is an expert in something. It may be something seemingly trivial, like mall security procedures&lt;sup id="fnref:actually"&gt;&lt;a href="#fn:actually" class="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; or class action lawsuits, but no one's made it 20+ years in life without learning a lot about something. &lt;/p&gt;
+
+&lt;p&gt;If you can find that hidden expertise, you'll be amazed at the level of detail and character you can get out of someone about their job, their life, or their hobbies.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class="footnotes"&gt;
+  &lt;ol&gt;
+    &lt;li id="fn:actually"&gt;
+      &lt;p&gt;Actually I love expertise like that. I love it when someone knows everything there is to know about a topic to which I've applied zero thought.&lt;a href="#fnref:actually" class="reversefootnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</content>
+  </entry>
   <entry>
     <title>→ PA Report: Xbox One Will Kill Used Games [link]</title>
     <link rel="alternate" href="http://penny-arcade.com/report/article/the-death-of-used-games-and-control-of-the-second-hand-market-could-be-the"/>
@@ -18,19 +58,27 @@
       <name>Simon Ganz</name>
     </author>
     <content type="html">&lt;blockquote&gt;
-&lt;p&gt;Once that secondary market is removed you can suddenly profit from every copy of your game sold, and as profit margins rise it&amp;#8217;s possible we&amp;#8217;ll see prices drop. Some stodgy publishers will likely stay with the $60 model, but they&amp;#8217;re dead companies walking already. The smart companies will see this opportunity to play with pricing and see what works and what doesn&amp;#8217;t.&lt;/p&gt;
+  &lt;p&gt;Once that secondary market is removed you can suddenly profit from every copy of your game sold, and as profit margins rise it's possible we'll see prices drop. Some stodgy publishers will likely stay with the $60 model, but they're dead companies walking already. The smart companies will see this opportunity to play with pricing and see what works and what doesn't.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Ben Kuchera at &lt;a href='http://penny-arcade.com/report' title='Penny-Arcade Report'&gt;Penny-Arcade&lt;/a&gt; has an optimistic take on Microsoft eliminating the used game market.&lt;/p&gt;
+&lt;p&gt;Ben Kuchera at &lt;a href="http://penny-arcade.com/report" title="Penny-Arcade Report"&gt;Penny-Arcade&lt;/a&gt; has an optimistic take on Microsoft eliminating the used game market.&lt;/p&gt;
 
-&lt;p&gt;I&amp;#8217;d love to believe this, but I think the carrot and stick are out of whack here. If you&amp;#8217;re going to eliminate the ability for me to buy and sell used games, then you have to offer a reasonable tradeoff. &amp;#8220;Oh, I can&amp;#8217;t resell my game anymore, but now my game is cheaper/downloadable/more convenient.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;I'd love to believe this, but I think the carrot and stick are out of whack here. If you're going to eliminate the ability for me to buy and sell used games, then you have to offer a reasonable tradeoff. "Oh, I can't resell my game anymore, but now my game is cheaper/downloadable/more convenient."&lt;/p&gt;
 
-&lt;p&gt;What Microsoft is offering is a step backward from &lt;a href='http://www.steampowered.com/' title='Steampowered Games'&gt;Steam&lt;/a&gt;. You still have to buy a physical disc, only now that disc is just an installer and your copy is linked to your $50-a-year Xbox Live account. But what if you lose the disc? Do you have to re-buy the physical disc? Can you just download it? And what happens in the future when Xbox Two comes out? Will my games still work/still be tied to my account?&lt;sup id='fnref:1'&gt;&lt;a href='#fn:1' rel='footnote'&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;What Microsoft is offering is a step backward from &lt;a href="http://www.steampowered.com/" title="Steampowered Games"&gt;Steam&lt;/a&gt;. You still have to buy a physical disc, only now that disc is just an installer and your copy is linked to your $50-a-year Xbox Live account. But what if you lose the disc? Do you have to re-buy the physical disc? Can you just download it? And what happens in the future when Xbox Two comes out? Will my games still work/still be tied to my account?&lt;sup id="fnref:nope"&gt;&lt;a href="#fn:nope" class="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;/p&gt;
 
-&lt;p&gt;All of Microsoft&amp;#8217;s responses are about ways you can kind of, sort of approximate the convenience of the current setup with their new system, but they don&amp;#8217;t actually explain why their new system is better for me as a consumer.&lt;/p&gt;
-&lt;div class='footnotes'&gt;&lt;hr /&gt;&lt;ol&gt;&lt;li id='fn:1'&gt;
-&lt;p&gt;Probably not, since Microsoft has already said that Xbox Live Arcade purchases made on the 360 will not play on the Xbox One.&lt;/p&gt;
-&lt;a href='#fnref:1' rev='footnote'&gt;&amp;#8617;&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;p&gt;&lt;a href='/2013/05/pa-report-xbox-one-will-kill-used-games/'&gt;Permalink&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;All of Microsoft's responses are about ways you can kind of, sort of approximate the convenience of the current setup with their new system, but they don't actually explain why their new system is better for me as a consumer.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class="footnotes"&gt;
+  &lt;ol&gt;
+    &lt;li id="fn:nope"&gt;
+      &lt;p&gt;Probably not, since Microsoft has already said that Xbox Live Arcade purchases made on the 360 will not play on the Xbox One.&lt;a href="#fnref:nope" class="reversefootnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href='/2013/05/pa-report-xbox-one-will-kill-used-games/'&gt;Permalink&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>→ Club-MST3K [link]</title>
@@ -41,14 +89,17 @@
     <author>
       <name>Simon Ganz</name>
     </author>
-    <content type="html">&lt;img src='/images/turnDownYourLights-5472e483.gif' title='Turn Down Your Lights' /&gt;
-&lt;p&gt;When I was in middle school, my brother and I used to record every episode of &lt;a href='http://en.wikipedia.org/wiki/Mystery_Science_Theater_3000' title='Mystery Science Theater 3000 - Wikipedia, the free encyclopedia'&gt;MST3K&lt;/a&gt; onto eight-hour VHS tapes. The show was on late and the jokes were fast, so we wanted to be able to watch them over and over again.&lt;/p&gt;
+    <content type="html">&lt;img src="/images/turnDownYourLights-5472e483.gif" title="Turn Down Your Lights" /&gt;
 
-&lt;p&gt;In high school, with the show cancelled, I felt certain that it was going to disappear and I&amp;#8217;d never be able to see it again. So I started downloading the episodes from a &lt;a href='http://en.wikipedia.org/wiki/EDonkey_network' title='eDonkey network - Wikipedia, the free encyclopedia'&gt;peer-to-peer network&lt;/a&gt;, with a 56kbps modem, and archiving them one by one on custom-labeled CD-Rs. My goal was to have the entire show stored for posterity. By college, the CD-Rs had degraded and the whole collection was worthless. I gave up.&lt;/p&gt;
+&lt;p&gt;When I was in middle school, my brother and I used to record every episode of &lt;a href="http://en.wikipedia.org/wiki/Mystery_Science_Theater_3000" title="Mystery Science Theater 3000 - Wikipedia, the free encyclopedia"&gt;MST3K&lt;/a&gt; onto eight-hour VHS tapes. The show was on late and the jokes were fast, so we wanted to be able to watch them over and over again.&lt;/p&gt;
 
-&lt;p&gt;Now it&amp;#8217;s 2013, and I can dial up every single episode instantly via YouTube whenever I want.&lt;/p&gt;
+&lt;p&gt;In high school, with the show cancelled, I felt certain that it was going to disappear and I'd never be able to see it again. So I started downloading the episodes from a &lt;a href="http://en.wikipedia.org/wiki/EDonkey_network" title="eDonkey network - Wikipedia, the free encyclopedia"&gt;peer-to-peer network&lt;/a&gt;, with a 56kbps modem, and archiving them one by one on custom-labeled CD-Rs. My goal was to have the entire show stored for posterity. By college, the CD-Rs had degraded and the whole collection was worthless. I gave up.&lt;/p&gt;
 
-&lt;p&gt;Huh. Starting to realize I wasted &lt;em&gt;a lot&lt;/em&gt; of time.&lt;/p&gt;&lt;p&gt;&lt;a href='/2013/05/club-mst3k/'&gt;Permalink&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;Now it's 2013, and I can dial up every single episode instantly  via YouTube whenever I want. &lt;/p&gt;
+
+&lt;p&gt;Huh. Starting to realize I wasted &lt;em&gt;a lot&lt;/em&gt; of time.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='/2013/05/club-mst3k/'&gt;Permalink&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>→ Wired: Xbox One Revealed [link]</title>
@@ -59,9 +110,10 @@
     <author>
       <name>Simon Ganz</name>
     </author>
-    <content type="html">&lt;p&gt;Wired.com has an exclusive look at the design of the new Xbox. More interesting to me though, is the web design of the Wired article itself. There are some clever presentational elements, including a scrolling effect which reveals an image of the new Xbox at the same moment you&amp;#8217;re reading the author&amp;#8217;s description of a Microsoft executive pulling a cloth cover off the prototype.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Wired.com has an exclusive look at the design of the new Xbox. More interesting to me though, is the web design of the Wired article itself. There are some clever presentational elements, including a scrolling effect which reveals an image of the new Xbox at the same moment you're reading the author's description of a Microsoft executive pulling a cloth cover off the prototype.&lt;/p&gt;
 
-&lt;p&gt;I usually dislike attempts to make magazine articles into interactive websites, but this is an interactive element that compliments and enhances the actual content of the article, creating an experience you couldn&amp;#8217;t get in print.&lt;/p&gt;&lt;p&gt;&lt;a href='/2013/05/wired-xbox-one-revealed/'&gt;Permalink&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;I usually dislike attempts to make magazine articles into interactive websites, but this is an interactive element that compliments and enhances the actual content of the article, creating an experience you couldn't get in print.&lt;/p&gt;
+&lt;p&gt;&lt;a href='/2013/05/wired-xbox-one-revealed/'&gt;Permalink&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Star Trek Into Darkness review</title>
@@ -72,23 +124,26 @@
     <author>
       <name>Simon Ganz</name>
     </author>
-    <content type="html">&lt;img src='/images/starTrekIntoDarkness-bc3ee905.jpg' title='Star Trek Into Darkness' /&gt;
+    <content type="html">&lt;img src="/images/starTrekIntoDarkness-bc3ee905.jpg" title="Star Trek Into Darkness" /&gt;
+
 &lt;p&gt;&lt;em&gt;NOTE: This review contains spoilers and nerdery.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Star Trek (2?) Into Darkness is a good, fun movie. The pacing is excellent, the characters are charming, and the design and look of the world is deep and engrossing. This is not faint praise. It&amp;#8217;s very difficult to do all these things well and the filmmakers deserve to be commended for it.&lt;/p&gt;
+&lt;p&gt;Star Trek (2?) Into Darkness is a good, fun movie. The pacing is excellent, the characters are charming, and the design and look of the world is deep and engrossing. This is not faint praise. It's very difficult to do all these things well and the filmmakers deserve to be commended for it. &lt;/p&gt;
 
-&lt;h2 id='but'&gt;But&amp;#8230;&lt;/h2&gt;
+&lt;h2 id="but"&gt;But…&lt;/h2&gt;
 
-&lt;p&gt;Into Darkness is not a great movie.&lt;/p&gt;
+&lt;p&gt;Into Darkness is not a great movie. &lt;/p&gt;
 
-&lt;p&gt;Most &lt;a href='http://io9.com/star-trek-into-dumbness-507058729' title='Star Trek Into Dumbness - Io9'&gt;negative reviews&lt;/a&gt; have focused on the film&amp;#8217;s dumbness: Its plot holes, its frenetic action, its weak grasp of what makes Trek &lt;em&gt;Trek&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Most &lt;a href="http://io9.com/star-trek-into-dumbness-507058729" title="Star Trek Into Dumbness - Io9"&gt;negative reviews&lt;/a&gt; have focused on the film's dumbness: Its plot holes, its frenetic action, its weak grasp of what makes Trek &lt;em&gt;Trek&lt;/em&gt;. &lt;/p&gt;
 
-&lt;p&gt;These don&amp;#8217;t bother me. Much.&lt;sup id='fnref:1'&gt;&lt;a href='#fn:1' rel='footnote'&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;These don't bother me. Much.&lt;sup id="fnref:nerd"&gt;&lt;a href="#fn:nerd" class="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;p&gt;The real problem is deeper. Star Trek Into Darkness borrows haphazardly from Star Trek II: The Wrath of Khan without understanding how or why that film works. As a result, Into Darkness lacks a coherent theme.&lt;/p&gt;
 
-&lt;h2 id='arent_you_dead'&gt;&amp;#8220;Aren&amp;#8217;t You Dead?&amp;#8221;&lt;/h2&gt;
-&lt;img src='/images/wrathOfKhan-142e788e.jpg' title='Star Trek II: Wrath of Khan' /&gt;
+&lt;h2 id="arent-you-dead"&gt;"Aren't You Dead?"&lt;/h2&gt;
+
+&lt;img src="/images/wrathOfKhan-142e788e.jpg" title="Star Trek II: Wrath of Khan" /&gt;
+
 &lt;p&gt;Wrath of Khan is beloved because it has a powerful thematic story that is appropriate to its characters and its context.&lt;/p&gt;
 
 &lt;p&gt;William Shatner was 51 when the movie was released. The original series had been off the air for 13 years. Faced with an aging cast and a franchise better known because of nostalgia than quality, the writers leaned into the problem and created a film centered on death, aging, and rebirth.&lt;/p&gt;
@@ -96,55 +151,60 @@
 &lt;p&gt;Every element in Wrath of Khan is almost ludicrously on theme:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;The film opens with a simulation in which the entire Enterprise crew is killed.&lt;/li&gt;
-
-&lt;li&gt;The dialogue constantly remarks on the crew&amp;#8217;s age and Kirk&amp;#8217;s mortality (his fading eyesight, his love of antiques, his birthday, etc).&lt;/li&gt;
-
-&lt;li&gt;Kirk dismisses space travel as an adventure for the young.&lt;/li&gt;
-
-&lt;li&gt;The film&amp;#8217;s science fiction gimmick, the Genesis Device, is literally a machine that creates life from death.&lt;/li&gt;
-
-&lt;li&gt;The film&amp;#8217;s villain is an old foe from Kirk&amp;#8217;s youth who blames Kirk for the death of his wife.&lt;/li&gt;
-
-&lt;li&gt;Kirk reconnects with an old flame and a son he never knew he had.&lt;/li&gt;
-
-&lt;li&gt;Kirk faces death for the first time as Spock sacrifices himself to save the Enterprise.&lt;/li&gt;
-
-&lt;li&gt;And in the final exchange on the bridge, Kirk reveals that his journey and his loss have made him feel young again.&lt;/li&gt;
+  &lt;li&gt;The film opens with a simulation in which the entire Enterprise crew is killed. &lt;/li&gt;
+  &lt;li&gt;The dialogue constantly remarks on the crew's age and Kirk's mortality (his fading eyesight, his love of antiques, his birthday, etc). &lt;/li&gt;
+  &lt;li&gt;Kirk dismisses space travel as an adventure for the young.&lt;/li&gt;
+  &lt;li&gt;The film's science fiction gimmick, the Genesis Device, is literally a machine that creates life from death. &lt;/li&gt;
+  &lt;li&gt;The film's villain is an old foe from Kirk's youth who blames Kirk for the death of his wife. &lt;/li&gt;
+  &lt;li&gt;Kirk reconnects with an old flame and a son he never knew he had. &lt;/li&gt;
+  &lt;li&gt;Kirk faces death for the first time as Spock sacrifices himself to save the Enterprise. &lt;/li&gt;
+  &lt;li&gt;And in the final exchange on the bridge, Kirk reveals that his journey and his loss have made him feel young again.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Wrath of Khan knows the story it&amp;#8217;s trying to tell and it selects every element to further that story.&lt;/p&gt;
+&lt;p&gt;Wrath of Khan knows the story it's trying to tell and it selects every element to further that story.&lt;/p&gt;
 
-&lt;h2 id='khaaaaaaaaaan'&gt;&amp;#8220;Khaaaaaaaaaan!&amp;#8221;&lt;/h2&gt;
-&lt;img src='/images/starTrekIntoDarkness2-b86b156c.jpg' title='Star Trek Into Darkness' /&gt;
+&lt;h2 id="khaaaaaaaaaan"&gt;"Khaaaaaaaaaan!"&lt;/h2&gt;
+
+&lt;img src="/images/starTrekIntoDarkness2-b86b156c.jpg" title="Star Trek Into Darkness" /&gt;
+
 &lt;p&gt;Compare this to Into Darkness, which remixes the elements and climactic scenes from Wrath of Khan using a cast of 30-somethings going on their first missions.&lt;/p&gt;
 
-&lt;p&gt;Chris Pine&amp;#8217;s Captain Kirk is introduced as young, inexperienced, and brash. He&amp;#8217;s a risk taker who has never had to face the consequences of his actions. Someday, we&amp;#8217;re warned, his brashness could get his entire crew killed.&lt;/p&gt;
+&lt;p&gt;Chris Pine's Captain Kirk is introduced as young, inexperienced, and brash. He's a risk taker who has never had to face the consequences of his actions. Someday, we're warned, his brashness could get his entire crew killed.&lt;/p&gt;
 
-&lt;p&gt;So what does the story do? It sends him on a revenge mission in which he succeeds by&amp;#8230; taking wild and dangerous risks and going with his gut. Then in a funhouse mirror version of Wrath of Khan&amp;#8217;s climax, Kirk sacrifices himself to save the Enterprise (a dubious piece of character growth considering Kirk would&amp;#8217;ve certainly sacrificed himself at any other point in the film to save his crew). The film&amp;#8217;s final message is that we should not let attacks on our homeland cause us to become worse than the enemies we face. Also, Spock learns to get angry, shouts &amp;#8220;Khaaaaaaaaan&amp;#8221; for some reason, and then beats a guy up. And oh yeah, Kirk is revived by magic space blood.&lt;/p&gt;
+&lt;p&gt;So what does the story do? It sends him on a revenge mission in which he succeeds by… taking wild and dangerous risks and going with his gut. Then in a funhouse mirror version of Wrath of Khan's climax, Kirk sacrifices himself to save the Enterprise (a dubious piece of character growth considering Kirk would've certainly sacrificed himself at any other point in the film to save his crew). The film's final message is that we should not let attacks on our homeland cause us to become worse than the enemies we face. Also, Spock learns to get angry, shouts "Khaaaaaaaaan" for some reason, and then beats a guy up. And oh yeah, Kirk is revived by magic space blood. &lt;/p&gt;
 
-&lt;p&gt;This is thematic spaghetti. It is a messy collection of ideas that do not resonate or hold together. Into Darkness&lt;sup id='fnref:2'&gt;&lt;a href='#fn:2' rel='footnote'&gt;2&lt;/a&gt;&lt;/sup&gt; attempts to use images and scenes from Wrath of Khan with characters, contexts, and themes to which they do not apply.&lt;/p&gt;
+&lt;p&gt;This is thematic spaghetti. It is a messy collection of ideas that do not resonate or hold together. Into Darkness&lt;sup id="fnref:title"&gt;&lt;a href="#fn:title" class="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt; attempts to use images and scenes from Wrath of Khan with characters, contexts, and themes to which they do not apply.&lt;/p&gt;
 
-&lt;p&gt;Spock&amp;#8217;s death in Wrath of Khan is significant because the movie is built on themes of mortality and aging. And because we the audience have a long and deep understanding of the character and his relationship with Kirk and Bones. It is the ultimate test for Kirk in the movie, confirming the film&amp;#8217;s theme that &amp;#8220;how we deal with death is at least as important as how we deal with life.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;Spock's death in Wrath of Khan is significant because the movie is built on themes of mortality and aging. And because we the audience have a long and deep understanding of the character and his relationship with Kirk and Bones. It is the ultimate test for Kirk in the movie, confirming the film's theme that "how we deal with death is at least as important as how we deal with life." &lt;/p&gt;
 
-&lt;p&gt;Fast forward 31 years: Kirk&amp;#8217;s death in Into Darkness is a third act twist designed to inspire an action sequence in which Spock fist fights Khan on top of a flying garbage truck. A good remix should redefine or add to the original, creating a contrast (or unexpected similarity) that generates new meanings. Star Trek Into Darkness remixes Wrath of Khan&amp;#8217;s ending because it&amp;#8217;s a cool idea, not because it has any thematic connection to its characters or its story.&lt;/p&gt;
+&lt;p&gt;Fast forward 31 years: Kirk's death in Into Darkness is a third act twist designed to inspire an action sequence in which Spock fist fights Khan on top of a flying garbage truck. A good remix should redefine or add to the original, creating a contrast (or unexpected similarity) that generates new meanings. Star Trek Into Darkness remixes Wrath of Khan's ending because it's a cool idea, not because it has any thematic connection to its characters or its story. &lt;/p&gt;
 
-&lt;p&gt;This new Kirk and new Spock do not need to face their mortality. Each has seen loved ones die (in this same movie in fact). This Kirk and Spock are different, younger characters who need to learn different lessons.&lt;sup id='fnref:3'&gt;&lt;a href='#fn:3' rel='footnote'&gt;3&lt;/a&gt;&lt;/sup&gt; Putting these characters in the climax from Wrath of Khan is an empty exercise.&lt;/p&gt;
+&lt;p&gt;This new Kirk and new Spock do not need to face their mortality. Each has seen loved ones die (in this same movie in fact). This Kirk and Spock are different, younger characters who need to learn different lessons.&lt;sup id="fnref:lessons"&gt;&lt;a href="#fn:lessons" class="footnote"&gt;3&lt;/a&gt;&lt;/sup&gt; Putting these characters in the climax from Wrath of Khan is an empty exercise.&lt;/p&gt;
 
-&lt;h2 id='the_future'&gt;The Future&lt;/h2&gt;
+&lt;h2 id="the-future"&gt;The Future&lt;/h2&gt;
 
-&lt;p&gt;Star Trek Into Darkness is solid popcorn fare. I&amp;#8217;d be very happy if future Star Trek movies maintained this level of fun, humor, and action.&lt;/p&gt;
+&lt;p&gt;Star Trek Into Darkness is solid popcorn fare. I'd be very happy if future Star Trek movies maintained this level of fun, humor, and action. &lt;/p&gt;
 
-&lt;p&gt;But I also hope that future sequels will aim higher. There&amp;#8217;s a moment in Into Darkness when Uhura angrily accuses Spock of feeling nothing when faced with death. Spock explains that he chooses not to feel because his emotions are so painful and potent, not because he doesn&amp;#8217;t have them. Death reminds him of the overpowering grief he felt watching his planet and his mother die in the previous film. This is a new (but completely valid) take on the character that uses the same science fiction premise (a species that suppresses their emotions) to tell a meaningfully different story about the human experience.&lt;/p&gt;
+&lt;p&gt;But I also hope that future sequels will aim higher. There's a moment in Into Darkness when Uhura angrily accuses Spock of feeling nothing when faced with death. Spock explains that he chooses not to feel because his emotions are so painful and potent, not because he doesn't have them. Death reminds him of the overpowering grief he felt watching his planet and his mother die in the previous film. This is a new (but completely valid) take on the character that uses the same science fiction premise (a species that suppresses their emotions) to tell a meaningfully different story about the human experience.&lt;/p&gt;
 
-&lt;p&gt;That&amp;#8217;s Star Trek. And I&amp;#8217;d like a sequel to move forward with that sort of confidence. To tell a story that fits and serves the new characters, rather than endlessly remixing and rebooting the past.&lt;/p&gt;
-&lt;div class='footnotes'&gt;&lt;hr /&gt;&lt;ol&gt;&lt;li id='fn:1'&gt;
-&lt;p&gt;The film is particularly bad at Trek science, doling out magical (and universe breaking) science fiction inventions to solve minor plot problems. I don&amp;#8217;t object to changing the rules of a fictional universe, but you can&amp;#8217;t change them for &lt;em&gt;every&lt;/em&gt; action scene.&lt;/p&gt;
-&lt;a href='#fnref:1' rev='footnote'&gt;&amp;#8617;&lt;/a&gt;&lt;/li&gt;&lt;li id='fn:2'&gt;
-&lt;p&gt;Even the title itself, Star Trek Into Darkness, feels muddled. What does it mean?&lt;/p&gt;
-&lt;a href='#fnref:2' rev='footnote'&gt;&amp;#8617;&lt;/a&gt;&lt;/li&gt;&lt;li id='fn:3'&gt;
-&lt;p&gt;That&amp;#8217;s a good thing. It&amp;#8217;s an opportunity to tell new stories with new ideas and situations.&lt;/p&gt;
-&lt;a href='#fnref:3' rev='footnote'&gt;&amp;#8617;&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</content>
+&lt;p&gt;That's Star Trek. And I'd like a sequel to move forward with that sort of confidence. To tell a story that fits and serves the new characters, rather than endlessly remixing and rebooting the past. &lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class="footnotes"&gt;
+  &lt;ol&gt;
+    &lt;li id="fn:nerd"&gt;
+      &lt;p&gt;The film is particularly bad at Trek science, doling out magical (and universe breaking) science fiction inventions to solve minor plot problems. I don't object to changing the rules of a fictional universe, but you can't change them for &lt;em&gt;every&lt;/em&gt; action scene.&lt;a href="#fnref:nerd" class="reversefootnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id="fn:title"&gt;
+      &lt;p&gt;Even the title itself, Star Trek Into Darkness, feels muddled. What does it mean? &lt;a href="#fnref:title" class="reversefootnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id="fn:lessons"&gt;
+      &lt;p&gt;That's a good thing. It's an opportunity to tell new stories with new ideas and situations. &lt;a href="#fnref:lessons" class="reversefootnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</content>
   </entry>
   <entry>
     <title>Craigslist Tips</title>
@@ -155,60 +215,29 @@
     <author>
       <name>Simon Ganz</name>
     </author>
-    <content type="html">&lt;img src='/images/garageSale-6e8e7607.jpg' title='Craigslist sales' /&gt;&lt;small&gt;&lt;a href='http://www.flickr.com/photos/wonderal/3532838482/'&gt;Photo Credit: wonder_al&lt;/a&gt;&lt;/small&gt;
-&lt;p&gt;There are a lot of sites out there offering tips for selling on Craigslist. Putting pictures in your ad, setting a reasonable price, deciding on a public place, etc. That&amp;#8217;s all fine.&lt;/p&gt;
+    <content type="html">&lt;img src="/images/garageSale-6e8e7607.jpg" title="Craigslist sales" /&gt;
+&lt;small&gt;&lt;a href="http://www.flickr.com/photos/wonderal/3532838482/"&gt;Photo Credit: wonder_al&lt;/a&gt;&lt;/small&gt;
 
-&lt;p&gt;But they don&amp;#8217;t mention the most important Craigslist tip: &lt;em&gt;How to Avoid Morons&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;There are a lot of sites out there offering tips for selling on Craigslist. Putting pictures in your ad, setting a reasonable price, deciding on a public place, etc. That's all fine.&lt;/p&gt;
 
-&lt;p&gt;And it&amp;#8217;s actually pretty damn simple.&lt;/p&gt;
+&lt;p&gt;But they don't mention the most important Craigslist tip: &lt;em&gt;How to Avoid Morons&lt;/em&gt;. &lt;/p&gt;
 
-&lt;h2 id='pick_up_a_phone_call_someone'&gt;Pick Up a Phone, Call Someone&lt;/h2&gt;
+&lt;p&gt;And it's actually pretty damn simple.&lt;/p&gt;
 
-&lt;p&gt;Craigslist requires human interaction, and trying to avoid that interaction with emails or txt messages is self-defeating.&lt;/p&gt;
+&lt;h2 id="pick-up-a-phone-call-someone"&gt;Pick Up a Phone, Call Someone&lt;/h2&gt;
 
-&lt;p&gt;Think about it. Craigslist uses an &lt;a href='http://www.craigslist.org/about/help/replying_to_posts' title='craigslist | replying to posts'&gt;anonymized email system&lt;/a&gt; that reduces each email address to a string of randomized characters. Would you try to negotiate a sale and meeting via the anonymous comments section on YouTube? Of course not. &lt;strong&gt;Because SpunkyChowChik89 is not a person and cannot be trusted&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Craigslist requires human interaction, and trying to avoid that interaction with emails or txt messages is self-defeating. &lt;/p&gt;
 
-&lt;p&gt;To successfully set up an exchange with minimum bullshit you have to break down the &lt;a href='http://www.penny-arcade.com/comic/2004/03/19' title='Penny Arcade - Green Blackboards (And Other Anomalies'&gt;anonymity&lt;/a&gt; by picking up the phone and talking to a human being.&lt;/p&gt;
+&lt;p&gt;Think about it. Craigslist uses an &lt;a href="http://www.craigslist.org/about/help/replying_to_posts" title="craigslist | replying to posts"&gt;anonymized email system&lt;/a&gt; that reduces each email address to a string of randomized characters. Would you try to negotiate a sale and meeting via the anonymous comments section on YouTube? Of course not. &lt;strong&gt;Because SpunkyChowChik89 is not a person and cannot be trusted&lt;/strong&gt;. &lt;/p&gt;
 
-&lt;p&gt;In thirty seconds on the phone you&amp;#8217;ll instantly get a gut feeling about whether you&amp;#8217;re dealing with a moron or a serious buyer. Just as importantly, you will become a person in the buyer&amp;#8217;s mind rather than an anonymous douche.&lt;/p&gt;
+&lt;p&gt;To successfully set up an exchange with minimum bullshit you have to break down the &lt;a href="http://www.penny-arcade.com/comic/2004/03/19" title="Penny Arcade - Green Blackboards (And Other Anomalies)"&gt;anonymity&lt;/a&gt; by picking up the phone and talking to a human being.&lt;/p&gt;
 
-&lt;p&gt;Almost every Craigslist meeting I&amp;#8217;ve set via txt message has resulted in the buyer flaking out. Almost every call has resulted in a quick and easy sale. It&amp;#8217;s much harder to ignore a commitment made with your own voice.&lt;/p&gt;
+&lt;p&gt;In thirty seconds on the phone you'll instantly get a gut feeling about whether you're dealing with a moron or a serious buyer. Just as importantly, you will become a person in the buyer's mind rather than an anonymous douche. &lt;/p&gt;
 
-&lt;p&gt;Craigslist is about trading time/convenience for cash. It&amp;#8217;s not always worth it, but don&amp;#8217;t make it harder on yourself by pretending you&amp;#8217;re dealing with Amazon or an ATM machine. You&amp;#8217;re not. You&amp;#8217;re dealing with a weird guy named Chaz who wants to buy your used Blackberry Playbook. Give Chaz a call.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Coding vs. Screenwriting</title>
-    <link rel="alternate" href="/2013/04/coding-vs-screenwriting-fear-of-the-blank-page/"/>
-    <id>http://simonganz.com/2013/04/coding-vs-screenwriting-fear-of-the-blank-page/</id>
-    <published>2013-04-27T07:00:00Z</published>
-    <updated>2013-04-27T07:00:00Z</updated>
-    <author>
-      <name>Simon Ganz</name>
-    </author>
-    <content type="html">&lt;img src='/images/scriptAsCode-7b16b8f5.png' title='Screenplays as Code' /&gt;
-&lt;p&gt;There are two types of writing that consume most of my time. One is a passion and something I hope will be my career, screenwriting. The other is a hobby, coding.&lt;/p&gt;
+&lt;p&gt;Almost every Craigslist meeting I've set via txt message has resulted in the buyer flaking out. Almost every call has resulted in a quick and easy sale. It's much harder to ignore a commitment made with your own voice. &lt;/p&gt;
 
-&lt;p&gt;But even though creative writing is so much more important to me, I start and complete far more coding projects. Why?&lt;/p&gt;
+&lt;p&gt;Craigslist is about trading time/convenience for cash. It's not always worth it, but don't make it harder on yourself by pretending you're dealing with Amazon or an ATM machine. You're not. You're dealing with a weird guy named Chaz who wants to buy your used Blackberry Playbook. Give Chaz a call.&lt;/p&gt;
 
-&lt;h2 id='coding_never_starts_from_scratch'&gt;Coding Never Starts from Scratch&lt;/h2&gt;
-
-&lt;p&gt;Coding is less intimidating than screenwriting because my tools are more expansive and my goals more limited. When I get an itch to code something (for instance a script to convert iCal calendar entries into Markdown), the goal is small, obvious, and concrete. But more importantly, I never have to start from a blank page.&lt;/p&gt;
-
-&lt;p&gt;Depending on what tool I&amp;#8217;m using, there are thousands of &lt;a href='https://github.com/popular/starred'&gt;projects&lt;/a&gt;, &lt;a href='http://rubygems.org/gems'&gt;gems&lt;/a&gt;, or code snippets to pull from. I can &amp;#8220;hack&amp;#8221; a script to do what I want while outsourcing all of the heavy lifting. All I have to do is stitch together pieces created by far smarter, far more skilled programmers.&lt;/p&gt;
-
-&lt;h2 id='creative_writing_means_reinventing_the_wheel'&gt;Creative Writing Means Reinventing the Wheel&lt;/h2&gt;
-
-&lt;p&gt;But screenwriting means facing the blank page. You have language, formatting, and conventions to build from and little else. It&amp;#8217;s more akin to programming in something like machine code.&lt;/p&gt;
-
-&lt;p&gt;There&amp;#8217;s no &lt;a href='http://twitter.github.io/bootstrap/' title='Bootstrap'&gt;Bootstrap&lt;/a&gt; story you can load and tweak into a final product.&lt;sup id='fnref:1'&gt;&lt;a href='#fn:1' rel='footnote'&gt;1&lt;/a&gt;&lt;/sup&gt; Sure, you can build off the structure or character or ideas of others.&lt;sup id='fnref:2'&gt;&lt;a href='#fn:2' rel='footnote'&gt;2&lt;/a&gt;&lt;/sup&gt; But a good screenplay is driven by theme. Those basic story elements shouldn&amp;#8217;t be interchangeable. They should be carefully chosen to develop and further the core idea.&lt;/p&gt;
-
-&lt;h2 id='aiming_smaller'&gt;Aiming Smaller&lt;/h2&gt;
-
-&lt;p&gt;I can&amp;#8217;t add functions or loops or libraries to screenwriting, but I can aim for smaller more concrete goals. I&amp;#8217;m writing more &lt;a href='http://www.twitter.com/simonganz'&gt;tweets&lt;/a&gt;, more blog posts, and also reading up on short fiction. My hope is that by writing more small creative projects, I can feed off the same sense of satisfaction I get from solving small, everyday annoyances with code. Maybe if I do it for long enough, I&amp;#8217;ll even forget to be scared of the blank page.&lt;/p&gt;
-&lt;div class='footnotes'&gt;&lt;hr /&gt;&lt;ol&gt;&lt;li id='fn:1'&gt;
-&lt;p&gt;Some screenwriting books like &lt;em&gt;Save The Cat&lt;/em&gt; offer pre-made outlines for writing films. Having read hundreds of scripts as a working coverage reader in Hollywood, I can say that screenplays written this way are almost always hollow, predictable, and unsatisfying.&lt;/p&gt;
-&lt;a href='#fnref:1' rev='footnote'&gt;&amp;#8617;&lt;/a&gt;&lt;/li&gt;&lt;li id='fn:2'&gt;
-&lt;p&gt;&lt;a href='http://www.everythingisaremix.info/'&gt;Everything is a Remix&lt;/a&gt;&lt;/p&gt;
-&lt;a href='#fnref:2' rev='footnote'&gt;&amp;#8617;&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</content>
+</content>
   </entry>
 </feed>
