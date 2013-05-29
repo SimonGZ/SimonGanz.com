@@ -4,6 +4,7 @@
 
 # Susy grids in Compass
 require 'susy'
+require 'kramdown'
 
 # Change Compass configuration
 # compass_config do |config|
@@ -101,6 +102,9 @@ end
 # Change the images directory
 # set :images_dir, "alternative_image_directory"
 
+set :images_dir, "images"
+
+set :markdown_engine, :kramdown
 set :markdown, :layout_engine => :erb, 
                :tables => true, 
                :autolink => true
