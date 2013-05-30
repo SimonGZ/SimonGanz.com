@@ -5,6 +5,7 @@
 # Susy grids in Compass
 require 'susy'
 require 'kramdown'
+require 'builder'
 
 # Change Compass configuration
 # compass_config do |config|
@@ -48,6 +49,7 @@ Time.zone = "America/Los_Angeles"
 page "/*.html", layout: "article_layout"
 
 page "/feed.xml", :layout => false
+page "/sitemap.xml", :layout => false
 
 # Proxy (fake) files
 # page "/this-page-has-no-template.html", :proxy => "/template-file.html" do
