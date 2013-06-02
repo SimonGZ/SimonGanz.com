@@ -12,10 +12,6 @@
 // HTML5 Boilerplate styling for Chrome Frame
 @include h5bp-chromeframe
 
-// Susy Grid Systems - choose one to customize
-// @import "grid/fixed"
-@import "grid/magic"
-
 // Variables
 
 // Fonts
@@ -36,7 +32,7 @@ $text-color: #252525
 // Your own styles go here.
 body
   font-family: $body-font
-  font-size: 19px
+  font-size: 18px
   color: $text-color
   background-color: $background-color
 
@@ -77,7 +73,7 @@ h3
   margin: 1em 0 -4px 0  
   
 p, pre
-  line-height: 30px
+  line-height: 1.58em
   margin: 30px 0 30px 0
 
 kbd
@@ -93,6 +89,8 @@ blockquote
   color: #7f7f7f
   padding-left: 14px
   border-left: 6px $gray-color solid
+  margin: 30px 0 30px 1em
+  font-size: 18px
   
 strong
   font-family: $body-font-bold 
@@ -179,6 +177,10 @@ hr
 
 // Print styles.
 @include h5bp-media
+
+// Susy Grid Systems
+// Contains special styling for tablets and desktop
+@import "grid/magic"
 
 // Bootstrap Pagination
 @import "bootstrap-pagination"

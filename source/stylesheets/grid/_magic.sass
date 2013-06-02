@@ -40,14 +40,21 @@ $layouts: $break-tablet, $break-desktop
       @include susy-grid-background
 
 @include at-breakpoint($break-tablet)
+  body
+    font-size: 19px
+  .container
+    h1
+      font-size: 48px
+    hr
+      margin: 2em 0 3em 0
+    blockquote
+      font-size: 19px
+      margin: 30px 40px 
+
+@include at-breakpoint($break-desktop)
   .container
     h1
       font-size: 56px
-    hr
-      margin: 2em 0 3em 0
-
-@include at-breakpoint($break-desktop)
-
     
 @include at-breakpoint($break-huge)
 

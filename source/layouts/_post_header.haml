@@ -1,6 +1,6 @@
 %header
   %h1
-    %a{href: post_url(article), title: article.data.title, class: ("linklog" if linklog?(article))}= ( linklog?(article) ? "→" : "" ) + article.data.title
+    %a{href: post_url(article), title: article.data.title, class: ("linklog" if linklog?(article))}= article.data.title + ( linklog?(article) ? "→" : "" )
   - unless article.data.subtitle.nil?
     %h2
       %a{href: post_url(article), title: article.data.subtitle}= article.data.subtitle
