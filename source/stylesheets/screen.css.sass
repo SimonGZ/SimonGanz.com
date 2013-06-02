@@ -45,6 +45,10 @@ a, a:hover, a:visited
   color: $red-color
   &.linklog
     color: $linklog-color
+  &.comments-link
+    color: $gray-color
+  &.reversefootnote
+    padding-left: 4px
 
 h1, h2, h3
   font-weight: normal
@@ -117,8 +121,8 @@ hr
     max-width: 100%
     height: auto
     margin-top: 30px
-    @include box-shadow($gray-color 0 0 10px)
-    @include border-radius
+    +box-shadow($gray-color 0 0 10px)
+    +border-radius
 
   .title
     font-size: 24px
@@ -130,11 +134,14 @@ hr
       margin-top: -4px
       float: right
       border: none
-      @include box-shadow(none)
-      @include border-radius(0)
+      +box-shadow(none)
+      +border-radius(0)
       width: 30px
       height: 30px
-      @include opacity(0.3)
+      +opacity(0.3)
+      
+  li
+    margin-bottom: 0.5em
       
   .twitter
     a, a:visited
@@ -154,13 +161,19 @@ hr
     vertical-align: super
     font-size: 0.5em
       
+  div.footnotes
+    border: thin dashed $gray-color
+    background: #F9F6F4
+    margin: 30px 0
+    padding-right: 16px
+    
   .footnotes
     font-size: 16px
     li
       margin-bottom: 1em
     p
       display: inline
-          
+  
 // H5BP helper classes & mixins.
 // @include h5bp-helpers
 
