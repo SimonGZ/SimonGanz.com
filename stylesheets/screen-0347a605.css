@@ -398,12 +398,18 @@ a, a:hover, a:visited {
   /* line 46, screen.css.sass */
   a.linklog, a:hover.linklog, a:visited.linklog {
     color: #669999; }
+  /* line 48, screen.css.sass */
+  a.comments-link, a:hover.comments-link, a:visited.comments-link {
+    color: #999999; }
+  /* line 50, screen.css.sass */
+  a.reversefootnote, a:hover.reversefootnote, a:visited.reversefootnote {
+    padding-left: 4px; }
 
-/* line 49, screen.css.sass */
+/* line 53, screen.css.sass */
 h1, h2, h3 {
   font-weight: normal; }
 
-/* line 52, screen.css.sass */
+/* line 56, screen.css.sass */
 h1 {
   font-family: ProximaNovaACond-Bold;
   font-size: 40px;
@@ -412,72 +418,72 @@ h1 {
   line-height: 1em;
   margin: 8px 0 0 0; }
 
-/* line 60, screen.css.sass */
+/* line 64, screen.css.sass */
 h2 {
   font-family: ProximaNovaACond-Semibold;
   font-size: 34px;
   line-height: 1em;
   margin: 30px 0 0 0; }
 
-/* line 65, screen.css.sass */
+/* line 69, screen.css.sass */
 header h2 {
   margin: 0; }
-  /* line 67, screen.css.sass */
+  /* line 71, screen.css.sass */
   header h2 a, header h2 a:link, header h2 a:hover, header h2 a:visited {
     color: #999999; }
 
-/* line 69, screen.css.sass */
+/* line 73, screen.css.sass */
 h3 {
   font-family: ProximaNovaACond-Semibold;
   text-decoration: underline;
   line-height: 1em;
   margin: 1em 0 -4px 0; }
 
-/* line 75, screen.css.sass */
+/* line 79, screen.css.sass */
 p, pre {
   line-height: 30px;
   margin: 30px 0 30px 0; }
 
-/* line 79, screen.css.sass */
+/* line 83, screen.css.sass */
 kbd {
   background-color: whitesmoke;
   border: 1px solid #dedede;
   padding: 0px 3px 2px; }
 
-/* line 83, screen.css.sass */
+/* line 87, screen.css.sass */
 footer {
   margin-top: 3em;
   text-align: right; }
 
-/* line 87, screen.css.sass */
+/* line 91, screen.css.sass */
 blockquote {
   font-family: StanPlusPro-NormalItalic;
   color: #7f7f7f;
   padding-left: 14px;
   border-left: 6px #999999 solid; }
 
-/* line 93, screen.css.sass */
+/* line 97, screen.css.sass */
 strong {
   font-family: StanPlusPro-Bold;
   font-weight: normal; }
 
-/* line 97, screen.css.sass */
+/* line 101, screen.css.sass */
 hr {
   border: none;
   font-size: 16px;
   color: #bfbfbf;
   text-align: center;
   margin: 1em 0 2em 0; }
-  /* line 103, screen.css.sass */
+  /* line 107, screen.css.sass */
   hr:after {
     content: "✧✧✧";
     letter-spacing: 2em;
     padding-left: 2em; }
 
-/* line 112, screen.css.sass */
+/* line 116, screen.css.sass */
 .container #main-content {
   overflow: visible; }
-/* line 116, screen.css.sass */
+/* line 120, screen.css.sass */
 .container img {
   max-width: 100%;
   height: auto;
@@ -490,14 +496,14 @@ hr {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px; }
-/* line 123, screen.css.sass */
+/* line 127, screen.css.sass */
 .container .title {
   font-size: 24px;
   margin-top: 16px; }
-  /* line 126, screen.css.sass */
+  /* line 130, screen.css.sass */
   .container .title a, .container .title a:visited {
     color: #999999; }
-  /* line 128, screen.css.sass */
+  /* line 132, screen.css.sass */
   .container .title img {
     margin: 0;
     margin-top: -4px;
@@ -515,29 +521,38 @@ hr {
     height: 30px;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
     opacity: 0.3; }
-/* line 140, screen.css.sass */
+/* line 143, screen.css.sass */
+.container li {
+  margin-bottom: 0.5em; }
+/* line 147, screen.css.sass */
 .container .twitter a, .container .twitter a:visited {
   color: #999999;
   font-size: 12px; }
-/* line 144, screen.css.sass */
+/* line 151, screen.css.sass */
 .container hr.postDivider {
   font-size: 24px;
   color: #999999;
   margin: 2em 0 3em 0; }
-/* line 150, screen.css.sass */
+/* line 157, screen.css.sass */
 .container .postDate:link, .container .postDate:hover, .container .postDate:visited, .container .postDate a:link, .container .postDate a:hover, .container .postDate a:visited {
   color: #999999; }
-/* line 153, screen.css.sass */
+/* line 160, screen.css.sass */
 .container sup {
   vertical-align: super;
   font-size: 0.5em; }
-/* line 157, screen.css.sass */
+/* line 164, screen.css.sass */
+.container div.footnotes {
+  border: thin dashed #999999;
+  background: #f9f6f4;
+  margin: 30px 0;
+  padding-right: 16px; }
+/* line 170, screen.css.sass */
 .container .footnotes {
   font-size: 16px; }
-  /* line 159, screen.css.sass */
+  /* line 172, screen.css.sass */
   .container .footnotes li {
     margin-bottom: 1em; }
-  /* line 161, screen.css.sass */
+  /* line 174, screen.css.sass */
   .container .footnotes p {
     display: inline; }
 
