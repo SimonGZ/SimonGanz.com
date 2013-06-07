@@ -4,10 +4,28 @@
   <id>http://simonganz.com/</id>
   <link href="http://simonganz.com/"/>
   <link href="http://simonganz.com/feed.xml" rel="self"/>
-  <updated>2013-06-07T04:24:00Z</updated>
+  <updated>2013-06-07T04:53:00Z</updated>
   <author>
     <name>Simon Ganz</name>
   </author>
+  <entry>
+    <title>→ Microsoft Clarifies Xbox One Used Games Policy [link]</title>
+    <link rel="alternate" href="http://kotaku.com/the-xbox-one-just-had-a-very-bad-day-511766497"/>
+    <id>http://simonganz.com/2013/06/xbox-one-used-games/</id>
+    <published>2013-06-07T04:53:00Z</published>
+    <updated>2013-06-07T04:53:00Z</updated>
+    <author>
+      <name>Simon Ganz</name>
+    </author>
+    <content type="html">&lt;p&gt;Kotaku has &lt;a href="http://kotaku.com/the-xbox-one-just-had-a-very-bad-day-511766497"&gt;a cynical rundown&lt;/a&gt; of how Xbox One will handle used games. Basically, &lt;a href="http://simonganz.com/2013/05/pa-report-xbox-one-will-kill-used-games/"&gt;my fears&lt;/a&gt; are confirmed:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The Xbox One will allow the sale of used games, at "participating retailers", but only if the publisher allows it. Publishers being the very people opposed most fiercely to used video game sales.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Microsoft understands that this change is going to piss off a lot of people, so they're trying to pull a Pontius Pilate and offload the final decision onto the publishers. "Oh we really wish you could still buy and sell used games, but we left it as an option for the publishers, and those gosh darn meanies didn't implement it!"&lt;/p&gt;
+&lt;p&gt;&lt;a href='/2013/06/xbox-one-used-games/'&gt;Permalink&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>How to Get Rid of Fruit Flies</title>
     <link rel="alternate" href="/2013/06/get-rid-of-fruit-flies/"/>
@@ -128,45 +146,5 @@
 &lt;p&gt;That's why the most populous city in Canada has a drug smoking racist for a mayor.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href='/2013/05/how-rob-ford-got-elected/'&gt;Permalink&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Conversation Tip for Weirdos</title>
-    <link rel="alternate" href="/2013/05/conversation-tips/"/>
-    <id>http://simonganz.com/2013/05/conversation-tips/</id>
-    <published>2013-05-28T23:40:00Z</published>
-    <updated>2013-05-28T23:40:00Z</updated>
-    <author>
-      <name>Simon Ganz</name>
-    </author>
-    <content type="html">&lt;p&gt;I am not a social person and do not especially enjoy social events. For years in college, I would repeatedly say the wrong thing to people, horribly offending them with no idea how or why it had happened. My friends would then laugh and remark how I'd "done it again."&lt;/p&gt;
-
-&lt;p&gt;But I have cobbled together one simple strategy that my fellow weirdos may find helpful.&lt;/p&gt;
-
-&lt;h2 id="how-to-talk-to-a-stranger"&gt;How to Talk to a Stranger&lt;/h2&gt;
-
-&lt;p&gt;Ask questions. Then ask more questions. Then keep asking questions. &lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;"Oh, you work at X? What's that like? Uh huh. So what companies do you represent? Oh really. What are they like? Oh really? What type of software do you use for that? How did you get that job? Oh you used to work at Y? What was that like? What's the craziest Z you've seen?"&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This sounds stupid. In fact, it's basically the way &lt;a href="http://en.wikipedia.org/wiki/Chatterbot" title="Wikipedia - Chatterbot"&gt;computer chatbots&lt;/a&gt; operate.&lt;/p&gt;
-
-&lt;p&gt;But it is remarkably effective. And it's not as creepy as it sounds. I've found that by asking many questions, I can eventually land on a topic that genuinely interests me and have a real conversation. &lt;/p&gt;
-
-&lt;p&gt;Here's why it works. Everyone you meet is an expert in something. It may be something seemingly trivial, like mall security procedures&lt;sup id="fnref:actually"&gt;&lt;a href="#fn:actually" class="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; or class action lawsuits, but no one's made it 20+ years in life without learning a lot about something. &lt;/p&gt;
-
-&lt;p&gt;If you can find that hidden expertise, you'll be amazed at the level of detail and character you can get out of someone about their job, their life, or their hobbies.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;div class="footnotes"&gt;
-  &lt;ol&gt;
-    &lt;li id="fn:actually"&gt;
-      &lt;p&gt;Actually I love expertise like that. I love it when someone knows everything there is to know about a topic to which I've applied zero thought.&lt;a href="#fnref:actually" class="reversefootnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</content>
   </entry>
 </feed>
