@@ -4,10 +4,34 @@
   <id>http://simonganz.com/</id>
   <link href="http://simonganz.com/"/>
   <link href="http://simonganz.com/feed.xml" rel="self"/>
-  <updated>2013-06-03T15:22:00Z</updated>
+  <updated>2013-06-07T04:24:00Z</updated>
   <author>
     <name>Simon Ganz</name>
   </author>
+  <entry>
+    <title>How to Get Rid of Fruit Flies</title>
+    <link rel="alternate" href="/2013/06/get-rid-of-fruit-flies/"/>
+    <id>http://simonganz.com/2013/06/get-rid-of-fruit-flies/</id>
+    <published>2013-06-07T04:24:00Z</published>
+    <updated>2013-06-07T04:24:00Z</updated>
+    <author>
+      <name>Simon Ganz</name>
+    </author>
+    <content type="html">&lt;p&gt;Fruit flies are tiny insects that lay their eggs on the skin of ripe or fermenting fruit. They're harmless, but you'll occasionally find a batch of them swirling around your kitchen.&lt;/p&gt;
+
+&lt;p&gt;Here's an easy way to get rid of them:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Take a wine glass.&lt;/li&gt;
+  &lt;li&gt;Pour in some apple cider vinegar.&lt;/li&gt;
+  &lt;li&gt;Put in a couple drops of dishwashing liquid.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The flies are attracted to the vinegar, but the curved glass and the dishwashing soap make it impossible for them to land on the surface, so they fall through and drown.&lt;/p&gt;
+
+&lt;p&gt;There are other &lt;a href="http://insects.about.com/od/insectssociety/qt/Make-A-Vinegar-Trap-For-Fruit-Flies.htm"&gt;elaborate traps&lt;/a&gt; you can make (and obviously you should clean your kitchen as well), but the simple trap works very well. &lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>→ Wall Street Journal: Death by Bicycle [link]</title>
     <link rel="alternate" href="http://on.wsj.com/19tHx3t"/>
@@ -144,37 +168,5 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 </content>
-  </entry>
-  <entry>
-    <title>→ PA Report: Xbox One Will Kill Used Games [link]</title>
-    <link rel="alternate" href="http://penny-arcade.com/report/article/the-death-of-used-games-and-control-of-the-second-hand-market-could-be-the"/>
-    <id>http://simonganz.com/2013/05/pa-report-xbox-one-will-kill-used-games/</id>
-    <published>2013-05-23T18:04:00Z</published>
-    <updated>2013-05-23T18:04:00Z</updated>
-    <author>
-      <name>Simon Ganz</name>
-    </author>
-    <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;Once that secondary market is removed you can suddenly profit from every copy of your game sold, and as profit margins rise it's possible we'll see prices drop. Some stodgy publishers will likely stay with the $60 model, but they're dead companies walking already. The smart companies will see this opportunity to play with pricing and see what works and what doesn't.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Ben Kuchera at &lt;a href="http://penny-arcade.com/report" title="Penny-Arcade Report"&gt;Penny-Arcade&lt;/a&gt; has an optimistic take on Microsoft eliminating the used game market.&lt;/p&gt;
-
-&lt;p&gt;I'd love to believe this, but I think the carrot and stick are out of whack here. If you're going to eliminate the ability for me to buy and sell used games, then you have to offer a reasonable tradeoff. "Oh, I can't resell my game anymore, but now my game is cheaper/downloadable/more convenient."&lt;/p&gt;
-
-&lt;p&gt;What Microsoft is offering is a step backward from &lt;a href="http://www.steampowered.com/" title="Steampowered Games"&gt;Steam&lt;/a&gt;. You still have to buy a physical disc, only now that disc is just an installer and your copy is linked to your $50-a-year Xbox Live account. But what if you lose the disc? Do you have to re-buy the physical disc? Can you just download it? And what happens in the future when Xbox Two comes out? Will my games still work/still be tied to my account?&lt;sup id="fnref:nope"&gt;&lt;a href="#fn:nope" class="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;/p&gt;
-
-&lt;p&gt;All of Microsoft's responses are about ways you can kind of, sort of approximate the convenience of the current setup with their new system, but they don't actually explain why their new system is better for me as a consumer.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;div class="footnotes"&gt;
-  &lt;ol&gt;
-    &lt;li id="fn:nope"&gt;
-      &lt;p&gt;Probably not, since Microsoft has already said that Xbox Live Arcade purchases made on the 360 will not play on the Xbox One.&lt;a href="#fnref:nope" class="reversefootnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;a href='/2013/05/pa-report-xbox-one-will-kill-used-games/'&gt;Permalink&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
