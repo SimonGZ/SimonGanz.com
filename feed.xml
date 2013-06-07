@@ -4,10 +4,29 @@
   <id>http://simonganz.com/</id>
   <link href="http://simonganz.com/"/>
   <link href="http://simonganz.com/feed.xml" rel="self"/>
-  <updated>2013-06-07T04:53:00Z</updated>
+  <updated>2013-06-07T16:32:00Z</updated>
   <author>
     <name>Simon Ganz</name>
   </author>
+  <entry>
+    <title>→ Will PRISM Harm the US Tech Industry [link]</title>
+    <link rel="alternate" href="http://www.slate.com/blogs/moneybox/2013/06/07/prism_tech_exports_will_nsa_revelations_block_american_companies_abroad.html"/>
+    <id>http://simonganz.com/2013/06/prism-harms-us-tech-industry/</id>
+    <published>2013-06-07T16:32:00Z</published>
+    <updated>2013-06-07T16:32:00Z</updated>
+    <author>
+      <name>Simon Ganz</name>
+    </author>
+    <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;Imagine if it had come out in the 1980s that Japanese intelligence agencies were tracking the location of every Toyota and Honda vehicle, and then the big response from the Japanese government was to reassure people that &lt;em&gt;Japanese&lt;/em&gt; citizens weren't being spied upon this way. There would have been—legitimately—massive political pressure to get Japanese cars out of foreign markets.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Matt Yglesias has &lt;a href="http://www.slate.com/blogs/moneybox/2013/06/07/prism_tech_exports_will_nsa_revelations_block_american_companies_abroad.html" title="Prism Tech Exports: Will NSA Revelations Block American Companies Abroad"&gt;a great blog post&lt;/a&gt; puncturing some of the insular, parochial American reactions to &lt;a href="http://www.washingtonpost.com/investigations/us-intelligence-mining-data-from-nine-us-internet-companies-in-broad-secret-program/2013/06/06/3a0c0da8-cebf-11e2-8845-d970ccb04497_story.html" title="US Intelligence Mining Data from Nine US Internet Companies"&gt;the spying scandal&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Very few Americans seem to care about civil liberties or the Bill of Rights, but do they realize that these national security programs could hobble some of our biggest exports? If you lived in another country and were using products made by US companies like Google, Apple, Facebook, etc., wouldn't you want to switch to products that don't feed all of your information directly to a foreign government?&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='/2013/06/prism-harms-us-tech-industry/'&gt;Permalink&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>→ Microsoft Clarifies Xbox One Used Games Policy [link]</title>
     <link rel="alternate" href="http://kotaku.com/the-xbox-one-just-had-a-very-bad-day-511766497"/>
@@ -123,28 +142,5 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;a href='/2013/05/rick-perry-vetoes-buy-american-bill/'&gt;Permalink&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>→ How Rob Ford Got Elected [link]</title>
-    <link rel="alternate" href="http://www.thestar.com/opinion/commentary/2013/05/29/how_the_rob_ford_crack_scandal_could_save_toronto.html"/>
-    <id>http://simonganz.com/2013/05/how-rob-ford-got-elected/</id>
-    <published>2013-05-29T23:22:00Z</published>
-    <updated>2013-05-29T23:22:00Z</updated>
-    <author>
-      <name>Simon Ganz</name>
-    </author>
-    <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;Under our antiquated electoral system his government enjoyed virtual dictatorial powers winning 64 per cent of the seats in the legislature with only 45 per cent of the popular vote – most of this support concentrated in the right-leaning suburbs. He didn't need to represent the province, just his political base.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href="http://gawker.com/for-sale-a-video-of-toronto-mayor-rob-ford-smoking-cra-507736569"&gt;Toronto Mayor Rob Ford smokes crack.&lt;/a&gt; Allegedly.&lt;/p&gt;
-
-&lt;p&gt;Almost every story of incompetent governance or corruption in politics is really a story about bad political institutions. In this case, an outdated electoral system that favors suburban and rural voters over urban voters has led to cosmopolitan Toronto being ruled by a series of right-wing suburban mayors, ill-equipped to run a major city. &lt;/p&gt;
-
-&lt;p&gt;Political institutions are boring and almost no effort is spent campaigning for their reform. Often that's because the institutions favor one party over another. But how we vote, what bodies we vote for, and how the votes are counted are actually much more important forces than individual candidates and campaigns. &lt;/p&gt;
-
-&lt;p&gt;That's why the most populous city in Canada has a drug smoking racist for a mayor.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href='/2013/05/how-rob-ford-got-elected/'&gt;Permalink&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
