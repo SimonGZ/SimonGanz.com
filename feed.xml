@@ -4,10 +4,48 @@
   <id>http://simonganz.com/</id>
   <link href="http://simonganz.com/"/>
   <link href="http://simonganz.com/feed.xml" rel="self"/>
-  <updated>2013-06-07T16:32:00Z</updated>
+  <updated>2013-06-08T05:23:00Z</updated>
   <author>
     <name>Simon Ganz</name>
   </author>
+  <entry>
+    <title>→ Why Google Killed Reader [link]</title>
+    <link rel="alternate" href="http://www.wired.com/gadgetlab/2013/06/why-google-reader-got-the-ax/"/>
+    <id>http://simonganz.com/2013/06/why-google-killed-reader/</id>
+    <published>2013-06-08T05:23:00Z</published>
+    <updated>2013-06-08T05:23:00Z</updated>
+    <author>
+      <name>Simon Ganz</name>
+    </author>
+    <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;"As a culture we have moved into a realm where the consumption of news is a near-constant process. Users with smartphones and tablets are consuming news in bits and bites throughout the course of the day — replacing the old standard behaviors of news consumption over breakfast along with a leisurely read at the end of the day."&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I don't like &lt;a href="http://www.wired.com/gadgetlab/2013/06/why-google-reader-got-the-ax/" title="Why Google Reader Got the Axe"&gt;Google's explanation for killing Google Reader&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Yes, Twitter and social media have changed how we consume news and internet posts. But the niche Google Reader and &lt;a href="http://en.wikipedia.org/wiki/RSS" title="RSS - Wikipedia, the free encyclopedia"&gt;RSS&lt;/a&gt; serve is not about "leisurely" browsing of the internet over eggs and bacon.&lt;/p&gt;
+
+&lt;p&gt;By checking my RSS feed, I can skim and select from hundreds of stories from my favorite sites and authors in less than a minute.&lt;sup id="fnref:small"&gt;&lt;a href="#fn:small" class="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;/p&gt;
+
+&lt;p&gt;In contrast, Twitter and Facebook give me a random shotgun blast full of memes, links, and advertisements. I do not want to like or follow every public figure, author, or company that interests me and then have those people shit up my social feed. My social feed is just that, social. It shows me what &lt;em&gt;other&lt;/em&gt; people think I should be reading, which is not always what &lt;em&gt;I&lt;/em&gt; want to read.&lt;/p&gt;
+
+&lt;p&gt;I understand that RSS has always been a niche technology and that Google is probably making the right choice by focusing their efforts on more casual users. But I think Wired hits on a darker, potentially more accurate explanation for the change:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Now and Plus do one thing: They keep you in Google’s world. It’s a de-emphasis of content source. In other words, rather than reading Cat Fancy religiously, you’re reading the Animals category religiously — a category populated by the sites Google’s products think you’ll enjoy most.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;div class="footnotes"&gt;
+  &lt;ol&gt;
+    &lt;li id="fn:small"&gt;
+      &lt;p&gt;I can also subscribe to small sites and webcomics without worrying that I'll miss their rare updates in my stream.&lt;a href="#fnref:small" class="reversefootnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href='/2013/06/why-google-killed-reader/'&gt;Permalink&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>→ Will PRISM Harm the US Tech Industry [link]</title>
     <link rel="alternate" href="http://www.slate.com/blogs/moneybox/2013/06/07/prism_tech_exports_will_nsa_revelations_block_american_companies_abroad.html"/>
@@ -112,35 +150,5 @@
 &lt;p&gt;Star Trek is about the future. But more specifically, Star Trek is about a radically utopian and progressive future that goes much deeper than transporters and warp drives. Recreating the relationships and stories from the original cast is fun and makes for entertaining films. But it also turns the franchise into something harmless. It makes the whole thing retro rather than radical. And something important is lost in the process. &lt;/p&gt;
 
 &lt;p&gt;&lt;a href='/2013/06/star-trek-cast/'&gt;Permalink&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>→ Rick Perry Vetoes Buy American Bill [link]</title>
-    <link rel="alternate" href="http://www.opposingviews.com/i/news/rick-perry-vetoes-buy-american-bill-approved-145-0-texas-house"/>
-    <id>http://simonganz.com/2013/05/rick-perry-vetoes-buy-american-bill/</id>
-    <published>2013-05-30T16:43:00Z</published>
-    <updated>2013-05-30T16:43:00Z</updated>
-    <author>
-      <name>Simon Ganz</name>
-    </author>
-    <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;"Gov. Perry by his veto has undercut the creation and preservation of manufacturing jobs in Texas and the U.S." Texas AFL-CIO President Becky Moeller said. "These jobs are critical to our economic success.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I noticed some &lt;a href="http://www.reddit.com/r/politics/comments/1fc3g7/rick_perry_vetoes_buy_american_bill_approved_1450/"&gt;sturm und drang online&lt;/a&gt; about Texas Governor Rick Perry vetoing a bipartisan "Buy American" bill.&lt;sup id="fnref:buy"&gt;&lt;a href="#fn:buy" class="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; Interestingly, people angered by the bill include both liberal labor unions and nationalist conservatives. &lt;/p&gt;
-
-&lt;p&gt;I think "Buy American" bills encourage shoddy governance. Supporting US manufacturing is a noble goal, but it shouldn't take hostage all other government responsibilities. If the federal government or a state or a city &lt;a href="http://articles.latimes.com/2012/may/24/local/la-me-0524-rail-cars-20120524"&gt;wants to build a train system&lt;/a&gt;, for instance, they should focus on hiring vendors who will do the best possible job building a train system. Many of those vendors will be American and will generate jobs in the US, but the point of building the train should be to improve transportation, not to create those jobs.&lt;/p&gt;
-
-&lt;p&gt;Adding rules like "Buy American" encourages every government project to focus on local cronyism, rather than building whatever the hell they're supposed to build.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;div class="footnotes"&gt;
-  &lt;ol&gt;
-    &lt;li id="fn:buy"&gt;
-      &lt;p&gt;Texas already has a "Buy American" law. This bill just added more types of goods.&lt;a href="#fnref:buy" class="reversefootnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;a href='/2013/05/rick-perry-vetoes-buy-american-bill/'&gt;Permalink&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
