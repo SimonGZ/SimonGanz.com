@@ -4,10 +4,35 @@
   <id>http://simonganz.com/</id>
   <link href="http://simonganz.com/"/>
   <link href="http://simonganz.com/feed.xml" rel="self"/>
-  <updated>2013-06-08T05:23:00Z</updated>
+  <updated>2013-06-10T23:03:00Z</updated>
   <author>
     <name>Simon Ganz</name>
   </author>
+  <entry>
+    <title>→ iCloud Keychain [link]</title>
+    <link rel="alternate" href="http://www.apple.com/osx/preview/#icloud-keychain"/>
+    <id>http://simonganz.com/2013/06/icloud-keychain/</id>
+    <published>2013-06-10T23:03:00Z</published>
+    <updated>2013-06-10T23:03:00Z</updated>
+    <author>
+      <name>Simon Ganz</name>
+    </author>
+    <content type="html">&lt;img src="/images/icloudKeychainPassword-07d4eeb4.jpg" title="iCloud Keychain" /&gt;
+
+&lt;p&gt;I am so glad to hear that &lt;a href="http://www.apple.com/osx/preview/#icloud-keychain" title="iCloud Keychain"&gt;Apple is adding a password auto-generator&lt;/a&gt; to future versions of Safari on Mac and iOS.&lt;/p&gt;
+
+&lt;p&gt;As someone who has worked tech support as a personal assistant (and for my parents), I can tell you that people use terrible passwords. They pick a common word, maybe slap a number on the end, and then use the same password for everything.&lt;/p&gt;
+
+&lt;p&gt;Normal people don't realize &lt;a href="http://arstechnica.com/security/2013/05/how-crackers-make-minced-meat-out-of-your-passwords/" title="How Crackers Make Minced Meat out of Your Passwords"&gt;how easy it is to crack even the most eXtR3m3!! passwords&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I use &lt;a href="http://agilebits.com/onepassword" title="1Password - AgileBits"&gt;1Password&lt;/a&gt; to generate random unique passwords for every online account, and I've tried to set that system up for other people too. But it's fiddly and complicated. It requires a browser extension, and it requires the user to remember to actually use the damn thing.&lt;/p&gt;
+
+&lt;p&gt;Apple's solution will not be the best password solution, but just as they did with personal backups and Time Machine, they're taking something complicated and vital and distilling it down to something simple enough for my mom to use. &lt;/p&gt;
+
+&lt;p&gt;I think this will be a huge security improvement for average users.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='/2013/06/icloud-keychain/'&gt;Permalink&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>→ Why Google Killed Reader [link]</title>
     <link rel="alternate" href="http://www.wired.com/gadgetlab/2013/06/why-google-reader-got-the-ax/"/>
@@ -127,28 +152,5 @@
 &lt;p&gt;This is your crazy Aunt or Uncle being given the ear of 2.4 million subscribers.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href='/2013/06/wall-street-journal-death-by-bicycle/'&gt;Permalink&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>→ Star Trek's Radical Cast [link]</title>
-    <link rel="alternate" href="http://obsidianwings.blogs.com/obsidian_wings/2013/05/star-trek-could-use-a-hard-reboot.html"/>
-    <id>http://simonganz.com/2013/06/star-trek-cast/</id>
-    <published>2013-06-02T18:04:00Z</published>
-    <updated>2013-06-02T18:04:00Z</updated>
-    <author>
-      <name>Simon Ganz</name>
-    </author>
-    <content type="html">&lt;img src="/images/StarTrekTOSCrew-ca539f5d.jpg" title="Star Trek Original Crew" /&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;At the time, though, this was disconcertingly radical, it didn't respect conventional norms. There was a black woman who wasn't a cook or maid; there was a Russian (the Enemy of the current Cold War), and a Japanese (an Enemy from a previous war). Sulu and Chekov looked like the Bad Guys – but they weren't. Spock, too, looked weird, alien, almost devilish – as though he, too, was supposed to be a Bad Guy.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;From here, the author veers into goofy fanfiction, recasting and gender swapping the parts in JJ Abrams' Star Trek in ways that would be as radical to modern audiences as the Original Series cast was to 1960s audiences. In the fantasy cast, there are no white males, and supreme effort is taken to have ethnically appropriate actors for every role (rather than fudging English for Scottish, this Asian for that Asian, etc).&lt;/p&gt;
-
-&lt;p&gt;The author's approach is too nerdy even for me and gives zero deference to the financial realities of Hollywood filmmaking. But there's an interesting point here. &lt;/p&gt;
-
-&lt;p&gt;Star Trek is about the future. But more specifically, Star Trek is about a radically utopian and progressive future that goes much deeper than transporters and warp drives. Recreating the relationships and stories from the original cast is fun and makes for entertaining films. But it also turns the franchise into something harmless. It makes the whole thing retro rather than radical. And something important is lost in the process. &lt;/p&gt;
-
-&lt;p&gt;&lt;a href='/2013/06/star-trek-cast/'&gt;Permalink&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
