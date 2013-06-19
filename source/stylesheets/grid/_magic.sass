@@ -9,14 +9,13 @@ $show-grid-backgrounds: false
 // For full Susy documentation, visit: http://susy.oddbird.net/tutorial/
 
 // Define mobile-first grid constants.
-$total-columns      : 4
+$total-columns      : 6
 // You can use ems, px or % to define the grid.
 $column-width       : 60px
 $gutter-width       : 25px
 $grid-padding       : $gutter-width / 2
 
 // Define breakpoints, in this case when there's room for the specified columns.
-$break-landscape: 5
 $break-tablet:   8
 // $break-desktop: 8
 // $break-huge:    14
@@ -33,7 +32,7 @@ header, #main-content, footer
 
 // Automatically reset the grid width & re-apply the grid background
 // to responsive layouts.
-$layouts: $break-landscape, $break-tablet
+$layouts: $break-tablet
 @each $layout in $layouts
   @include at-breakpoint($layout)
     .container
