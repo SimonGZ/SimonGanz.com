@@ -92,6 +92,10 @@ helpers do
   def post_url(article)
     return linklog?(article) ? article.data.external_url : article.url
   end
+  
+  def selected_class(current_page, selected_nav)
+    return selected_nav == current_page.data.selected_nav ? "selected" : nil
+  end
 
 end
 

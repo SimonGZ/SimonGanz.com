@@ -9,16 +9,16 @@ $show-grid-backgrounds: false
 // For full Susy documentation, visit: http://susy.oddbird.net/tutorial/
 
 // Define mobile-first grid constants.
-$total-columns      : 6
+$total-columns      : 4
 // You can use ems, px or % to define the grid.
 $column-width       : 60px
-$gutter-width       : 20px
+$gutter-width       : 25px
 $grid-padding       : $gutter-width / 2
 
 // Define breakpoints, in this case when there's room for the specified columns.
 $break-tablet:   8
-$break-desktop: 10
-$break-huge:    16
+// $break-desktop: 8
+// $break-huge:    14
 
 .container
   // Include `container` if this element will contain a grid system.
@@ -32,7 +32,7 @@ header, #main-content, footer
 
 // Automatically reset the grid width & re-apply the grid background
 // to responsive layouts.
-$layouts: $break-tablet, $break-desktop
+$layouts: $break-tablet
 @each $layout in $layouts
   @include at-breakpoint($layout)
     .container
@@ -40,23 +40,33 @@ $layouts: $break-tablet, $break-desktop
       @include susy-grid-background
 
 @include at-breakpoint($break-tablet)
+  $line-height: 30px
+  $body-size: 20px
   body
-    font-size: 19px
+    font-size: $body-size
+    line-height: $line-height
   .container
+    header.title
+      a
+        font-size: 90px
+        line-height: 90px
+    nav
+      font-size: 25px
+    
     h1
-      font-size: 48px
+      font-size: 46px
     hr
       margin: 2em 0 3em 0
     blockquote
-      font-size: 19px
+      font-size: $body-size + 1px
       margin: 30px 40px 
+    .footnotes
+      font-size: 18px
+      line-height: 24px
 
-@include at-breakpoint($break-desktop)
-  .container
-    h1
-      font-size: 56px
+// @include at-breakpoint($break-desktop)
     
-@include at-breakpoint($break-huge)
+// @include at-breakpoint($break-huge)
 
 
 

@@ -19,9 +19,9 @@ priority: 1
   %ul
     %li{:class => prev_page ? "" : "disabled"}
       - if prev_page
-        =link_to "<--", prev_page.url
+        =link_to "&#8701;", prev_page.url
       - else
-        %span |--
+        %span &#10072;&#8701;
     - (page_number - 2 .. page_number + 2).select{|i| i > 0 && i <= num_pages}.each do |i|
       - if i == page_number
         %li.active
@@ -34,9 +34,9 @@ priority: 1
           =link_to "#{i}", p && p.url
     %li{:class => next_page ? "" : "disabled"}
       - if next_page
-        =link_to "-->", next_page.url
+        =link_to "&#8702;", next_page.url
       - else
-        %span --|
+        %span &#8702;&#10072;
         
 :javascript
   var disqus_shortname = 'simonganz';

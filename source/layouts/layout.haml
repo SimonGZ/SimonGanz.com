@@ -21,7 +21,7 @@
     
     %link{href: "/feed.xml", type: "application/atom+xml", rel: "alternate", title: "SimonGanz.com"}
 
-    = stylesheet_link_tag "http://fnt.webink.com/wfs/webink.css/?project=E380B95A-DD67-4CF8-8D01-AD22A80E8ABB&fonts=3F939205-2E1F-8370-4903-74CC502B3FFA:f=ProximaNovaACond-Semibold,ABBFFA35-35F3-42FE-6706-6F5111FC61A6:f=StanPlusPro-NormalItalic,4286BE54-931D-56DF-F1FE-7E8A07336350:f=StanPlusPro-BoldItalic,6452D7B0-322C-4BE0-CC4F-35CE263462E1:f=StanPlusPro-Bold,2675A460-2FDF-6734-0395-9CACD36AD986:f=StanPlusPro-Normal,10E65415-D088-34FC-7EDB-E8BD0CE7C811:f=ProximaNovaACond-Bold"
+    = stylesheet_link_tag "http://fnt.webink.com/wfs/webink.css/?project=E380B95A-DD67-4CF8-8D01-AD22A80E8ABB&fonts=3AE2C7A5-9F41-4922-BBD3-0695E79D471E:f=CapitoliumNews2-Italic,C0DE56B1-F475-8CCD-9C72-E3B5E05DB852:f=Effra-Heavy,DD929994-EF64-2E9B-A8D3-1293B07A30B3:f=CapitoliumNews2-Bold,52D1F108-9AD9-9E61-981E-06103031D38E:f=Effra-Bold,93859CCE-24F8-1482-D9DE-1FCBF87DD446:f=CapitoliumNews2-Regular"
     = stylesheet_link_tag "screen" 
     = javascript_include_tag "libs/modernizr-2.6.1.min"
     
@@ -43,13 +43,19 @@
 
     .container
     
-      %header 
-        %h1.title 
+      %header.title{role: "banner"}
+        %h1
           %a{href: "/", title: "Simon Ganz.com"} 
-            SIMON GANZ 
-            %a{href: "http://twitter.com/simonganz", title: "@simonganz"}= image_tag "twitter-bird-light-bgs.png", title: "twitter"
-        %hr
-      
+            Simon Ganz 
+      %nav{role: "navigation"}
+        %ul
+          %li
+            %a{href: "http://twitter.com/simonganz", title: "@simonganz"} Twitter
+          %li
+            %a{href: "/projects/", title: "Projects", class: selected_class(current_page, "projects")} Projects
+          %li
+            %a{href: "/about/", title: "About", class: selected_class(current_page, "about")} About
+            
       #main-content{:role => "main"}
         
         -# Page content gets rendered here
