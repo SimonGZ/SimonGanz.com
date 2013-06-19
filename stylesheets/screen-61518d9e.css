@@ -330,7 +330,7 @@ textarea {
   overflow: visible; }
 /* line 43, screen.css.sass */
 .container #projects .project_category {
-  font-family: Effra-Bold;
+  font-family: Brown-Medium;
   font-size: 16px;
   text-decoration: underline;
   margin: 3em 0 1em 0; }
@@ -347,7 +347,7 @@ textarea {
   max-width: 100%;
   display: block;
   height: auto;
-  margin-top: 31px;
+  margin-top: 33px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -356,26 +356,26 @@ textarea {
 /* line 64, screen.css.sass */
 .container header.title {
   width: 100%;
-  padding-bottom: 2px;
-  border-bottom: solid #252525 3px; }
+  border-bottom: solid #252525 3px;
+  margin-top: 12px; }
   /* line 68, screen.css.sass */
   .container header.title h1 {
     font-size: 52px; }
   /* line 70, screen.css.sass */
   .container header.title a, .container header.title a:visited {
     color: #252525;
-    font-family: Effra-Heavy; }
+    font-family: Brown-Bold; }
 /* line 74, screen.css.sass */
 .container nav {
-  margin: 6px 0 25px 0; }
+  margin: 6px 0 27px 0; }
   /* line 76, screen.css.sass */
   .container nav a, .container nav a:visited {
-    font-family: Effra-Bold;
+    font-family: Brown-Medium;
     color: #252525; }
   /* line 79, screen.css.sass */
   .container nav ul {
     margin: 0;
-    margin-bottom: 50px;
+    margin-bottom: 54px;
     padding: 0; }
     /* line 83, screen.css.sass */
     .container nav ul li {
@@ -409,7 +409,7 @@ textarea {
 /* line 112, screen.css.sass */
 .container article .postDate:link, .container article .postDate:hover, .container article .postDate:visited, .container article .postDate a:link, .container article .postDate a:hover, .container article .postDate a:visited {
   color: #999999;
-  font-family: CapitoliumNews2-Regular; }
+  font-family: Brown-Light; }
 /* line 116, screen.css.sass */
 .container article sup {
   vertical-align: super;
@@ -419,7 +419,7 @@ textarea {
 .container article div.footnotes {
   border: thin dashed #999999;
   background: #f9f6f4;
-  margin: 25px 0;
+  margin: 27px 0;
   padding-right: 16px; }
 /* line 127, screen.css.sass */
 .container article .footnotes {
@@ -434,15 +434,15 @@ textarea {
 
 /* line 136, screen.css.sass */
 body {
-  font-family: CapitoliumNews2-Regular;
-  font-size: 17px;
-  line-height: 25px;
+  font-family: Brown-Light;
+  font-size: 19px;
+  line-height: 27px;
   color: #252525;
   background-color: #fdfdfd; }
 
 /* line 143, screen.css.sass */
 em, i {
-  font-family: CapitoliumNews2-Italic;
+  font-family: Brown-ThinItalic;
   font-weight: normal;
   padding-right: 2px; }
 
@@ -457,7 +457,7 @@ h1, h2, h3 {
 
 /* line 155, screen.css.sass */
 h1 {
-  font-family: Effra-Heavy;
+  font-family: Brown-Bold;
   font-size: 38px;
   color: #999999;
   line-height: 1em;
@@ -465,10 +465,10 @@ h1 {
 
 /* line 162, screen.css.sass */
 h2 {
-  font-family: Effra-Bold;
+  font-family: Brown-Medium;
   font-size: 26px;
   line-height: 1em;
-  margin: 25px 0 25px 0; }
+  margin: 27px 0 27px 0; }
 
 /* line 167, screen.css.sass */
 header h2 {
@@ -479,48 +479,49 @@ header h2 {
 
 /* line 171, screen.css.sass */
 h3 {
-  font-family: Effra-Bold;
+  font-size: 20px;
+  font-family: Brown-Medium;
   text-decoration: underline;
   line-height: 1em;
-  margin: 25px 0 -4px 0; }
+  margin: 27px 0 -4px 0; }
 
-/* line 177, screen.css.sass */
+/* line 178, screen.css.sass */
 p, pre {
-  margin: 25px 0 25px 0; }
+  margin: 27px 0 27px 0; }
 
-/* line 180, screen.css.sass */
+/* line 181, screen.css.sass */
 kbd {
   background-color: whitesmoke;
   border: 1px solid #dedede;
   padding: 0px 3px 2px; }
 
-/* line 184, screen.css.sass */
+/* line 185, screen.css.sass */
 footer {
   margin-top: 3em;
   text-align: right; }
 
-/* line 188, screen.css.sass */
+/* line 189, screen.css.sass */
 blockquote {
-  font-family: CapitoliumNews2-Italic;
-  font-size: 18px;
+  font-family: Brown-ThinItalic;
+  font-size: 20px;
   color: #7f7f7f;
-  padding-left: 17px;
+  padding-left: 19px;
   border-left: 6px #999999 solid;
-  margin: 25px 17px 25px 10px; }
+  margin: 27px 19px 27px 10px; }
 
-/* line 196, screen.css.sass */
+/* line 197, screen.css.sass */
 strong {
-  font-family: CapitoliumNews2-Bold;
+  font-family: Brown-Regular;
   font-weight: normal; }
 
-/* line 200, screen.css.sass */
+/* line 201, screen.css.sass */
 hr {
   border: none;
   font-size: 16px;
   color: #bfbfbf;
   text-align: center;
   margin: 1em 0 2em 0; }
-  /* line 206, screen.css.sass */
+  /* line 207, screen.css.sass */
   hr:after {
     content: "✧✧✧";
     letter-spacing: 2em;
@@ -629,8 +630,8 @@ header, #main-content, footer {
 @media (min-width: 655px) {
   /* line 45, grid/_magic.sass */
   body {
-    font-size: 20px;
-    line-height: 30px; }
+    font-size: 22px;
+    line-height: 32px; }
 
   /* line 50, grid/_magic.sass */
   .container header.title a {
@@ -647,7 +648,7 @@ header, #main-content, footer {
     margin: 2em 0 3em 0; }
   /* line 60, grid/_magic.sass */
   .container blockquote {
-    font-size: 21px;
+    font-size: 23px;
     margin: 30px 40px; }
   /* line 63, grid/_magic.sass */
   .container .footnotes {
@@ -733,7 +734,7 @@ header, #main-content, footer {
 /* line 73, bootstrap-pagination.css */
 .pagination ul > li > a:hover,
 .pagination ul > li > a:focus {
-  font-family: CapitoliumNews2-Bold;
+  font-family: Brown-Regular;
   font-weight: normal; }
 
 /* line 81, bootstrap-pagination.css */
