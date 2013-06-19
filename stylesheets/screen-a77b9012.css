@@ -586,11 +586,11 @@ hr {
   h2,
   h3 {
     page-break-after: avoid; } }
-/* line 24, grid/_magic.sass */
+/* line 23, grid/_magic.sass */
 .container {
   *zoom: 1;
-  max-width: 315px;
-  _width: 315px;
+  max-width: 485px;
+  _width: 485px;
   padding-left: 12.5px;
   padding-right: 12.5px;
   margin-left: auto;
@@ -609,25 +609,13 @@ hr {
     display: table;
     clear: both; }
 
-/* line 30, grid/_magic.sass */
+/* line 29, grid/_magic.sass */
 header, #main-content, footer {
   overflow: hidden;
   *zoom: 1; }
 
-@media (min-width: 400px) {
-  /* line 39, grid/_magic.sass */
-  .container {
-    max-width: 400px;
-    -webkit-background-origin: content;
-    -moz-background-origin: content;
-    -ms-background-origin: content-box;
-    -o-background-origin: content-box;
-    background-origin: content-box;
-    -webkit-background-clip: content-box;
-    -moz-background-clip: content-box;
-    background-clip: content-box; } }
 @media (min-width: 655px) {
-  /* line 39, grid/_magic.sass */
+  /* line 38, grid/_magic.sass */
   .container {
     max-width: 655px;
     -webkit-background-origin: content;
@@ -639,29 +627,29 @@ header, #main-content, footer {
     -moz-background-clip: content-box;
     background-clip: content-box; } }
 @media (min-width: 655px) {
-  /* line 46, grid/_magic.sass */
+  /* line 45, grid/_magic.sass */
   body {
     font-size: 20px;
     line-height: 30px; }
 
-  /* line 51, grid/_magic.sass */
+  /* line 50, grid/_magic.sass */
   .container header.title a {
     font-size: 90px;
     line-height: 90px; }
-  /* line 54, grid/_magic.sass */
+  /* line 53, grid/_magic.sass */
   .container nav {
     font-size: 25px; }
-  /* line 57, grid/_magic.sass */
+  /* line 56, grid/_magic.sass */
   .container h1 {
     font-size: 46px; }
-  /* line 59, grid/_magic.sass */
+  /* line 58, grid/_magic.sass */
   .container hr {
     margin: 2em 0 3em 0; }
-  /* line 61, grid/_magic.sass */
+  /* line 60, grid/_magic.sass */
   .container blockquote {
     font-size: 21px;
     margin: 30px 40px; }
-  /* line 64, grid/_magic.sass */
+  /* line 63, grid/_magic.sass */
   .container .footnotes {
     font-size: 18px;
     line-height: 24px; } }
