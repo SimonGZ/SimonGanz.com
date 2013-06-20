@@ -4,10 +4,29 @@
   <id>http://simonganz.com/</id>
   <link href="http://simonganz.com/"/>
   <link href="http://simonganz.com/feed.xml" rel="self"/>
-  <updated>2013-06-12T20:08:00Z</updated>
+  <updated>2013-06-19T23:50:00Z</updated>
   <author>
     <name>Simon Ganz</name>
   </author>
+  <entry>
+    <title>→ Microsoft Caves [link]</title>
+    <link rel="alternate" href="http://news.xbox.com/2013/06/update"/>
+    <id>http://simonganz.com/2013/06/xbox-one-will-play-used-games/</id>
+    <published>2013-06-19T23:50:00Z</published>
+    <updated>2013-06-19T23:50:00Z</updated>
+    <author>
+      <name>Simon Ganz</name>
+    </author>
+    <content type="html">&lt;p&gt;I previously voiced &lt;a href="http://simonganz.com/2013/05/pa-report-xbox-one-will-kill-used-games/" title="Xbox One Will Kill Used Games"&gt;my displeasure with Microsoft's planned console DRM scheme&lt;/a&gt;. In short, it had more restrictions than digital distribution systems like &lt;a href="http://steampowered.com/" title="Welcome to Steam"&gt;Steam&lt;/a&gt; or iOS while offering few of the benefits.&lt;/p&gt;
+
+&lt;p&gt;I wasn't the only person annoyed. Sony drew blood with &lt;a href="http://www.youtube.com/watch?v=4vfjdaU3lkA" title="PS4: How to Share Used Games"&gt;vicious and biting videos&lt;/a&gt; at Microsoft's expense, and even &lt;a href="http://www.navytimes.com/article/20130614/OFFDUTY02/306140030" title="Xbox One Has Singlehandedly Alienated the Military"&gt;US military publications spoke out against the system&lt;/a&gt;. Microsoft tried to stanch the bleeding, promising that you could share your game with ten friends and log in your console from your phone and etc etc, but these were complicated digital solutions to problems that don't exist with current generation consoles.&lt;/p&gt;
+
+&lt;p&gt;It's not a huge surprise then that Microsoft has folded their hand and &lt;a href="http://news.xbox.com/2013/06/update" title="Xbox One Policy Change Update"&gt;given up on the whole scheme&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This was an unforced error by Microsoft. They designed the new system around their own corporate needs and only belatedly considered how the changes would affect real users. They never made an affirmative case for why this system would be better than the status quo. They just tried to muscle it through. I think the final straw for Microsoft was realizing that none of the major publishers, the very companies this system would most benefit, publicly backed Microsoft's position during the controversy.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='/2013/06/xbox-one-will-play-used-games/'&gt;Permalink&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>→ Story vs. Plot [link]</title>
     <link rel="alternate" href="http://badassdigest.com/2013/06/12/film-crit-hulk-smash-the-age-of-the-convoluted-blockbuster/"/>
@@ -132,29 +151,5 @@
 
 &lt;p&gt;Microsoft understands that this change is going to piss off a lot of people, so they're trying to pull a Pontius Pilate and offload the final decision onto the publishers. "Oh we really wish you could still buy and sell used games, but we left it as an option for the publishers, and those gosh darn meanies didn't implement it!"&lt;/p&gt;
 &lt;p&gt;&lt;a href='/2013/06/xbox-one-used-games/'&gt;Permalink&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>How to Get Rid of Fruit Flies</title>
-    <link rel="alternate" href="/2013/06/get-rid-of-fruit-flies/"/>
-    <id>http://simonganz.com/2013/06/get-rid-of-fruit-flies/</id>
-    <published>2013-06-07T04:24:00Z</published>
-    <updated>2013-06-07T04:24:00Z</updated>
-    <author>
-      <name>Simon Ganz</name>
-    </author>
-    <content type="html">&lt;p&gt;Fruit flies are tiny insects that lay their eggs on the skin of ripe or fermenting fruit. They're harmless, but you'll occasionally find a batch of them swirling around your kitchen.&lt;/p&gt;
-
-&lt;p&gt;Here's an easy way to get rid of them:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Take a wine glass.&lt;/li&gt;
-  &lt;li&gt;Pour in some apple cider vinegar.&lt;/li&gt;
-  &lt;li&gt;Put in a couple drops of dishwashing liquid.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The flies are attracted to the vinegar, but the curved glass and the dishwashing soap make it impossible for them to land on the surface, so they fall through and drown.&lt;/p&gt;
-
-&lt;p&gt;There are other &lt;a href="http://insects.about.com/od/insectssociety/qt/Make-A-Vinegar-Trap-For-Fruit-Flies.htm"&gt;elaborate traps&lt;/a&gt; you can make (and obviously you should clean your kitchen as well), but the simple trap works very well. &lt;/p&gt;
-</content>
   </entry>
 </feed>
