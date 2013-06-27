@@ -412,27 +412,26 @@ textarea {
   font-family: Brown-Light; }
 /* line 116, screen.css.sass */
 .container article sup {
-  vertical-align: super;
-  font-size: 0.75em;
-  text-decoration: underline; }
-/* line 121, screen.css.sass */
+  vertical-align: middle;
+  font-size: 0.75em; }
+/* line 120, screen.css.sass */
 .container article div.footnotes {
   border: thin dashed #999999;
   background: #f9f6f4;
   margin: 27px 0;
   padding-right: 16px; }
-/* line 127, screen.css.sass */
+/* line 126, screen.css.sass */
 .container article .footnotes {
-  font-size: 15px;
-  line-height: 22px; }
-  /* line 130, screen.css.sass */
+  font-size: 17px;
+  line-height: 23px; }
+  /* line 129, screen.css.sass */
   .container article .footnotes li {
     margin-bottom: 1em; }
-  /* line 132, screen.css.sass */
+  /* line 131, screen.css.sass */
   .container article .footnotes p {
     display: inline; }
 
-/* line 136, screen.css.sass */
+/* line 135, screen.css.sass */
 body {
   font-family: Brown-Light;
   font-size: 19px;
@@ -440,22 +439,22 @@ body {
   color: #252525;
   background-color: #fdfdfd; }
 
-/* line 143, screen.css.sass */
+/* line 142, screen.css.sass */
 em, i {
   font-family: Brown-ThinItalic;
   font-weight: normal;
   padding-right: 2px; }
 
-/* line 148, screen.css.sass */
+/* line 147, screen.css.sass */
 a, a:hover, a:visited {
   text-decoration: none;
   color: #ff3333; }
 
-/* line 152, screen.css.sass */
+/* line 151, screen.css.sass */
 h1, h2, h3 {
   font-weight: normal; }
 
-/* line 155, screen.css.sass */
+/* line 154, screen.css.sass */
 h1 {
   font-family: Brown-Bold;
   font-size: 38px;
@@ -463,21 +462,21 @@ h1 {
   line-height: 1em;
   margin: 8px 0 2px 0; }
 
-/* line 162, screen.css.sass */
+/* line 161, screen.css.sass */
 h2 {
   font-family: Brown-Medium;
   font-size: 26px;
   line-height: 1em;
   margin: 27px 0 27px 0; }
 
-/* line 167, screen.css.sass */
+/* line 166, screen.css.sass */
 header h2 {
   margin: 0; }
-  /* line 169, screen.css.sass */
+  /* line 168, screen.css.sass */
   header h2 a, header h2 a:link, header h2 a:hover, header h2 a:visited {
     color: #999999; }
 
-/* line 171, screen.css.sass */
+/* line 170, screen.css.sass */
 h3 {
   font-size: 20px;
   font-family: Brown-Medium;
@@ -485,22 +484,22 @@ h3 {
   line-height: 1em;
   margin: 27px 0 -4px 0; }
 
-/* line 178, screen.css.sass */
+/* line 177, screen.css.sass */
 p, pre {
   margin: 27px 0 27px 0; }
 
-/* line 181, screen.css.sass */
+/* line 180, screen.css.sass */
 kbd {
   background-color: whitesmoke;
   border: 1px solid #dedede;
   padding: 0px 3px 2px; }
 
-/* line 185, screen.css.sass */
+/* line 184, screen.css.sass */
 footer {
   margin-top: 3em;
   text-align: right; }
 
-/* line 189, screen.css.sass */
+/* line 188, screen.css.sass */
 blockquote {
   font-family: Brown-ThinItalic;
   font-size: 20px;
@@ -509,19 +508,19 @@ blockquote {
   border-left: 6px #999999 solid;
   margin: 27px 19px 27px 10px; }
 
-/* line 197, screen.css.sass */
+/* line 196, screen.css.sass */
 strong {
-  font-family: Brown-Regular;
+  font-family: Brown-Medium;
   font-weight: normal; }
 
-/* line 201, screen.css.sass */
+/* line 200, screen.css.sass */
 hr {
   border: none;
   font-size: 16px;
   color: #bfbfbf;
   text-align: center;
   margin: 1em 0 2em 0; }
-  /* line 207, screen.css.sass */
+  /* line 206, screen.css.sass */
   hr:after {
     content: "✧✧✧";
     letter-spacing: 2em;
@@ -644,16 +643,22 @@ header, #main-content, footer {
   .container h1 {
     font-size: 46px; }
   /* line 58, grid/_magic.sass */
+  .container h2 {
+    font-size: 32px; }
+  /* line 60, grid/_magic.sass */
+  .container h3 {
+    font-size: 22px; }
+  /* line 62, grid/_magic.sass */
   .container hr {
     margin: 2em 0 3em 0; }
-  /* line 60, grid/_magic.sass */
+  /* line 64, grid/_magic.sass */
   .container blockquote {
     font-size: 23px;
     margin: 30px 40px; }
-  /* line 63, grid/_magic.sass */
+  /* line 67, grid/_magic.sass */
   .container .footnotes {
-    font-size: 18px;
-    line-height: 24px; } }
+    font-size: 19px;
+    line-height: 25px; } }
 /*
  * Bootstrap v2.3.1
  *
