@@ -4,10 +4,34 @@
   <id>http://simonganz.com/</id>
   <link href="http://simonganz.com/"/>
   <link href="http://simonganz.com/feed.xml" rel="self"/>
-  <updated>2013-06-28T22:16:00Z</updated>
+  <updated>2013-06-28T23:02:00Z</updated>
   <author>
     <name>Simon Ganz</name>
   </author>
+  <entry>
+    <title>Rounded Rectangles Deprecated</title>
+    <link rel="alternate" href="/2013/06/rounded-rectangles-deprecated/"/>
+    <id>http://simonganz.com/2013/06/rounded-rectangles-deprecated/</id>
+    <published>2013-06-28T23:02:00Z</published>
+    <updated>2013-06-28T23:02:00Z</updated>
+    <author>
+      <name>Simon Ganz</name>
+    </author>
+    <content type="html">&lt;p&gt;I was reading through the pre-release documentation for iOS 7 and came across this gem:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The rounded rectangle button has been deprecated in iOS 7.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Why is this amusing? Because &lt;a href="http://www.folklore.org/StoryView.py?story=Round_Rects_Are_Everywhere.txt" title="Round Rects Are Everywhere"&gt;rounded rectangles were one of the big user interface innovations of the Macintosh&lt;/a&gt; and were demanded by Steve Jobs himself:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Steve suddenly got more intense. "Rectangles with rounded corners are everywhere! Just look around this room!". And sure enough, there were lots of them, like the whiteboard and some of the desks and tables. Then he pointed out the window. "And look outside, there's even more, practically everywhere you look!". He even persuaded Bill to take a quick walk around the block with him, pointing out every rectangle with rounded corners that he could find. &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Nearly every button on the Mac and on iOS has been a rounded rectangle for the past thirty years. So there's something charmingly radical about a modern day Apple engineer calmly stating that they've been discontinued.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>How to Add Incredibly Powerful Emacs-style Shortcuts to Mac OS X</title>
     <link rel="alternate" href="/2013/06/add-emacs-key-bindings-to-mac-os-x/"/>
@@ -159,43 +183,5 @@
 &lt;p&gt;I think this will be a huge security improvement for average users.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href='/2013/06/icloud-keychain/'&gt;Permalink&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>→ Why Google Killed Reader [link]</title>
-    <link rel="alternate" href="http://www.wired.com/gadgetlab/2013/06/why-google-reader-got-the-ax/"/>
-    <id>http://simonganz.com/2013/06/why-google-killed-reader/</id>
-    <published>2013-06-08T05:23:00Z</published>
-    <updated>2013-06-08T05:23:00Z</updated>
-    <author>
-      <name>Simon Ganz</name>
-    </author>
-    <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;"As a culture we have moved into a realm where the consumption of news is a near-constant process. Users with smartphones and tablets are consuming news in bits and bites throughout the course of the day — replacing the old standard behaviors of news consumption over breakfast along with a leisurely read at the end of the day."&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I don't like &lt;a href="http://www.wired.com/gadgetlab/2013/06/why-google-reader-got-the-ax/" title="Why Google Reader Got the Axe"&gt;Google's explanation for killing Google Reader&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Yes, Twitter and social media have changed how we consume news and internet posts. But the niche Google Reader and &lt;a href="http://en.wikipedia.org/wiki/RSS" title="RSS - Wikipedia, the free encyclopedia"&gt;RSS&lt;/a&gt; serve is not about "leisurely" browsing of the internet over eggs and bacon.&lt;/p&gt;
-
-&lt;p&gt;By checking my RSS feed, I can skim and select from hundreds of stories from my favorite sites and authors in less than a minute.&lt;sup id="fnref:small"&gt;&lt;a href="#fn:small" class="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;/p&gt;
-
-&lt;p&gt;In contrast, Twitter and Facebook give me a random shotgun blast full of memes, links, and advertisements. I do not want to like or follow every public figure, author, or company that interests me and then have those people shit up my social feed. My social feed is just that, social. It shows me what &lt;em&gt;other&lt;/em&gt; people think I should be reading, which is not always what &lt;em&gt;I&lt;/em&gt; want to read.&lt;/p&gt;
-
-&lt;p&gt;I understand that RSS has always been a niche technology and that Google is probably making the right choice by focusing their efforts on more casual users. But I think Wired hits on a darker, potentially more accurate explanation for the change:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Now and Plus do one thing: They keep you in Google’s world. It’s a de-emphasis of content source. In other words, rather than reading Cat Fancy religiously, you’re reading the Animals category religiously — a category populated by the sites Google’s products think you’ll enjoy most.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;div class="footnotes"&gt;
-  &lt;ol&gt;
-    &lt;li id="fn:small"&gt;
-      &lt;p&gt;I can also subscribe to small sites and webcomics without worrying that I'll miss their rare updates in my stream.&lt;a href="#fnref:small" class="reversefootnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;a href='/2013/06/why-google-killed-reader/'&gt;Permalink&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
