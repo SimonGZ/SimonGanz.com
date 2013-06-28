@@ -1,0 +1,45 @@
+---
+title: "How to Add Incredibly Powerful Emacs-style Shortcuts To Mac OS X"
+date: 2013-06-28 15:16 PDT
+---
+
+## What is Emacs?
+
+[Emacs][] is a very nerdy text editor/email program/development suite/nuclear reactor. 
+
+It's ugly and weird and hard to use because it dates back to a time before computers had mice. But for that same reason, it has amazing tools and shortcuts for rapidly editing and moving through text with only your keyboard. 
+
+Mac OS X has always had some of [these shortcuts baked in][shortcuts]. For instance, type *Ctrl+e* in an OS X text field and the cursor will jump to the end of a line. Type *Ctrl+k* and everything between the cursor and the end of the line will be deleted (this is crazy useful when editing; I suggest trying it out).
+
+I learned these shortcuts for convenience sake a few years back, but recently the trackpad on my Macbook Pro died and I was forced to turn to them full time.[^magic] The problem is that by default, OS X only allows you to use a few select Emacs shortcuts that utilize the ctrl key. Many other powerful Emacs shortcuts are unavailable (including every shortcut that uses the alt key, referred to as the "meta" key in Emacs lingo).
+
+But you can change this.
+
+## Changing Mac OS X Key Bindings
+
+These directions are adapted from [this excellent 2006 article by Jacob Rus][hcs] and [this excellent 2011 post by Brett Terpstra][brettterpstra].
+
+1. Create a folder named "KeyBindings" in the ~/Library directory.[^library]
+2. Download [this DefaultKeyBinding.dict zip file][github].
+3. Unzip the files and place the DefaultKeyBinding.dict file into the newly created KeyBindings folder. 
+
+Now as soon as you restart any running apps, you'll have access to an [insanely powerful list of keyboard shortcuts][github 2] in almost every Mac OS X application.
+
+You can do crazy powerful things like uppercase words with *Ctrl+U* or copy entire paragraphs instantly by typing *Alt+y*. You can move paragraphs using only your keyboard (*Ctrl+Command+K*) or delete trailing whitespaces off a line (*Ctrl+Alt+Right Arrow*).
+
+These key bindings will be overkill for most people, and they may even break a few shortcuts on your computer, but the possibilities are incredible. You can even customize them yourself by editing the DefaultKeyBinding.dict file in a text editor, adding to or tweaking the shortcuts to fit your own workflow.
+
+If you spend a lot of time typing text or coding on Mac OS X, you owe it to yourself to play around with a few of these shortcuts and see how they can speed up your life.
+
+---
+
+  [^magic]: I eventually bought a [Magic Trackpad][apple] as a replacement.
+  [^library]: By default, the User's library folder is hidden in Mac OS X. You can access it by opening Finder, selecting the Go menu from the menubar, and holding down the alt key to make the Library option appear.
+
+  [apple]: http://www.apple.com/magictrackpad/ "Apple - Magic Trackpad - Multi-Touch trackpad for your desktop."
+  [brettterpstra]: http://brettterpstra.com/2011/08/13/keybinding-madness/ "Keybinding Madness"
+  [Emacs]: http://www.gnu.org/software/emacs/ "GNU Emacs"
+  [github]: https://github.com/ttscoff/KeyBindings/zipball/master "Brett Terpstra Killer Keybindings"
+  [github 2]: http://ttscoff.github.io/KeyBindings/ "Brett Terpstra Killer Keybindings"
+  [hcs]: http://www.hcs.harvard.edu/~jrus/site/cocoa-text.html "Customizing the Cocoa Text System"
+  [shortcuts]: http://www.hcs.harvard.edu/~jrus/Site/System%20Bindings.html "Mac OS X Default Key Bindings"
