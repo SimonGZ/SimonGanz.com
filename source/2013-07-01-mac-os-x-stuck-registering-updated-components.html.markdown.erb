@@ -1,0 +1,17 @@
+---
+title: "Mac OS X Stuck Registering Updated Components"
+date: 2013-07-01 15:43 PDT
+---
+
+I recently tried to run software update on my dad's aging Macbook Pro (Snow Leopard, Unibody). Unfortunately, the process stalled during the "Registering Updated Components", leaving the computer stuck in the install for 30 minutes.
+
+Here's how I fixed it:
+
+- Once you're sure the install is stuck, hold down the power button to forcibly shut down the computer.
+- Restart the computer and open Finder.
+- Type &#x21E7;&#x2318;G to bring up the "Go To Folder..." dialogue.
+- Type /Library/Updates and hit enter.
+- Delete everything in the Updates folder.
+- Run Software Update again.
+
+As far as I can tell, the security update dad's computer was trying to install was somehow corrupted and redownloading it generated a fresh copy. I hope this is helpful to someone out there with the same problem.
