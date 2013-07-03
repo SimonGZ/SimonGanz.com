@@ -415,23 +415,37 @@ textarea {
   vertical-align: middle;
   font-size: 0.75em; }
 /* line 120, screen.css.sass */
+.container article .video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden; }
+/* line 128, screen.css.sass */
+.container article .video-container iframe, .container article .video-container object, .container article .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+/* line 135, screen.css.sass */
 .container article div.footnotes {
   border: thin dashed #999999;
   background: #f9f6f4;
   margin: 27px 0;
   padding-right: 16px; }
-/* line 126, screen.css.sass */
+/* line 141, screen.css.sass */
 .container article .footnotes {
   font-size: 17px;
   line-height: 23px; }
-  /* line 129, screen.css.sass */
+  /* line 144, screen.css.sass */
   .container article .footnotes li {
     margin-bottom: 1em; }
-  /* line 131, screen.css.sass */
+  /* line 146, screen.css.sass */
   .container article .footnotes p {
     display: inline; }
 
-/* line 135, screen.css.sass */
+/* line 150, screen.css.sass */
 body {
   font-family: Brown-Light;
   font-size: 19px;
@@ -439,22 +453,22 @@ body {
   color: #252525;
   background-color: #fdfdfd; }
 
-/* line 142, screen.css.sass */
+/* line 157, screen.css.sass */
 em, i {
   font-family: Brown-ThinItalic;
   font-weight: normal;
   padding-right: 2px; }
 
-/* line 147, screen.css.sass */
+/* line 162, screen.css.sass */
 a, a:hover, a:visited {
   text-decoration: none;
   color: #ff3333; }
 
-/* line 151, screen.css.sass */
+/* line 166, screen.css.sass */
 h1, h2, h3 {
   font-weight: normal; }
 
-/* line 154, screen.css.sass */
+/* line 169, screen.css.sass */
 h1 {
   font-family: Brown-Bold;
   font-size: 38px;
@@ -462,21 +476,21 @@ h1 {
   line-height: 1em;
   margin: 8px 0 2px 0; }
 
-/* line 161, screen.css.sass */
+/* line 176, screen.css.sass */
 h2 {
   font-family: Brown-Medium;
   font-size: 26px;
   line-height: 1em;
   margin: 27px 0 27px 0; }
 
-/* line 166, screen.css.sass */
+/* line 181, screen.css.sass */
 header h2 {
   margin: 0; }
-  /* line 168, screen.css.sass */
+  /* line 183, screen.css.sass */
   header h2 a, header h2 a:link, header h2 a:hover, header h2 a:visited {
     color: #999999; }
 
-/* line 170, screen.css.sass */
+/* line 185, screen.css.sass */
 h3 {
   font-size: 20px;
   font-family: Brown-Medium;
@@ -484,22 +498,22 @@ h3 {
   line-height: 1em;
   margin: 27px 0 -4px 0; }
 
-/* line 177, screen.css.sass */
+/* line 192, screen.css.sass */
 p, pre {
   margin: 27px 0 27px 0; }
 
-/* line 180, screen.css.sass */
+/* line 195, screen.css.sass */
 kbd {
   background-color: whitesmoke;
   border: 1px solid #dedede;
   padding: 0px 3px 2px; }
 
-/* line 184, screen.css.sass */
+/* line 199, screen.css.sass */
 footer {
   margin-top: 3em;
   text-align: right; }
 
-/* line 188, screen.css.sass */
+/* line 203, screen.css.sass */
 blockquote {
   font-family: Brown-ThinItalic;
   font-size: 20px;
@@ -508,19 +522,19 @@ blockquote {
   border-left: 6px #999999 solid;
   margin: 27px 19px 27px 10px; }
 
-/* line 196, screen.css.sass */
+/* line 211, screen.css.sass */
 strong {
   font-family: Brown-Medium;
   font-weight: normal; }
 
-/* line 200, screen.css.sass */
+/* line 215, screen.css.sass */
 hr {
   border: none;
   font-size: 16px;
   color: #bfbfbf;
   text-align: center;
   margin: 1em 0 2em 0; }
-  /* line 206, screen.css.sass */
+  /* line 221, screen.css.sass */
   hr:after {
     content: "✧✧✧";
     letter-spacing: 2em;

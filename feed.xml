@@ -4,10 +4,63 @@
   <id>http://simonganz.com/</id>
   <link href="http://simonganz.com/"/>
   <link href="http://simonganz.com/feed.xml" rel="self"/>
-  <updated>2013-07-01T22:43:00Z</updated>
+  <updated>2013-07-03T19:27:00Z</updated>
   <author>
     <name>Simon Ganz</name>
   </author>
+  <entry>
+    <title>Why Man of Steel's Action Sucked</title>
+    <link rel="alternate" href="/2013/07/man-of-steel-was-a-bad-action-movie/"/>
+    <id>http://simonganz.com/2013/07/man-of-steel-was-a-bad-action-movie/</id>
+    <published>2013-07-03T19:27:00Z</published>
+    <updated>2013-07-03T19:27:00Z</updated>
+    <author>
+      <name>Simon Ganz</name>
+    </author>
+    <content type="html">&lt;img src="/images/manOfSteel-080bcde9.jpg" title="Man of Steel" /&gt;
+
+&lt;p&gt;I did not like Man of Steel. If you want to know why, I recommend two posts about the film: &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Rob Bricken's &lt;a href="http://io9.com/the-most-important-scenes-from-man-of-steel-as-i-remem-516405346" title="The Most Important Scenes from Man of Steel as I remember Them"&gt;hilarious Man of Steel recap&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Film Crit Hulk's &lt;a href="http://badassdigest.com/2013/07/03/film-crit-hulk-man-of-steel/" title="The Importance of Dramatizing Character"&gt;lengthy, rambling, and totally spot on review&lt;/a&gt;.&lt;sup id="fnref:dehulkifier"&gt;&lt;a href="#fn:dehulkifier" class="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;But I do want to touch on one idea that I haven't seen explored much in reviews of the film.&lt;/p&gt;
+
+&lt;h2 id="good-action-requires-consequences-and-character"&gt;Good Action Requires Consequences and Character&lt;/h2&gt;
+
+&lt;p&gt;A common defense of Man of Steel is that it has "good action." The movie has &lt;em&gt;huge&lt;/em&gt; special effects sequences, featuring superpowered fist fights, flying dragon-butterfly monsters, laser eye-battles, etc… In short, superhero battles on a level never before attempted.&lt;/p&gt;
+
+&lt;p&gt;And all of that action is boring.&lt;/p&gt;
+
+&lt;p&gt;Man of Steel lacks original or inventive ideas for its superhero fight scenes. Characters line up and punch and hit each other through building after building. "Pow! Superman crashes into a bank vault!" "Blammo! Zod plows through a gas station!" The spectacle entertains for about fifteen minutes, but the movie never finds a second gear. Superman and Zod are invulnerable. There are no consequences to each punch or each moment in any particular fight scene. Perhaps sensing this problem, the movie tries to blow up bigger and bigger buildings.&lt;/p&gt;
+
+&lt;p&gt;The action scenes also lack character. We rarely understand the personal stakes in each fight. Superman has an elaborate brawl with three Kryptonians that destroys his home town of Smallville and at the end… &lt;em&gt;Nothing&lt;/em&gt;. The villains just fly away because they got tired of fighting. That's because there was nothing at stake in the scene for them. The characters simply fight to fight.&lt;/p&gt;
+
+&lt;p&gt;What's so sad about this is that fun goofy action shouldn't require you to turn your brain off or ignore the story. Just look at the batpod sequence in &lt;em&gt;The Dark Knight&lt;/em&gt;:&lt;/p&gt;
+
+&lt;div class="video-container"&gt;
+  &lt;iframe width="560" height="315" src="//www.youtube.com/embed/FPaTv98wUsE" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The &lt;em&gt;Dark Knight&lt;/em&gt; batpod sequence is much, much smaller than even the opening action scenes in Man of Steel, but it feels grounded and visceral. Harvey Dent, a character we've spent significant time with, is in mortal peril after bravely standing up to the Joker by claiming that he is Batman. If the Joker kills Harvey, the city will be thrown into further panic and chaos. Also in the audience's mind: Harvey and Batman are competing for the same woman, Rachel, so Batman saving Harvey will have significant personal consequences.&lt;/p&gt;
+
+&lt;p&gt;But forget all that character shit. Isn't this sequence fucking fun!? Batman reveals his batmobile can turn into a crazy sideways motorcycle, races across Gotham, drives through a mall, plays chicken with a semi-truck, swoops under the truck, flips the truck AT-AT style, then drives up a wall to turn around? HOLY SHIT THAT WAS COOL.&lt;/p&gt;
+
+&lt;p&gt;I defy anyone to find one sequence in Man of Steel even half as unexpected and entertaining as this &lt;em&gt;Dark Knight&lt;/em&gt; sequence.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class="footnotes"&gt;
+  &lt;ol&gt;
+    &lt;li id="fn:dehulkifier"&gt;
+      &lt;p&gt;You can read Hulk's article using my &lt;a href="http://simonganz.com/2013/04/the-dehulkifier/" title="The Dehulkifier"&gt;DeHulkifier bookmarklet&lt;/a&gt;.&lt;a href="#fnref:dehulkifier" class="reversefootnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</content>
+  </entry>
   <entry>
     <title>Mac OS X Stuck Registering Updated Components</title>
     <link rel="alternate" href="/2013/07/mac-os-x-stuck-registering-updated-components/"/>
@@ -160,24 +213,5 @@
 
 &lt;p&gt;The initiative process has become less odious in recent years (Prop 8 excepted) simply because liberals have gotten better and better at abusing it the way conservatives did thirty years ago. Despite that, I'm glad that the Supreme Court inadvertently smashed up the intiative system in their zeal to avoid deciding on gay marriage directly.&lt;/p&gt;
 &lt;p&gt;&lt;a href='/2013/06/how-overturning-prop-8-affects-future-initiatives/'&gt;Permalink&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>→ Microsoft Caves [link]</title>
-    <link rel="alternate" href="http://news.xbox.com/2013/06/update"/>
-    <id>http://simonganz.com/2013/06/xbox-one-will-play-used-games/</id>
-    <published>2013-06-19T23:50:00Z</published>
-    <updated>2013-06-19T23:50:00Z</updated>
-    <author>
-      <name>Simon Ganz</name>
-    </author>
-    <content type="html">&lt;p&gt;I previously voiced &lt;a href="http://simonganz.com/2013/05/pa-report-xbox-one-will-kill-used-games/" title="Xbox One Will Kill Used Games"&gt;my displeasure with Microsoft's planned console DRM scheme&lt;/a&gt;. In short, it had more restrictions than digital distribution systems like &lt;a href="http://steampowered.com/" title="Welcome to Steam"&gt;Steam&lt;/a&gt; or iOS while offering few of the benefits.&lt;/p&gt;
-
-&lt;p&gt;I wasn't the only person annoyed. Sony drew blood with &lt;a href="http://www.youtube.com/watch?v=4vfjdaU3lkA" title="PS4: How to Share Used Games"&gt;vicious and biting videos&lt;/a&gt; at Microsoft's expense, and even &lt;a href="http://www.navytimes.com/article/20130614/OFFDUTY02/306140030" title="Xbox One Has Singlehandedly Alienated the Military"&gt;US military publications spoke out against the system&lt;/a&gt;. Microsoft tried to stanch the bleeding, promising that you could share your game with ten friends and log in your console from your phone and etc etc, but these were complicated digital solutions to problems that don't exist with current generation consoles.&lt;/p&gt;
-
-&lt;p&gt;It's not a huge surprise then that Microsoft has folded their hand and &lt;a href="http://news.xbox.com/2013/06/update" title="Xbox One Policy Change Update"&gt;given up on the whole scheme&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;This was an unforced error by Microsoft. They designed the new system around their own corporate needs and only belatedly considered how the changes would affect real users. They never made an affirmative case for why this system would be better than the status quo. They just tried to muscle it through. I think the final straw for Microsoft was realizing that none of the major publishers, the very companies this system would most benefit, publicly backed Microsoft's position during the controversy.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href='/2013/06/xbox-one-will-play-used-games/'&gt;Permalink&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
