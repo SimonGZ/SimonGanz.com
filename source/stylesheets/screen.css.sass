@@ -60,7 +60,7 @@ $body-size: 19px
     height: auto
     margin-top: $line-height + 6px
     +border-radius
-      
+  
   header.title
     width: 100%
     border-bottom: solid $text-color 3px
@@ -116,6 +116,21 @@ $body-size: 19px
     sup
       vertical-align: middle
       font-size: 0.75em
+    
+    .video-container
+      position: relative
+      padding-bottom: 56.25%
+      padding-top: 30px
+      height: 0
+      overflow: hidden
+      
+    .video-container
+      iframe, object, embed
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
       
     div.footnotes
       border: thin dashed $gray-color
