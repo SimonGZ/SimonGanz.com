@@ -4,10 +4,49 @@
   <id>http://simonganz.com/</id>
   <link href="http://simonganz.com/"/>
   <link href="http://simonganz.com/feed.xml" rel="self"/>
-  <updated>2013-07-05T18:40:00Z</updated>
+  <updated>2013-07-08T19:21:00Z</updated>
   <author>
     <name>Simon Ganz</name>
   </author>
+  <entry>
+    <title>Google Reader Alternatives</title>
+    <link rel="alternate" href="/2013/07/google-reader-alternatives/"/>
+    <id>http://simonganz.com/2013/07/google-reader-alternatives/</id>
+    <published>2013-07-08T19:21:00Z</published>
+    <updated>2013-07-08T19:21:00Z</updated>
+    <author>
+      <name>Simon Ganz</name>
+    </author>
+    <content type="html">&lt;p&gt;Google recently &lt;a href="http://simonganz.com/2013/06/why-google-killed-reader/" title="Why Google Killed Reader"&gt;shut down Google Reader&lt;/a&gt;, their RSS syncing service. Here's a quick look at three replacements:&lt;/p&gt;
+
+&lt;h2 id="feedly"&gt;Feedly&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://www.feedly.com/" title="feedly: your news. delivered."&gt;Feedly&lt;/a&gt; is the most popular Google Reader replacement because it's free and fast. But a few key problems prevented me from choosing it.&lt;/p&gt;
+
+&lt;p&gt;Feedly has &lt;strong&gt;a closed API&lt;/strong&gt;. I have a few custom scripts and hacks I use for my RSS, and they require an open API. &lt;/p&gt;
+
+&lt;p&gt;Feedly also has &lt;strong&gt;no clear business model&lt;/strong&gt;. Free is great, but after Google Reader's epic flameout, it's hard to trust a service that doesn't ask for money. &lt;/p&gt;
+
+&lt;p&gt;And finally, &lt;strong&gt;Feedly's website and apps are over-designed and confusing&lt;/strong&gt;. Feedly seems desperate to become &lt;a href="http://flipboard.com/" title="Flipboard"&gt;Flipboard&lt;/a&gt;, so their default layout is a magazine-style look at your RSS. You can switch to a "titles only" view that looks more like Google Reader, but you still have to deal with bizarre gestures and interactions in their iOS apps.&lt;/p&gt;
+
+&lt;p&gt;Despite these criticisms, Feedly is a strong service. If they open up their API, I'll consider switching to them and just using third-party apps to access the service.&lt;/p&gt;
+
+&lt;h2 id="feed-wrangler"&gt;Feed Wrangler&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://feedwrangler.net/" title="Feed Wrangler"&gt;Feed Wrangler&lt;/a&gt; is a small, paid RSS syncing service created by iOS developer &lt;a href="http://david-smith.org/" title="David Smith"&gt;David Smith&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;Several writers and programmers in the tech community sing the praises of this service, but I couldn't get over two things: &lt;strong&gt;No free trial&lt;/strong&gt; and &lt;strong&gt;an ugly, ugly, ugly website&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id="feedbin"&gt;Feedbin&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="https://feedbin.me/" title="Feedbin"&gt;Feedbin&lt;/a&gt; is a small, paid RSS syncing service created by Ruby on Rails developer &lt;a href="http://benubois.com/about.html" title="Ben Ubois"&gt;Ben Ubois&lt;/a&gt;. It's &lt;strong&gt;$30-a-year&lt;/strong&gt;, has an &lt;strong&gt;attractive website&lt;/strong&gt;, and &lt;strong&gt;an open API&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id="winner-feedbin"&gt;Winner: Feedbin&lt;/h2&gt;
+
+&lt;p&gt;Feedbin is my new RSS reader. For now. The RSS market is changing fast, and I expect to revisit my choice a year from now when it's time to renew my subscription.&lt;/p&gt;
+
+</content>
+  </entry>
   <entry>
     <title>Amazon Fresh Review</title>
     <link rel="alternate" href="/2013/07/amazon-fresh-review-first-impressions/"/>
@@ -181,59 +220,6 @@
 &lt;/blockquote&gt;
 
 &lt;p&gt;Nearly every button on the Mac and on iOS has been a rounded rectangle for the past thirty years. So there's something charmingly radical about a modern day Apple engineer calmly stating that they've been discontinued.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>How to Add Incredibly Powerful Emacs-style Shortcuts to Mac OS X</title>
-    <link rel="alternate" href="/2013/06/add-emacs-key-bindings-to-mac-os-x/"/>
-    <id>http://simonganz.com/2013/06/add-emacs-key-bindings-to-mac-os-x/</id>
-    <published>2013-06-28T22:16:00Z</published>
-    <updated>2013-06-28T22:16:00Z</updated>
-    <author>
-      <name>Simon Ganz</name>
-    </author>
-    <content type="html">&lt;h2 id="what-is-emacs"&gt;What is Emacs?&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href="http://www.gnu.org/software/emacs/" title="GNU Emacs"&gt;Emacs&lt;/a&gt; is a very nerdy text editor/email program/development suite/nuclear reactor. &lt;/p&gt;
-
-&lt;p&gt;It's ugly and weird and hard to use because it dates back to a time before computers had mice. But for that same reason, it has amazing tools and shortcuts for rapidly editing and moving through text with only your keyboard. &lt;/p&gt;
-
-&lt;p&gt;Mac OS X has always had some of &lt;a href="http://www.hcs.harvard.edu/~jrus/Site/System%20Bindings.html" title="Mac OS X Default Key Bindings"&gt;these shortcuts baked in&lt;/a&gt;. For instance, type &lt;em&gt;Ctrl+e&lt;/em&gt; in an OS X text field and the cursor will jump to the end of a line. Type &lt;em&gt;Ctrl+k&lt;/em&gt; and everything between the cursor and the end of the line will be deleted (this is crazy useful when editing; I suggest trying it out).&lt;/p&gt;
-
-&lt;p&gt;I learned these shortcuts for convenience sake a few years back, but recently the trackpad on my Macbook Pro died and I was forced to turn to them full time.&lt;sup id="fnref:magic"&gt;&lt;a href="#fn:magic" class="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; The problem is that by default, OS X only allows you to use a few select Emacs shortcuts that utilize the ctrl key. Many other powerful Emacs shortcuts are unavailable (including every shortcut that uses the alt key, referred to as the "meta" key in Emacs lingo).&lt;/p&gt;
-
-&lt;p&gt;But you can change this.&lt;/p&gt;
-
-&lt;h2 id="changing-mac-os-x-key-bindings"&gt;Changing Mac OS X Key Bindings&lt;/h2&gt;
-
-&lt;p&gt;These directions are adapted from &lt;a href="http://www.hcs.harvard.edu/~jrus/site/cocoa-text.html" title="Customizing the Cocoa Text System"&gt;this excellent 2006 article by Jacob Rus&lt;/a&gt; and &lt;a href="http://brettterpstra.com/2011/08/13/keybinding-madness/" title="Keybinding Madness"&gt;this excellent 2011 post by Brett Terpstra&lt;/a&gt;.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Create a folder named "KeyBindings" in the ~/Library directory.&lt;sup id="fnref:library"&gt;&lt;a href="#fn:library" class="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-  &lt;li&gt;Download &lt;a href="https://github.com/ttscoff/KeyBindings/zipball/master" title="Brett Terpstra Killer Keybindings"&gt;this DefaultKeyBinding.dict zip file&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Unzip the files and place the DefaultKeyBinding.dict file into the newly created KeyBindings folder. &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Now as soon as you restart any running apps, you'll have access to an &lt;a href="http://ttscoff.github.io/KeyBindings/" title="Brett Terpstra Killer Keybindings"&gt;insanely powerful list of keyboard shortcuts&lt;/a&gt; in almost every Mac OS X application.&lt;/p&gt;
-
-&lt;p&gt;You can do crazy powerful things like uppercase words with &lt;em&gt;Ctrl+U&lt;/em&gt; or copy entire paragraphs instantly by typing &lt;em&gt;Alt+y&lt;/em&gt;. You can move paragraphs using only your keyboard (&lt;em&gt;Ctrl+Command+K&lt;/em&gt;) or delete trailing whitespaces off a line (&lt;em&gt;Ctrl+Alt+Right Arrow&lt;/em&gt;).&lt;/p&gt;
-
-&lt;p&gt;These key bindings will be overkill for most people, and they may even break a few shortcuts on your computer, but the possibilities are incredible. You can even customize them yourself by editing the DefaultKeyBinding.dict file in a text editor, adding to or tweaking the shortcuts to fit your own workflow.&lt;/p&gt;
-
-&lt;p&gt;If you spend a lot of time typing text or coding on Mac OS X, you owe it to yourself to play around with a few of these shortcuts and see how they can speed up your life.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;div class="footnotes"&gt;
-  &lt;ol&gt;
-    &lt;li id="fn:magic"&gt;
-      &lt;p&gt;I eventually bought a &lt;a href="http://www.apple.com/magictrackpad/" title="Apple - Magic Trackpad - Multi-Touch trackpad for your desktop."&gt;Magic Trackpad&lt;/a&gt; as a replacement.&lt;a href="#fnref:magic" class="reversefootnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id="fn:library"&gt;
-      &lt;p&gt;By default, the User's library folder is hidden in Mac OS X. You can access it by opening Finder, selecting the Go menu from the menubar, and holding down the alt key to make the Library option appear.&lt;a href="#fnref:library" class="reversefootnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
 </content>
   </entry>
 </feed>
