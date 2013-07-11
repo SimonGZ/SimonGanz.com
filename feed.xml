@@ -4,10 +4,31 @@
   <id>http://simonganz.com/</id>
   <link href="http://simonganz.com/"/>
   <link href="http://simonganz.com/feed.xml" rel="self"/>
-  <updated>2013-07-08T19:21:00Z</updated>
+  <updated>2013-07-11T19:32:00Z</updated>
   <author>
     <name>Simon Ganz</name>
   </author>
+  <entry>
+    <title>→ The 1964 Civil Rights Act and Rand Paul Libertarians [link]</title>
+    <link rel="alternate" href="http://www.slate.com/blogs/moneybox/2013/06/21/civil_rights_act_good_rand_paul_bad.html"/>
+    <id>http://simonganz.com/2013/07/1964-civil-rights-act-and-rand-paul-libertarians/</id>
+    <published>2013-07-11T19:32:00Z</published>
+    <updated>2013-07-11T19:32:00Z</updated>
+    <author>
+      <name>Simon Ganz</name>
+    </author>
+    <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;The "respectable" thing to say about people like Paul or the late Barry Goldwater, I suppose, is simply that they are ideologues rather than people driven by some kind of racial animosity. But I think it's selling free market ideology short to suggest that government regulations meant to undue the outcome of a century long campaign of terrorist violence is just a straightforward consequence of a general support for free enterprise. You need to combine that ideology with a sincere indifference to black people's welfare to reach that conclusion, just as you need to combine Paul's ideology with genuine indifference to the history of race in America to reach Paul's conclusion about democracy's relationship to Jim Crow.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Matt Yglesias wrote &lt;a href="http://www.slate.com/blogs/moneybox/2013/06/21/civil_rights_act_good_rand_paul_bad.html" title="The Civil Rights Act is Good"&gt;an excellent post&lt;/a&gt; last month about Rand Paul's foot-in-mouth statements opposing the 1964 Civil Rights Act. &lt;/p&gt;
+
+&lt;p&gt;Rand Paul and his father are beloved libertarian figures on the internet because they follow libertarian philosophy to some of its more progressive conclusions, like reducing defense spending and decriminalizing drugs. In this and a few other areas, they give loud and passionate voice to sensible solutions drowned out by mainstream politics.&lt;/p&gt;
+
+&lt;p&gt;But it's worth remembering that libertarianism in this country has often been driven by racism rather than ideology. This is not to say that all libertarians are racists or that libertarianism is an inherently racist philosophy, but when I read about &lt;a href="http://www.washingtonpost.com/blogs/fact-checker/post/ron-paul-and-the-racist-newsletters-fact-checker-biography/2011/12/21/gIQAKNiwBP_blog.html" title="Fact Check: Ron Paul's Racist Newsletters"&gt;Ron Paul's racist 1990s newsletters&lt;/a&gt; and &lt;a href="http://crooksandliars.com/blue-texan/rand-pauls-opposition-civil-rights-act" title="Rand Paul's Racist Aide"&gt;Rand Paul's aide's racist, secessionist writings&lt;/a&gt;, it becomes harder and harder to square the internet's hero worship of these men with the actual motivations guiding them.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='/2013/07/1964-civil-rights-act-and-rand-paul-libertarians/'&gt;Permalink&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Google Reader Alternatives</title>
     <link rel="alternate" href="/2013/07/google-reader-alternatives/"/>
@@ -196,30 +217,6 @@
 
 &lt;p&gt;Simply by providing your address and an Apple ID, you gain the ability to read prerelease developer documents and &lt;a href="http://simonganz.com/2013/06/rounded-rectangles-deprecated/" title="Rounded Rectangles Deprecated"&gt;learn details&lt;/a&gt; about Apple software months before it's released.&lt;/p&gt;
 
-</content>
-  </entry>
-  <entry>
-    <title>Rounded Rectangles Deprecated</title>
-    <link rel="alternate" href="/2013/06/rounded-rectangles-deprecated/"/>
-    <id>http://simonganz.com/2013/06/rounded-rectangles-deprecated/</id>
-    <published>2013-06-28T23:02:00Z</published>
-    <updated>2013-06-28T23:02:00Z</updated>
-    <author>
-      <name>Simon Ganz</name>
-    </author>
-    <content type="html">&lt;p&gt;I was reading through the pre-release documentation for iOS 7 and came across this gem:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The rounded rectangle button has been deprecated in iOS 7.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Why is this amusing? Because &lt;a href="http://www.folklore.org/StoryView.py?story=Round_Rects_Are_Everywhere.txt" title="Round Rects Are Everywhere"&gt;rounded rectangles were one of the big user interface innovations of the Macintosh&lt;/a&gt; and were demanded by Steve Jobs himself:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Steve suddenly got more intense. "Rectangles with rounded corners are everywhere! Just look around this room!". And sure enough, there were lots of them, like the whiteboard and some of the desks and tables. Then he pointed out the window. "And look outside, there's even more, practically everywhere you look!". He even persuaded Bill to take a quick walk around the block with him, pointing out every rectangle with rounded corners that he could find. &lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Nearly every button on the Mac and on iOS has been a rounded rectangle for the past thirty years. So there's something charmingly radical about a modern day Apple engineer calmly stating that they've been discontinued.&lt;/p&gt;
 </content>
   </entry>
 </feed>
