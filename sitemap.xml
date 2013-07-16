@@ -187,25 +187,25 @@
     <priority>1</priority>
   </url>
   <url>
-    <loc>http://simonganz.com/index.html</loc>
-    <lastmod>2013-07-15T00:00:00-07:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-  </url>
-  <url>
     <loc>http://simonganz.com/projects/index.html</loc>
     <lastmod>2013-07-15T00:00:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>http://simonganz.com/page/2/index.html</loc>
+    <loc>http://simonganz.com/index.html</loc>
     <lastmod>2013-07-15T00:00:00-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>http://simonganz.com/page/3/index.html</loc>
+    <lastmod>2013-07-15T00:00:00-07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>http://simonganz.com/page/2/index.html</loc>
     <lastmod>2013-07-15T00:00:00-07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
