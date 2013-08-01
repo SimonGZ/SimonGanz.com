@@ -4,10 +4,42 @@
   <id>http://simonganz.com/</id>
   <link href="http://simonganz.com/"/>
   <link href="http://simonganz.com/feed.xml" rel="self"/>
-  <updated>2013-07-15T23:48:00Z</updated>
+  <updated>2013-07-31T02:14:00Z</updated>
   <author>
     <name>Simon Ganz</name>
   </author>
+  <entry>
+    <title>→ Paul Offit and the Vitamin Myth [link]</title>
+    <link rel="alternate" href="http://www.theatlantic.com/health/archive/2013/07/the-vitamin-myth-why-we-think-we-need-supplements/277947/"/>
+    <id>http://simonganz.com/2013/07/the-vitamin-myth/</id>
+    <published>2013-07-31T02:14:00Z</published>
+    <updated>2013-07-31T02:14:00Z</updated>
+    <author>
+      <name>Simon Ganz</name>
+    </author>
+    <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;Seven previous studies had already shown that vitamins increased the risk of cancer and heart disease and shortened lives. Still, in 2012, more than half of all Americans took some form of vitamin supplements. What few people realize, however, is that their fascination with vitamins can be traced back to one man. A man who was so spectacularly right that he won two Nobel Prizes and so spectacularly wrong that he was arguably the world's greatest quack.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Ouch&lt;/em&gt;. The Atlantic has &lt;a href="http://www.theatlantic.com/health/archive/2013/07/the-vitamin-myth-why-we-think-we-need-supplements/277947/" title="The Vitamin Myth: Why We Think We Need Supplements"&gt;a brutal book excerpt&lt;/a&gt; from Dr. Paul Offit tearing into the vitamin supplement industry. This is the same Dr. Offit who attacked the fake link between vaccines and autism in &lt;a href="http://www.amazon.com/gp/product/023114637X/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=023114637X&amp;amp;linkCode=as2&amp;amp;tag=simongcom-20" title="Autism's False Prophets: Bad Science, Risky Medicine, and the Search for a Cure"&gt;an earlier book&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I've always treated vitamins like a reassuring and benign superstition. "I don't feel well, I guess I'll take some vitamins!" "I could use a pick-me-up, I'll drink some Emergen-C!" "My penis isn't long enough, I'll inject some Ostrich estrus!" (Okay not the last one.)&lt;/p&gt;
+
+&lt;p&gt;Offit's article really shocked me.&lt;/p&gt;
+
+&lt;h2 id="rebuttals"&gt;Rebuttals&lt;/h2&gt;
+
+&lt;p&gt;There has of course been pushback. Dr. Paul Jaminet, an astrophysicist who writes diet books, has &lt;a href="http://perfecthealthdiet.com/2013/07/the-case-of-the-killer-vitamins-revisited/" title="The Case of the Killer Vitamins Revisited"&gt;a measured response&lt;/a&gt;. He takes issue with the specific studies cited by Offit, in particular an Iowa study which suggested that vitamins increase mortality (ie make you more likely to die) did not adjust for age. It compared older people who were taking supplements with younger people who were not.&lt;/p&gt;
+
+&lt;p&gt;The most compelling criticism is that the book excerpt blurs the line between taking a simple multivitamin and overdosing on Vitamin C because you think it'll help you shoot lasers from your eyes. In &lt;a href="http://www.theguardian.com/lifeandstyle/2013/jul/26/vitamins-health-paul-offit-qanda" title="Vitamins: Should You Stop Taking THem"&gt;an online interview with The Guardian&lt;/a&gt;, Offit explains the distinction in less sensationlist terms:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Other people think: “Because I'm not sure I'm getting all my vitamins, let me just take take a multivitamin every day” – which is OK. Multivitamins contain at or about the recommended dose of vitamins for that day. But then there are some people who believe that more is better – that by taking large quantities of daily vitamins they will do even better, live even longer and decrease the risk of cancer or heart disease. But in fact, many studies have shown that the exact opposite is true – that if you choose to take these large quantities of excess vitamins, then you increase risk of cancer and heart disease and shorten your life.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The bottom line: There just isn't much compelling evidence about vitamins despite decades of study. They make sense on an intellectual level, but the benefits are not clearly visible in repeatable studies. A well-formulated multivitamin is probably benign and not doing you any harm or good either way.&lt;/p&gt;
+&amp;lt;p&amp;gt;&amp;lt;a href=&amp;#x27;/2013/07/the-vitamin-myth/&amp;#x27;&amp;gt;Permalink&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;</content>
+  </entry>
   <entry>
     <title>→ Pacific Rim and the Flat American Accent [link]</title>
     <link rel="alternate" href="http://thedissolve.com/news/25-please-hollywood-no-more-bad-fake-american-accents/"/>
@@ -192,31 +224,6 @@
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Mac OS X Stuck Registering Updated Components</title>
-    <link rel="alternate" href="/2013/07/mac-os-x-stuck-registering-updated-components/"/>
-    <id>http://simonganz.com/2013/07/mac-os-x-stuck-registering-updated-components/</id>
-    <published>2013-07-01T22:43:00Z</published>
-    <updated>2013-07-01T22:43:00Z</updated>
-    <author>
-      <name>Simon Ganz</name>
-    </author>
-    <content type="html">&lt;p&gt;I recently tried to run software update on my dad's aging Macbook Pro (Snow Leopard, Unibody). Unfortunately, the process stalled during "Registering Updated Components", leaving the computer stuck in the install for 30 minutes.&lt;/p&gt;
-
-&lt;p&gt;Here's how I fixed it:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Once you're sure the install is stuck, hold down the power button to forcibly shut down the computer.&lt;/li&gt;
-  &lt;li&gt;Restart the computer and open Finder.&lt;/li&gt;
-  &lt;li&gt;Type &amp;#x21E7;&amp;#x2318;G to bring up the "Go To Folder&amp;#8230;" dialogue.&lt;/li&gt;
-  &lt;li&gt;Type /Library/Updates and hit enter.&lt;/li&gt;
-  &lt;li&gt;Delete everything in the Updates folder.&lt;/li&gt;
-  &lt;li&gt;Run Software Update again.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;As far as I can tell, the security update dad's computer was trying to install was somehow corrupted. Redownloading it generated a fresh copy. I hope this is helpful to someone out there with the same problem.&lt;/p&gt;
 </content>
   </entry>
 </feed>
