@@ -4,10 +4,82 @@
   <id>http://simonganz.com/</id>
   <link href="http://simonganz.com/"/>
   <link href="http://simonganz.com/feed.xml" rel="self"/>
-  <updated>2013-08-04T05:03:00Z</updated>
+  <updated>2013-08-10T04:14:00Z</updated>
   <author>
     <name>Simon Ganz</name>
   </author>
+  <entry>
+    <title>Using Ambient Noise to Drown Out Distraction</title>
+    <link rel="alternate" href="/2013/08/using-ambient-noise-to-drown-out-distraction/"/>
+    <id>http://simonganz.com/2013/08/using-ambient-noise-to-drown-out-distraction/</id>
+    <published>2013-08-10T04:14:00Z</published>
+    <updated>2013-08-10T04:14:00Z</updated>
+    <author>
+      <name>Simon Ganz</name>
+    </author>
+    <content type="html">&lt;p&gt;I struggle to work in silence. My mind gets crowded with ideas. But I also struggle to work with music. My mind begins to follow the lyrics.&lt;/p&gt;
+
+&lt;p&gt;Ambient noise is a way to drown out your thoughts without distracting your focus. Here are three tools I recommend:&lt;/p&gt;
+
+&lt;h2 id="simplynoise"&gt;SimplyNoise&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://simplynoise.com/" title="SimplyNoise -- The Best Free White Noise Generator on the Internet."&gt;SimplyNoise&lt;/a&gt; is a site that plays &lt;a href="http://en.wikipedia.org/wiki/Colors_of_noise" title="Wikipedia: Colors of noise"&gt;white, pink, and brown noise&lt;/a&gt;. There are many sites and many apps that do this, but in my opinion, SimplyNoise has the "cleanest" noise. I find other digital noise generators to be harsh or grating. Other generators also tend to loop in distracting ways. &lt;/p&gt;
+
+&lt;p&gt;If you don't like using an iPhone app or a web browser to play the noise, you can &lt;a href="http://simplynoise.com/downloads.html" title="SimplyNoise downloads"&gt;pay a dollar to download a 60-minute MP3&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Creates an intense sense of focus.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Cons:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Difficult to use alongside music. The noise is quickly overwhelmed by the lyrics.&lt;/li&gt;
+  &lt;li&gt;Eventually drives you insane, like being locked in a hyperbaric chamber.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="get-work-done-music"&gt;Get Work Done Music&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://www.getworkdonemusic.com/" title="Get Work Done Music"&gt;Get Work Done Music&lt;/a&gt; streams fast-paced music from &lt;a href="http://soundcloud.com/" title="SoundCloud - Share Your Sounds"&gt;SoundCloud&lt;/a&gt;. The songs tend to be electronica/trance music, usually with pulsing rhythms.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Variety.&lt;/li&gt;
+  &lt;li&gt;You might actually discover artists that you like.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Cons:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Depends on accurate SoundCloud tagging. Sometimes you get crazy demon-screaming garbage.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="coffitivity"&gt;Coffitivity&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://coffitivity.com/" title="Coffitivity - Increase Your Creativity!"&gt;Coffitivity&lt;/a&gt; is a site that plays coffee shop noises on a loop. This feels like a dumb idea. But when combined with music, it provides a pleasing mix of noise that is just enough to balance out your music's lyrics while still drowning out stray thoughts. &lt;/p&gt;
+
+&lt;p&gt;If you don't like using a web browser to play sound, you can just &lt;a href="http://coffitivity.com/other/cleanupcut.mp3" title="Coffitivity MP3 File"&gt;download the MP3&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You can play your own music.&lt;/li&gt;
+  &lt;li&gt;You don't feel like a total psychopath.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Cons:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;None: This is what I use most of the time.&lt;/p&gt;
+
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   <entry>
     <title>→ The Hitlers of Pickaway, Ohio [link]</title>
     <link rel="alternate" href="http://nymag.com/daily/intelligencer/2013/07/life-in-ohio-a-continuing-series.html"/>
@@ -134,58 +206,6 @@
 &lt;h2 id="winner-feedbin"&gt;Winner: Feedbin&lt;/h2&gt;
 
 &lt;p&gt;Feedbin is my new RSS reader. For now. The RSS market is changing fast, and I expect to revisit my choice a year from now when it's time to renew my subscription.&lt;/p&gt;
-
-</content>
-  </entry>
-  <entry>
-    <title>Amazon Fresh Review</title>
-    <link rel="alternate" href="/2013/07/amazon-fresh-review-first-impressions/"/>
-    <id>http://simonganz.com/2013/07/amazon-fresh-review-first-impressions/</id>
-    <published>2013-07-05T18:40:00Z</published>
-    <updated>2013-07-05T18:40:00Z</updated>
-    <author>
-      <name>Simon Ganz</name>
-    </author>
-    <content type="html">&lt;img src="/images/amazonFresh-d264c4ed.jpg" title="Amazon Fresh" /&gt;
-
-&lt;p&gt;Amazon Fresh is Amazon's new grocery delivery business. They've just expanded to Los Angeles and offered &lt;a href="http://www.amazon.com/gp/prime" title="Amazon Prime"&gt;Prime&lt;/a&gt; customers a 90-day free trial (the regular price is $300-a-year). &lt;/p&gt;
-
-&lt;p&gt;I'm interested in the service because I'm lazy and find supermarkets overwhelming. My wife is interested because she likes planning meals and tracking calories.&lt;/p&gt;
-
-&lt;p&gt;Here are our first impressions.&lt;/p&gt;
-
-&lt;h2 id="the-good"&gt;The Good&lt;/h2&gt;
-
-&lt;p&gt;Amazon Fresh promises &lt;strong&gt;same day and next day delivery&lt;/strong&gt;, which is amazing. The minimum order is $35, which is low enough that you can replace a big weekly grocery store visit with two small orders during the week. You can place your order at night after work, then wake up in the morning to find your food on the doorstep in neatly packed bags.&lt;/p&gt;
-
-&lt;p&gt;Fresh also offers &lt;strong&gt;nutritional information&lt;/strong&gt; for many items on their site as well as &lt;strong&gt;seasonal recipes&lt;/strong&gt;. You can even order &lt;strong&gt;high end items from local specialty shops&lt;/strong&gt;, like fresh fish from Santa Monica Seafood.&lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;customer service is great&lt;/strong&gt;, responding almost instantly to any inquiry or problem.&lt;/p&gt;
-
-&lt;h2 id="the-bad"&gt;The Bad&lt;/h2&gt;
-
-&lt;p&gt;But Amazon Fresh feels &lt;strong&gt;like shopping at a Whole Foods connected to a Costco&lt;/strong&gt;. You want some tuna? Great! You can have this ultra high quality organic brand for three times the price! Oh, you want your regular cheap brand? Okay, here's a 75-pack of Bumblebee tuna cans for $90!&lt;/p&gt;
-
-&lt;p&gt;The economics of home delivery cause the service to offer &lt;strong&gt;either high-end brands at high prices or the regular brand in massive quantities&lt;/strong&gt;, with little in-between. &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href="http://fresh.amazon.com" title="Amazon Fresh"&gt;Fresh.Amazon.com&lt;/a&gt; is a bad, sloooooow website&lt;/strong&gt;. It's shockingly bad. Amazon isn't just the world's biggest Internet retailer, they also operate a massive cloud server and cloud hosting service. But just logging into this site takes 15 to 20 seconds.&lt;/p&gt;
-
-&lt;p&gt;In addition to being slow, the website does a &lt;strong&gt;poor job of reliably communicating which items are available when&lt;/strong&gt;. Orders placed for the next morning will often arrive with &lt;strong&gt;items missing&lt;/strong&gt;. There is no notice inside the packaging itself, instead you receive an email which says "The following items were not delivered: " and then nothing is actually listed. If you're dedicated you can go to the website, log into your past orders, and see which items were mysteriously left out. The site has &lt;strong&gt;no mechanism for rolling over a missing item to a future order&lt;/strong&gt;. The items are just gone, leaving you to find them again in the search system, re-add them to your cart, and just hope that it works out next time.&lt;/p&gt;
-
-&lt;h2 id="odds--ends"&gt;Odds &amp;amp; Ends&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Prices on Amazon Fresh are just okay. They're not as good as your local market's sale prices but not as bad as &lt;a href="http://en.wikipedia.org/wiki/Suggested_retail_price" title="Suggested retail price - Wikipedia, the free encyclopedia"&gt;MSRP&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Fresh includes same day and next day delivery on over 500,000 Amazon Prime items. It's only a small subset of Amazon's usual offerings, but you can buy household items like a surge protector with nearly instant shipping.&lt;/li&gt;
-  &lt;li&gt;Amazon failed to deliver half of one of our grocery orders. The customer service not only called me but refunded the entire order, including the more expensive items that they did successfully deliver.&lt;/li&gt;
-  &lt;li&gt;Fresh deliveries arrive in charming green tote bags. Oddly, the service doesn't do a good job combining similar items. So you might have two big coolers arrive, each packed with dry ice and each only carrying one tiny frozen item like a bag of peas or a pack of popsicles.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="conclusion"&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;Right now, Fresh does not feel like the future of groceries. It feels like a side project. Perhaps a hobby receiving only Amazon's barest attention and focus. While using the service, I've already had to hop out to my regular market twice just to replace items missing from my orders. Combine that with the slow website, and Fresh just hasn't offered me the convenience necessary to justify the increased cost over my local market.&lt;/p&gt;
-
-&lt;p&gt;But I'm glad that Amazon Fresh has a 90-day trial. If my trial were ending today, I would not renew the service. But I have nearly two months of free grocery delivery left, and I think a lot of these problems are fixable. I'd love for this service to work out, and I'm going to continue to send feedback to Amazon's excellent customer service in the hopes that they're out there listening.&lt;/p&gt;
 
 </content>
   </entry>
