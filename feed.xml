@@ -4,10 +4,107 @@
   <id>http://simonganz.com/</id>
   <link href="http://simonganz.com/"/>
   <link href="http://simonganz.com/feed.xml" rel="self"/>
-  <updated>2013-08-18T01:54:00Z</updated>
+  <updated>2013-08-18T04:55:00Z</updated>
   <author>
     <name>Simon Ganz</name>
   </author>
+  <entry>
+    <title>Everpix Review</title>
+    <link rel="alternate" href="/2013/08/everpix-review/"/>
+    <id>http://simonganz.com/2013/08/everpix-review/</id>
+    <published>2013-08-18T04:55:00Z</published>
+    <updated>2013-08-18T04:55:00Z</updated>
+    <author>
+      <name>Simon Ganz</name>
+    </author>
+    <content type="html">&lt;img src="/images/everpix-fe248e04.jpg" title="Everpix" /&gt;
+
+&lt;p&gt;&lt;a href="https://www.everpix.com/"&gt;Everpix&lt;/a&gt; is a subscription photo service that promises unlimited online storage and automatic organization.&lt;/p&gt;
+
+&lt;p&gt;Short Review… &lt;strong&gt;It does the first part, storage and sync, perfectly. The second part is still a work in progress.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Much Longer Review…&lt;/p&gt;
+
+&lt;h2 id="the-life-and-death-of-iphoto"&gt;The Life and Death of iPhoto&lt;/h2&gt;
+
+&lt;img src="/images/everpixIPhoto-f799e180.jpg" title="iPhoto" /&gt;
+
+&lt;p&gt;If you want to see what a perfect photo collection looks like, just visit an Apple store. On each display computer, you'll find a copy of iPhoto&lt;sup id="fnref:iPhoto"&gt;&lt;a href="#fn:iPhoto" class="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;, pre-set with Apple's idealized vision of a family photo library. &lt;/p&gt;
+
+&lt;p&gt;Apple's sample library is organized along every axis. Each image is tagged with Events, Albums, Faces, Keywords, Locations, and even a Five-Star Rating scale. Each sample album is an idyllic vacation or outing, populated exclusively by beautiful, multicultural families who never take bad photos and whose trips happen in confined locations, with no stranger's faces in the background. &lt;/p&gt;
+
+&lt;p&gt;This is the dream world of iPhoto, as well as its mission statement: &lt;strong&gt;All of your photos, organized&lt;/strong&gt;. &lt;/p&gt;
+
+&lt;p&gt;But throw a real family with real photos at the program and it chokes on every word of that statement. &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;It can't handle &lt;strong&gt;all&lt;/strong&gt; of your photos because there are too many of them and they're too big. You're taking 8-megapixel pictures and shooting 1080p video with your iPhone. And god forbid you shoot a &lt;a href="http://photo.net/learn/raw/"&gt;DSLR in RAW format&lt;/a&gt;. Suddenly that 128GB SSD hard-drive in your Macbook Air is full and you're rationing photos to save space.&lt;/li&gt;
+  &lt;li&gt;And once your photos are in iPhoto, they're no longer &lt;strong&gt;your&lt;/strong&gt; photos. iPhoto buries them in its own convoluted file system. It only begrudgingly lets you share them using aging plug-ins to services like Facebook and Flickr.&lt;/li&gt;
+  &lt;li&gt;And it's not &lt;strong&gt;organized&lt;/strong&gt; unless you obsessively do the work of tagging every photo yourself. I like to imagine that the fictional mom in Apple's sample iPhoto library is suffering from OCD. Are you coming to bed honey? "One minute! Just need to rate all the vacation photos on a 5-point scale!"&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="everpix-fk-organizing"&gt;Everpix: F**k Organizing&lt;/h2&gt;
+
+&lt;p&gt;The goal of Everpix is simple: &lt;strong&gt;All of your photos.&lt;/strong&gt; That's it.&lt;/p&gt;
+
+&lt;p&gt;Everpix gives up on the idea that anyone is going to organize anything. The service is a giant, bottomless bucket into which you quickly and easily dump every photo you take.&lt;/p&gt;
+
+&lt;p&gt;If the service had a motto, it would be &lt;em&gt;"Upload Everything and Let God Sort It Out."&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Yes, Everpix &lt;a href="http://blog.everpix.com/post/40309088612/to-reclaim-your-photos-kill-the-algorithm" title="Kill the Algorithm"&gt;claims to organize your photos automatically&lt;/a&gt;, but this is happy talk. A fantasy.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We’re &lt;strong&gt;developing&lt;/strong&gt; image analysis technology that understands your photos and helps you manage your collection.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We're &lt;strong&gt;building&lt;/strong&gt; new ways for you to enjoy and rediscover your pictures.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Notice the present progressive tense ("-ing"). Automatic organization is something they're working on, but what's in the product right now is at best a proof of concept. &lt;/p&gt;
+
+&lt;p&gt;Everpix hides duplicate photos, tries to guess which photos you're most interested in, and tries to categorize photos by broad categories like People, Nature, Food, etc. It doesn't do any of these things particularly well or accurately. &lt;em&gt;But that's okay.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Because what Everpix does do is great. &lt;strong&gt;Everpix syncs, stores, and displays decades of photos quickly and effortlessly&lt;/strong&gt;. &lt;/p&gt;
+
+&lt;p&gt;Install the Everpix app on your computer and your phone, and soon every photo you've ever taken is available everywhere. Despite the complete lack of organization, Everpix's approach has put me in touch with more old photos in a week than iPhoto did in a decade. &lt;/p&gt;
+
+&lt;p&gt;Like this hilarious, random New York couple in 2004:&lt;/p&gt;
+
+&lt;img src="/images/everpixNewYorkCouple-9748c8ba.jpg" title="The couple that reads together..." /&gt;
+
+&lt;p&gt;Or my little brother-in-law’s smile in 2007:&lt;/p&gt;
+
+&lt;img src="/images/everpixJoey-272398bf.jpg" title="Joey smiles" /&gt;
+
+&lt;p&gt;I hadn't seen either of these photos in years. Probably not since they were taken.&lt;/p&gt;
+
+&lt;h2 id="alternatives"&gt;Alternatives&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Flickr&lt;/strong&gt; now offers one terabyte of free storage, but that number is more of a dare than reality. As in "I dare you to somehow manually upload one terabyte of photos when our service caps each upload session to 200 photos."&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Facebook&lt;/strong&gt; is designed for sharing. It's great at that task, but it doesn't keep high quality copies of your photos and it's impossible to use the service without sharing everything.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Dropbox&lt;/strong&gt; has added some fantastic photo sharing and photo album features. But I have 70 gigs of photos going back a decade. At current prices, that means spending $100-a-year and eventually $200-a-year once I add another 30 gigs of photos.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;iCloud Photostream&lt;/strong&gt; is barely a photo service. It's useful in that it quickly moves photos from one device to all of your devices, but it only stores your last 1000 photos and cannot be upgraded or relied upon.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="conclusion"&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Everpix is a solid service. They offer &lt;a href="http://evrpx.co/invite?r=simong%40gmail.com"&gt;18 months&lt;/a&gt; of photo storage for free and unlimited photo storage for $49-a-year. The website and iOS apps are barebones, but each is being &lt;a href="http://status.everpix.com"&gt;rapidly updated&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Having all of my photos backed up and instantly accessible is well worth the price of admission. Any other features they add over the next year are gravy.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class="footnotes"&gt;
+  &lt;ol&gt;
+    &lt;li id="fn:iPhoto"&gt;
+      &lt;p&gt;iPhoto 2011 to be exact. Apple hasn't updated it in years and it doesn't sync with its newer iOS counterparts at all. &lt;a href="#fnref:iPhoto" class="reversefootnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</content>
+  </entry>
   <entry>
     <title>→ Get a Free Gigabyte from Dropbox for Using Mailbox on iOS [link]</title>
     <link rel="alternate" href="http://lifehacker.com/mailbox-users-can-get-a-free-gigabyte-of-dropbox-space-1159534393"/>
@@ -163,26 +260,5 @@
 &lt;p&gt;I'm not opposed to Brits and Europeans doing American accents, but the Bale voice is simply too flat and dreary to work for most films.&lt;/p&gt;
 
 &amp;lt;p&amp;gt;&amp;lt;a href=&amp;#x27;/2013/07/pacific-rim-and-the-flat-american-accent/&amp;#x27;&amp;gt;Permalink&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;</content>
-  </entry>
-  <entry>
-    <title>→ The 1964 Civil Rights Act and Rand Paul Libertarians [link]</title>
-    <link rel="alternate" href="http://www.slate.com/blogs/moneybox/2013/06/21/civil_rights_act_good_rand_paul_bad.html"/>
-    <id>http://simonganz.com/2013/07/1964-civil-rights-act-and-rand-paul-libertarians/</id>
-    <published>2013-07-11T19:32:00Z</published>
-    <updated>2013-07-11T19:32:00Z</updated>
-    <author>
-      <name>Simon Ganz</name>
-    </author>
-    <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;The "respectable" thing to say about people like Paul or the late Barry Goldwater, I suppose, is simply that they are ideologues rather than people driven by some kind of racial animosity. But I think it's selling free market ideology short to suggest that government regulations meant to undue the outcome of a century long campaign of terrorist violence is just a straightforward consequence of a general support for free enterprise. You need to combine that ideology with a sincere indifference to black people's welfare to reach that conclusion, just as you need to combine Paul's ideology with genuine indifference to the history of race in America to reach Paul's conclusion about democracy's relationship to Jim Crow.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Matt Yglesias wrote &lt;a href="http://www.slate.com/blogs/moneybox/2013/06/21/civil_rights_act_good_rand_paul_bad.html" title="The Civil Rights Act is Good"&gt;an excellent post&lt;/a&gt; last month about Rand Paul's foot-in-mouth statements opposing the 1964 Civil Rights Act. Jonathan Chait covered similar ground in &lt;a href="http://nymag.com/daily/intelligencer/2012/01/how-ron-pauls-libertarianism-supports-racism.html" title="How Ron Paul's Libertarianism Supports Racism"&gt;a 2012 post about Rand's father, Ron Paul&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Ron and Rand Paul are beloved libertarian figures on the internet because they follow libertarian philosophy to some of its more progressive conclusions, like reducing defense spending and decriminalizing drugs. In this and a few other areas, they give loud and passionate voice to sensible solutions drowned out by mainstream politics.&lt;/p&gt;
-
-&lt;p&gt;But it's worth remembering that libertarianism in this country has often been driven by racism rather than ideology. This is not to say that all libertarians are racists or that libertarianism is an inherently racist philosophy, but when I read about &lt;a href="http://www.washingtonpost.com/blogs/fact-checker/post/ron-paul-and-the-racist-newsletters-fact-checker-biography/2011/12/21/gIQAKNiwBP_blog.html" title="Fact Check: Ron Paul's Racist Newsletters"&gt;Ron Paul's racist 1990s newsletters&lt;/a&gt; and &lt;a href="http://crooksandliars.com/blue-texan/rand-pauls-opposition-civil-rights-act" title="Rand Paul's Racist Aide"&gt;Rand Paul's aide's racist, secessionist writings&lt;/a&gt;, it becomes harder and harder to square the internet's hero worship of these men with the actual motivations guiding them.&lt;/p&gt;
-
-&amp;lt;p&amp;gt;&amp;lt;a href=&amp;#x27;/2013/07/1964-civil-rights-act-and-rand-paul-libertarians/&amp;#x27;&amp;gt;Permalink&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;</content>
   </entry>
 </feed>
