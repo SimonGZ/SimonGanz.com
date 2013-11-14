@@ -4,10 +4,24 @@
   <id>http://simonganz.com/</id>
   <link href="http://simonganz.com/"/>
   <link href="http://simonganz.com/feed.xml" rel="self"/>
-  <updated>2013-08-25T05:19:00Z</updated>
+  <updated>2013-11-14T17:45:00Z</updated>
   <author>
     <name>Simon Ganz</name>
   </author>
+  <entry>
+    <title>Everpix Shutdown</title>
+    <link rel="alternate" href="/2013/11/everpix-shutdown/"/>
+    <id>http://simonganz.com/2013/11/everpix-shutdown/</id>
+    <published>2013-11-14T17:45:00Z</published>
+    <updated>2013-11-14T17:45:00Z</updated>
+    <author>
+      <name>Simon Ganz</name>
+    </author>
+    <content type="html">&lt;p&gt;Sadly, &lt;a title="Everpix Shutdown FAQ" href="https://support.everpix.com/entries/22586374"&gt;Everpix has announced that they are shutting down&lt;/a&gt; and refunding their customers’ money. I’ve added an update to the end of &lt;a title="Everpix Review" href="http://simonganz.com/2013/08/everpix-review/"&gt;my previous review&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I have become addicted to the easy photo sharing and storage that Everpix offered, and I may take a look to see if Flickr or anyone else have gotten their act together and can act as a reasonable replacement.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Ben Affleck Won‘t Ruin Batman vs. Superman</title>
     <link rel="alternate" href="/2013/08/ben-affleck-wont-ruin-batman-vs-superman/"/>
@@ -17,14 +31,14 @@
     <author>
       <name>Simon Ganz</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;a href="http://www.huffingtonpost.com/2013/08/22/ben-affleck-batman-man-of-steel_n_3801418.html" title="Ben Affleck is the Next Batman"&gt;Ben Affleck is going to be the next Batman&lt;/a&gt;. And people are angry.&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;a title="Ben Affleck is the Next Batman" href="http://www.huffingtonpost.com/2013/08/22/ben-affleck-batman-man-of-steel_n_3801418.html"&gt;Ben Affleck is going to be the next Batman&lt;/a&gt;. And people are angry.&lt;/p&gt;
 
-&lt;p&gt;But if Batman vs. Superman ends up being a terrible movie, it won&amp;#8217;t be because of Affleck. It will be because of this:&lt;/p&gt;
+&lt;p&gt;But if Batman vs. Superman ends up being a terrible movie, it won’t be because of Affleck. It will be because of this:&lt;/p&gt;
 
 &lt;blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" align="center"&gt;&lt;p&gt;All this outrage over Affleck, yet no noise of the fact that theyve got less than two years to make a $200M movie they have no script for.&lt;/p&gt;&amp;mdash; Geoff LaTulippe (@DrGMLaTulippe) &lt;a href="https://twitter.com/DrGMLaTulippe/statuses/370777905468432384"&gt;August 23, 2013&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 
-&lt;p&gt;Batman wearing a Red Sox cap is the least of this movie&amp;#8217;s problems.&lt;/p&gt;
+&lt;p&gt;Batman wearing a Red Sox cap is the least of this movie’s problems.&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -70,7 +84,7 @@
 
 &lt;p&gt;If the service had a motto, it would be &lt;em&gt;“Upload Everything and Let God Sort It Out.”&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Yes, Everpix &lt;a href="http://blog.everpix.com/post/40309088612/to-reclaim-your-photos-kill-the-algorithm" title="Kill the Algorithm"&gt;claims to organize your photos automatically&lt;/a&gt;, but this is happy talk. A fantasy.&lt;/p&gt;
+&lt;p&gt;Yes, Everpix &lt;a title="Kill the Algorithm" href="http://blog.everpix.com/post/40309088612/to-reclaim-your-photos-kill-the-algorithm"&gt;claims to organize your photos automatically&lt;/a&gt;, but this is happy talk. A fantasy.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;We’re &lt;strong&gt;developing&lt;/strong&gt; image analysis technology that understands your photos and helps you manage your collection.&lt;/p&gt;
@@ -115,6 +129,14 @@
 
 &lt;hr /&gt;
 
+&lt;h1 id="update-november-14-2013"&gt;Update: November 14, 2013&lt;/h1&gt;
+
+&lt;p&gt;Sadly, &lt;a title="Everpix Shutdown FAQ" href="https://support.everpix.com/entries/22586374"&gt;Everpix has announced that they are shutting down&lt;/a&gt; and refunding their customers’ money. The Verge has &lt;a title="Life and Death Inside the World's Best Photo Startup" href="http://www.theverge.com/2013/11/5/5039216/everpix-life-and-death-inside-the-worlds-best-photo-startup"&gt;a longform piece on their final days as a company&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Though I did not use Everpix every day, I loved the security that came with knowing all of my photos were being synced continuously and effortlessly to the cloud. I also loved being able to dig out a photo from years earlier whenever I wanted using their web and iOS applications. As of now, I have no idea how I’ll replace the service.&lt;/p&gt;
+
+&lt;hr /&gt;
+
 &lt;div class="footnotes"&gt;
   &lt;ol&gt;
     &lt;li id="fn:iPhoto"&gt;
@@ -133,7 +155,7 @@
     <author>
       <name>Simon Ganz</name>
     </author>
-    <content type="html">&lt;p&gt;Free space on &lt;a href="http://db.tt/DcIkRM3k"&gt;Dropbox&lt;/a&gt; is worth its weight in gold. You get to keep it forever, and every additional megabyte postpones the day when you&amp;#8217;ll have to switch to their &lt;a href="http://www.dropbox.com/pricing"&gt;$100-a-year paid plan&lt;/a&gt;.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Free space on &lt;a href="http://db.tt/DcIkRM3k"&gt;Dropbox&lt;/a&gt; is worth its weight in gold. You get to keep it forever, and every additional megabyte postpones the day when you’ll have to switch to their &lt;a href="http://www.dropbox.com/pricing"&gt;$100-a-year paid plan&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Thankfully, this week Dropbox is giving away free space if you try their iOS Gmail client, &lt;a href="http://www.mailboxapp.com/"&gt;Mailbox&lt;/a&gt; (also free). If you have an iOS device, &lt;a href="https://itunes.apple.com/us/app/mailbox/id576502633?mt=8"&gt;download the app&lt;/a&gt;, go to settings, and link it to your Dropbox account. You get the free gig of space immediately.&lt;/p&gt;
 
@@ -154,9 +176,9 @@
 
 &lt;h2 id="simplynoise"&gt;SimplyNoise&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href="http://simplynoise.com/" title="SimplyNoise -- The Best Free White Noise Generator on the Internet."&gt;SimplyNoise&lt;/a&gt; is a site that plays &lt;a href="http://en.wikipedia.org/wiki/Colors_of_noise" title="Wikipedia: Colors of noise"&gt;white, pink, and brown noise&lt;/a&gt;. There are many sites and many apps that do this, but in my opinion, SimplyNoise has the &amp;#8220;cleanest&amp;#8221; noise. I find other digital noise generators to be harsh or grating. Other generators also tend to loop in distracting ways. &lt;/p&gt;
+&lt;p&gt;&lt;a title="SimplyNoise -- The Best Free White Noise Generator on the Internet." href="http://simplynoise.com/"&gt;SimplyNoise&lt;/a&gt; is a site that plays &lt;a title="Wikipedia: Colors of noise" href="http://en.wikipedia.org/wiki/Colors_of_noise"&gt;white, pink, and brown noise&lt;/a&gt;. There are many sites and many apps that do this, but in my opinion, SimplyNoise has the “cleanest” noise. I find other digital noise generators to be harsh or grating. Other generators also tend to loop in distracting ways. &lt;/p&gt;
 
-&lt;p&gt;If you don&amp;#8217;t like using an iPhone app or a web browser to play the noise, you can &lt;a href="http://simplynoise.com/downloads.html" title="SimplyNoise downloads"&gt;pay a dollar to download a 60-minute MP3&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you don’t like using an iPhone app or a web browser to play the noise, you can &lt;a title="SimplyNoise downloads" href="http://simplynoise.com/downloads.html"&gt;pay a dollar to download a 60-minute MP3&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt;&lt;/p&gt;
 
@@ -173,7 +195,7 @@
 
 &lt;h2 id="get-work-done-music"&gt;Get Work Done Music&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href="http://www.getworkdonemusic.com/" title="Get Work Done Music"&gt;Get Work Done Music&lt;/a&gt; streams fast-paced music from &lt;a href="http://soundcloud.com/" title="SoundCloud - Share Your Sounds"&gt;SoundCloud&lt;/a&gt;. The songs tend to be electronica/trance music, usually with pulsing rhythms.&lt;/p&gt;
+&lt;p&gt;&lt;a title="Get Work Done Music" href="http://www.getworkdonemusic.com/"&gt;Get Work Done Music&lt;/a&gt; streams fast-paced music from &lt;a title="SoundCloud - Share Your Sounds" href="http://soundcloud.com/"&gt;SoundCloud&lt;/a&gt;. The songs tend to be electronica/trance music, usually with pulsing rhythms.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt;&lt;/p&gt;
 
@@ -190,15 +212,15 @@
 
 &lt;h2 id="coffitivity"&gt;Coffitivity&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href="http://coffitivity.com/" title="Coffitivity - Increase Your Creativity!"&gt;Coffitivity&lt;/a&gt; is a site that plays coffee shop noises on a loop. This feels like a dumb idea. But when combined with music, it provides a pleasing mix of noise that is just enough to balance out your music&amp;#8217;s lyrics while still drowning out stray thoughts. &lt;/p&gt;
+&lt;p&gt;&lt;a title="Coffitivity - Increase Your Creativity!" href="http://coffitivity.com/"&gt;Coffitivity&lt;/a&gt; is a site that plays coffee shop noises on a loop. This feels like a dumb idea. But when combined with music, it provides a pleasing mix of noise that is just enough to balance out your music’s lyrics while still drowning out stray thoughts. &lt;/p&gt;
 
-&lt;p&gt;If you don&amp;#8217;t like using a web browser to play sound, you can just &lt;a href="http://coffitivity.com/other/cleanupcut.mp3" title="Coffitivity MP3 File"&gt;download the MP3&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you don’t like using a web browser to play sound, you can just &lt;a title="Coffitivity MP3 File" href="http://coffitivity.com/other/cleanupcut.mp3"&gt;download the MP3&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;You can play your own music.&lt;/li&gt;
-  &lt;li&gt;You don&amp;#8217;t feel like a total psychopath.&lt;/li&gt;
+  &lt;li&gt;You don’t feel like a total psychopath.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Cons:&lt;/strong&gt;&lt;/p&gt;
@@ -224,39 +246,7 @@
   &lt;p&gt;Dr. Gay Hitler, son of George Washington Hitler, was a local dentist, serving our community from 1922 through 1946 from his office on West Main Street.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;a href="http://nymag.com/daily/intelligencer/2013/07/life-in-ohio-a-continuing-series.html" title="Life in Ohio: A Continuing Series"&gt;Jonathan Chait&lt;/a&gt; highlights &lt;a href="http://www.circlevilletoday.com/news/hitlers-were-county-pioneers/article_2a6487b2-a34a-55f4-83f4-dfcf116d15d5.html" title="Hitlers were county pioneers"&gt;a great local newspaper story&lt;/a&gt; about the pioneering Hitler family of Pickaway, Ohio. A significant portion of the town is named after these honest, All-American, salt-of-the-earth Hitlers, and the townsfolk are tired of everyone thinking they&amp;#8217;re fans of the &lt;em&gt;slightly&lt;/em&gt; more famous Adolf Hitler.&lt;/p&gt;
+&lt;p&gt;&lt;a title="Life in Ohio: A Continuing Series" href="http://nymag.com/daily/intelligencer/2013/07/life-in-ohio-a-continuing-series.html"&gt;Jonathan Chait&lt;/a&gt; highlights &lt;a title="Hitlers were county pioneers" href="http://www.circlevilletoday.com/news/hitlers-were-county-pioneers/article_2a6487b2-a34a-55f4-83f4-dfcf116d15d5.html"&gt;a great local newspaper story&lt;/a&gt; about the pioneering Hitler family of Pickaway, Ohio. A significant portion of the town is named after these honest, All-American, salt-of-the-earth Hitlers, and the townsfolk are tired of everyone thinking they’re fans of the &lt;em&gt;slightly&lt;/em&gt; more famous Adolf Hitler.&lt;/p&gt;
 &amp;lt;p&amp;gt;&amp;lt;a href=&amp;#x27;/2013/08/the-hitlers-of-pickaway-ohio/&amp;#x27;&amp;gt;Permalink&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;</content>
-  </entry>
-  <entry>
-    <title>→ Paul Offit and the Vitamin Myth [link]</title>
-    <link rel="alternate" href="http://www.theatlantic.com/health/archive/2013/07/the-vitamin-myth-why-we-think-we-need-supplements/277947/"/>
-    <id>http://simonganz.com/2013/07/dr-paul-offit-and-the-vitamin-myth/</id>
-    <published>2013-07-31T02:14:00Z</published>
-    <updated>2013-07-31T02:14:00Z</updated>
-    <author>
-      <name>Simon Ganz</name>
-    </author>
-    <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;Seven previous studies had already shown that vitamins increased the risk of cancer and heart disease and shortened lives. Still, in 2012, more than half of all Americans took some form of vitamin supplements. What few people realize, however, is that their fascination with vitamins can be traced back to one man. A man who was so spectacularly right that he won two Nobel Prizes and so spectacularly wrong that he was arguably the world’s greatest quack.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;em&gt;Ouch&lt;/em&gt;. The Atlantic has &lt;a href="http://www.theatlantic.com/health/archive/2013/07/the-vitamin-myth-why-we-think-we-need-supplements/277947/" title="The Vitamin Myth: Why We Think We Need Supplements"&gt;a brutal book excerpt&lt;/a&gt; from Dr. Paul Offit tearing into the vitamin supplement industry. This is the same Dr. Offit who attacked the fake link between vaccines and autism in &lt;a href="http://www.amazon.com/gp/product/023114637X/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=023114637X&amp;amp;linkCode=as2&amp;amp;tag=simongcom-20" title="Autism's False Prophets: Bad Science, Risky Medicine, and the Search for a Cure"&gt;an earlier book&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I’ve always treated vitamins like a reassuring and benign superstition. “I don’t feel well, I guess I’ll take some vitamins!” “I could use a pick-me-up, I’ll drink some Emergen-C!” “My penis isn’t long enough, I’ll inject some Ostrich estrus!” (Okay not the last one.)&lt;/p&gt;
-
-&lt;p&gt;Offit’s article really shocked me.&lt;/p&gt;
-
-&lt;h2 id="rebuttals"&gt;Rebuttals&lt;/h2&gt;
-
-&lt;p&gt;There has of course been pushback. Dr. Paul Jaminet, an astrophysicist who writes diet books, has &lt;a href="http://perfecthealthdiet.com/2013/07/the-case-of-the-killer-vitamins-revisited/" title="The Case of the Killer Vitamins Revisited"&gt;a measured response&lt;/a&gt;. He takes issue with the specific studies cited by Offit, in particular an Iowa study which suggested that vitamins increase mortality (ie make you more likely to die) did not adjust for age. It compared older people who were taking supplements with younger people who were not.&lt;/p&gt;
-
-&lt;p&gt;The most compelling criticism is that the book excerpt blurs the line between taking a simple multivitamin and overdosing on Vitamin C because you think it’ll help you shoot lasers from your eyes. In &lt;a href="http://www.theguardian.com/lifeandstyle/2013/jul/26/vitamins-health-paul-offit-qanda" title="Vitamins: Should You Stop Taking THem"&gt;an online interview with The Guardian&lt;/a&gt;, Offit explains the distinction in less sensationlist terms:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Other people think: “Because I’m not sure I’m getting all my vitamins, let me just take take a multivitamin every day” – which is OK. Multivitamins contain at or about the recommended dose of vitamins for that day. But then there are some people who believe that more is better – that by taking large quantities of daily vitamins they will do even better, live even longer and decrease the risk of cancer or heart disease. But in fact, many studies have shown that the exact opposite is true – that if you choose to take these large quantities of excess vitamins, then you increase risk of cancer and heart disease and shorten your life.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The bottom line: There just isn’t much compelling evidence about vitamins despite decades of study. They make sense on an intellectual level, but the benefits are not clearly visible in repeatable studies. A well-formulated multivitamin is probably benign and not doing you any harm or good either way.&lt;/p&gt;
-&amp;lt;p&amp;gt;&amp;lt;a href=&amp;#x27;/2013/07/dr-paul-offit-and-the-vitamin-myth/&amp;#x27;&amp;gt;Permalink&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;</content>
   </entry>
 </feed>
