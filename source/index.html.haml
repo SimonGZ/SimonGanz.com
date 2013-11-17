@@ -12,7 +12,11 @@ description: "Personal blog of Simon Ganz, covering topics such as screenwriting
 - page_articles.each do |article|
   %article
     = partial "layouts/post_header", locals: {article: article}
-    = article.body
+    - if article.data.readmore
+      = article.summary
+      %a{href: "#{article.url}#more"}= article.data.readmore
+    - else
+      = article.body
     %small
       %a{href: "#{article.url}#disqus_thread", class: "comments-link"}
     %hr.postDivider

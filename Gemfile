@@ -4,6 +4,7 @@ gem "middleman"
 
 gem "middleman-blog"
 gem 'middleman-gh-pages'
+gem 'nokogiri'
 
 gem 'kramdown'
 
