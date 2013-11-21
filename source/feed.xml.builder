@@ -16,7 +16,10 @@ xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
       xml.updated article.date.to_time.iso8601
       xml.author { xml.name "Simon Ganz" }
       # xml.summary article.summary, "type" => "html"
-      xml.content article.body + ( linklog?(article) ? "<p><a href='#{article.url}'>Permalink</a></p>" : "" ), "type" => "html"
+      xml.content do
+        xml.div article.body
+        linklog?(article) ? xml.p { xml.a( { href: "http://simonganz.com#{article.url}" }, 'Permalink' ) } : nil
+      end
     end
   end
 end
