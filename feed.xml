@@ -17,7 +17,8 @@
     <author>
       <name>Simon Ganz</name>
     </author>
-    <content type="html">&lt;p&gt;On June 28th, 2013, Anna and I attended the BET Experience at LA Live. The headliner was Beyonce.&lt;/p&gt;
+    <content>
+      <div>&lt;p&gt;On June 28th, 2013, Anna and I attended the BET Experience at LA Live. The headliner was Beyonce.&lt;/p&gt;
 
 &lt;img src="/images/beyonce_gifs/smoke-176ca351.gif" title="Anna" /&gt;
 
@@ -43,7 +44,8 @@
 &lt;p&gt;And Beyonce finished big:&lt;/p&gt;
 
 &lt;img src="/images/beyonce_gifs/fin-d2812827.gif" title="Anna" /&gt;
-</content>
+</div>
+    </content>
   </entry>
   <entry>
     <title>Everpix Shutdown</title>
@@ -54,10 +56,12 @@
     <author>
       <name>Simon Ganz</name>
     </author>
-    <content type="html">&lt;p&gt;Sadly, &lt;a title="Everpix Shutdown FAQ" href="https://support.everpix.com/entries/22586374"&gt;Everpix has announced that they are shutting down&lt;/a&gt; and refunding their customers’ money. I’ve added an update to the end of &lt;a title="Everpix Review" href="http://simonganz.com/2013/08/everpix-review/"&gt;my previous review&lt;/a&gt;.&lt;/p&gt;
+    <content>
+      <div>&lt;p&gt;Sadly, &lt;a title="Everpix Shutdown FAQ" href="https://support.everpix.com/entries/22586374"&gt;Everpix has announced that they are shutting down&lt;/a&gt; and refunding their customers’ money. I’ve added an update to the end of &lt;a title="Everpix Review" href="http://simonganz.com/2013/08/everpix-review/"&gt;my previous review&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I have become addicted to the easy photo sharing and storage that Everpix offered, and I may take a look to see if Flickr or anyone else have gotten their act together and can act as a reasonable replacement.&lt;/p&gt;
-</content>
+</div>
+    </content>
   </entry>
   <entry>
     <title>Ben Affleck Won‘t Ruin Batman vs. Superman</title>
@@ -68,7 +72,8 @@
     <author>
       <name>Simon Ganz</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;a title="Ben Affleck is the Next Batman" href="http://www.huffingtonpost.com/2013/08/22/ben-affleck-batman-man-of-steel_n_3801418.html"&gt;Ben Affleck is going to be the next Batman&lt;/a&gt;. And people are angry.&lt;/p&gt;
+    <content>
+      <div>&lt;p&gt;&lt;a title="Ben Affleck is the Next Batman" href="http://www.huffingtonpost.com/2013/08/22/ben-affleck-batman-man-of-steel_n_3801418.html"&gt;Ben Affleck is going to be the next Batman&lt;/a&gt;. And people are angry.&lt;/p&gt;
 
 &lt;p&gt;But if Batman vs. Superman ends up being a terrible movie, it won’t be because of Affleck. It will be because of this:&lt;/p&gt;
 
@@ -76,7 +81,8 @@
 &lt;script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 
 &lt;p&gt;Batman wearing a Red Sox cap is the least of this movie’s problems.&lt;/p&gt;
-</content>
+</div>
+    </content>
   </entry>
   <entry>
     <title>Everpix Review</title>
@@ -87,7 +93,8 @@
     <author>
       <name>Simon Ganz</name>
     </author>
-    <content type="html">&lt;img src="/images/everpix-fe248e04.jpg" title="Everpix" /&gt;
+    <content>
+      <div>&lt;img src="/images/everpix-fe248e04.jpg" title="Everpix" /&gt;
 
 &lt;p&gt;&lt;a href="https://www.everpix.com/"&gt;Everpix&lt;/a&gt; is a subscription photo service that promises unlimited online storage and automatic organization.&lt;/p&gt;
 
@@ -181,7 +188,8 @@
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
-</content>
+</div>
+    </content>
   </entry>
   <entry>
     <title>→ Get a Free Gigabyte from Dropbox for Using Mailbox on iOS [link]</title>
@@ -192,11 +200,16 @@
     <author>
       <name>Simon Ganz</name>
     </author>
-    <content type="html">&lt;p&gt;Free space on &lt;a href="http://db.tt/DcIkRM3k"&gt;Dropbox&lt;/a&gt; is worth its weight in gold. You get to keep it forever, and every additional megabyte postpones the day when you’ll have to switch to their &lt;a href="http://www.dropbox.com/pricing"&gt;$100-a-year paid plan&lt;/a&gt;.&lt;/p&gt;
+    <content>
+      <div>&lt;p&gt;Free space on &lt;a href="http://db.tt/DcIkRM3k"&gt;Dropbox&lt;/a&gt; is worth its weight in gold. You get to keep it forever, and every additional megabyte postpones the day when you’ll have to switch to their &lt;a href="http://www.dropbox.com/pricing"&gt;$100-a-year paid plan&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Thankfully, this week Dropbox is giving away free space if you try their iOS Gmail client, &lt;a href="http://www.mailboxapp.com/"&gt;Mailbox&lt;/a&gt; (also free). If you have an iOS device, &lt;a href="https://itunes.apple.com/us/app/mailbox/id576502633?mt=8"&gt;download the app&lt;/a&gt;, go to settings, and link it to your Dropbox account. You get the free gig of space immediately.&lt;/p&gt;
 
-&amp;lt;p&amp;gt;&amp;lt;a href=&amp;#x27;/2013/08/get-a-free-gigabyte-from-dropbox-for-using-mailbox/&amp;#x27;&amp;gt;Permalink&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;</content>
+</div>
+      <p>
+        <a href="http://simonganz.com/2013/08/get-a-free-gigabyte-from-dropbox-for-using-mailbox/">Permalink</a>
+      </p>
+    </content>
   </entry>
   <entry>
     <title>Using Ambient Noise to Drown Out Distraction</title>
@@ -207,7 +220,8 @@
     <author>
       <name>Simon Ganz</name>
     </author>
-    <content type="html">&lt;p&gt;I struggle to work in silence. My mind gets crowded with ideas. But I also struggle to work with music. My mind begins to follow the lyrics.&lt;/p&gt;
+    <content>
+      <div>&lt;p&gt;I struggle to work in silence. My mind gets crowded with ideas. But I also struggle to work with music. My mind begins to follow the lyrics.&lt;/p&gt;
 
 &lt;p&gt;Ambient noise is a way to drown out your thoughts without distracting your focus. Here are three tools I recommend:&lt;/p&gt;
 
@@ -268,6 +282,7 @@
 
   &lt;/li&gt;
 &lt;/ul&gt;
-</content>
+</div>
+    </content>
   </entry>
 </feed>
