@@ -4,10 +4,41 @@
   <id>http://simonganz.com/</id>
   <link href="http://simonganz.com/"/>
   <link href="http://simonganz.com/feed.xml" rel="self"/>
-  <updated>2013-11-26T18:49:00Z</updated>
+  <updated>2013-12-30T19:03:00Z</updated>
   <author>
     <name>Simon Ganz</name>
   </author>
+  <entry>
+    <title>Walkscore for Redfin Chrome Extension</title>
+    <link rel="alternate" href="/2013/12/walkscore-for-redfin-chrome-extension/"/>
+    <id>http://simonganz.com/2013/12/walkscore-for-redfin-chrome-extension/</id>
+    <published>2013-12-30T19:03:00Z</published>
+    <updated>2013-12-30T19:03:00Z</updated>
+    <author>
+      <name>Simon Ganz</name>
+    </author>
+    <content>
+      <div>&lt;img src="/images/walkscoreExtensionScreenshot-e39932c2.jpg" title="Walkscore Extension for Redfin" /&gt;
+
+&lt;p&gt;I have written &lt;a title="Walkscore for Redfin" href="https://chrome.google.com/webstore/detail/walkscore-for-redfin-and/jjejooaohjgoapilebkhgigocepijmnp"&gt;a Chrome Extension to show Walkscore results on Redfin&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id="background"&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;&lt;a title="Walkscore" href="http://www.walkscore.com"&gt;Walkscore.com&lt;/a&gt; uses Google Maps to calculate how walkable, bikeable, and transit-friendly a house or apartment is. &lt;a title="Redfin" href="http://www.redfin.com"&gt;Redfin.com&lt;/a&gt; is a real estate site that lists houses and condos for sale. If you’re house hunting, you spend a lot of time bouncing back and forth between these two sites.&lt;/p&gt;
+
+&lt;p&gt;The extension also supports &lt;a title="TheMLS" href="http://www.theMLS.com"&gt;TheMLS.com&lt;/a&gt;, a site that real estate agents use to email listings to their clients.&lt;/p&gt;
+
+&lt;h2 id="how-to-use-it"&gt;How to Use It&lt;/h2&gt;
+
+&lt;p&gt;While browsing Redfin.com, clicking on the extension (or using the keyboard shortcut Alt+W on the Mac) pops up a small window displaying the Walkscore.com page for that house.&lt;/p&gt;
+
+&lt;h2 id="how-to-install"&gt;How to Install&lt;/h2&gt;
+
+&lt;p&gt;You can install the extension &lt;a title="Walkscore for Redfin" href="https://chrome.google.com/webstore/detail/walkscore-for-redfin-and/jjejooaohjgoapilebkhgigocepijmnp"&gt;directly from the Chrome Webstore&lt;/a&gt;.&lt;/p&gt;
+
+</div>
+    </content>
+  </entry>
   <entry>
     <title>Kanye West Concert in GIFs</title>
     <link rel="alternate" href="/2013/11/kanye-west-concert-in-gifs/"/>
@@ -240,26 +271,6 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 </div>
-    </content>
-  </entry>
-  <entry>
-    <title>→ Get a Free Gigabyte from Dropbox for Using Mailbox on iOS [link]</title>
-    <link rel="alternate" href="http://lifehacker.com/mailbox-users-can-get-a-free-gigabyte-of-dropbox-space-1159534393"/>
-    <id>http://simonganz.com/2013/08/get-a-free-gigabyte-from-dropbox-for-using-mailbox/</id>
-    <published>2013-08-18T01:54:00Z</published>
-    <updated>2013-08-18T01:54:00Z</updated>
-    <author>
-      <name>Simon Ganz</name>
-    </author>
-    <content>
-      <div>&lt;p&gt;Free space on &lt;a href="http://db.tt/DcIkRM3k"&gt;Dropbox&lt;/a&gt; is worth its weight in gold. You get to keep it forever, and every additional megabyte postpones the day when you’ll have to switch to their &lt;a href="http://www.dropbox.com/pricing"&gt;$100-a-year paid plan&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Thankfully, this week Dropbox is giving away free space if you try their iOS Gmail client, &lt;a href="http://www.mailboxapp.com/"&gt;Mailbox&lt;/a&gt; (also free). If you have an iOS device, &lt;a href="https://itunes.apple.com/us/app/mailbox/id576502633?mt=8"&gt;download the app&lt;/a&gt;, go to settings, and link it to your Dropbox account. You get the free gig of space immediately.&lt;/p&gt;
-
-</div>
-      <p>
-        <a href="http://simonganz.com/2013/08/get-a-free-gigabyte-from-dropbox-for-using-mailbox/">Permalink</a>
-      </p>
     </content>
   </entry>
 </feed>
