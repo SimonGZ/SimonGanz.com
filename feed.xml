@@ -26,11 +26,11 @@
 
 &lt;p&gt;&lt;a title="Walkscore" href="http://www.walkscore.com"&gt;Walkscore.com&lt;/a&gt; uses Google Maps to calculate how walkable, bikeable, and transit-friendly a house or apartment is. &lt;a title="Redfin" href="http://www.redfin.com"&gt;Redfin.com&lt;/a&gt; is a real estate site that lists houses and condos for sale. I’m house hunting, so I’ve spent a lot of time bouncing back and forth between these two sites.&lt;/p&gt;
 
-&lt;p&gt;The extension also supports &lt;a title="TheMLS" href="http://www.theMLS.com"&gt;TheMLS.com&lt;/a&gt;, a site that real estate agents use to email listings to their clients.&lt;/p&gt;
-
 &lt;h2 id="how-to-use-it"&gt;How to Use It&lt;/h2&gt;
 
-&lt;p&gt;While browsing Redfin.com, clicking on the extension (or using the keyboard shortcut Alt+W on the Mac) pops up a small window displaying the Walkscore.com page for that house.&lt;/p&gt;
+&lt;p&gt;While browsing Redfin, clicking on the extension (or using the keyboard shortcut Alt+W on the Mac) pops up a small window displaying the Walkscore.com page for that house.&lt;/p&gt;
+
+&lt;p&gt;The extension also supports &lt;a title="TheMLS" href="http://www.theMLS.com"&gt;TheMLS.com&lt;/a&gt;, a site that real estate agents use to email listings to their clients.&lt;/p&gt;
 
 &lt;h2 id="how-to-install"&gt;How to Install&lt;/h2&gt;
 
