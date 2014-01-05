@@ -9,7 +9,7 @@
     <name>Simon Ganz</name>
   </author>
   <entry>
-    <title>Walkscore for Redfin Chrome Extension</title>
+    <title>Walk Score for Redfin Chrome Extension</title>
     <link rel="alternate" href="/2013/12/walkscore-for-redfin-chrome-extension/"/>
     <id>http://simonganz.com/2013/12/walkscore-for-redfin-chrome-extension/</id>
     <published>2013-12-30T19:03:00Z</published>
@@ -20,11 +20,11 @@
     <content>
       <div>&lt;img src="/images/walkscoreExtensionScreenshot-e39932c2.jpg" title="Walkscore Extension for Redfin" /&gt;
 
-&lt;p&gt;I’ve written &lt;a title="Walkscore for Redfin" href="https://chrome.google.com/webstore/detail/walkscore-for-redfin-and/jjejooaohjgoapilebkhgigocepijmnp"&gt;a Chrome Extension to show Walkscore results on Redfin&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I’ve written &lt;a title="Walkscore for Redfin" href="https://chrome.google.com/webstore/detail/walkscore-for-redfin-and/jjejooaohjgoapilebkhgigocepijmnp"&gt;a Chrome Extension to show Walk Score rankings on Redfin&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id="background"&gt;Background&lt;/h2&gt;
 
-&lt;p&gt;&lt;a title="Walkscore" href="http://www.walkscore.com"&gt;Walkscore.com&lt;/a&gt; uses Google Maps to calculate how walkable, bikeable, and transit-friendly a house or apartment is. &lt;a title="Redfin" href="http://www.redfin.com"&gt;Redfin.com&lt;/a&gt; is a real estate site that lists houses and condos for sale. I’m house hunting, so I’ve spent a lot of time bouncing back and forth between these two sites.&lt;/p&gt;
+&lt;p&gt;&lt;a title="Walkscore" href="http://www.walkscore.com"&gt;Walk Score&lt;sup&gt;®&lt;/sup&gt;&lt;/a&gt; uses Google Maps to calculate how walkable, bikeable, and transit-friendly a house or apartment is. &lt;a title="Redfin" href="http://www.redfin.com"&gt;Redfin.com&lt;/a&gt; is a real estate site that lists houses and condos for sale. I’m house hunting, so I’ve spent a lot of time bouncing back and forth between these two sites.&lt;/p&gt;
 
 &lt;h2 id="how-to-use-it"&gt;How to Use It&lt;/h2&gt;
 
