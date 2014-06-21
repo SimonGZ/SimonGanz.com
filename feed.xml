@@ -4,10 +4,48 @@
   <id>http://simonganz.com/</id>
   <link href="http://simonganz.com/"/>
   <link href="http://simonganz.com/feed.xml" rel="self"/>
-  <updated>2014-02-14T03:44:00Z</updated>
+  <updated>2014-06-21T05:18:00Z</updated>
   <author>
     <name>Simon Ganz</name>
   </author>
+  <entry>
+    <title>Ranndy Random Name Generator</title>
+    <link rel="alternate" href="/2014/06/ranndy-random-name-generator/"/>
+    <id>http://simonganz.com/2014/06/ranndy-random-name-generator/</id>
+    <published>2014-06-21T05:18:00Z</published>
+    <updated>2014-06-21T05:18:00Z</updated>
+    <author>
+      <name>Simon Ganz</name>
+    </author>
+    <content>
+      <div>&lt;a href="http://ranndy.com" title="Ranndy Random Name Generator"&gt;&lt;img src="/images/ranndyInterface-283c7de4.png" title="Ranndy Random Name Generator" /&gt;&lt;/a&gt;
+
+&lt;p&gt;&lt;a title="Ranndy Random Name Generator" href="http://ranndy.com"&gt;Ranndy.com&lt;/a&gt; is a random name generator for use in fiction writing and baby naming.&lt;/p&gt;
+
+&lt;p&gt;The site is mobile friendly and presents an infinite scroll of random names with hundreds of millions of possibilities.&lt;/p&gt;
+
+&lt;h2 id="choosing-not-so-random-names"&gt;Choosing Not-So-Random Names&lt;/h2&gt;
+
+&lt;p&gt;Ranndy uses US Census data, so you can get very specific about what sort of random name you want.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you were writing a character who should be roughly 30 years old, you can ask Ranndy to only show you popular names from 1984.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you were writing a character with a specific racial/ethnic background (Native American sheriff, African American businessman, etc.) you can ask Ranndy to only show you surnames associated with that racial/ethnic group.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you’re looking for a truly out there name, you can ask Ranndy to only show you unpopular names. For instance, only five unlucky babies in the US were named Ranndy with two n’s in the year 2005.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="technical-details"&gt;Technical Details&lt;/h2&gt;
+
+&lt;p&gt;Ranndy’s front end is &lt;a href="http://backbonejs.org/"&gt;backbone.js&lt;/a&gt; and its backend is &lt;a href="http://expressjs.com/"&gt;node.js/express&lt;/a&gt;. I used &lt;a href="http://susy.oddbird.net/"&gt;Susy stylesheets&lt;/a&gt; for the mobile friendly grid.&lt;/p&gt;
+</div>
+    </content>
+  </entry>
   <entry>
     <title>Friday Night Lights Reunion</title>
     <link rel="alternate" href="/2014/02/friday-night-lights-parenthood-webisodes/"/>
@@ -28,7 +66,7 @@
 
 &lt;p&gt;I wrote episode three.&lt;/p&gt;
 
-&lt;p&gt;&lt;a title="Friday Night at the Luncheonette" href="http://www.youtube.com/watch?v=0UbUZjfvq1c&amp;amp;list=PLRUSbbQynOdH2NI5xLJ03K_tdIaTRTukk&amp;amp;feature=share"&gt;[Youtube]&lt;/a&gt; – [&lt;a title="Friday Night at the Luncheonette" href="http://www.nbc.com/parenthood/video/friday-night-at-the-luncheonette/2745592"&gt;NBC Video&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;&lt;a title="Friday Night at the Luncheonette" href="http://www.youtube.com/watch?v=0UbUZjfvq1c&amp;amp;amp;list=PLRUSbbQynOdH2NI5xLJ03K_tdIaTRTukk&amp;amp;amp;feature=share"&gt;[Youtube]&lt;/a&gt; – [&lt;a title="Friday Night at the Luncheonette" href="http://www.nbc.com/parenthood/video/friday-night-at-the-luncheonette/2745592"&gt;NBC Video&lt;/a&gt;]&lt;/p&gt;
 </div>
     </content>
   </entry>
@@ -166,27 +204,6 @@
       <div>&lt;p&gt;Sadly, &lt;a title="Everpix Shutdown FAQ" href="https://support.everpix.com/entries/22586374"&gt;Everpix has announced that they are shutting down&lt;/a&gt; and refunding their customers’ money. I’ve added an update to the end of &lt;a title="Everpix Review" href="http://simonganz.com/2013/08/everpix-review/"&gt;my previous review&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I have become addicted to the easy photo sharing and storage that Everpix offered, and I may take a look to see if Flickr or anyone else have gotten their act together and can act as a reasonable replacement.&lt;/p&gt;
-</div>
-    </content>
-  </entry>
-  <entry>
-    <title>Ben Affleck Won‘t Ruin Batman vs. Superman</title>
-    <link rel="alternate" href="/2013/08/ben-affleck-wont-ruin-batman-vs-superman/"/>
-    <id>http://simonganz.com/2013/08/ben-affleck-wont-ruin-batman-vs-superman/</id>
-    <published>2013-08-25T05:19:00Z</published>
-    <updated>2013-08-25T05:19:00Z</updated>
-    <author>
-      <name>Simon Ganz</name>
-    </author>
-    <content>
-      <div>&lt;p&gt;&lt;a title="Ben Affleck is the Next Batman" href="http://www.huffingtonpost.com/2013/08/22/ben-affleck-batman-man-of-steel_n_3801418.html"&gt;Ben Affleck is going to be the next Batman&lt;/a&gt;. And people are angry.&lt;/p&gt;
-
-&lt;p&gt;But if Batman vs. Superman ends up being a terrible movie, it won’t be because of Affleck. It will be because of this:&lt;/p&gt;
-
-&lt;blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" align="center"&gt;&lt;p&gt;All this outrage over Affleck, yet no noise of the fact that theyve got less than two years to make a $200M movie they have no script for.&lt;/p&gt;&amp;mdash; Geoff LaTulippe (@DrGMLaTulippe) &lt;a href="https://twitter.com/DrGMLaTulippe/statuses/370777905468432384"&gt;August 23, 2013&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-
-&lt;p&gt;Batman wearing a Red Sox cap is the least of this movie’s problems.&lt;/p&gt;
 </div>
     </content>
   </entry>
