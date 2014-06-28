@@ -21,7 +21,7 @@
       <div>&lt;p&gt;&lt;a title="Fountain Loader" href="http://fountainloader.com"&gt;Fountain Loader&lt;/a&gt; is an online previewer for &lt;a title="Fountain: A markup language for screenwriting&amp;quot;" href="http://fountain.io/"&gt;Fountain screenplay documents&lt;/a&gt;. It works with Google Drive™, making it easier to write screenplays in Google Docs.&lt;/p&gt;
 
 &lt;div class="video-container"&gt;
-    &lt;video autoplay loop poster="http://fountainloader.com/videos/fountain-loader-poster.jpg"&gt;
+    &lt;video autoplay loop controls poster="http://fountainloader.com/videos/fountain-loader-poster.jpg"&gt;
     &lt;source id="webmsource" src="http://fountainloader.com/videos/fountain-loader.webm" type="video/webm"&gt;
     &lt;source id="mp4source" src="http://fountainloader.com/videos/fountain-loader.mp4" type="video/mp4"&gt;
     &lt;img src="http://fountainloader.com/videos/fountain-loader.gif"&gt;
