@@ -1,0 +1,48 @@
+---
+title: Fountain Loader for Google Drive
+date: 2014-06-27 20:48 PDT
+tags: "tech, projects, writing"
+---
+
+[Fountain Loader](http://fountainloader.com "Fountain Loader") is an online previewer for [Fountain screenplay documents][9636-001]. It works with Google Drive™, making it easier to write screenplays in Google Docs.
+
+{::nomarkdown}
+<div class="video-container">
+    <video autoplay="" loop="" poster="<%= image_path 'fountain-loader/fountain-loader-poster.jpg' %>">
+    <source id="webmsource" src="<%= image_path 'fountain-loader/fountain-loader.webm' %>" type="video/webm">
+    <source id="mp4source" src="<%= image_path 'fountain-loader/fountain-loader.mp4' %>" type="video/mp4">
+    <img src="<%= image_path 'fountain-loader/fountain-loader.gif' %>">
+    </video>
+</div>
+{:/}
+
+## Why did I make this
+
+Google Docs is the best collaborative writing program I've found. It lets me and my writing partner work on a script simultaneously, sometimes even working on the same sentence at the same time. 
+
+But Google Docs is butt ugly. It doesn't even have a decent Courier font.[^font] I'm used to writing code and staring at ugly markup, but my writing partner can't stand it. Google Docs just doesn't look like a screenplay to him.
+
+Fountain Loader bridges the visual gap between Google Docs and the final script. It loads our script as we work on it and generates a preview in another tab. It can also watch the file and update as the document changes.[^caveat]
+
+## Features
+
+- **Pretty damn accurate:** The preview should be very close to how your script will look when output by [John August's Highland app](http://quoteunquoteapps.com/highland/ "Highland - Quote-Unquote Apps").
+- **Responsive:** Multiple layouts so you can preview screenplays on your phone or tablet.
+- **Detect Changes mode:** Watches your document and generates new previews with each change.
+- **Safe:** Fountain Loader renders everything locally in Javascript. Your screenplay goes directly from Google Drive to your browser without being saved on a server somewhere.
+
+## Possible Future Features
+
+- Use Fountain outlining elements to create fast-links to jump through a script (e.g. jump to act two).
+- Toggle to hide notes and outline elements.
+
+## Link
+
+Check it out at <http://fountainloader.com>.
+
+---
+
+[^font]: I Use [cousine](https://www.google.com/fonts/specimen/Cousine "Google Fonts Cousine"), a coding font that has the same metrics as Courier.
+[^caveat]: Caveat: This feature depends on [Google Drive's change feed system](https://developers.google.com/drive/web/manage-changes), which doesn't update as fast as you might guess. It groups changes together and only updates every few minutes.
+
+[9636-001]: http://fountain.io/ "Fountain: A markup language for screenwriting""
