@@ -61,7 +61,7 @@
 &lt;div class="footnotes"&gt;
   &lt;ol&gt;
     &lt;li id="fn:font"&gt;
-      &lt;p&gt;I Use &lt;a title="Google Fonts Cousine" href="https://www.google.com/fonts/specimen/Cousine"&gt;cousine&lt;/a&gt;, a coding font that has the same metrics as Courier. &lt;a href="#fnref:font" class="reversefootnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;I use &lt;a title="Google Fonts Cousine" href="https://www.google.com/fonts/specimen/Cousine"&gt;cousine&lt;/a&gt;, a coding font that has the same metrics as Courier. &lt;a href="#fnref:font" class="reversefootnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id="fn:caveat"&gt;
       &lt;p&gt;Caveat: This feature depends on &lt;a href="https://developers.google.com/drive/web/manage-changes"&gt;Google Drive’s change feed system&lt;/a&gt;, which doesn’t update as fast as you might guess. It groups changes together and only updates every few minutes. &lt;a href="#fnref:caveat" class="reversefootnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
