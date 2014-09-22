@@ -1,0 +1,77 @@
+---
+title: Making a Digital Will for Your Online Accounts
+date: 2014-09-21 16:23 PDT
+description: "How to create a digital will so that your family can access your online accounts after you die."
+tags: tech
+---
+
+## The Problem: Death
+
+{::nomarkdown}
+<img src="<%= image_path 'death.jpg' %>" title="Death" />
+<div style="text-align:right; margin-bottom: -20px;"><small><a href="https://www.flickr.com/photos/pedrosz/5578743262/in/photolist-dqGruE-5SuHtq-6dbaBf-8DDXGt-bsKmci-9aRZK2-7U24t8-4CwBoY-4wskbr-9uYw1E-m9jryL-7Z5xz2-9cb36s-9cAs7C-9LDkcC-dqGrFL-dYN8NR-9i2q1m-nsNaSW-c2Z8S9-dqGhvn-ot7cxc-9jRzE5-ahoi86-2yKq35-eg9fuW-9kuX6N-9atqQ-8h7tpM-mUepW-cYWWj3-4JvWT4-57WvKT-bndFjR-cLh3pw-7cvtQ2-aVFXc-ePGGNz-9d51VP-dqGrxb-9dnysQ-5i9jvH-58jZXm-a2uYFY-ft1G9Z-6UfB3T-3Tu6bj-8dwz8q-4y9XXp-9G8Z8c/">© Pedro Szekely</a></small></div>
+{:/}
+
+I'm the designated nerd in my family, so I handle all of our online accounts. To keep them secure, I use randomly generated, unique passwords and two-factor authentication. 
+
+But that means that my wife doesn't know the online logins for our iTunes account, our bank and retirement accounts, our gas company, our cable company, our water and power company, and so on and so on.
+
+What if I died or was suddenly incapacitated? How would she access our accounts?
+
+## Requirements
+
+- I need a system that's secure. I don't want to weaken all my online accounts just for the off chance that I get hit by a bus.
+- I need a system that can outlive my hardware. What if my hypothetical death also destroyed my laptop, tablet, and phone?
+- I need a system that can be easily understood by my tech illiterate survivors.
+
+## The Solution
+
+### Ingredient List
+
+- [1Password][7965-001]
+- [Dropbox][7965-002]
+- Printed or handwritten letter
+- Secure physical location (safe, deposit box, etc)
+
+### Step One: Put all your passwords in 1Password
+
+[1Password][7965-001] is a password management app available for Mac, Windows, and iOS. It saves your passwords in a secure vault with a master password. Instead of having to remember hundreds of weak passwords, you only have to remember one strong password. The app can generate random, unique passwords for all your online accounts, so if a service gets hacked, your other accounts are safe because each has a unique and unguessable password.
+
+### Step Two: Put your 1Password vault in Dropbox
+
+1Password can [store your secure password vault in your Dropbox][agile-help] account. That means that by leaving detailed instructions and a few key passwords, all of your online account information can be accessed from one simple file.
+
+### Step Three: Write a letter explaining how to access your Dropbox account and 1Password vault
+
+The letter should be stored in a secure location like a safe or safety deposit box in a sealed envelope with the date written on it. And you should tell people important to you about the letter and where to find it. If you have a legal will for your estate, you should mention the letter in that will.
+
+Writing the letter is the hardest step. It should include the following information:
+
+- Your email account username and password. If your family needs to reset any of your passwords, they'll need access to your email.
+- Your Dropbox username and password.
+- Your 1Password Master Password.
+- Your passcode for your cellphone.
+- Detailed instructions for how to access the 1Password master vault.
+
+#### Example Text
+
+Here is some example text from my own letter.
+
+*Accessing a two-factor authentication protected gmail account:*
+
+> My Gmail account is protected with two-factor authentication. This means you need both my password and the Google Authenticator app on my iPhone in order to access it. If you can’t access my phone, you can use a special one-time only backup code to get into my Gmail account without using the authenticator. Once you log in with a backup code, you should turn off two-factor authentication so that you don’t get locked out of the account.
+
+*Accessing Dropbox and 1Password:*
+
+> My writing as well as an encrypted archive containing all of my online passwords can be found in my Dropbox account.
+
+> Inside my Dropbox is a file called 1Password.agilekeychain. 
+This is an encrypted archive that contains all of my passwords, including those for important accounts like my bank account. It can be opened using a program called 1Password which is available at https://agilebits.com/onepassword. 
+
+#### Bonus: List Your Online Assets
+
+Passing on all of your online accounts to your survivors isn't useful if they don't know what's worth saving. At the end of the letter, write down a list of every online asset that's important or valuable to you. For instance, web domains, online photo storage accounts, and anything you've written online and want preserved.
+
+[7965-001]: https://agilebits.com/onepassword "1Password - AgileBits"
+[7965-002]: https://www.dropbox.com/ "Dropbox"
+[agile-help]: https://help.agilebits.com/1Password3/configure_dropbox_on_mac.html "How To: Configure Dropbox Syncing"
