@@ -17,6 +17,13 @@
     -# You may wish to remove the 'initial scale=1.0' for non-responsive layouts
     %meta{:name => "viewport", :content => "width=device-width, initial-scale=1.0"}
 
+    -# Facebook OpenGraph tags
+    %meta{:property => "og:title", :content => current_page.data.title}    
+    %meta{:property => "og:site_name", :content => "SimonGanz.com"}
+    %meta{:property => "og:url", :content => "http://simonganz.com#{current_page.url}"}
+    %meta{:property => "og:description", :content => current_page.data.description}
+    %meta{:property => "og:image", :content => current_page.data.image}
+
     -# Place favicon.ico and apple-touch-icon.png in the root directory
     
     %link{href: "/feed.xml", type: "application/atom+xml", rel: "alternate", title: "SimonGanz.com"}
