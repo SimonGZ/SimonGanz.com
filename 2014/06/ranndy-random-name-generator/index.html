@@ -18,8 +18,8 @@
     <meta content='Ranndy, a Random Name Generator for fiction writing and baby naming.' property='og:description'>
     <meta property='og:image'>
     <link href='/feed.xml' rel='alternate' title='SimonGanz.com' type='application/atom+xml'>
-    <link href="http://fnt.webink.com/wfs/webink.css/?project=E380B95A-DD67-4CF8-8D01-AD22A80E8ABB&amp;fonts=20922E88-B693-9390-777B-C41094432DCB:f=Brown-Medium,DFD8F101-AC70-75C7-F5B1-E79F27EC62F7:f=Brown-Bold,0370DD4E-1F61-4153-2E61-432FAF031C61:f=Brown-Light,A74D8AB6-67C3-A996-EC7D-8F5882A5D2A0:f=Brown-ThinItalic" media="screen" rel="stylesheet" type="text/css" />
-    <link href="/stylesheets/screen-b78c252f.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="http://fnt.webink.com/wfs/webink.css/?project=E380B95A-DD67-4CF8-8D01-AD22A80E8ABB&amp;fonts=20922E88-B693-9390-777B-C41094432DCB:f=Brown-Medium,DFD8F101-AC70-75C7-F5B1-E79F27EC62F7:f=Brown-Bold,0370DD4E-1F61-4153-2E61-432FAF031C61:f=Brown-Light,A74D8AB6-67C3-A996-EC7D-8F5882A5D2A0:f=Brown-ThinItalic" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/screen-d1e575d7.css" rel="stylesheet" type="text/css" />
     <script src="/javascripts/libs/modernizr-2.6.1.min-68fdcc99.js" type="text/javascript"></script>
     <script type='text/javascript'>
       var _gaq = _gaq || [];
@@ -80,7 +80,7 @@
           
           <p>The site is mobile friendly and presents an infinite scroll of random names with hundreds of millions of possibilities.</p>
           
-          <h2 id="choosing-not-so-random-names">Choosing Not-So-Random Names</h2>
+          <h2 id="year-race-and-popularity">Year, Race, and Popularity…</h2>
           
           <p>Ranndy uses US Census data, so you can get very specific about what sort of random name you want.</p>
           
@@ -96,9 +96,43 @@
             </li>
           </ul>
           
+          <h2 id="names-that-start-with">Names That Start With…</h2>
+          
+          <p>Ranndy can show you names that start with certain letters. </p>
+          
+          <ul>
+            <li>If you enter “Jo” in the Starts With field, Ranndy will only show you names that start with “Jo” like John, Jordan, Jose, etc.</li>
+          </ul>
+          
+          <h2 id="excluding-names">Excluding Names…</h2>
+          
+          <p>Ranndy can also do the opposite, showing you names that DON’T start with certain letters. Just use the * character. </p>
+          
+          <ul>
+            <li>If you enter “D*, S*, P*” in the Starts With field, Ranndy won’t show you any names that start with D, S, or P. This is useful when you’re writing a screenplay and don’t want too many characters whose names sound or look similar on the page.</li>
+          </ul>
+          
+          <h2 id="forcing-a-name">Forcing a Name…</h2>
+          
+          <p>Ranndy also doesn’t have to be quite so random. If you already know a first or last name that you love, you can force that name with the ^ character. </p>
+          
+          <ul>
+            <li>If you enter “Smith^” in the Last Name Starts With field, then Ranndy will show you random first names but every last name will be “Smith”. This is useful for baby naming and also creating family members for characters.</li>
+          </ul>
+          
+          <h2 id="change-log">Change Log</h2>
+          
+          <p><em>v0.3.0 - 11/29/2014</em> </p>
+          
+          <ul>
+            <li>Added “Starts With” features.</li>
+            <li>Reworked first name popularity system. Now there are only high and low popularity choices instead of high, medium, and low. This should give a better variety of names in default searches without including too many weird names.</li>
+            <li>Changed how Ranndy reacts when a request brings up very few results. Example: If your parameters only brought up 10 possible last names, Ranndy will now repeat those 10 names over and over with randomly generated first names, rather than only showing you 10 total results.</li>
+          </ul>
+          
           <h2 id="technical-details">Technical Details</h2>
           
-          <p>Ranndy’s front end is <a href="http://backbonejs.org/">backbone.js</a> and its backend is <a href="http://expressjs.com/">node.js/express</a>. I used <a href="http://susy.oddbird.net/">Susy stylesheets</a> for the mobile friendly grid.</p>
+          <p>Ranndy’s front end is <a href="http://backbonejs.org/">backbone.js</a> and its backend is <a href="http://expressjs.com/">node.js/express</a>.</p>
           <hr class='postDivider'>
           <div id='disqus_thread'></div>
           <script>
@@ -128,8 +162,6 @@
       window.jQuery || document.write('<script src="/javascripts/libs/jquery-1.9.0.min-3aa99ff1.js"><\/script>')
     </script>
     <!-- = javascript_include_tag "libs/holder" -->
-    <script src="/javascripts/plugins-d35b11c4.js" type="text/javascript"></script>
-    <script src="/javascripts/script-84e80ba9.js" type="text/javascript"></script>
+    <script src="/javascripts/plugins-d35b11c4.js" type="text/javascript"></script><script src="/javascripts/script-84e80ba9.js" type="text/javascript"></script>
   </body>
 </html>
-

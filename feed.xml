@@ -4,16 +4,68 @@
   <id>http://simonganz.com/</id>
   <link href="http://simonganz.com/"/>
   <link href="http://simonganz.com/feed.xml" rel="self"/>
-  <updated>2014-09-21T23:23:00Z</updated>
+  <updated>2014-11-29T11:35:00-08:00</updated>
   <author>
     <name>Simon Ganz</name>
   </author>
   <entry>
+    <title>Ranndy Random Name Generator Updated</title>
+    <link rel="alternate" href="/2014/11/ranndy-random-name-generator-updated/"/>
+    <id>http://simonganz.com/2014/11/ranndy-random-name-generator-updated/</id>
+    <published>2014-11-29T11:35:00-08:00</published>
+    <updated>2014-11-29T11:35:00-08:00</updated>
+    <author>
+      <name>Simon Ganz</name>
+    </author>
+    <content>
+      <div>&lt;p&gt;I’ve released a new version of &lt;a title="Ranndy Random Name Generator" href="http://ranndy.com"&gt;Ranndy.com&lt;/a&gt;, my random name generator for use in fiction writing and baby naming.&lt;/p&gt;
+
+&lt;h2 id="new-starts-with-feature"&gt;New Starts With Feature&lt;/h2&gt;
+
+&lt;p&gt;Ranndy can now show you names that start with certain letters using the new Starts With feature.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If you enter “Jo” in the Starts With field, Ranndy will only show you names that start with “Jo” like John, Jordan, Jose, etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;a href="http://ranndy.com" title="Ranndy Random Name Generator"&gt;&lt;img src="/images/ranndy/starts-with-65d795cc.png" title="Ranndy Starts With Feature" /&gt;&lt;/a&gt;
+
+&lt;h2 id="new-exclusion-feature"&gt;New Exclusion Feature&lt;/h2&gt;
+
+&lt;p&gt;Ranndy can also do the opposite of Starts With, showing you names that DON’T start with certain letters. Just use the * character in the Starts With field. &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If you enter “D*, S*, P*” in the Starts With field, Ranndy won’t show you any names that start with D, S, or P. This is useful when you’re writing a screenplay and don’t want too many characters whose names sound or look similar on the page.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;a href="http://ranndy.com" title="Ranndy Random Name Generator"&gt;&lt;img src="/images/ranndy/exclusion-74a89306.png" title="Ranndy Exclusion Feature" /&gt;&lt;/a&gt;
+
+&lt;h2 id="new-force-name-feature"&gt;New Force Name Feature&lt;/h2&gt;
+
+&lt;p&gt;Ranndy now lets you force a first or last name. If you already know a first or last name that you love, you can force that name with the ^ character in the Starts With field. &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If you enter “Smith^” in the Last Name Starts With field, then Ranndy will show you random first names but every last name will be “Smith”. This is useful for baby naming and also creating family members for characters.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;a href="http://ranndy.com" title="Ranndy Random Name Generator"&gt;&lt;img src="/images/ranndy/force-name-f090b540.png" title="Ranndy Force Name Feature" /&gt;&lt;/a&gt;
+
+&lt;h2 id="popularity-tweaks"&gt;Popularity Tweaks&lt;/h2&gt;
+
+&lt;p&gt;I’ve also made some tweaks to how Ranndy ranks first names by popularity. The default setting of “High” popularity is now much broader, which should give a better variety of names without including too many weird names.&lt;/p&gt;
+
+&lt;h2 id="project-page"&gt;Project Page&lt;/h2&gt;
+
+&lt;p&gt;To learn more about Ranndy, you can visit &lt;a title="Ranndy Random Name Generator" href="http://simonganz.com/2014/06/ranndy-random-name-generator/"&gt;my first blog post about it&lt;/a&gt;.&lt;/p&gt;
+</div>
+    </content>
+  </entry>
+  <entry>
     <title>Making a Digital Will for Your Online Accounts</title>
     <link rel="alternate" href="/2014/09/making-a-digital-will-for-your-online-accounts/"/>
     <id>http://simonganz.com/2014/09/making-a-digital-will-for-your-online-accounts/</id>
-    <published>2014-09-21T23:23:00Z</published>
-    <updated>2014-09-21T23:23:00Z</updated>
+    <published>2014-09-21T16:23:00-07:00</published>
+    <updated>2014-09-21T16:23:00-07:00</updated>
     <author>
       <name>Simon Ganz</name>
     </author>
@@ -102,8 +154,8 @@ This is an encrypted archive that contains all of my passwords, including those 
     <title>Fountain Loader for Google Drive</title>
     <link rel="alternate" href="/2014/06/fountain-loader-for-google-drive/"/>
     <id>http://simonganz.com/2014/06/fountain-loader-for-google-drive/</id>
-    <published>2014-06-28T03:48:00Z</published>
-    <updated>2014-06-28T03:48:00Z</updated>
+    <published>2014-06-27T20:48:00-07:00</published>
+    <updated>2014-06-27T20:48:00-07:00</updated>
     <author>
       <name>Simon Ganz</name>
     </author>
@@ -165,8 +217,8 @@ This is an encrypted archive that contains all of my passwords, including those 
     <title>Ranndy Random Name Generator</title>
     <link rel="alternate" href="/2014/06/ranndy-random-name-generator/"/>
     <id>http://simonganz.com/2014/06/ranndy-random-name-generator/</id>
-    <published>2014-06-21T05:18:00Z</published>
-    <updated>2014-06-21T05:18:00Z</updated>
+    <published>2014-06-20T22:18:00-07:00</published>
+    <updated>2014-06-20T22:18:00-07:00</updated>
     <author>
       <name>Simon Ganz</name>
     </author>
@@ -177,7 +229,7 @@ This is an encrypted archive that contains all of my passwords, including those 
 
 &lt;p&gt;The site is mobile friendly and presents an infinite scroll of random names with hundreds of millions of possibilities.&lt;/p&gt;
 
-&lt;h2 id="choosing-not-so-random-names"&gt;Choosing Not-So-Random Names&lt;/h2&gt;
+&lt;h2 id="year-race-and-popularity"&gt;Year, Race, and Popularity…&lt;/h2&gt;
 
 &lt;p&gt;Ranndy uses US Census data, so you can get very specific about what sort of random name you want.&lt;/p&gt;
 
@@ -193,9 +245,43 @@ This is an encrypted archive that contains all of my passwords, including those 
   &lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h2 id="names-that-start-with"&gt;Names That Start With…&lt;/h2&gt;
+
+&lt;p&gt;Ranndy can show you names that start with certain letters. &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If you enter “Jo” in the Starts With field, Ranndy will only show you names that start with “Jo” like John, Jordan, Jose, etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="excluding-names"&gt;Excluding Names…&lt;/h2&gt;
+
+&lt;p&gt;Ranndy can also do the opposite, showing you names that DON’T start with certain letters. Just use the * character. &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If you enter “D*, S*, P*” in the Starts With field, Ranndy won’t show you any names that start with D, S, or P. This is useful when you’re writing a screenplay and don’t want too many characters whose names sound or look similar on the page.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="forcing-a-name"&gt;Forcing a Name…&lt;/h2&gt;
+
+&lt;p&gt;Ranndy also doesn’t have to be quite so random. If you already know a first or last name that you love, you can force that name with the ^ character. &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If you enter “Smith^” in the Last Name Starts With field, then Ranndy will show you random first names but every last name will be “Smith”. This is useful for baby naming and also creating family members for characters.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="change-log"&gt;Change Log&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;v0.3.0 - 11/29/2014&lt;/em&gt; &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Added “Starts With” features.&lt;/li&gt;
+  &lt;li&gt;Reworked first name popularity system. Now there are only high and low popularity choices instead of high, medium, and low. This should give a better variety of names in default searches without including too many weird names.&lt;/li&gt;
+  &lt;li&gt;Changed how Ranndy reacts when a request brings up very few results. Example: If your parameters only brought up 10 possible last names, Ranndy will now repeat those 10 names over and over with randomly generated first names, rather than only showing you 10 total results.&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id="technical-details"&gt;Technical Details&lt;/h2&gt;
 
-&lt;p&gt;Ranndy’s front end is &lt;a href="http://backbonejs.org/"&gt;backbone.js&lt;/a&gt; and its backend is &lt;a href="http://expressjs.com/"&gt;node.js/express&lt;/a&gt;. I used &lt;a href="http://susy.oddbird.net/"&gt;Susy stylesheets&lt;/a&gt; for the mobile friendly grid.&lt;/p&gt;
+&lt;p&gt;Ranndy’s front end is &lt;a href="http://backbonejs.org/"&gt;backbone.js&lt;/a&gt; and its backend is &lt;a href="http://expressjs.com/"&gt;node.js/express&lt;/a&gt;.&lt;/p&gt;
 </div>
     </content>
   </entry>
@@ -203,8 +289,8 @@ This is an encrypted archive that contains all of my passwords, including those 
     <title>Friday Night Lights Reunion</title>
     <link rel="alternate" href="/2014/02/friday-night-lights-parenthood-webisodes/"/>
     <id>http://simonganz.com/2014/02/friday-night-lights-parenthood-webisodes/</id>
-    <published>2014-02-14T03:44:00Z</published>
-    <updated>2014-02-14T03:44:00Z</updated>
+    <published>2014-02-13T19:44:00-08:00</published>
+    <updated>2014-02-13T19:44:00-08:00</updated>
     <author>
       <name>Simon Ganz</name>
     </author>
@@ -219,7 +305,7 @@ This is an encrypted archive that contains all of my passwords, including those 
 
 &lt;p&gt;I wrote episode three.&lt;/p&gt;
 
-&lt;p&gt;&lt;a title="Friday Night at the Luncheonette" href="http://www.youtube.com/watch?v=0UbUZjfvq1c&amp;amp;amp;list=PLRUSbbQynOdH2NI5xLJ03K_tdIaTRTukk&amp;amp;amp;feature=share"&gt;[Youtube]&lt;/a&gt; – [&lt;a title="Friday Night at the Luncheonette" href="http://www.nbc.com/parenthood/video/friday-night-at-the-luncheonette/2745592"&gt;NBC Video&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;&lt;a title="Friday Night at the Luncheonette" href="http://www.youtube.com/watch?v=0UbUZjfvq1c&amp;amp;list=PLRUSbbQynOdH2NI5xLJ03K_tdIaTRTukk&amp;amp;feature=share"&gt;[Youtube]&lt;/a&gt; – [&lt;a title="Friday Night at the Luncheonette" href="http://www.nbc.com/parenthood/video/friday-night-at-the-luncheonette/2745592"&gt;NBC Video&lt;/a&gt;]&lt;/p&gt;
 </div>
     </content>
   </entry>
@@ -227,8 +313,8 @@ This is an encrypted archive that contains all of my passwords, including those 
     <title>Walk Score for Redfin Chrome Extension</title>
     <link rel="alternate" href="/2013/12/walkscore-for-redfin-chrome-extension/"/>
     <id>http://simonganz.com/2013/12/walkscore-for-redfin-chrome-extension/</id>
-    <published>2013-12-30T19:03:00Z</published>
-    <updated>2013-12-30T19:03:00Z</updated>
+    <published>2013-12-30T11:03:00-08:00</published>
+    <updated>2013-12-30T11:03:00-08:00</updated>
     <author>
       <name>Simon Ganz</name>
     </author>
@@ -251,57 +337,6 @@ This is an encrypted archive that contains all of my passwords, including those 
 
 &lt;p&gt;You can install the extension &lt;a title="Walkscore for Redfin" href="https://chrome.google.com/webstore/detail/walkscore-for-redfin-and/jjejooaohjgoapilebkhgigocepijmnp"&gt;directly from the Chrome Webstore&lt;/a&gt;.&lt;/p&gt;
 
-</div>
-    </content>
-  </entry>
-  <entry>
-    <title>Kanye West Concert in GIFs</title>
-    <link rel="alternate" href="/2013/11/kanye-west-concert-in-gifs/"/>
-    <id>http://simonganz.com/2013/11/kanye-west-concert-in-gifs/</id>
-    <published>2013-11-26T18:49:00Z</published>
-    <updated>2013-11-26T18:49:00Z</updated>
-    <author>
-      <name>Simon Ganz</name>
-    </author>
-    <content>
-      <div>&lt;p&gt;On October 19th, 2013, Anna and I attended THE YEEZUS TOUR. The headliner was Kanye West and the opener was Kendrick Lamar.&lt;/p&gt;
-
-&lt;img src="/images/kanye_gifs/mountain-408748fa.gif" title="Mountain" /&gt;
-
-&lt;p&gt;
-&lt;a id="more"&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Kanye wore a freaky gimp mask:&lt;/p&gt;
-
-&lt;img src="/images/kanye_gifs/gimp-b82ee581.gif" title="Gimp mask" /&gt;
-
-&lt;p&gt;The Beyonce concert had thousands of swirling lights. Kanye preferred a single spotlight, focused on his favorite subject:&lt;/p&gt;
-
-&lt;img src="/images/kanye_gifs/shining_light-f94afea6.gif" title="Spotlight" /&gt;
-
-&lt;p&gt;Kanye was an energetic, if not particularly skilled dancer:&lt;/p&gt;
-
-&lt;img src="/images/kanye_gifs/gimp_dance-ea5e941e.gif" title="Gimp dancing" /&gt;
-
-&lt;p&gt;But all that dancing made Kanye tired, so he took a break on top of these naked ladies:&lt;/p&gt;
-
-&lt;img src="/images/kanye_gifs/taking_a_break-db72a875.gif" title="Kanye taking a break" /&gt;
-
-&lt;p&gt;Instead of costume changes, Kanye had mask changes:&lt;/p&gt;
-
-&lt;img src="/images/kanye_gifs/white_mask-1ad4adba.gif" title="White gimp mask" /&gt;
-&lt;img src="/images/kanye_gifs/sparkle_face-3804925a.gif" title="Sparkling gimp mask" /&gt;
-
-&lt;p&gt;Eventually he took the mask off:&lt;/p&gt;
-
-&lt;img src="/images/kanye_gifs/maskless-9c9654b8.gif" title="Maskless Kanye" /&gt;
-
-&lt;p&gt;And then his mountain erupted and exploded:&lt;/p&gt;
-
-&lt;img src="/images/kanye_gifs/eruption-ed32b782.gif" title="Eruption" /&gt;
-&lt;img src="/images/kanye_gifs/fire-171dbbf8.gif" title="Fire" /&gt;
-&lt;img src="/images/kanye_gifs/explosions-cd543b61.gif" title="Explosions" /&gt;
-&lt;img src="/images/kanye_gifs/explosions2-00920a48.gif" title="More explosions" /&gt;
 </div>
     </content>
   </entry>
