@@ -3,7 +3,6 @@
 ###
 
 # Susy grids in Compass
-require 'susy'
 require 'kramdown'
 require 'builder'
 

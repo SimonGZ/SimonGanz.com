@@ -13,7 +13,7 @@ description: "Ranndy, a Random Name Generator for fiction writing and baby namin
 
 The site is mobile friendly and presents an infinite scroll of random names with hundreds of millions of possibilities.
 
-## Choosing Not-So-Random Names
+## Year, Race, and Popularity...
 
 Ranndy uses US Census data, so you can get very specific about what sort of random name you want.
 
@@ -23,6 +23,32 @@ Ranndy uses US Census data, so you can get very specific about what sort of rand
 
 - If you're looking for a truly out there name, you can ask Ranndy to only show you unpopular names. For instance, only five unlucky babies in the US were named Ranndy with two n's in the year 2005.
 
+## Names That Start With... 
+
+Ranndy can show you names that start with certain letters. 
+
+- If you enter "Jo" in the Starts With field, Ranndy will only show you names that start with "Jo" like John, Jordan, Jose, etc.
+
+## Excluding Names...
+
+Ranndy can also do the opposite, showing you names that DON'T start with certain letters. Just use the \* character. 
+
+- If you enter "D\*, S\*, P\*" in the Starts With field, Ranndy won't show you any names that start with D, S, or P. This is useful when you're writing a screenplay and don't want too many characters whose names sound or look similar on the page.
+
+## Forcing a Name...
+
+Ranndy also doesn't have to be quite so random. If you already know a first or last name that you love, you can force that name with the ^ character. 
+
+- If you enter "Smith^" in the Last Name Starts With field, then Ranndy will show you random first names but every last name will be "Smith". This is useful for baby naming and also creating family members for characters.
+
+## Change Log
+
+*v0.3.0 - 11/29/2014* 
+
+- Added "Starts With" features.
+- Reworked first name popularity system. Now there are only high and low popularity choices instead of high, medium, and low. This should give a better variety of names in default searches without including too many weird names.
+- Changed how Ranndy reacts when a request brings up very few results. Example: If your parameters only brought up 10 possible last names, Ranndy will now repeat those 10 names over and over with randomly generated first names, rather than only showing you 10 total results.
+
 ## Technical Details
 
-Ranndy's front end is [backbone.js](http://backbonejs.org/) and its backend is [node.js/express](http://expressjs.com/). I used [Susy stylesheets](http://susy.oddbird.net/) for the mobile friendly grid.
+Ranndy's front end is [backbone.js](http://backbonejs.org/) and its backend is [node.js/express](http://expressjs.com/).

@@ -9,7 +9,7 @@ gem 'nokogiri'
 gem 'kramdown'
 
 # Compass plugins
-gem 'susy', '1.0.9'
+gem 'susy'
 gem 'compass-h5bp'
 
 # For feed.xml.builder
