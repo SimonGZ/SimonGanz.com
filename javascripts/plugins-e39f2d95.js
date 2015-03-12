@@ -11,5 +11,9 @@ if (!(window.console && console.log)) {
     }());
 }
 
+$(document).ready(function() {
+  $.bigfoot();
+});
+
 // Place any jQuery/helper plugins in here.
 ;
