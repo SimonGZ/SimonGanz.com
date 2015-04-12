@@ -16,11 +16,29 @@
 // Variables
 
 // Fonts
-$body-font: Brown-Light;
-$body-font-italic: Brown-ThinItalic;
-$body-font-bold: Brown-Medium;
-$header-font1: Brown-Bold;
-$header-font2: Brown-Medium;
+@mixin body-font-normal {
+  font-family: "sofia-pro";
+  font-weight: 300;
+  font-style: normal;
+}
+
+@mixin body-font-italic {
+  font-family: "sofia-pro";
+  font-weight: 300;
+  font-style: italic;
+}
+
+@mixin body-font-medium {
+  font-family: "sofia-pro";
+  font-weight: 500;
+  font-style: normal;
+}
+
+@mixin body-font-bold {
+  font-family: "sofia-pro";
+  font-weight: 700;
+  font-style: normal;
+}
 
 // Colors
 
@@ -32,8 +50,8 @@ $text-color: #252525;
 
 // Mobile-first font size and line height
 
-$line-height: 26px;
-$body-size: 18px;
+$line-height: 25px;
+$body-size: 17px;
 
 // Border-Box
 
@@ -56,7 +74,7 @@ $body-size: 18px;
   }
   #projects {
     .project_category {
-      font-family: $header-font2;
+      @include body-font-bold;
       font-size: 16px;
       text-decoration: underline;
       margin: 3em 0 1em 0;
@@ -87,13 +105,13 @@ $body-size: 18px;
     }
     a, a:visited {
       color: $text-color;
-      font-family: $header-font1;
+      @include body-font-bold;
     }
   }
   nav {
-    margin: 6px 0 $line-height 0;
+    margin: 4px 0 $line-height 0;
     a, a:visited {
-      font-family: $header-font2;
+      @include body-font-medium;
       color: $text-color;
     }
     ul {
@@ -137,7 +155,7 @@ $body-size: 18px;
     .postDate, .postDate a {
       &:link, &:hover, &:visited {
         color: $gray-color;
-        font-family: $body-font;
+        @include body-font-normal;
       }
     }
     sup {
@@ -181,7 +199,7 @@ $body-size: 18px;
 
 // Your own styles go here.
 body {
-  font-family: $body-font;
+  @include body-font-normal;
   font-size: $body-size;
   line-height: $line-height;
   color: $text-color;
@@ -189,8 +207,7 @@ body {
 }
 
 em, i {
-  font-family: $body-font-italic;
-  font-weight: normal;
+  @include body-font-italic;
   padding-right: 2px;
 }
 
@@ -204,15 +221,15 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-family: $header-font1;
-  font-size: 38px;
+  @include body-font-bold;
+  font-size: 36px;
   color: #999999;
-  line-height: 1em;
+  line-height: 1.1em;
   margin: 8px 0 2px 0;
 }
 
 h2 {
-  font-family: $header-font2;
+  @include body-font-medium;
   font-size: 26px;
   line-height: 1em;
   margin: $line-height 0 $line-height 0;
@@ -227,14 +244,14 @@ header h2 {
 
 h3 {
   font-size: 20px;
-  font-family: $header-font2;
+  @include body-font-medium;
   text-decoration: underline;
   line-height: 1em;
   margin: $line-height 0 -4px 0;
 }
 
 p, pre {
-  margin: $line-height 0 $line-height 0;
+  margin: ($line-height - 1) 0 ($line-height - 1) 0;
 }
 
 kbd {
@@ -249,7 +266,7 @@ footer {
 }
 
 blockquote {
-  font-family: $body-font-italic;
+  @include body-font-italic;
   font-size: $body-size + 1px;
   color: #7f7f7f;
   padding-left: $body-size;
@@ -258,8 +275,7 @@ blockquote {
 }
 
 strong {
-  font-family: $body-font-bold;
-  font-weight: normal;
+  @include body-font-bold;
 }
 
 hr {
@@ -275,9 +291,9 @@ hr {
   }
 }
 
-@media (min-width: 340px) { 
-  $body-size: 19px;
-  $line-height: 27px;
+@media (min-width: 380px) { 
+  $body-size: 18px;
+  $line-height: 26px;
   body {
     font-size: $body-size;
     line-height: $line-height;
@@ -285,8 +301,8 @@ hr {
 }
 
 @media (min-width: 550px) { 
-  $body-size: 22px;
-  $line-height: 32px;
+  $body-size: 20px;
+  $line-height: 30px;
   body {
     font-size: $body-size;
     line-height: $line-height;
