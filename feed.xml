@@ -4,10 +4,24 @@
   <id>http://simonganz.com/</id>
   <link href="http://simonganz.com/"/>
   <link href="http://simonganz.com/feed.xml" rel="self"/>
-  <updated>2015-03-12T18:09:00-07:00</updated>
+  <updated>2015-05-02T22:06:00-07:00</updated>
   <author>
     <name>Simon Ganz</name>
   </author>
+  <entry>
+    <title>DeHulkifier Update</title>
+    <link rel="alternate" href="/2015/05/dehulkifier-update/"/>
+    <id>http://simonganz.com/2015/05/dehulkifier-update/</id>
+    <published>2015-05-02T22:06:00-07:00</published>
+    <updated>2015-05-02T22:06:00-07:00</updated>
+    <author>
+      <name>Simon Ganz</name>
+    </author>
+    <content>
+      <div>&lt;p&gt;I’ve released a small update to my &lt;a href="http://simonganz.com/2013/04/the-dehulkifier/"&gt;DeHulkifier bookmarklet&lt;/a&gt;. Film Crit Hulk moved to a &lt;a href="http://birthmoviesdeath.com"&gt;new website&lt;/a&gt;, so the bookmarklet needed to be tweaked to keep working.&lt;/p&gt;
+</div>
+    </content>
+  </entry>
   <entry>
     <title>Adding Search Links to Ranndy</title>
     <link rel="alternate" href="/2015/03/ranndy-random-name-generator-adding-search-links/"/>
@@ -312,30 +326,6 @@ This is an encrypted archive that contains all of my passwords, including those 
 &lt;h2 id="technical-details"&gt;Technical Details&lt;/h2&gt;
 
 &lt;p&gt;Ranndy’s front end is &lt;a href="http://backbonejs.org/"&gt;backbone.js&lt;/a&gt; and its backend is &lt;a href="http://expressjs.com/"&gt;node.js/express&lt;/a&gt;.&lt;/p&gt;
-</div>
-    </content>
-  </entry>
-  <entry>
-    <title>Friday Night Lights Reunion</title>
-    <link rel="alternate" href="/2014/02/friday-night-lights-parenthood-webisodes/"/>
-    <id>http://simonganz.com/2014/02/friday-night-lights-parenthood-webisodes/</id>
-    <published>2014-02-13T19:44:00-08:00</published>
-    <updated>2014-02-13T19:44:00-08:00</updated>
-    <author>
-      <name>Simon Ganz</name>
-    </author>
-    <content>
-      <div>&lt;p&gt;Partway through last year, I got an amazing opportunity to work on a secret project for NBC. Today that project is out. It’s a crossover between the cast of &lt;em&gt;Friday Night Lights&lt;/em&gt; (one of the best dramas of the last ten years) with NBC’s &lt;em&gt;Parenthood&lt;/em&gt; (one of the best dramas on TV today).&lt;/p&gt;
-
-&lt;p&gt;If you’re a fan of FNL, I think you’ll really dig this little reunion. It’s called Friday Night at the Luncheonette.&lt;/p&gt;
-
-&lt;div class="video-container"&gt;
-	&lt;iframe width="560" height="315" src="//www.youtube.com/embed/0UbUZjfvq1c?list=PLRUSbbQynOdH2NI5xLJ03K_tdIaTRTukk" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;I wrote episode three.&lt;/p&gt;
-
-&lt;p&gt;&lt;a title="Friday Night at the Luncheonette" href="http://www.youtube.com/watch?v=0UbUZjfvq1c&amp;amp;list=PLRUSbbQynOdH2NI5xLJ03K_tdIaTRTukk&amp;amp;feature=share"&gt;[Youtube]&lt;/a&gt; – [&lt;a title="Friday Night at the Luncheonette" href="http://www.nbc.com/parenthood/video/friday-night-at-the-luncheonette/2745592"&gt;NBC Video&lt;/a&gt;]&lt;/p&gt;
 </div>
     </content>
   </entry>
