@@ -4,14 +4,14 @@ date: 2014-06-27 20:48 PDT
 tags: "tech, projects, writing"
 ---
 
-[Fountain Loader](http://fountainloader.com "Fountain Loader") is an online previewer for [Fountain screenplay documents][9636-001]. It works with Google Drive™, making it easier to write screenplays in Google Docs.
+[Fountain Loader](http://fountainloader.com "Fountain Loader") is an online previewer and converter for [Fountain screenplay documents][9636-001]. It works with Google Drive™, making it easy to write screenplays in Google Docs.
 
 {::nomarkdown}
 <div class="video-container">
-    <video autoplay loop controls poster="http://fountainloader.com/videos/fountain-loader-poster.jpg">
-    <source id="webmsource" src="http://fountainloader.com/videos/fountain-loader.webm" type="video/webm">
-    <source id="mp4source" src="http://fountainloader.com/videos/fountain-loader.mp4" type="video/mp4">
-    <img src="http://fountainloader.com/videos/fountain-loader.gif">
+    <video autoplay loop controls poster="http://fountainloader.com/videos/fountain-loader-2.png">
+    <source id="webmsource" src="http://fountainloader.com/videos/fountain-loader-2.webm" type="video/webm">
+    <source id="mp4source" src="http://fountainloader.com/videos/fountain-loader-2.mp4" type="video/mp4">
+    <img src="http://fountainloader.com/videos/fountain-loader-2.gif">
     </video>
 </div>
 {:/}
@@ -22,17 +22,28 @@ Google Docs is the best collaborative writing program I've found. It lets me and
 
 But Google Docs is butt ugly. It doesn't even have a decent Courier font.[^font] I'm used to writing code and staring at ugly markup, but my writing partner can't stand it. Google Docs just doesn't look like a screenplay to him.
 
-Fountain Loader bridges the visual gap between Google Docs and the final script. It loads our script as we work on it and generates a preview in another tab. It can also watch the file and update as the document changes.[^caveat]
+Fountain Loader bridges the visual gap between Google Docs and the final script. It loads our script as we work on it and generates a preview in another tab. It can generate both a traditional screenplay preview as well as a multicamera sitcom preview. It can also watch the file and update as the document changes.[^caveat]
+
+Then, once our script is ready to send out, Fountain Loader's export feature lets us download the script as either a Final Draft file or a fountain file.
 
 ## Features
 
-- **Pretty damn accurate:** The preview should be very close to how your script will look when output by [John August's Highland app](http://quoteunquoteapps.com/highland/ "Highland - Quote-Unquote Apps").
+- **Pretty damn accurate:** The preview should be very close to how your script will look when output by Final Draft.[^differences]
 - **Responsive:** Multiple layouts so you can preview screenplays on your phone or tablet.
 - **Detect Changes mode:** Watches your document and generates new previews with each change.
-- **Safe:** Fountain Loader renders everything locally in Javascript. Your screenplay goes directly from Google Drive to your browser without being saved on a server somewhere.
+- **Multicam Support:** Fountain Loader supports multicamera sitcoms. By placing "Format: Mulitcam" at the top of your script, Fountain Loader will preview your script with [multicam formatting][], and when exporting your script as an FDX, Fountain Loader will apply multicam styles there too.
+- **Act Break Support:** Fountain Loader also supports Final Draft act break elements. If you use Fountain markup to center some key words  (Teaser, Cold Opening, Act One, Act Two, Tag, etc.) then Fountain Loader will automatically convert those into true act break elements when you export into Final Draft.
+- **Script Note Support:** Fountain Loader also supports Final Draft script notes. If you write a script note using Fountain's [[note]] syntax, that note will be applied to the element above the note.
+- **Safe:** Fountain Loader renders everything locally in Javascript. When using the HTML preview feature, your screenplay goes directly from Google Drive to your browser without being saved on a server. When using the export feature, a version of your script exists on my server for about two seconds before it's automatically deleted.
+- **Tested:** I wrote an episode of an NBC sitcom with this. It works.
+
+## Update
+
+Version 2.0 - Released 06/29/2015
 
 ## Possible Future Features
 
+- More formatting/template options. Maybe even a Template: metatag that lets you define your own Final Draft elements.
 - Use Fountain outlining elements to create fast-links to jump through a script (e.g. jump to act two).
 - Toggle to hide notes and outline elements.
 
@@ -44,5 +55,7 @@ Check it out at <http://fountainloader.com>.
 
 [^font]: I use [cousine](https://www.google.com/fonts/specimen/Cousine "Google Fonts Cousine"), a coding font that has the same metrics as Courier.
 [^caveat]: Caveat: This feature depends on [Google Drive's change feed system](https://developers.google.com/drive/web/manage-changes), which doesn't update as fast as you might guess. It groups changes together and only updates every few minutes.
+[^differences]: Why isn't it 100% accurate? Well Final Draft handles spaces in dialogue text a little differently than a web browser handles text, so some things are just never going to look perfect. The output will also be a little longer than PDFs generated by [John August's Highland app](http://quoteunquoteapps.com/highland/ "Highland - Quote-Unquote Apps"). Highland squeezes more dialogue onto a page than Final Draft.
 
-[9636-001]: http://fountain.io/ "Fountain: A markup language for screenwriting""
+[9636-001]: http://fountain.io/ "Fountain: A markup language for screenwriting"
+[multicam formatting]: http://screenwriting.io/how-are-multicamera-tv-scripts-formatted/ "How are Multicamera TV Scripts Formatted?"
