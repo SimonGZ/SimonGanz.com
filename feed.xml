@@ -194,13 +194,13 @@ This is an encrypted archive that contains all of my passwords, including those 
       <name>Simon Ganz</name>
     </author>
     <content>
-      <div>&lt;p&gt;&lt;a title="Fountain Loader" href="http://fountainloader.com"&gt;Fountain Loader&lt;/a&gt; is an online previewer for &lt;a title="Fountain: A markup language for screenwriting&amp;quot;" href="http://fountain.io/"&gt;Fountain screenplay documents&lt;/a&gt;. It works with Google Drive™, making it easier to write screenplays in Google Docs.&lt;/p&gt;
+      <div>&lt;p&gt;&lt;a title="Fountain Loader" href="http://fountainloader.com"&gt;Fountain Loader&lt;/a&gt; is an online previewer and converter for &lt;a title="Fountain: A markup language for screenwriting" href="http://fountain.io/"&gt;Fountain screenplay documents&lt;/a&gt;. It works with Google Drive™, making it easy to write screenplays in Google Docs.&lt;/p&gt;
 
 &lt;div class="video-container"&gt;
-    &lt;video autoplay loop controls poster="http://fountainloader.com/videos/fountain-loader-poster.jpg"&gt;
-    &lt;source id="webmsource" src="http://fountainloader.com/videos/fountain-loader.webm" type="video/webm"&gt;
-    &lt;source id="mp4source" src="http://fountainloader.com/videos/fountain-loader.mp4" type="video/mp4"&gt;
-    &lt;img src="http://fountainloader.com/videos/fountain-loader.gif"&gt;
+    &lt;video autoplay loop controls poster="http://fountainloader.com/videos/fountain-loader-2.png"&gt;
+    &lt;source id="webmsource" src="http://fountainloader.com/videos/fountain-loader-2.webm" type="video/webm"&gt;
+    &lt;source id="mp4source" src="http://fountainloader.com/videos/fountain-loader-2.mp4" type="video/mp4"&gt;
+    &lt;img src="http://fountainloader.com/videos/fountain-loader-2.gif"&gt;
     &lt;/video&gt;
 &lt;/div&gt;
 
@@ -210,20 +210,31 @@ This is an encrypted archive that contains all of my passwords, including those 
 
 &lt;p&gt;But Google Docs is butt ugly. It doesn’t even have a decent Courier font.&lt;sup id="fnref:font"&gt;&lt;a href="#fn:font" class="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; I’m used to writing code and staring at ugly markup, but my writing partner can’t stand it. Google Docs just doesn’t look like a screenplay to him.&lt;/p&gt;
 
-&lt;p&gt;Fountain Loader bridges the visual gap between Google Docs and the final script. It loads our script as we work on it and generates a preview in another tab. It can also watch the file and update as the document changes.&lt;sup id="fnref:caveat"&gt;&lt;a href="#fn:caveat" class="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Fountain Loader bridges the visual gap between Google Docs and the final script. It loads our script as we work on it and generates a preview in another tab. It can generate both a traditional screenplay preview as well as a multicamera sitcom preview. It can also watch the file and update as the document changes.&lt;sup id="fnref:caveat"&gt;&lt;a href="#fn:caveat" class="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, once our script is ready to send out, Fountain Loader’s export feature lets us download the script as either a Final Draft file or a fountain file.&lt;/p&gt;
 
 &lt;h2 id="features"&gt;Features&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Pretty damn accurate:&lt;/strong&gt; The preview should be very close to how your script will look when output by &lt;a title="Highland - Quote-Unquote Apps" href="http://quoteunquoteapps.com/highland/"&gt;John August’s Highland app&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Pretty damn accurate:&lt;/strong&gt; The preview should be very close to how your script will look when output by Final Draft.&lt;sup id="fnref:differences"&gt;&lt;a href="#fn:differences" class="footnote"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Responsive:&lt;/strong&gt; Multiple layouts so you can preview screenplays on your phone or tablet.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Detect Changes mode:&lt;/strong&gt; Watches your document and generates new previews with each change.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Safe:&lt;/strong&gt; Fountain Loader renders everything locally in Javascript. Your screenplay goes directly from Google Drive to your browser without being saved on a server somewhere.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Multicam Support:&lt;/strong&gt; Fountain Loader supports multicamera sitcoms. By placing “Format: Mulitcam” at the top of your script, Fountain Loader will preview your script with &lt;a title="How are Multicamera TV Scripts Formatted?" href="http://screenwriting.io/how-are-multicamera-tv-scripts-formatted/"&gt;multicam formatting&lt;/a&gt;, and when exporting your script as an FDX, Fountain Loader will apply multicam styles there too.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Act Break Support:&lt;/strong&gt; Fountain Loader also supports Final Draft act break elements. If you use Fountain markup to center some key words  (Teaser, Cold Opening, Act One, Act Two, Tag, etc.) then Fountain Loader will automatically convert those into true act break elements when you export into Final Draft.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Script Note Support:&lt;/strong&gt; Fountain Loader also supports Final Draft script notes. If you write a script note using Fountain’s [[note]] syntax, that note will be applied to the element above the note.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Safe:&lt;/strong&gt; Fountain Loader renders everything locally in Javascript. When using the HTML preview feature, your screenplay goes directly from Google Drive to your browser without being saved on a server. When using the export feature, a version of your script exists on my server for about two seconds before it’s automatically deleted.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Tested:&lt;/strong&gt; I wrote an episode of an NBC sitcom with this. It works.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h2 id="update"&gt;Update&lt;/h2&gt;
+
+&lt;p&gt;Version 2.0 - Released 06/29/2015&lt;/p&gt;
 
 &lt;h2 id="possible-future-features"&gt;Possible Future Features&lt;/h2&gt;
 
 &lt;ul&gt;
+  &lt;li&gt;More formatting/template options. Maybe even a Template: metatag that lets you define your own Final Draft elements.&lt;/li&gt;
   &lt;li&gt;Use Fountain outlining elements to create fast-links to jump through a script (e.g. jump to act two).&lt;/li&gt;
   &lt;li&gt;Toggle to hide notes and outline elements.&lt;/li&gt;
 &lt;/ul&gt;
@@ -239,6 +250,9 @@ This is an encrypted archive that contains all of my passwords, including those 
     &lt;/li&gt;
     &lt;li id="fn:caveat"&gt;
       &lt;p&gt;Caveat: This feature depends on &lt;a href="https://developers.google.com/drive/web/manage-changes"&gt;Google Drive’s change feed system&lt;/a&gt;, which doesn’t update as fast as you might guess. It groups changes together and only updates every few minutes. &lt;a href="#fnref:caveat" class="reversefootnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id="fn:differences"&gt;
+      &lt;p&gt;Why isn’t it 100% accurate? Well Final Draft handles spaces in dialogue text a little differently than a web browser handles text, so some things are just never going to look perfect. The output will also be a little longer than PDFs generated by &lt;a title="Highland - Quote-Unquote Apps" href="http://quoteunquoteapps.com/highland/"&gt;John August’s Highland app&lt;/a&gt;. Highland squeezes more dialogue onto a page than Final Draft. &lt;a href="#fnref:differences" class="reversefootnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
