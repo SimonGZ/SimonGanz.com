@@ -4,10 +4,72 @@
   <id>http://simonganz.com/</id>
   <link href="http://simonganz.com/"/>
   <link href="http://simonganz.com/feed.xml" rel="self"/>
-  <updated>2015-05-02T22:06:00-07:00</updated>
+  <updated>2015-06-29T07:00:00-07:00</updated>
   <author>
     <name>Simon Ganz</name>
   </author>
+  <entry>
+    <title>Fountain Loader 2.0</title>
+    <link rel="alternate" href="/2015/06/fountain-loader-2-0/"/>
+    <id>http://simonganz.com/2015/06/fountain-loader-2-0/</id>
+    <published>2015-06-29T07:00:00-07:00</published>
+    <updated>2015-06-29T07:00:00-07:00</updated>
+    <author>
+      <name>Simon Ganz</name>
+    </author>
+    <content>
+      <div>&lt;p&gt;I’m releasing a major new update to my screenwriting app, &lt;a title="Fountain Loader for Google Docs" href="http://fountainloader.com"&gt;Fountain Loader&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class="video-container"&gt;
+    &lt;video autoplay loop controls poster="http://fountainloader.com/videos/fountain-loader-2.png"&gt;
+    &lt;source id="webmsource" src="http://fountainloader.com/videos/fountain-loader-2.webm" type="video/webm"&gt;
+    &lt;source id="mp4source" src="http://fountainloader.com/videos/fountain-loader-2.mp4" type="video/mp4"&gt;
+    &lt;img src="http://fountainloader.com/videos/fountain-loader-2.gif"&gt;
+    &lt;/video&gt;
+&lt;/div&gt;
+
+&lt;h2 id="background"&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;To quickly recap, Fountain Loader is a web app that makes it easy to write screenplays in Google Docs.&lt;/p&gt;
+
+&lt;p&gt;It builds off the brilliant work of &lt;a title="John August" href="http://johnaugust.com/"&gt;John August&lt;/a&gt;, &lt;a title="Nima Yousefi" href="http://nimayousefi.com/"&gt;Nima Yousefi&lt;/a&gt;, and &lt;a title="Prolost" href="http://prolost.com/"&gt;Stu Maschwitz&lt;/a&gt; who created the &lt;a title="Fountain - A markup language for screenwriting." href="http://fountain.io/"&gt;fountain screenwriting format&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;What the hell is a screenwriting format? Well fountain is really just a basic set of formatting rules. If you write text that follows those rules, then that text can be easily converted into a finished screenplay using great programs like &lt;a title="Highland - Quote-Unquote Apps" href="http://quoteunquoteapps.com/highland/"&gt;Highland&lt;/a&gt;, &lt;a title="Slugline. Simply Screenwriting." href="http://slugline.co/"&gt;Slugline&lt;/a&gt;, and now Fountain Loader.&lt;/p&gt;
+
+&lt;p&gt;Here’s a &lt;a title="Big Fish.fountain" href="http://fountain.io/_downloads/Big%20Fish.fountain"&gt;BEFORE&lt;/a&gt; and &lt;a title="Big Fish.pdf" href="http://fountain.io/_downloads/Big%20Fish.pdf"&gt;AFTER&lt;/a&gt; example to help you get the idea.&lt;/p&gt;
+
+&lt;h2 id="whats-new-final-draft-support--multicam-support"&gt;What’s New: Final Draft Support &amp;amp; Multicam Support&lt;/h2&gt;
+
+&lt;p&gt;The new Fountain Loader can now not only preview screenplays but also convert fountain files into &lt;a title="Official Final Draft - #1-Selling Screenwriting Software - Final Draft" href="https://www.finaldraft.com/"&gt;Final Draft&lt;/a&gt; FDX files, complete with title pages. What’s more, it has some features that even Highland and Slugline lack. &lt;/p&gt;
+
+&lt;p&gt;If you’re writing a television script rather than a feature film script, Fountain Loader has built-in tools to make that easier. By labeling the top of your script with the “Format: Multicam” tag, Fountain Loader will automatically produce a Final Draft file with classic sitcom formatting. It will also convert Act Breaks into their proper Final Draft elements rather than just converting them into centered action text.&lt;/p&gt;
+
+&lt;p&gt;The new Final Draft export feature also supports script notes and some really complicated overlapping text styles.&lt;sup id="fnref:brag"&gt;&lt;a href="#fn:brag" class="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h2 id="google-docs-is-now-screenwriting-software"&gt;Google Docs is Now Screenwriting Software&lt;/h2&gt;
+
+&lt;p&gt;I made this update because my writing partner and I were writing a multicam script, and everytime I wanted to check the page count, I had to copy and paste the script into Highland, output a Final Draft file, then open up Final Draft, import a multicam template, and then fix all the act breaks. Now that’s a one-click process.&lt;/p&gt;
+
+&lt;p&gt;It’s been a huge improvement for us. Writing a screenplay collaboratively in Google Docs is now much, much easier. When we were staff writers on NBC’s About a Boy, we wrote our episode in Google Docs using fountain and Fountain Loader. Everything we write from now on will live in Google Docs and then end up in Final Draft only when we’re ready to distribute our scripts.&lt;/p&gt;
+
+&lt;h2 id="links"&gt;Links&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://fountainloader.com"&gt;http://fountainloader.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://simonganz.com/2014/06/fountain-loader-for-google-drive/"&gt;Fountain Loader project page&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a title="Fountain - A markup language for screenwriting." href="http://fountain.io/"&gt;Fountain syntax page&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class="footnotes"&gt;
+  &lt;ol&gt;
+    &lt;li id="fn:brag"&gt;
+      &lt;p&gt;Fountain Loader does a good job with tricky, edge case Fountain formatting. &lt;strong&gt;EXAMPLE:&lt;/strong&gt; “_David is **stunned**. How could *she* do this ***to*** him?_” &lt;a href="#fnref:brag" class="reversefootnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</div>
+    </content>
+  </entry>
   <entry>
     <title>DeHulkifier Update</title>
     <link rel="alternate" href="/2015/05/dehulkifier-update/"/>
@@ -256,90 +318,6 @@ This is an encrypted archive that contains all of my passwords, including those 
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
-</div>
-    </content>
-  </entry>
-  <entry>
-    <title>Ranndy Random Name Generator</title>
-    <link rel="alternate" href="/2014/06/ranndy-random-name-generator/"/>
-    <id>http://simonganz.com/2014/06/ranndy-random-name-generator/</id>
-    <published>2014-06-20T22:18:00-07:00</published>
-    <updated>2014-06-20T22:18:00-07:00</updated>
-    <author>
-      <name>Simon Ganz</name>
-    </author>
-    <content>
-      <div>&lt;a href="http://ranndy.com" title="Ranndy Random Name Generator"&gt;&lt;img src="/images/ranndyInterface-283c7de4.png" title="Ranndy Random Name Generator" /&gt;&lt;/a&gt;
-
-&lt;p&gt;&lt;a title="Ranndy Random Name Generator" href="http://ranndy.com"&gt;Ranndy.com&lt;/a&gt; is a random name generator for use in fiction writing and baby naming.&lt;/p&gt;
-
-&lt;p&gt;The site is mobile friendly and presents an infinite scroll of random names with hundreds of millions of possibilities.&lt;/p&gt;
-
-&lt;h2 id="year-race-and-popularity"&gt;Year, Race, and Popularity…&lt;/h2&gt;
-
-&lt;p&gt;Ranndy uses US Census data, so you can get very specific about what sort of random name you want.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;If you’re writing a character who should be roughly 30 years old, you can ask Ranndy to only show you popular names from 1984.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;If you’re writing a character with a specific racial/ethnic background (Native American sheriff, African American businessman, etc.) you can ask Ranndy to only show you surnames associated with that racial/ethnic group.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;If you’re looking for a truly out there name, you can ask Ranndy to only show you unpopular names. For instance, only five unlucky babies in the US were named Ranndy with two n’s in the year 2005.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="names-that-start-with"&gt;Names That Start With…&lt;/h2&gt;
-
-&lt;p&gt;Ranndy can show you names that start with certain letters. &lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;If you enter “Jo” in the Starts With field, Ranndy will only show you names that start with “Jo” like John, Jordan, Jose, etc.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="excluding-names"&gt;Excluding Names…&lt;/h2&gt;
-
-&lt;p&gt;Ranndy can also do the opposite, showing you names that DON’T start with certain letters. Just use the * character. &lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;If you enter “D*, S*, P*” in the Starts With field, Ranndy won’t show you any names that start with D, S, or P. This is useful when you’re writing a screenplay and don’t want too many characters whose names sound or look similar on the page.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="forcing-a-name"&gt;Forcing a Name…&lt;/h2&gt;
-
-&lt;p&gt;Ranndy also doesn’t have to be quite so random. If you already know a first or last name that you love, you can force that name with the ^ character. &lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;If you enter “Smith^” in the Last Name Starts With field, then Ranndy will show you random first names but every last name will be “Smith”. This is useful for baby naming and also creating family members for characters.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="search-links"&gt;Search Links…&lt;/h2&gt;
-
-&lt;p&gt;Every first and last name generated by the app contains a link to a Google search about that name.&lt;/p&gt;
-
-&lt;p&gt;For example, if I generate the surname “Swisher” and want to know more about it, I can click on the name and quickly learn that the name is Austrian and originally meant “person who lives near a hill, stream, or church.”&lt;/p&gt;
-
-&lt;h2 id="change-log"&gt;Change Log&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;v0.4.0 - 03/12/2015&lt;/em&gt; &lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Added “Search Links” feature&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;v0.3.0 - 11/29/2014&lt;/em&gt; &lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Added “Starts With” features.&lt;/li&gt;
-  &lt;li&gt;Reworked first name popularity system. Now there are only high and low popularity choices instead of high, medium, and low. This should give a better variety of names in default searches without including too many weird names.&lt;/li&gt;
-  &lt;li&gt;Changed how Ranndy reacts when a request brings up very few results. Example: If your parameters only brought up 10 possible last names, Ranndy will now repeat those 10 names over and over with randomly generated first names, rather than only showing you 10 total results.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="technical-details"&gt;Technical Details&lt;/h2&gt;
-
-&lt;p&gt;Ranndy’s front end is &lt;a href="http://backbonejs.org/"&gt;backbone.js&lt;/a&gt; and its backend is &lt;a href="http://expressjs.com/"&gt;node.js/express&lt;/a&gt;.&lt;/p&gt;
 </div>
     </content>
   </entry>
