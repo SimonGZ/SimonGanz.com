@@ -16,26 +16,27 @@
 // Variables
 
 // Fonts
+
 @mixin body-font-normal {
-  font-family: "sofia-pro";
+  font-family: "sofia-pro", Helvetica;
   font-weight: 300;
   font-style: normal;
 }
 
 @mixin body-font-italic {
-  font-family: "sofia-pro";
+  font-family: "sofia-pro", Helvetica;
   font-weight: 300;
   font-style: italic;
 }
 
 @mixin body-font-medium {
-  font-family: "sofia-pro";
+  font-family: "sofia-pro", Helvetica;
   font-weight: 500;
   font-style: normal;
 }
 
 @mixin body-font-bold {
-  font-family: "sofia-pro";
+  font-family: "sofia-pro", Helvetica;
   font-weight: 700;
   font-style: normal;
 }
