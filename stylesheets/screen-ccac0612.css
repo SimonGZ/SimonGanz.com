@@ -344,40 +344,40 @@ textarea {
   color: #000;
   padding: 0.2em 0; }
 
-/* line 58, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+/* line 59, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 66, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+/* line 67, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
 .container {
   margin: 0 auto;
   max-width: 671px;
   width: 95%; }
-  /* line 72, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+  /* line 73, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
   .container #main-content {
     overflow: visible; }
-  /* line 76, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+  /* line 77, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
   .container #projects .project_category {
-    font-family: "sofia-pro";
+    font-family: "sofia-pro", Helvetica;
     font-weight: 700;
     font-style: normal;
     font-size: 16px;
     text-decoration: underline;
     margin: 3em 0 1em 0; }
-  /* line 82, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+  /* line 83, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
   .container #projects article {
     padding-bottom: 0.2em;
     border-bottom: dashed 1px #999999;
     margin-bottom: 1.5em; }
-    /* line 86, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+    /* line 87, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
     .container #projects article h1 {
       font-size: 36px; }
-    /* line 89, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+    /* line 90, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
     .container #projects article p {
       margin-top: 0.2em; }
-  /* line 95, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+  /* line 96, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
   .container img {
     max-width: 100%;
     display: block;
@@ -386,107 +386,107 @@ textarea {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px; }
-  /* line 102, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+  /* line 103, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
   .container header.title {
     width: 100%;
     border-bottom: solid #252525 3px;
     margin-top: 12px; }
-    /* line 106, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+    /* line 107, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
     .container header.title h1 {
       font-size: 52px; }
-    /* line 109, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+    /* line 110, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
     .container header.title a, .container header.title a:visited {
       color: #252525;
-      font-family: "sofia-pro";
+      font-family: "sofia-pro", Helvetica;
       font-weight: 700;
       font-style: normal; }
-  /* line 114, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+  /* line 115, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
   .container nav {
     margin: 4px 0 25px 0; }
-    /* line 116, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+    /* line 117, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
     .container nav a, .container nav a:visited {
-      font-family: "sofia-pro";
+      font-family: "sofia-pro", Helvetica;
       font-weight: 500;
       font-style: normal;
       color: #252525; }
-    /* line 120, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+    /* line 121, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
     .container nav ul {
       margin: 0;
       margin-bottom: 50px;
       padding: 0; }
-      /* line 124, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+      /* line 125, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
       .container nav ul li {
         display: inline;
         list-style-type: none;
         list-style-position: none;
         list-style-image: none; }
-      /* line 130, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+      /* line 131, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
       .container nav ul li + li {
         padding-left: 0.9em; }
-  /* line 135, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+  /* line 136, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
   .container a.selected {
     border-bottom: solid #ff3333 1px; }
-  /* line 140, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+  /* line 141, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
   .container article a.linklog, .container article a:hover.linklog, .container article a:visited.linklog {
     color: #669999; }
-  /* line 143, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+  /* line 144, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
   .container article a.comments-link, .container article a:hover.comments-link, .container article a:visited.comments-link {
     color: #999999; }
-  /* line 146, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+  /* line 147, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
   .container article a.reversefootnote, .container article a:hover.reversefootnote, .container article a:visited.reversefootnote {
     padding-left: 4px; }
-  /* line 150, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+  /* line 151, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
   .container article li {
     margin-bottom: 0.5em; }
-  /* line 153, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+  /* line 154, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
   .container article hr.postDivider {
     font-size: 24px;
     color: #999999;
     margin: 2em 0 3em 0; }
-  /* line 159, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+  /* line 160, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
   .container article .postDate:link, .container article .postDate:hover, .container article .postDate:visited, .container article .postDate a:link, .container article .postDate a:hover, .container article .postDate a:visited {
     color: #999999;
-    font-family: "sofia-pro";
+    font-family: "sofia-pro", Helvetica;
     font-weight: 300;
     font-style: normal; }
-  /* line 164, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+  /* line 165, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
   .container article sup {
     vertical-align: middle;
     font-size: 0.75em; }
-  /* line 168, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+  /* line 169, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
   .container article .video-container {
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 30px;
     height: 0;
     overflow: hidden; }
-  /* line 176, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+  /* line 177, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
   .container article .video-container iframe, .container article .video-container object, .container article .video-container embed, .container article .video-container video {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%; }
-  /* line 184, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+  /* line 185, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
   .container article div.footnotes {
     border: thin dashed #999999;
     background: #f9f6f4;
     margin: 25px 0;
     padding-right: 16px; }
-  /* line 190, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+  /* line 191, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
   .container article .footnotes {
     font-size: 17px;
     line-height: 23px; }
-    /* line 193, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+    /* line 194, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
     .container article .footnotes li {
       margin-bottom: 1em; }
-    /* line 196, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+    /* line 197, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
     .container article .footnotes p {
       display: inline; }
 
-/* line 204, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+/* line 205, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
 body {
-  font-family: "sofia-pro";
+  font-family: "sofia-pro", Helvetica;
   font-weight: 300;
   font-style: normal;
   font-size: 17px;
@@ -494,25 +494,25 @@ body {
   color: #252525;
   background-color: #fdfdfd; }
 
-/* line 212, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+/* line 213, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
 em, i {
-  font-family: "sofia-pro";
+  font-family: "sofia-pro", Helvetica;
   font-weight: 300;
   font-style: italic;
   padding-right: 2px; }
 
-/* line 217, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+/* line 218, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
 a, a:hover, a:visited {
   text-decoration: none;
   color: #ff3333; }
 
-/* line 222, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+/* line 223, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
 h1, h2, h3 {
   font-weight: normal; }
 
-/* line 226, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+/* line 227, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
 h1 {
-  font-family: "sofia-pro";
+  font-family: "sofia-pro", Helvetica;
   font-weight: 700;
   font-style: normal;
   font-size: 36px;
@@ -520,50 +520,50 @@ h1 {
   line-height: 1.1em;
   margin: 8px 0 2px 0; }
 
-/* line 234, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+/* line 235, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
 h2 {
-  font-family: "sofia-pro";
+  font-family: "sofia-pro", Helvetica;
   font-weight: 500;
   font-style: normal;
   font-size: 26px;
   line-height: 1em;
   margin: 25px 0 25px 0; }
 
-/* line 241, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+/* line 242, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
 header h2 {
   margin: 0; }
-  /* line 243, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+  /* line 244, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
   header h2 a, header h2 a:link, header h2 a:hover, header h2 a:visited {
     color: #999999; }
 
-/* line 248, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+/* line 249, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
 h3 {
   font-size: 20px;
-  font-family: "sofia-pro";
+  font-family: "sofia-pro", Helvetica;
   font-weight: 500;
   font-style: normal;
   text-decoration: underline;
   line-height: 1em;
   margin: 25px 0 -4px 0; }
 
-/* line 256, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+/* line 257, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
 p, pre {
   margin: 24px 0 24px 0; }
 
-/* line 260, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+/* line 261, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
 kbd {
   background-color: whitesmoke;
   border: 1px solid #dedede;
   padding: 0px 3px 2px; }
 
-/* line 266, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+/* line 267, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
 footer {
   margin-top: 3em;
   text-align: right; }
 
-/* line 271, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+/* line 272, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
 blockquote {
-  font-family: "sofia-pro";
+  font-family: "sofia-pro", Helvetica;
   font-weight: 300;
   font-style: italic;
   font-size: 18px;
@@ -572,67 +572,67 @@ blockquote {
   border-left: 6px #999999 solid;
   margin: 25px 17px 25px 10px; }
 
-/* line 280, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+/* line 281, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
 strong {
-  font-family: "sofia-pro";
+  font-family: "sofia-pro", Helvetica;
   font-weight: 700;
   font-style: normal; }
 
-/* line 284, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+/* line 285, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
 hr {
   border: none;
   font-size: 16px;
   color: #bfbfbf;
   text-align: center;
   margin: 1em 0 2em 0; }
-  /* line 290, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+  /* line 291, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
   hr:after {
     content: "✧✧✧";
     letter-spacing: 2em;
     padding-left: 2em; }
 
 @media (min-width: 380px) {
-  /* line 300, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+  /* line 301, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
   body {
     font-size: 18px;
     line-height: 26px; } }
 @media (min-width: 550px) {
-  /* line 309, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+  /* line 310, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
   body {
     font-size: 20px;
     line-height: 30px; }
 
-  /* line 314, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+  /* line 315, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
   header.title a {
     font-size: 90px;
     line-height: 90px; }
 
-  /* line 319, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+  /* line 320, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
   nav {
     font-size: 25px; }
 
-  /* line 322, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+  /* line 323, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
   h1 {
     font-size: 46px; }
 
-  /* line 325, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+  /* line 326, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
   h2 {
     font-size: 32px; }
 
-  /* line 328, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+  /* line 329, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
   h3 {
     font-size: 22px; }
 
-  /* line 331, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+  /* line 332, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
   hr {
     margin: 2em 0 3em 0; }
 
-  /* line 334, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+  /* line 335, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
   blockquote {
     font-size: 21px;
     margin: 30px 40px; }
 
-  /* line 338, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
+  /* line 339, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/screen.css.scss */
   .footnotes {
     font-size: 19px;
     line-height: 25px; } }
