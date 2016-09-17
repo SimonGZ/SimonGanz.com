@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem "middleman"
+gem 'middleman-compass', '>= 4.0.0'
+
 
 gem "middleman-blog"
 gem 'middleman-gh-pages'
@@ -10,7 +12,6 @@ gem 'kramdown'
 
 # Compass plugins
 gem 'susy'
-gem 'compass-h5bp'
 
 # For feed.xml.builder
 gem "builder"

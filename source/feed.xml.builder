@@ -1,3 +1,4 @@
+# coding: utf-8
 xml.instruct!
 xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
   xml.title "SimonGanz.com"
@@ -16,8 +17,8 @@ xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
       xml.updated article.date.to_time.iso8601
       xml.author { xml.name "Simon Ganz" }
       # xml.summary article.summary, "type" => "html"
-      xml.content do
-        xml.div article.body
+      xml.content "type" => "html" do
+        xml.text! article.body
         linklog?(article) ? xml.p { xml.a( { href: "http://simonganz.com#{article.url}" }, 'Permalink' ) } : nil
       end
     end
