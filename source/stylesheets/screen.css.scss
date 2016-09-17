@@ -3,15 +3,8 @@
 //
 
 @import "compass";
-@import "h5bp";
-
-// HTML5 Boilerplate Styles
-@include h5bp-normalize;
-
-@include h5bp-base-styles;
-
-// HTML5 Boilerplate styling for Chrome Frame
-@include h5bp-chromeframe;
+@import "h5bp/normalize.css";
+@import "h5bp/main.css";
 
 // Variables
 
@@ -342,13 +335,7 @@ hr {
   }
 }
 
-// H5BP helper classes & mixins.
-// @include h5bp-helpers
-
-// Print styles.
-@include h5bp-media;
-
 // Bootstrap Pagination
-@import "bootstrap-pagination";
+@import "bootstrap-pagination.css";
 
-@import "bigfoot";
+@import "bigfoot.css";

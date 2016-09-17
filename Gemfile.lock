@@ -25,8 +25,6 @@ GEM
     compass-core (1.0.3)
       multi_json (~> 1.0)
       sass (>= 3.3.0, < 3.5)
-    compass-h5bp (1.0.0)
-      compass (~> 1.0, >= 1.0.3)
     compass-import-once (1.0.5)
       sass (>= 3.2, < 3.5)
     concurrent-ruby (1.0.2)
@@ -64,6 +62,9 @@ GEM
       tzinfo (>= 0.3.0)
     middleman-cli (4.1.10)
       thor (>= 0.17.0, < 2.0)
+    middleman-compass (4.0.1)
+      compass (>= 1.0.0, < 2.0.0)
+      middleman-core (>= 4.0.0)
     middleman-core (4.1.10)
       activesupport (~> 4.2)
       addressable (~> 2.3)
@@ -125,10 +126,10 @@ PLATFORMS
 
 DEPENDENCIES
   builder
-  compass-h5bp
   kramdown
   middleman
   middleman-blog
+  middleman-compass (>= 4.0.0)
   middleman-gh-pages
   nokogiri
   susy
