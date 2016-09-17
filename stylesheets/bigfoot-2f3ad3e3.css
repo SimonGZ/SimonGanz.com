@@ -1,4 +1,4 @@
-/* line 194, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+/* line 194, bigfoot-2f3ad3e3.css.scss */
 .bigfoot-footnote__button {
   position: relative;
   z-index: 5;
@@ -20,50 +20,50 @@
   font-smoothing: antialiased;
   transition-property: background-color;
   transition-duration: 0.25s; }
-  /* line 225, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+  /* line 225, bigfoot-2f3ad3e3.css.scss */
   .bigfoot-footnote__button:hover, .bigfoot-footnote__button:focus {
     outline: none;
     background-color: rgba(110, 110, 110, 0.5); }
-  /* line 231, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+  /* line 231, bigfoot-2f3ad3e3.css.scss */
   .bigfoot-footnote__button:active {
     background-color: rgba(110, 110, 110, 0.5); }
-  /* line 235, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+  /* line 235, bigfoot-2f3ad3e3.css.scss */
   .bigfoot-footnote__button.is-active {
     background-color: #6e6e6e;
     transition-delay: 0.1s; }
-  /* line 241, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+  /* line 241, bigfoot-2f3ad3e3.css.scss */
   .bigfoot-footnote__button:after {
     content: '';
     display: table;
     clear: both; }
 
-/* line 270, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+/* line 270, bigfoot-2f3ad3e3.css.scss */
 .bigfoot-footnote__button__circle {
   display: inline-block;
   width: 0.25em;
   height: 0.25em;
   margin-right: 0.25em;
   float: left; }
-  /* line 279, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+  /* line 279, bigfoot-2f3ad3e3.css.scss */
   .bigfoot-footnote__button__circle:last-child {
     margin-right: 0; }
 
-/* line 306, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+/* line 306, bigfoot-2f3ad3e3.css.scss */
 .bigfoot-footnote__container {
   display: inline-block;
   position: relative;
   text-indent: 0; }
 
 @media not print {
-  /* line 153, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+  /* line 153, bigfoot-2f3ad3e3.css.scss */
   .footnote-print-only {
     display: none !important; } }
 @media print {
-  /* line 159, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+  /* line 159, bigfoot-2f3ad3e3.css.scss */
   .bigfoot-footnote,
   .bigfoot-footnote__button {
     display: none !important; } }
-/* line 370, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+/* line 370, bigfoot-2f3ad3e3.css.scss */
 .bigfoot-footnote {
   position: absolute;
   z-index: 10;
@@ -87,15 +87,15 @@
   transition-timing-function: ease, ease;
   transform: scale(0.1) translateZ(0);
   transform-origin: 50% 0; }
-  /* line 407, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+  /* line 407, bigfoot-2f3ad3e3.css.scss */
   .bigfoot-footnote.is-positioned-top {
     top: auto;
     bottom: 0; }
-  /* line 412, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+  /* line 412, bigfoot-2f3ad3e3.css.scss */
   .bigfoot-footnote.is-active {
     transform: scale(1) translateZ(0);
     opacity: 0.97; }
-  /* line 417, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+  /* line 417, bigfoot-2f3ad3e3.css.scss */
   .bigfoot-footnote.is-bottom-fixed {
     position: fixed;
     bottom: 0;
@@ -109,22 +109,22 @@
     opacity: 1;
     border-width: 1px 0 0;
     transition: transform 0.3s ease; }
-    /* line 436, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+    /* line 436, bigfoot-2f3ad3e3.css.scss */
     .bigfoot-footnote.is-bottom-fixed.is-active {
       transform: translateY(0); }
-    /* line 440, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+    /* line 440, bigfoot-2f3ad3e3.css.scss */
     .bigfoot-footnote.is-bottom-fixed .bigfoot-footnote__wrapper {
       margin: 0 0 0 50%;
       transform: translateX(-50%);
       max-width: 100%; }
-    /* line 446, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+    /* line 446, bigfoot-2f3ad3e3.css.scss */
     .bigfoot-footnote.is-bottom-fixed .bigfoot-footnote__wrapper,
     .bigfoot-footnote.is-bottom-fixed .bigfoot-footnote__content {
       border-radius: 0; }
-    /* line 451, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+    /* line 451, bigfoot-2f3ad3e3.css.scss */
     .bigfoot-footnote.is-bottom-fixed .bigfoot-footnote__tooltip {
       display: none; }
-  /* line 458, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+  /* line 458, bigfoot-2f3ad3e3.css.scss */
   .bigfoot-footnote.is-scrollable:after {
     content: '';
     position: absolute;
@@ -140,34 +140,34 @@
     transition-properties: opacity;
     transition-duration: 0.25s;
     transition-timing-function: ease, ease; }
-  /* line 483, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+  /* line 483, bigfoot-2f3ad3e3.css.scss */
   .bigfoot-footnote.is-scrollable .bigfoot-footnote__wrapper:before, .bigfoot-footnote.is-scrollable .bigfoot-footnote__wrapper:after {
     content: '';
     position: absolute;
     width: 100%;
     z-index: 12;
     left: 0; }
-  /* line 493, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+  /* line 493, bigfoot-2f3ad3e3.css.scss */
   .bigfoot-footnote.is-scrollable .bigfoot-footnote__wrapper:before {
     top: -1px;
     height: 1.1em;
     border-radius: 0.5em 0.5em 0 0;
     background-image: linear-gradient(to bottom, #fafafa 50%, rgba(250, 250, 250, 0) 100%); }
-  /* line 500, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+  /* line 500, bigfoot-2f3ad3e3.css.scss */
   .bigfoot-footnote.is-scrollable .bigfoot-footnote__wrapper:after {
     bottom: -1px;
     height: 1.2em;
     border-radius: 0 0 0.5em 0.5em;
     background-image: linear-gradient(to top, #fafafa 50%, rgba(250, 250, 250, 0) 100%); }
-  /* line 508, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+  /* line 508, bigfoot-2f3ad3e3.css.scss */
   .bigfoot-footnote.is-scrollable ::-webkit-scrollbar {
     display: none; }
-  /* line 512, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+  /* line 512, bigfoot-2f3ad3e3.css.scss */
   .bigfoot-footnote.is-fully-scrolled:after, .bigfoot-footnote.is-fully-scrolled:before {
     opacity: 0;
     transition-delay: 0; }
 
-/* line 530, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+/* line 530, bigfoot-2f3ad3e3.css.scss */
 .bigfoot-footnote__wrapper {
   position: relative;
   z-index: 14;
@@ -180,7 +180,7 @@
   border-radius: 0.5em;
   line-height: 0; }
 
-/* line 561, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+/* line 561, bigfoot-2f3ad3e3.css.scss */
 .bigfoot-footnote__content {
   position: relative;
   z-index: 8;
@@ -194,17 +194,17 @@
   border-radius: 0.5em;
   font-smoothing: subpixel-antialiased;
   line-height: normal; }
-  /* line 583, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+  /* line 583, bigfoot-2f3ad3e3.css.scss */
   .bigfoot-footnote__content img {
     max-width: 100%; }
-  /* line 584, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+  /* line 584, bigfoot-2f3ad3e3.css.scss */
   .bigfoot-footnote__content *:last-child {
     margin-bottom: 0 !important; }
-  /* line 585, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+  /* line 585, bigfoot-2f3ad3e3.css.scss */
   .bigfoot-footnote__content *:first-child {
     margin-top: 0 !important; }
 
-/* line 596, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+/* line 596, bigfoot-2f3ad3e3.css.scss */
 .bigfoot-footnote__tooltip {
   position: absolute;
   z-index: 12;
@@ -218,9 +218,9 @@
   border: 1px solid #c3c3c3;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
   border-top-left-radius: 0; }
-  /* line 617, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+  /* line 617, bigfoot-2f3ad3e3.css.scss */
   .is-positioned-bottom .bigfoot-footnote__tooltip {
     top: -0.65em; }
-  /* line 621, /Users/simonganz/Dropbox/SimonGanz.com/source/stylesheets/bigfoot.css.scss */
+  /* line 621, bigfoot-2f3ad3e3.css.scss */
   .is-positioned-top .bigfoot-footnote__tooltip {
     bottom: -0.65em; }

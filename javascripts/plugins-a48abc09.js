@@ -16,4 +16,3 @@ $(document).ready(function() {
 });
 
 // Place any jQuery/helper plugins in here.
-;

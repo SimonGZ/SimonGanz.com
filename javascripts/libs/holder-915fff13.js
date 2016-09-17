@@ -8,7 +8,6 @@ Commercial use requires attribution.
 
 */
 
-
 var Holder = Holder || {};
 (function (app, win) {
 
@@ -214,7 +213,7 @@ if (!canvas.getContext) {
 var fluid_images = [];
 
 var settings = {
-	domain: "holder-978664da.js",
+	domain: "holder-915fff13.js",
 	images: "img",
 	bgnodes: ".holderjs",
 	themes: {
