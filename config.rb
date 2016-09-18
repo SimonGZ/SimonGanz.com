@@ -121,10 +121,13 @@ configure :build do
   # Turning on cache system to fight github's aggressive cacheing.
   
   # For example, change the Compass output style for deployment
-  # activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript
+
+  # Use GZip compression where available
+  # activate :gzip
 
   # Enable cache buster
   # activate :cache_buster
