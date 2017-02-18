@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class='no-js'>
+  <!--<![endif]-->
+  <head>
+    <meta charset='utf-8'>
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <title>Simon Ganz</title>
+    <meta content='Personal blog of Simon Ganz, covering topics such as screenwriting, comedy, and technology.' name='description'>
+    <meta content='Simon Ganz' name='author'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <meta content='Simon Ganz' property='og:title'>
+    <meta content='SimonGanz.com' property='og:site_name'>
+    <meta content='http://simonganz.com/page/6/' property='og:url'>
+    <meta content='Personal blog of Simon Ganz, covering topics such as screenwriting, comedy, and technology.' property='og:description'>
+    <meta property='og:image'>
+    <link href='/feed.xml' rel='alternate' title='SimonGanz.com' type='application/atom+xml'>
+    <link href="/stylesheets/screen-1691b774.css" rel="stylesheet" />
+    <script type='text/javascript'>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-41213917-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class='chromeframe'>
+        You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.
+      </p>
+    <![endif]-->
+    <div class='container'>
+      <header class='title' role='banner'>
+        <h1>
+          <a href='/' title='Simon Ganz.com'>
+            Simon Ganz
+          </a>
+        </h1>
+      </header>
+      <nav role='navigation'>
+        <ul>
+          <li>
+            <a href='http://twitter.com/simonganz' title='@simonganz'>Twitter</a>
+          </li>
+          <li>
+            <a href='/projects/' title='Projects'>Projects</a>
+          </li>
+          <li>
+            <a href='/about/' title='About'>About</a>
+          </li>
+        </ul>
+      </nav>
+      <div id='main-content' role='main'>
+        <article>
+          <header>
+            <h1>
+              <a href='/2013/04/the-dehulkifier/' title='The DeHulkifier'>The DeHulkifier</a>
+            </h1>
+            <h2>
+              <a href='/2013/04/the-dehulkifier/' title='A Bookmarklet to Cure Film Crit Hulk'>A Bookmarklet to Cure Film Crit Hulk</a>
+            </h2>
+            <div class='postDate'>
+              <a href='/2013/04/the-dehulkifier/' title='Permalink'>
+                <small>
+                  Apr  4 2013
+                  
+                </small>
+              </a>
+            </div>
+          </header>
+          <img src="/images/hulk-8eafcaa5.jpg" title="The Hulk" />
+          
+          <p><a href="http://birthmoviesdeath.com/author/film.crit.hulk">Film Crit Hulk</a> offers some of the most detailed, insightful film criticism on the web. But there’s a catch…</p>
+          
+          <h2 id="hulk-shouts">Hulk Shouts</h2>
+          
+          <blockquote>
+            <p>HULK HAS TALKED ON AND ON ABOUT HOW MUCH SOUND IS “THE ACTUAL VISCERAL EXPERIENCE OF MOVIES,” AND THAT IS VERY MUCH TRUE, BUT THAT STATEMENT IS NOT TO DOWNPLAY THE STUNNING IMPORTANCE OF CINEMATOGRAPHY THAT CONVEYS BOTH INFORMATION AND FEELING TOO.</p>
+          </blockquote>
+          
+          <p>Blech. I understand that he’s a half-ton, gamma-irradiated super being, but that’s really unpleasant.</p>
+          
+          <p>So during a particularly fierce procrastination session I developed <strong>a cure for Hulk</strong>:</p>
+          
+          <blockquote>
+            <p>Hulk has talked on and on about how much sound is “the actual visceral experience of movies,” and that is very much true, but that statement is not to downplay the stunning importance of cinematography that conveys both information and feeling too.</p>
+          </blockquote>
+          
+          <p>Much better, right?</p>
+          
+          <h2 id="installing-the-cure">Installing the Cure</h2>
+          
+          <p>The cure is a <a href="http://en.wikipedia.org/wiki/Bookmarklet">bookmarklet</a> that uses Javascript and regular expressions to de-gamma-irradiate Film Crit Hulk and turn him into Film Crit Bruce Banner.  He still has a few grammar issues, likely due to brain damage, but I personally find him a lot more pleasant.</p>
+          
+          <p>You can install the cure by dragging the link below to your bookmarks bar. It looks <a href="https://dl.dropboxusercontent.com/u/41830/bookmarkletInstallation.m4v">like this</a> in Chrome.</p>
+          
+          <ul>
+            <li><a href="javascript:(function()%7Bfunction%20callback()%7B(function(%24)%7Bvar%20jQuery%3D%24%3B%24(function()%20%7BString.prototype.reverse%20%3D%20function()%20%7Breturn%20this.split('').reverse().join('')%3B%7D%3B%24(%22.Article-content%20p%22).not(%22%3Ahas(img)%22).not(%22%3Ahas(iframe)%22).replaceWith(function()%20%7Bvar%20dehulked%3Bdehulked%20%3D%20%24(this).html().toLowerCase().replace(%2F%5E%5B%5Cs%5D*(%5Ba-zA-Z%5D)%2Fg%2C%20function(%240)%20%7Breturn%20%240.toUpperCase()%3B%7D).reverse().replace(%2F(%5Ba-zA-Z%5D)(%5B%5Cs*%5D(%5B.!%3F%5D%7C%5B%22%E2%80%9D%5D%5B%5C.%3F!%5D))%2Fg%2C%20function(%240%2C%20%241)%20%7Breturn%20%240.toUpperCase()%3B%7D).reverse().replace(%2Fmr%5C.%2Fg%2C%20%22Mr.%22).replace(%2Fhulk%2Fg%2C%20%22Hulk%22)%3Breturn%20%22%3Cp%3E%22%20%2B%20dehulked%20%2B%20%22%3C%2Fp%3E%22%3B%7D)%3B%24(%22.Article-content%20p%20strong%22).replaceWith(function()%20%7Breturn%20%22%3Cstrong%3E%22%20%2B%20%24(this).text().toUpperCase()%20%2B%20%22%3C%2Fstrong%3E%22%3B%7D)%3B%24(%22.Article-authorContainer%20img%22).attr(%22src%22%2C%20%22http%3A%2F%2Fi.imgur.com%2FhgWFM9j.jpg%22)%3B%24(%22.Article-authorName%22).text(%22Film%20Crit%20Bruce%20Banner%22)%3Breturn%20%24(%22.Article-authorText%20p%22).text(%22Film%20Crit%20Bruce%20Banner%20is%20currently%20recuperating%20from%20a%20chaotic%20lab%20experiment%20involving%20gamma%20radiation%2C%20telepods%2C%20and%20the%20ghost%20of%20Pauline%20Kael.%20Bruce%20has%20a%20deep%20and%20abiding%20love%20of%20cinema.%22)%3B%7D)%7D)(jQuery.noConflict(true))%7Dvar%20s%3Ddocument.createElement(%22script%22)%3Bs.src%3D%22https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F1.7.1%2Fjquery.min.js%22%3Bif(s.addEventListener)%7Bs.addEventListener(%22load%22%2Ccallback%2Cfalse)%7Delse%20if(s.readyState)%7Bs.onreadystatechange%3Dcallback%7Ddocument.body.appendChild(s)%3B%7D)()">DeHulkifier</a></li>
+          </ul>
+          
+          <p>Then just visit a Film Crit Hulk article (here’s <a href="http://birthmoviesdeath.com/2013/01/09/film-crit-hulk-smash-hulk-vs.-tom-hooper-and-art-of-cinematic-affectation/">a good one</a>) and click the bookmarklet.</p>
+          
+          <hr />
+          
+          <h2 id="update">Update</h2>
+          
+          <p>05/02/2015 - Film Crit Hulk has moved to a new website. I’ve updated the bookmarklet to work on the new site. I’ve also gotten rid of the old, more complicated bookmarklet that tried to fix Hulk’s goofy grammar.</p>
+          
+          <hr />
+          
+          <h2 id="shameless-self-promotion">Shameless Self-Promotion</h2>
+          
+          <p>This post is getting a lot of attention recently thanks to links from <a href="http://hypercritical.co">John Siracusa</a> and <a href="https://twitter.com/ChrisWarcraft">Chris Kluwe</a>. If you like my bookmarklet, you can follow me on Twitter <a href="https://twitter.com/simonganz" title="Simon Ganz (@simonganz) - Twitter">@simonganz</a>. Thanks!</p>
+          <small>
+            <a class='comments-link' href='/2013/04/the-dehulkifier/#disqus_thread'></a>
+          </small>
+          <hr class='postDivider'>
+        </article>
+        <article>
+          <header>
+            <h1>
+              <a href='/2011/04/Grandmas-Shiny-Button/' title="Grandma's Shiny Button">Grandma's Shiny Button</a>
+            </h1>
+            <div class='postDate'>
+              <a href='/2011/04/Grandmas-Shiny-Button/' title='Permalink'>
+                <small>
+                  Apr  6 2011
+                  
+                </small>
+              </a>
+            </div>
+          </header>
+          <img src="/images/powermate-f3510579.jpg" title="Griffin Powermate" />
+          
+          <h2 id="the-problem">The Problem</h2>
+          
+          <ul>
+            <li>Grandma moved from New York to Los Angeles</li>
+            <li>Grandma wants to listen to every Mets game</li>
+            <li>Grandma is legally blind and has never used a computer</li>
+          </ul>
+          
+          <h2 id="first-solution-internet-radio">First Solution: Internet Radio</h2>
+          
+          <h3 id="steps-for-me">Steps for Me</h3>
+          
+          <ol>
+            <li>Buy Grandma a Squeezebox Internet Radio Player</li>
+            <li>Set the first preset to WFAN, the Mets radio station</li>
+            <li>Teach grandma to use the preset</li>
+          </ol>
+          
+          <h3 id="steps-for-grandma">Steps for Grandma</h3>
+          
+          <ol>
+            <li>Press the preset</li>
+          </ol>
+          
+          <h3 id="outcome">Outcome</h3>
+          
+          <p>Fuck, they blackout all the games.</p>
+          
+          <h2 id="second-solution-drive-an-ipad-over">Second Solution: Drive an iPad Over</h2>
+          
+          <h3 id="steps-for-my-mom">Steps for My Mom</h3>
+          
+          <ol>
+            <li>Subscribe to MLB Gameday Audio on the iPad</li>
+            <li>Remember there’s a Mets game</li>
+            <li>Drive the iPad over to Grandma’s place</li>
+            <li>Turn on the game and leave</li>
+            <li>Come back four hours later to retrieve the iPad</li>
+          </ol>
+          
+          <h3 id="steps-for-grandma-1">Steps for Grandma</h3>
+          
+          <ol>
+            <li>Call my mom to remind her there’s a game</li>
+            <li>Call my mom when the game is over so mom can turn the iPad off</li>
+          </ol>
+          
+          <h3 id="outcome-1">Outcome</h3>
+          <p>Mom says, “162 games in a season!?”</p>
+          
+          <h2 id="third-solution-remote-vnc">Third Solution: Remote VNC</h2>
+          
+          <h3 id="steps-for-me-1">Steps for Me</h3>
+          
+          <ol>
+            <li>Purchase Mac Mini</li>
+            <li>Purchase speakers</li>
+            <li>Install Mac Mini and Speakers under Grandma’s TV</li>
+            <li>Install VNC software on Mac Mini</li>
+            <li>Remotely launch MLB Gameday Audio in Safari, find WFAN link, enter login credentials everytime Grandma calls</li>
+          </ol>
+          
+          <h3 id="steps-for-grandma-2">Steps for Grandma</h3>
+          
+          <ol>
+            <li>Call me to turn the game on</li>
+            <li>Get spooked out when sound suddenly starts coming out of her TV</li>
+            <li>Call me to turn the game off</li>
+          </ol>
+          
+          <h3 id="outcome-2">Outcome</h3>
+          
+          <p>Simon says, “162 fucking games in a season!?”</p>
+          
+          <h2 id="the--solution">The (!?) Solution</h2>
+          
+          <h3 id="steps-for-me-2">Steps for Me</h3>
+          
+          <ol>
+            <li>Write Safari Extension to automatically load WFAN whenever Safari is launched</li>
+            <li>Write Safari Extension to automatically log into MLB Gameday Audio when necessary</li>
+            <li>Buy <a href="http://www.griffintechnology.com/products/powermate">GriffinPowermate</a></li>
+            <li>Setup PowerMate so that one button press launches Safari and raises the volume, and one long button press quits Safari and mutes the volume</li>
+            <li>Teach Grandma to use the button</li>
+          </ol>
+          
+          <h3 id="steps-for-grandma-3">Steps for Grandma</h3>
+          
+          <ol>
+            <li>Push the button to turn on the game</li>
+            <li>Hold the button to turn off the game</li>
+          </ol>
+          
+          <h3 id="outcome-3">Outcome</h3>
+          
+          <p>I’ll let you know!</p>
+          
+          <hr />
+          
+          <h1 id="update">Update:</h1>
+          
+          <p>The button worked well for a year until a much better solution presented itself.  SiriusXM now offers <a href="http://www.siriusxm.com/newyorkmets">a special internet radio channel that automatically tunes to Mets games</a>.  That means Grandma can use the internet radio preset to listen to games.</p>
+          
+          <p>I’ve since repurposed the PowerMate button so control iTunes and play/pause audio books for Grandma.</p>
+          <small>
+            <a class='comments-link' href='/2011/04/Grandmas-Shiny-Button/#disqus_thread'></a>
+          </small>
+          <hr class='postDivider'>
+        </article>
+        <div class='pagination'>
+          <ul>
+            <li class=''>
+              <a href="/page/5/">&#8592;</a>
+            </li>
+            <li>
+              <a href="/page/4/">4</a>
+            </li>
+            <li>
+              <a href="/page/5/">5</a>
+            </li>
+            <li class='active'>
+              <span>6</span>
+            </li>
+            <li class='disabled'>
+              <span>&#8594;&#10072;</span>
+            </li>
+          </ul>
+        </div>
+        <script>
+          var disqus_shortname = 'simonganz';
+          
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function () {
+          var s = document.createElement('script'); s.async = true;
+          s.type = 'text/javascript';
+          s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+          (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+          }());
+        </script>
+      </div>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script>
+      window.jQuery || document.write('<script src="/javascripts/libs/jquery-1.9.0.min-002da8cb.js"><\/script>')
+    </script>
+    <!-- = javascript_include_tag "libs/holder" -->
+    <!-- TypeKit include -->
+    <script src="//use.typekit.net/ice8xwx.js"></script>
+    <script type='text/javascript'>
+      try{Typekit.load({ async: true });}catch(e){}
+    </script>
+    <script src="/javascripts/libs/modernizr-2.6.1.min-7a33327d.js"></script>
+    <script src="/javascripts/libs/bigfoot.min-fbac4fe2.js"></script><script src="/javascripts/plugins-a48abc09.js"></script><script src="/javascripts/script-a28d568e.js"></script>
+  </body>
+</html>
