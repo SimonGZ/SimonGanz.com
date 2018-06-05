@@ -4,126 +4,129 @@
 <!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
 <html class='no-js'>
-  <!--<![endif]-->
-  <head>
-    <meta charset='utf-8'>
-    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
-    <title>How to Add Incredibly Powerful Emacs-style Shortcuts to Mac OS X</title>
-    <meta content='Tip for adding powerful keyboard shortcuts to Mac OS X.' name='description'>
-    <meta content='Simon Ganz' name='author'>
-    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
-    <meta content='How to Add Incredibly Powerful Emacs-style Shortcuts to Mac OS X' property='og:title'>
-    <meta content='SimonGanz.com' property='og:site_name'>
-    <meta content='http://simonganz.com/2013/06/add-emacs-key-bindings-to-mac-os-x/' property='og:url'>
-    <meta content='Tip for adding powerful keyboard shortcuts to Mac OS X.' property='og:description'>
-    <meta property='og:image'>
-    <link href='/feed.xml' rel='alternate' title='SimonGanz.com' type='application/atom+xml'>
-    <link href="/stylesheets/screen-0069180a.css" rel="stylesheet" />
-    <script type='text/javascript'>
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-41213917-1']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-  </head>
-  <body>
-    <!--[if lt IE 7]>
-      <p class='chromeframe'>
-        You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.
-      </p>
-    <![endif]-->
-    <div class='container'>
-      <header class='title' role='banner'>
-        <h1>
-          <a href='/' title='Simon Ganz.com'>
-            Simon Ganz
-          </a>
-        </h1>
-      </header>
-      <nav role='navigation'>
-        <ul>
-          <li>
-            <a href='http://twitter.com/simonganz' title='@simonganz'>Twitter</a>
-          </li>
-          <li>
-            <a href='/projects/' title='Projects'>Projects</a>
-          </li>
-          <li>
-            <a href='/about/' title='About'>About</a>
-          </li>
-        </ul>
-      </nav>
-      <div id='main-content' role='main'>
-        <article>
-          <header>
-            <h1>
-              <a href='/2013/06/add-emacs-key-bindings-to-mac-os-x/' title='How to Add Incredibly Powerful Emacs-style Shortcuts to Mac OS X'>How to Add Incredibly Powerful Emacs-style Shortcuts to Mac OS X</a>
-            </h1>
-            <div class='postDate'>
-              <a href='/2013/06/add-emacs-key-bindings-to-mac-os-x/' title='Permalink'>
-                <small>
-                  Jun 28 2013
-                  
-                </small>
-              </a>
-            </div>
-          </header>
-          <h2 id="what-is-emacs">What is Emacs?</h2>
-          
-          <p><a href="http://www.gnu.org/software/emacs/" title="GNU Emacs">Emacs</a> is a very nerdy text editor/email program/development suite/nuclear reactor.</p>
-          
-          <p>It’s ugly and weird and hard to use because it dates back to a time before computers had mice. But for that same reason, it has amazing tools and shortcuts for rapidly editing and moving through text with only your keyboard.</p>
-          
-          <p>Mac OS X has always had some of <a href="http://www.hcs.harvard.edu/~jrus/Site/System%20Bindings.html" title="Mac OS X Default Key Bindings">these shortcuts baked in</a>. For instance, type <em>Ctrl+e</em> in an OS X text field and the cursor will jump to the end of a line. Type <em>Ctrl+k</em> and everything between the cursor and the end of the line will be deleted (this is crazy useful when editing; I suggest trying it out).</p>
-          
-          <p>I learned these shortcuts for convenience sake a few years back, but recently the trackpad on my Macbook Pro died and I was forced to turn to them full time.<sup id="fnref:magic"><a href="#fn:magic" class="footnote">1</a></sup> The problem is that by default, OS X only allows you to use a few select Emacs shortcuts that utilize the ctrl key. Many other powerful Emacs shortcuts are unavailable (including every shortcut that uses the alt key, referred to as the “meta” key in Emacs lingo).</p>
-          
-          <p>But you can change this.</p>
-          
-          <h2 id="changing-mac-os-x-key-bindings">Changing Mac OS X Key Bindings</h2>
-          
-          <p>These directions are adapted from <a href="http://www.hcs.harvard.edu/~jrus/site/cocoa-text.html" title="Customizing the Cocoa Text System">this excellent 2006 article by Jacob Rus</a> and <a href="http://brettterpstra.com/2011/08/13/keybinding-madness/" title="Keybinding Madness">this excellent 2011 post by Brett Terpstra</a>.</p>
-          
-          <ol>
-            <li>Create a folder named “KeyBindings” in the ~/Library directory.<sup id="fnref:library"><a href="#fn:library" class="footnote">2</a></sup></li>
-            <li>Download <a href="https://github.com/ttscoff/KeyBindings/zipball/master" title="Brett Terpstra Killer Keybindings">this DefaultKeyBinding.dict zip file</a>.</li>
-            <li>Unzip the files and place the DefaultKeyBinding.dict file into the newly created KeyBindings folder.</li>
-          </ol>
-          
-          <p>Now as soon as you restart any running apps, you’ll have access to an <a href="http://ttscoff.github.io/KeyBindings/" title="Brett Terpstra Killer Keybindings">insanely powerful list of keyboard shortcuts</a> in almost every Mac OS X application.</p>
-          
-          <p>You can do crazy powerful things like uppercase words with <em>Ctrl+U</em> or copy entire paragraphs instantly by typing <em>Alt+y</em>. You can move paragraphs using only your keyboard (<em>Ctrl+Command+K</em>) or delete trailing whitespaces off a line (<em>Ctrl+Alt+Right Arrow</em>).</p>
-          
-          <p>These key bindings will be overkill for most people, and they may even break a few shortcuts on your computer, but the possibilities are incredible. You can even customize them yourself by editing the DefaultKeyBinding.dict file in a text editor, adding to or tweaking the shortcuts to fit your own workflow.</p>
-          
-          <p>If you spend a lot of time typing text or coding on Mac OS X, you owe it to yourself to play around with a few of these shortcuts and see how they can speed up your life.</p>
-          
-          <hr />
-          
-          <div class="footnotes">
-            <ol>
-              <li id="fn:magic">
-                <p>I eventually bought a <a href="http://www.apple.com/magictrackpad/" title="Apple - Magic Trackpad - Multi-Touch trackpad for your desktop.">Magic Trackpad</a> as a replacement. <a href="#fnref:magic" class="reversefootnote">&#8617;</a></p>
-              </li>
-              <li id="fn:library">
-                <p>By default, the User’s library folder is hidden in Mac OS X. You can access it by opening Finder, selecting the Go menu from the menubar, and holding down the alt key to make the Library option appear. <a href="#fnref:library" class="reversefootnote">&#8617;</a></p>
-              </li>
-            </ol>
-          </div>
-          <hr class='postDivider'>
-        </article>
-      </div>
-    </div>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script>
-      window.jQuery || document.write('<script src="/javascripts/libs/jquery-1.9.0.min-002da8cb.js"><\/script>')
-    </script>
-    <!-- = javascript_include_tag "libs/holder" -->
-    <script src="/javascripts/libs/modernizr-2.6.1.min-7a33327d.js"></script>
-    <script src="/javascripts/libs/bigfoot.min-fbac4fe2.js"></script><script src="/javascripts/plugins-a48abc09.js"></script><script src="/javascripts/script-a28d568e.js"></script>
-  </body>
+<!--<![endif]-->
+<head>
+<meta charset='utf-8'>
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<title>How to Add Incredibly Powerful Emacs-style Shortcuts to Mac OS X</title>
+<meta content='Tip for adding powerful keyboard shortcuts to Mac OS X.' name='description'>
+<meta content='Simon Ganz' name='author'>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<meta content='How to Add Incredibly Powerful Emacs-style Shortcuts to Mac OS X' property='og:title'>
+<meta content='SimonGanz.com' property='og:site_name'>
+<meta content='http://simonganz.com/2013/06/add-emacs-key-bindings-to-mac-os-x/' property='og:url'>
+<meta content='Tip for adding powerful keyboard shortcuts to Mac OS X.' property='og:description'>
+<meta property='og:image'>
+<link href='/feed.xml' rel='alternate' title='SimonGanz.com' type='application/atom+xml'>
+<link href="/stylesheets/screen-0069180a.css" rel="stylesheet" />
+<script type='text/javascript'>
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-41213917-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class='chromeframe'>
+You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.
+</p>
+<![endif]-->
+<div class='container'>
+<header class='title' role='banner'>
+<h1>
+<a href='/' title='Simon Ganz.com'>
+Simon Ganz
+</a>
+</h1>
+</header>
+<nav role='navigation'>
+<ul>
+<li>
+<a href='http://twitter.com/simonganz' title='@simonganz'>Twitter</a>
+</li>
+<li>
+<a href='/projects/' title='Projects'>Projects</a>
+</li>
+<li>
+<a href='/about/' title='About'>About</a>
+</li>
+</ul>
+</nav>
+<div id='main-content' role='main'>
+<article>
+<header>
+<h1>
+<a href='/2013/06/add-emacs-key-bindings-to-mac-os-x/' title='How to Add Incredibly Powerful Emacs-style Shortcuts to Mac OS X'>How to Add Incredibly Powerful Emacs-style Shortcuts to Mac OS X</a>
+</h1>
+<div class='postDate'>
+<a href='/2013/06/add-emacs-key-bindings-to-mac-os-x/' title='Permalink'>
+<small>
+Jun 28 2013
+
+</small>
+</a>
+</div>
+</header>
+
+<h2 id="what-is-emacs">What is Emacs?</h2>
+
+<p><a href="http://www.gnu.org/software/emacs/" title="GNU Emacs">Emacs</a> is a very nerdy text editor/email program/development suite/nuclear reactor.</p>
+
+<p>It’s ugly and weird and hard to use because it dates back to a time before computers had mice. But for that same reason, it has amazing tools and shortcuts for rapidly editing and moving through text with only your keyboard.</p>
+
+<p>Mac OS X has always had some of <a href="http://www.hcs.harvard.edu/~jrus/Site/System%20Bindings.html" title="Mac OS X Default Key Bindings">these shortcuts baked in</a>. For instance, type <em>Ctrl+e</em> in an OS X text field and the cursor will jump to the end of a line. Type <em>Ctrl+k</em> and everything between the cursor and the end of the line will be deleted (this is crazy useful when editing; I suggest trying it out).</p>
+
+<p>I learned these shortcuts for convenience sake a few years back, but recently the trackpad on my Macbook Pro died and I was forced to turn to them full time.<sup id="fnref:magic"><a href="#fn:magic" class="footnote">1</a></sup> The problem is that by default, OS X only allows you to use a few select Emacs shortcuts that utilize the ctrl key. Many other powerful Emacs shortcuts are unavailable (including every shortcut that uses the alt key, referred to as the “meta” key in Emacs lingo).</p>
+
+<p>But you can change this.</p>
+
+<h2 id="changing-mac-os-x-key-bindings">Changing Mac OS X Key Bindings</h2>
+
+<p>These directions are adapted from <a href="http://www.hcs.harvard.edu/~jrus/site/cocoa-text.html" title="Customizing the Cocoa Text System">this excellent 2006 article by Jacob Rus</a> and <a href="http://brettterpstra.com/2011/08/13/keybinding-madness/" title="Keybinding Madness">this excellent 2011 post by Brett Terpstra</a>.</p>
+
+<ol>
+  <li>Create a folder named “KeyBindings” in the ~/Library directory.<sup id="fnref:library"><a href="#fn:library" class="footnote">2</a></sup></li>
+  <li>Download <a href="https://github.com/ttscoff/KeyBindings/zipball/master" title="Brett Terpstra Killer Keybindings">this DefaultKeyBinding.dict zip file</a>.</li>
+  <li>Unzip the files and place the DefaultKeyBinding.dict file into the newly created KeyBindings folder.</li>
+</ol>
+
+<p>Now as soon as you restart any running apps, you’ll have access to an <a href="http://ttscoff.github.io/KeyBindings/" title="Brett Terpstra Killer Keybindings">insanely powerful list of keyboard shortcuts</a> in almost every Mac OS X application.</p>
+
+<p>You can do crazy powerful things like uppercase words with <em>Ctrl+U</em> or copy entire paragraphs instantly by typing <em>Alt+y</em>. You can move paragraphs using only your keyboard (<em>Ctrl+Command+K</em>) or delete trailing whitespaces off a line (<em>Ctrl+Alt+Right Arrow</em>).</p>
+
+<p>These key bindings will be overkill for most people, and they may even break a few shortcuts on your computer, but the possibilities are incredible. You can even customize them yourself by editing the DefaultKeyBinding.dict file in a text editor, adding to or tweaking the shortcuts to fit your own workflow.</p>
+
+<p>If you spend a lot of time typing text or coding on Mac OS X, you owe it to yourself to play around with a few of these shortcuts and see how they can speed up your life.</p>
+
+<hr />
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:magic">
+      <p>I eventually bought a <a href="http://www.apple.com/magictrackpad/" title="Apple - Magic Trackpad - Multi-Touch trackpad for your desktop.">Magic Trackpad</a> as a replacement. <a href="#fnref:magic" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:library">
+      <p>By default, the User’s library folder is hidden in Mac OS X. You can access it by opening Finder, selecting the Go menu from the menubar, and holding down the alt key to make the Library option appear. <a href="#fnref:library" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+<hr class='postDivider'>
+</article>
+
+</div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script>
+  window.jQuery || document.write('<script src="/javascripts/libs/jquery-1.9.0.min-002da8cb.js"><\/script>')
+</script>
+<!-- = javascript_include_tag "libs/holder" -->
+<script src="/javascripts/libs/modernizr-2.6.1.min-7a33327d.js"></script>
+<script src="/javascripts/libs/bigfoot.min-fbac4fe2.js"></script><script src="/javascripts/plugins-a48abc09.js"></script><script src="/javascripts/script-a28d568e.js"></script>
+</body>
 </html>

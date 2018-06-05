@@ -4,571 +4,669 @@
 <!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
 <html class='no-js'>
-  <!--<![endif]-->
-  <head>
-    <meta charset='utf-8'>
-    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
-    <title>Simon Ganz</title>
-    <meta content='Personal blog of Simon Ganz, covering topics such as screenwriting, comedy, and technology.' name='description'>
-    <meta content='Simon Ganz' name='author'>
-    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
-    <meta content='Simon Ganz' property='og:title'>
-    <meta content='SimonGanz.com' property='og:site_name'>
-    <meta content='http://simonganz.com/page/2/' property='og:url'>
-    <meta content='Personal blog of Simon Ganz, covering topics such as screenwriting, comedy, and technology.' property='og:description'>
-    <meta property='og:image'>
-    <link href='/feed.xml' rel='alternate' title='SimonGanz.com' type='application/atom+xml'>
-    <link href="/stylesheets/screen-0069180a.css" rel="stylesheet" />
-    <script type='text/javascript'>
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-41213917-1']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-  </head>
-  <body>
-    <!--[if lt IE 7]>
-      <p class='chromeframe'>
-        You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.
-      </p>
-    <![endif]-->
-    <div class='container'>
-      <header class='title' role='banner'>
-        <h1>
-          <a href='/' title='Simon Ganz.com'>
-            Simon Ganz
-          </a>
-        </h1>
-      </header>
-      <nav role='navigation'>
-        <ul>
-          <li>
-            <a href='http://twitter.com/simonganz' title='@simonganz'>Twitter</a>
-          </li>
-          <li>
-            <a href='/projects/' title='Projects'>Projects</a>
-          </li>
-          <li>
-            <a href='/about/' title='About'>About</a>
-          </li>
-        </ul>
-      </nav>
-      <div id='main-content' role='main'>
-        <article>
-          <header>
-            <h1>
-              <a href='/2014/06/fountain-loader-for-google-drive/' title='Fountain Loader for Google Drive'>Fountain Loader for Google Drive</a>
-            </h1>
-            <div class='postDate'>
-              <a href='/2014/06/fountain-loader-for-google-drive/' title='Permalink'>
-                <small>
-                  Jun 27 2014
-                  
-                </small>
-              </a>
-            </div>
-          </header>
-          <p><a href="http://fountainloader.com" title="Fountain Loader">Fountain Loader</a> is an online previewer and converter for <a href="http://fountain.io/" title="Fountain: A markup language for screenwriting">Fountain screenplay documents</a>. It works with Google Drive™, making it easy to write screenplays in Google Docs.</p>
-          
-          <div class="video-container">
-              <video loop controls poster="http://fountainloader.com/videos/fountain-loader-2.png">
-              <source id="webmsource" src="http://fountainloader.com/videos/fountain-loader-2.webm" type="video/webm">
-              <source id="mp4source" src="http://fountainloader.com/videos/fountain-loader-2.mp4" type="video/mp4">
-              <img src="http://fountainloader.com/videos/fountain-loader-2.gif">
-              </video>
-          </div>
-          
-          <h2 id="why-did-i-make-this">Why did I make this</h2>
-          
-          <p>Google Docs is the best collaborative writing program I’ve found. It lets me and my writing partner work on a script simultaneously, sometimes even working on the same sentence at the same time.</p>
-          
-          <p>But Google Docs is butt ugly. It doesn’t even have a decent Courier font.<sup id="fnref:font"><a href="#fn:font" class="footnote">1</a></sup> I’m used to writing code and staring at ugly markup, but my writing partner can’t stand it. Google Docs just doesn’t look like a screenplay to him.</p>
-          
-          <p>Fountain Loader bridges the visual gap between Google Docs and the final script. It loads our script as we work on it and generates a preview in another tab. It can generate both a traditional screenplay preview as well as a multicamera sitcom preview. It can also watch the file and update as the document changes.<sup id="fnref:caveat"><a href="#fn:caveat" class="footnote">2</a></sup></p>
-          
-          <p>Then, once our script is ready to send out, Fountain Loader’s export feature lets us download the script as either a Final Draft file or a fountain file.</p>
-          
-          <h2 id="features">Features</h2>
-          
-          <ul>
-            <li><strong>Pretty damn accurate:</strong> The preview should be very close to how your script will look when output by Final Draft.<sup id="fnref:differences"><a href="#fn:differences" class="footnote">3</a></sup></li>
-            <li><strong>Responsive:</strong> Multiple layouts so you can preview screenplays on your phone or tablet.</li>
-            <li><strong>Detect Changes mode:</strong> Watches your document and generates new previews with each change.</li>
-            <li><strong>Multicam Support:</strong> Fountain Loader supports multicamera sitcoms. By placing “Format: Mulitcam” at the top of your script, Fountain Loader will preview your script with <a href="http://screenwriting.io/how-are-multicamera-tv-scripts-formatted/" title="How are Multicamera TV Scripts Formatted?">multicam formatting</a>, and when exporting your script as an FDX, Fountain Loader will apply multicam styles there too.</li>
-            <li><strong>Act Break Support:</strong> Fountain Loader also supports Final Draft act break elements. If you use Fountain markup to center some key words  (Teaser, Cold Opening, Act One, Act Two, Tag, etc.) then Fountain Loader will automatically convert those into true act break elements when you export into Final Draft.</li>
-            <li><strong>Script Note Support:</strong> Fountain Loader also supports Final Draft script notes. If you write a script note using Fountain’s [[note]] syntax, that note will be applied to the element above the note.</li>
-            <li><strong>Safe:</strong> Fountain Loader renders everything locally in Javascript. When using the HTML preview feature, your screenplay goes directly from Google Drive to your browser without being saved on a server. When using the export feature, a version of your script exists on my server for about two seconds before it’s automatically deleted.</li>
-            <li><strong>Tested:</strong> I wrote an episode of an NBC sitcom with this. It works.</li>
-          </ul>
-          
-          <h2 id="update">Update</h2>
-          
-          <p>Version 2.0 - Released 06/29/2015</p>
-          
-          <h2 id="possible-future-features">Possible Future Features</h2>
-          
-          <ul>
-            <li>More formatting/template options. Maybe even a Template: metatag that lets you define your own Final Draft elements.</li>
-            <li>Use Fountain outlining elements to create fast-links to jump through a script (e.g. jump to act two).</li>
-            <li>Toggle to hide notes and outline elements.</li>
-          </ul>
-          
-          <h2 id="link">Link</h2>
-          
-          <p>Check it out at <a href="http://fountainloader.com">http://fountainloader.com</a>.</p>
-          
-          <div class="footnotes">
-            <ol>
-              <li id="fn:font">
-                <p>I use <a href="https://www.google.com/fonts/specimen/Cousine" title="Google Fonts Cousine">cousine</a>, a coding font that has the same metrics as Courier. <a href="#fnref:font" class="reversefootnote">&#8617;</a></p>
-              </li>
-              <li id="fn:caveat">
-                <p>Caveat: This feature depends on <a href="https://developers.google.com/drive/web/manage-changes">Google Drive’s change feed system</a>, which doesn’t update as fast as you might guess. It groups changes together and only updates every few minutes. <a href="#fnref:caveat" class="reversefootnote">&#8617;</a></p>
-              </li>
-              <li id="fn:differences">
-                <p>Why isn’t it 100% accurate? Well Final Draft handles spaces in dialogue text a little differently than a web browser handles text, so some things are just never going to look perfect. The output will also be a little longer than PDFs generated by <a href="http://quoteunquoteapps.com/highland/" title="Highland - Quote-Unquote Apps">John August’s Highland app</a>. Highland squeezes more dialogue onto a page than Final Draft. <a href="#fnref:differences" class="reversefootnote">&#8617;</a></p>
-              </li>
-            </ol>
-          </div>
-          <small>
-            <a class='comments-link' href='/2014/06/fountain-loader-for-google-drive/#disqus_thread'></a>
-          </small>
-          <hr class='postDivider'>
-        </article>
-        <article>
-          <header>
-            <h1>
-              <a href='/2014/06/ranndy-random-name-generator/' title='Ranndy Random Name Generator'>Ranndy Random Name Generator</a>
-            </h1>
-            <div class='postDate'>
-              <a href='/2014/06/ranndy-random-name-generator/' title='Permalink'>
-                <small>
-                  Jun 20 2014
-                  
-                </small>
-              </a>
-            </div>
-          </header>
-          <a href="http://ranndy.com" title="Ranndy Random Name Generator"><img src="/images/ranndyInterface-fbf13419.png" title="Ranndy Random Name Generator" /></a>
-          
-          <p><a href="http://ranndy.com" title="Ranndy Random Name Generator">Ranndy.com</a> is a random name generator for use in fiction writing and baby naming.</p>
-          
-          <p>The site is mobile friendly and presents an infinite scroll of random names with hundreds of millions of possibilities.</p>
-          
-          <h2 id="year-race-and-popularity">Year, Race, and Popularity…</h2>
-          
-          <p>Ranndy uses US Census data, so you can get very specific about what sort of random name you want.</p>
-          
-          <ul>
-            <li>
-              <p>If you’re writing a character who should be roughly 30 years old, you can ask Ranndy to only show you popular names from 1984.</p>
-            </li>
-            <li>
-              <p>If you’re writing a character with a specific racial/ethnic background (Native American sheriff, African American businessman, etc.) you can ask Ranndy to only show you surnames associated with that racial/ethnic group.</p>
-            </li>
-            <li>
-              <p>If you’re looking for a truly out there name, you can ask Ranndy to only show you unpopular names. For instance, only five unlucky babies in the US were named Ranndy with two n’s in the year 2005.</p>
-            </li>
-          </ul>
-          
-          <h2 id="names-that-start-with">Names That Start With…</h2>
-          
-          <p>Ranndy can show you names that start with certain letters.</p>
-          
-          <ul>
-            <li>If you enter “Jo” in the Starts With field, Ranndy will only show you names that start with “Jo” like John, Jordan, Jose, etc.</li>
-          </ul>
-          
-          <h2 id="excluding-names">Excluding Names…</h2>
-          
-          <p>Ranndy can also do the opposite, showing you names that DON’T start with certain letters. Just use the * character.</p>
-          
-          <ul>
-            <li>If you enter “D*, S*, P*” in the Starts With field, Ranndy won’t show you any names that start with D, S, or P. This is useful when you’re writing a screenplay and don’t want too many characters whose names sound or look similar on the page.</li>
-          </ul>
-          
-          <h2 id="forcing-a-name">Forcing a Name…</h2>
-          
-          <p>Ranndy also doesn’t have to be quite so random. If you already know a first or last name that you love, you can force that name with the ^ character.</p>
-          
-          <ul>
-            <li>If you enter “Smith^” in the Last Name Starts With field, then Ranndy will show you random first names but every last name will be “Smith”. This is useful for baby naming and also creating family members for characters.</li>
-          </ul>
-          
-          <h2 id="search-links">Search Links…</h2>
-          
-          <p>Every first and last name generated by the app contains a link to a Google search about that name.</p>
-          
-          <p>For example, if I generate the surname “Swisher” and want to know more about it, I can click on the name and quickly learn that the name is Austrian and originally meant “person who lives near a hill, stream, or church.”</p>
-          
-          <h2 id="change-log">Change Log</h2>
-          
-          <p><em>v0.4.0 - 03/12/2015</em></p>
-          
-          <ul>
-            <li>Added “Search Links” feature</li>
-          </ul>
-          
-          <p><em>v0.3.0 - 11/29/2014</em></p>
-          
-          <ul>
-            <li>Added “Starts With” features.</li>
-            <li>Reworked first name popularity system. Now there are only high and low popularity choices instead of high, medium, and low. This should give a better variety of names in default searches without including too many weird names.</li>
-            <li>Changed how Ranndy reacts when a request brings up very few results. Example: If your parameters only brought up 10 possible last names, Ranndy will now repeat those 10 names over and over with randomly generated first names, rather than only showing you 10 total results.</li>
-          </ul>
-          
-          <h2 id="technical-details">Technical Details</h2>
-          
-          <p>Ranndy’s front end is <a href="http://backbonejs.org/">backbone.js</a> and its backend is <a href="http://expressjs.com/">node.js/express</a>.</p>
-          <small>
-            <a class='comments-link' href='/2014/06/ranndy-random-name-generator/#disqus_thread'></a>
-          </small>
-          <hr class='postDivider'>
-        </article>
-        <article>
-          <header>
-            <h1>
-              <a href='/2014/02/friday-night-lights-parenthood-webisodes/' title='Friday Night Lights Reunion'>Friday Night Lights Reunion</a>
-            </h1>
-            <div class='postDate'>
-              <a href='/2014/02/friday-night-lights-parenthood-webisodes/' title='Permalink'>
-                <small>
-                  Feb 13 2014
-                  
-                </small>
-              </a>
-            </div>
-          </header>
-          <p>Partway through last year, I got an amazing opportunity to work on a secret project for NBC. Today that project is out. It’s a crossover between the cast of <em>Friday Night Lights</em> (one of the best dramas of the last ten years) with NBC’s <em>Parenthood</em> (one of the best dramas on TV today).</p>
-          
-          <p>If you’re a fan of FNL, I think you’ll really dig this little reunion. It’s called Friday Night at the Luncheonette.</p>
-          
-          <div class="video-container">
-          	<iframe width="560" height="315" src="//www.youtube.com/embed/0UbUZjfvq1c?list=PLRUSbbQynOdH2NI5xLJ03K_tdIaTRTukk" frameborder="0" allowfullscreen=""></iframe>
-          </div>
-          
-          <p>I wrote episode three.</p>
-          
-          <p><a href="http://www.youtube.com/watch?v=0UbUZjfvq1c&amp;list=PLRUSbbQynOdH2NI5xLJ03K_tdIaTRTukk&amp;feature=share" title="Friday Night at the Luncheonette">[Youtube]</a> – [<a href="http://www.nbc.com/parenthood/video/friday-night-at-the-luncheonette/2745592" title="Friday Night at the Luncheonette">NBC Video</a>]</p>
-          <small>
-            <a class='comments-link' href='/2014/02/friday-night-lights-parenthood-webisodes/#disqus_thread'></a>
-          </small>
-          <hr class='postDivider'>
-        </article>
-        <article>
-          <header>
-            <h1>
-              <a href='/2013/12/walkscore-for-redfin-chrome-extension/' title='Walk Score for Redfin Chrome Extension'>Walk Score for Redfin Chrome Extension</a>
-            </h1>
-            <div class='postDate'>
-              <a href='/2013/12/walkscore-for-redfin-chrome-extension/' title='Permalink'>
-                <small>
-                  Dec 30 2013
-                  
-                </small>
-              </a>
-            </div>
-          </header>
-          <img src="/images/walkscoreExtensionScreenshot-f66ea834.jpg" title="Walkscore Extension for Redfin" />
-          
-          <p>I’ve written <a href="https://chrome.google.com/webstore/detail/walkscore-for-redfin-and/jjejooaohjgoapilebkhgigocepijmnp" title="Walkscore for Redfin">a Chrome Extension to show Walk Score rankings on Redfin</a>.</p>
-          
-          <h2 id="background">Background</h2>
-          
-          <p><a href="http://www.walkscore.com" title="Walkscore">Walk Score<sup>®</sup></a> uses Google Maps to calculate how walkable, bikeable, and transit-friendly a house or apartment is. <a href="http://www.redfin.com" title="Redfin">Redfin.com</a> is a real estate site that lists houses and condos for sale. I’m house hunting, so I’ve spent a lot of time bouncing back and forth between these two sites.</p>
-          
-          <h2 id="how-to-use-it">How to Use It</h2>
-          
-          <p>While browsing Redfin, clicking on the extension (or using the keyboard shortcut Alt+W on the Mac) pops up a small window displaying the Walkscore.com page for that house.</p>
-          
-          <p>The extension also supports <a href="http://www.theMLS.com" title="TheMLS">TheMLS.com</a>, a site that real estate agents use to email listings to their clients.</p>
-          
-          <h2 id="how-to-install">How to Install</h2>
-          
-          <p>You can install the extension <a href="https://chrome.google.com/webstore/detail/walkscore-for-redfin-and/jjejooaohjgoapilebkhgigocepijmnp" title="Walkscore for Redfin">directly from the Chrome Webstore</a>.</p>
-          <small>
-            <a class='comments-link' href='/2013/12/walkscore-for-redfin-chrome-extension/#disqus_thread'></a>
-          </small>
-          <hr class='postDivider'>
-        </article>
-        <article>
-          <header>
-            <h1>
-              <a href='/2013/11/kanye-west-concert-in-gifs/' title='Kanye West Concert in GIFs'>Kanye West Concert in GIFs</a>
-            </h1>
-            <div class='postDate'>
-              <a href='/2013/11/kanye-west-concert-in-gifs/' title='Permalink'>
-                <small>
-                  Nov 26 2013
-                  
-                </small>
-              </a>
-            </div>
-          </header>
-          <p>On October 19th, 2013, Anna and I attended THE YEEZUS TOUR. The headliner was Kanye West and the opener was Kendrick Lamar.</p>
-          
-          <img src="/images/kanye_gifs/mountain-408748fa.gif" title="Mountain">
-          <a href='/2013/11/kanye-west-concert-in-gifs/#more'>More Kanye GIFs...</a>
-          <small>
-            <a class='comments-link' href='/2013/11/kanye-west-concert-in-gifs/#disqus_thread'></a>
-          </small>
-          <hr class='postDivider'>
-        </article>
-        <article>
-          <header>
-            <h1>
-              <a href='/2013/11/beyonce-concert-in-gifs/' title='Beyonce Concert in GIFs'>Beyonce Concert in GIFs</a>
-            </h1>
-            <div class='postDate'>
-              <a href='/2013/11/beyonce-concert-in-gifs/' title='Permalink'>
-                <small>
-                  Nov 16 2013
-                  
-                </small>
-              </a>
-            </div>
-          </header>
-          <p>On June 28th, 2013, Anna and I attended the BET Experience at LA Live. The headliner was Beyonce.</p>
-          
-          <img src="/images/beyonce_gifs/smoke-176ca351.gif" title="Smoke">
-          <a href='/2013/11/beyonce-concert-in-gifs/#more'>More Beyonce GIFs...</a>
-          <small>
-            <a class='comments-link' href='/2013/11/beyonce-concert-in-gifs/#disqus_thread'></a>
-          </small>
-          <hr class='postDivider'>
-        </article>
-        <article>
-          <header>
-            <h1>
-              <a href='/2013/11/everpix-shutdown/' title='Everpix Shutdown'>Everpix Shutdown</a>
-            </h1>
-            <div class='postDate'>
-              <a href='/2013/11/everpix-shutdown/' title='Permalink'>
-                <small>
-                  Nov 14 2013
-                  
-                </small>
-              </a>
-            </div>
-          </header>
-          <p>Sadly, <a href="https://support.everpix.com/entries/22586374" title="Everpix Shutdown FAQ">Everpix has announced that they are shutting down</a> and refunding their customers’ money. I’ve added an update to the end of <a href="http://simonganz.com/2013/08/everpix-review/" title="Everpix Review">my previous review</a>.</p>
-          
-          <p>I have become addicted to the easy photo sharing and storage that Everpix offered, and I may take a look to see if Flickr or anyone else have gotten their act together and can act as a reasonable replacement.</p>
-          <small>
-            <a class='comments-link' href='/2013/11/everpix-shutdown/#disqus_thread'></a>
-          </small>
-          <hr class='postDivider'>
-        </article>
-        <article>
-          <header>
-            <h1>
-              <a href='/2013/08/ben-affleck-wont-ruin-batman-vs-superman/' title='Ben Affleck Won‘t Ruin Batman vs. Superman'>Ben Affleck Won‘t Ruin Batman vs. Superman</a>
-            </h1>
-            <h2>
-              <a href='/2013/08/ben-affleck-wont-ruin-batman-vs-superman/' title='That’s the Studio’s Job'>That’s the Studio’s Job</a>
-            </h2>
-            <div class='postDate'>
-              <a href='/2013/08/ben-affleck-wont-ruin-batman-vs-superman/' title='Permalink'>
-                <small>
-                  Aug 24 2013
-                  
-                </small>
-              </a>
-            </div>
-          </header>
-          <p><a href="http://www.huffingtonpost.com/2013/08/22/ben-affleck-batman-man-of-steel_n_3801418.html" title="Ben Affleck is the Next Batman">Ben Affleck is going to be the next Batman</a>. And people are angry.</p>
-          
-          <p>But if Batman vs. Superman ends up being a terrible movie, it won’t be because of Affleck. It will be because of this:</p>
-          
-          <blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" align="center"><p>All this outrage over Affleck, yet no noise of the fact that theyve got less than two years to make a $200M movie they have no script for.</p>&mdash; Geoff LaTulippe (@DrGMLaTulippe) <a href="https://twitter.com/DrGMLaTulippe/statuses/370777905468432384">August 23, 2013</a></blockquote>
-          <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-          
-          <p>Batman wearing a Red Sox cap is the least of this movie’s problems.</p>
-          <small>
-            <a class='comments-link' href='/2013/08/ben-affleck-wont-ruin-batman-vs-superman/#disqus_thread'></a>
-          </small>
-          <hr class='postDivider'>
-        </article>
-        <article>
-          <header>
-            <h1>
-              <a href='/2013/08/everpix-review/' title='Everpix Review'>Everpix Review</a>
-            </h1>
-            <div class='postDate'>
-              <a href='/2013/08/everpix-review/' title='Permalink'>
-                <small>
-                  Aug 17 2013
-                  
-                </small>
-              </a>
-            </div>
-          </header>
-          <img src="/images/everpix-fe248e04.jpg" title="Everpix" />
-          
-          <p><a href="https://www.everpix.com/">Everpix</a> is a subscription photo service that promises unlimited online storage and automatic organization.</p>
-          
-          <p>Short Review… <strong>It does the first part, storage and sync, perfectly. The second part is still a work in progress.</strong></p>
-          
-          <p>Much Longer Review…</p>
-          
-          <h2 id="the-life-and-death-of-iphoto">The Life and Death of iPhoto</h2>
-          
-          <img src="/images/everpixIPhoto-f799e180.jpg" title="iPhoto" />
-          
-          <p>If you want to see what a perfect photo collection looks like, just visit an Apple store. On each display computer, you’ll find a copy of iPhoto<sup id="fnref:iPhoto"><a href="#fn:iPhoto" class="footnote">1</a></sup>, pre-set with Apple’s idealized vision of a family photo library.</p>
-          
-          <p>Apple’s sample library is organized along every axis. Each image is tagged with Events, Albums, Faces, Keywords, Locations, and even a Five-Star Rating scale. Each sample album is an idyllic vacation or outing, populated exclusively by beautiful, multicultural families who never take bad photos and whose trips happen in confined locations, with no stranger’s faces in the background.</p>
-          
-          <p>This is the dream world of iPhoto, as well as its mission statement: <strong>All of your photos, organized</strong>.</p>
-          
-          <p>But throw a real family with real photos at the program and it chokes on every word of that statement.</p>
-          
-          <ul>
-            <li>It can’t handle <strong>all</strong> of your photos because there are too many of them and they’re too big. You’re taking 8-megapixel pictures and shooting 1080p video with your iPhone. And god forbid you shoot a <a href="http://photo.net/learn/raw/">DSLR in RAW format</a>. Suddenly that 128GB SSD hard-drive in your Macbook Air is full and you’re rationing photos to save space.</li>
-            <li>And once your photos are in iPhoto, they’re no longer <strong>your</strong> photos. iPhoto buries them in its own convoluted file system. It only begrudgingly lets you share them using aging plug-ins to services like Facebook and Flickr.</li>
-            <li>And it’s not <strong>organized</strong> unless you obsessively do the work of tagging every photo yourself. I like to imagine that the fictional mom in Apple’s sample iPhoto library is suffering from OCD. Are you coming to bed honey? “One minute! Just need to rate all the vacation photos on a 5-point scale!”</li>
-          </ul>
-          
-          <h2 id="everpix-fk-organizing">Everpix: F**k Organizing</h2>
-          
-          <p>The goal of Everpix is simple: <strong>All of your photos.</strong> That’s it.</p>
-          
-          <p>Everpix gives up on the idea that anyone is going to organize anything. The service is a giant, bottomless bucket into which you quickly and easily dump every photo you take.</p>
-          
-          <p>If the service had a motto, it would be <em>“Upload Everything and Let God Sort It Out.”</em></p>
-          
-          <p>Yes, Everpix <a href="http://blog.everpix.com/post/40309088612/to-reclaim-your-photos-kill-the-algorithm" title="Kill the Algorithm">claims to organize your photos automatically</a>, but this is happy talk. A fantasy.</p>
-          
-          <blockquote>
-            <p>We’re <strong>developing</strong> image analysis technology that understands your photos and helps you manage your collection.</p>
-          </blockquote>
-          
-          <blockquote>
-            <p>We’re <strong>building</strong> new ways for you to enjoy and rediscover your pictures.</p>
-          </blockquote>
-          
-          <p>Notice the present progressive tense (“-ing”). Automatic organization is something they’re working on, but what’s in the product right now is at best a proof of concept.</p>
-          
-          <p>Everpix hides duplicate photos, tries to guess which photos you’re most interested in, and tries to categorize photos by broad categories like People, Nature, Food, etc. It doesn’t do any of these things particularly well or accurately. <em>But that’s okay.</em></p>
-          
-          <p>Because what Everpix does do is great. <strong>Everpix syncs, stores, and displays decades of photos quickly and effortlessly</strong>.</p>
-          
-          <p>Install the Everpix app on your computer and your phone, and soon every photo you’ve ever taken is available everywhere. Despite the complete lack of organization, Everpix’s approach has put me in touch with more old photos in a week than iPhoto did in a decade.</p>
-          
-          <p>Like this hilarious, random New York couple in 2004:</p>
-          
-          <img src="/images/everpixNewYorkCouple-9748c8ba.jpg" title="The couple that reads together..." />
-          
-          <p>Or my little brother-in-law’s smile in 2007:</p>
-          
-          <img src="/images/everpixJoey-272398bf.jpg" title="Joey smiles" />
-          
-          <p>I hadn’t seen either of these photos in years. Probably not since they were taken.</p>
-          
-          <h2 id="alternatives">Alternatives</h2>
-          
-          <ul>
-            <li><strong>Flickr</strong> now offers one terabyte of free storage, but that number is more of a dare than reality. As in “I dare you to somehow manually upload one terabyte of photos when our service caps each upload session to 200 photos.”</li>
-            <li><strong>Facebook</strong> is designed for sharing. It’s great at that task, but it doesn’t keep high quality copies of your photos and it’s impossible to use the service without sharing everything.</li>
-            <li><strong>Dropbox</strong> has added some fantastic photo sharing and photo album features. But I have 70 gigs of photos going back a decade. At current prices, that means spending $100-a-year and eventually $200-a-year once I add another 30 gigs of photos.</li>
-            <li><strong>iCloud Photostream</strong> is barely a photo service. It’s useful in that it quickly moves photos from one device to all of your devices, but it only stores your last 1000 photos and cannot be upgraded or relied upon.</li>
-          </ul>
-          
-          <h2 id="conclusion">Conclusion</h2>
-          
-          <p>Everpix is a solid service. They offer <a href="http://evrpx.co/invite?r=simong%40gmail.com">18 months</a> of photo storage for free and unlimited photo storage for $49-a-year. The website and iOS apps are barebones, but each is being <a href="http://status.everpix.com">rapidly updated</a>.</p>
-          
-          <p>Having all of my photos backed up and instantly accessible is well worth the price of admission. Any other features they add over the next year are gravy.</p>
-          
-          <hr />
-          
-          <h1 id="update-november-14-2013">Update: November 14, 2013</h1>
-          
-          <p>Sadly, <a href="https://support.everpix.com/entries/22586374" title="Everpix Shutdown FAQ">Everpix has announced that they are shutting down</a> and refunding their customers’ money. The Verge has <a href="http://www.theverge.com/2013/11/5/5039216/everpix-life-and-death-inside-the-worlds-best-photo-startup" title="Life and Death Inside the World's Best Photo Startup">a longform piece on their final days as a company</a>.</p>
-          
-          <p>Though I did not use Everpix every day, I loved the security that came with knowing all of my photos were being synced continuously and effortlessly to the cloud. I also loved being able to dig out a photo from years earlier whenever I wanted using their web and iOS applications. As of now, I have no idea how I’ll replace the service.</p>
-          
-          <hr />
-          
-          <div class="footnotes">
-            <ol>
-              <li id="fn:iPhoto">
-                <p>iPhoto 2011 to be exact. Apple hasn’t updated it in years and it doesn’t sync with its newer iOS counterparts at all. <a href="#fnref:iPhoto" class="reversefootnote">&#8617;</a></p>
-              </li>
-            </ol>
-          </div>
-          <small>
-            <a class='comments-link' href='/2013/08/everpix-review/#disqus_thread'></a>
-          </small>
-          <hr class='postDivider'>
-        </article>
-        <article>
-          <header>
-            <h1>
-              <a class='linklog' href='http://lifehacker.com/mailbox-users-can-get-a-free-gigabyte-of-dropbox-space-1159534393' title='Get a Free Gigabyte from Dropbox for Using Mailbox on iOS'>Get a Free Gigabyte from Dropbox for Using Mailbox on iOS→</a>
-            </h1>
-            <div class='postDate'>
-              <a href='/2013/08/get-a-free-gigabyte-from-dropbox-for-using-mailbox/' title='Permalink'>
-                <small>
-                  Aug 17 2013
-                  - Permalink
-                </small>
-              </a>
-            </div>
-          </header>
-          <p>Free space on <a href="http://db.tt/DcIkRM3k">Dropbox</a> is worth its weight in gold. You get to keep it forever, and every additional megabyte postpones the day when you’ll have to switch to their <a href="http://www.dropbox.com/pricing">$100-a-year paid plan</a>.</p>
-          
-          <p>Thankfully, this week Dropbox is giving away free space if you try their iOS Gmail client, <a href="http://www.mailboxapp.com/">Mailbox</a> (also free). If you have an iOS device, <a href="https://itunes.apple.com/us/app/mailbox/id576502633?mt=8">download the app</a>, go to settings, and link it to your Dropbox account. You get the free gig of space immediately.</p>
-          <small>
-            <a class='comments-link' href='/2013/08/get-a-free-gigabyte-from-dropbox-for-using-mailbox/#disqus_thread'></a>
-          </small>
-          <hr class='postDivider'>
-        </article>
-        <div class='pagination'>
-          <ul>
-            <li class=''>
-              <a href="/">&#8592;</a>
-            </li>
-            <li>
-              <a href="/">1</a>
-            </li>
-            <li class='active'>
-              <span>2</span>
-            </li>
-            <li>
-              <a href="/page/3/">3</a>
-            </li>
-            <li>
-              <a href="/page/4/">4</a>
-            </li>
-            <li class=''>
-              <a href="/page/3/">&#8594;</a>
-            </li>
-          </ul>
-        </div>
-        <script>
-          var disqus_shortname = 'simonganz';
-          
-          /* * * DON'T EDIT BELOW THIS LINE * * */
-          (function () {
-          var s = document.createElement('script'); s.async = true;
-          s.type = 'text/javascript';
-          s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
-          (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-          }());
-        </script>
-      </div>
-    </div>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script>
-      window.jQuery || document.write('<script src="/javascripts/libs/jquery-1.9.0.min-002da8cb.js"><\/script>')
-    </script>
-    <!-- = javascript_include_tag "libs/holder" -->
-    <script src="/javascripts/libs/modernizr-2.6.1.min-7a33327d.js"></script>
-    <script src="/javascripts/libs/bigfoot.min-fbac4fe2.js"></script><script src="/javascripts/plugins-a48abc09.js"></script><script src="/javascripts/script-a28d568e.js"></script>
-  </body>
+<!--<![endif]-->
+<head>
+<meta charset='utf-8'>
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<title>Simon Ganz</title>
+<meta content='Personal blog of Simon Ganz, covering topics such as screenwriting, comedy, and technology.' name='description'>
+<meta content='Simon Ganz' name='author'>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<meta content='Simon Ganz' property='og:title'>
+<meta content='SimonGanz.com' property='og:site_name'>
+<meta content='http://simonganz.com/page/2/' property='og:url'>
+<meta content='Personal blog of Simon Ganz, covering topics such as screenwriting, comedy, and technology.' property='og:description'>
+<meta property='og:image'>
+<link href='/feed.xml' rel='alternate' title='SimonGanz.com' type='application/atom+xml'>
+<link href="/stylesheets/screen-0069180a.css" rel="stylesheet" />
+<script type='text/javascript'>
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-41213917-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class='chromeframe'>
+You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.
+</p>
+<![endif]-->
+<div class='container'>
+<header class='title' role='banner'>
+<h1>
+<a href='/' title='Simon Ganz.com'>
+Simon Ganz
+</a>
+</h1>
+</header>
+<nav role='navigation'>
+<ul>
+<li>
+<a href='http://twitter.com/simonganz' title='@simonganz'>Twitter</a>
+</li>
+<li>
+<a href='/projects/' title='Projects'>Projects</a>
+</li>
+<li>
+<a href='/about/' title='About'>About</a>
+</li>
+</ul>
+</nav>
+<div id='main-content' role='main'>
+<article>
+<header>
+<h1>
+<a href='/2014/09/making-a-digital-will-for-your-online-accounts/' title='Making a Digital Will for Your Online Accounts'>Making a Digital Will for Your Online Accounts</a>
+</h1>
+<div class='postDate'>
+<a href='/2014/09/making-a-digital-will-for-your-online-accounts/' title='Permalink'>
+<small>
+Sep 21 2014
+
+</small>
+</a>
+</div>
+</header>
+
+<h2 id="the-problem-death">The Problem: Death</h2>
+
+<img src="/images/death-d17bddd2.jpg" title="Death" />
+<div style="text-align:right; margin-bottom: -20px;"><small><a href="https://www.flickr.com/photos/pedrosz/5578743262/in/photolist-dqGruE-5SuHtq-6dbaBf-8DDXGt-bsKmci-9aRZK2-7U24t8-4CwBoY-4wskbr-9uYw1E-m9jryL-7Z5xz2-9cb36s-9cAs7C-9LDkcC-dqGrFL-dYN8NR-9i2q1m-nsNaSW-c2Z8S9-dqGhvn-ot7cxc-9jRzE5-ahoi86-2yKq35-eg9fuW-9kuX6N-9atqQ-8h7tpM-mUepW-cYWWj3-4JvWT4-57WvKT-bndFjR-cLh3pw-7cvtQ2-aVFXc-ePGGNz-9d51VP-dqGrxb-9dnysQ-5i9jvH-58jZXm-a2uYFY-ft1G9Z-6UfB3T-3Tu6bj-8dwz8q-4y9XXp-9G8Z8c/">© Pedro Szekely</a></small></div>
+
+<p>I’m the designated nerd in my family, so I handle all of our online accounts. To keep them secure, I use randomly generated, unique passwords and two-factor authentication.</p>
+
+<p>But that means that my wife doesn’t know the online logins for our iTunes account, our bank and retirement accounts, our gas company, our cable company, our water and power company, and so on and so on.</p>
+
+<p>What if I died or was suddenly incapacitated? How would she access our accounts?</p>
+
+<h2 id="requirements">Requirements</h2>
+
+<ul>
+  <li>I need a system that’s secure. I don’t want to weaken all my online accounts just for the off chance that I get hit by a bus.</li>
+  <li>I need a system that can outlive my hardware. What if my hypothetical death also destroyed my laptop, tablet, and phone?</li>
+  <li>I need a system that can be easily understood by my tech illiterate survivors.</li>
+</ul>
+
+<h2 id="the-solution">The Solution</h2>
+
+<h3 id="ingredient-list">Ingredient List</h3>
+
+<ul>
+  <li><a href="https://agilebits.com/onepassword" title="1Password - AgileBits">1Password</a></li>
+  <li><a href="https://www.dropbox.com/" title="Dropbox">Dropbox</a></li>
+  <li>Printed or handwritten letter</li>
+  <li>Secure physical location (safe, deposit box, etc)</li>
+</ul>
+
+<h3 id="step-one-put-all-your-passwords-in-1password">Step One: Put all your passwords in 1Password</h3>
+
+<p><a href="https://agilebits.com/onepassword" title="1Password - AgileBits">1Password</a> is a password management app available for Mac, Windows, and iOS. It saves your passwords in a secure vault with a master password. Instead of having to remember hundreds of weak passwords, you only have to remember one strong password. The app can generate random, unique passwords for all your online accounts, so if a service gets hacked, your other accounts are safe because each has a unique and unguessable password.</p>
+
+<h3 id="step-two-put-your-1password-vault-in-dropbox">Step Two: Put your 1Password vault in Dropbox</h3>
+
+<p>1Password can <a href="https://help.agilebits.com/1Password3/configure_dropbox_on_mac.html" title="How To: Configure Dropbox Syncing">store your secure password vault in your Dropbox</a> account. That means that by leaving detailed instructions and a few key passwords, all of your online account information can be accessed from one simple file.</p>
+
+<h3 id="step-three-write-a-letter-explaining-how-to-access-your-dropbox-account-and-1password-vault">Step Three: Write a letter explaining how to access your Dropbox account and 1Password vault</h3>
+
+<p>The letter should be stored in a secure location like a safe or safety deposit box in a sealed envelope with the date written on it. And you should tell people important to you about the letter and where to find it. If you have a legal will for your estate, you should mention the letter in that will.</p>
+
+<p>Writing the letter is the hardest step. It should include the following information:</p>
+
+<ul>
+  <li>Your email account username and password. If your family needs to reset any of your passwords, they’ll need access to your email.</li>
+  <li>Your Dropbox username and password.</li>
+  <li>Your 1Password Master Password.</li>
+  <li>Your passcode for your cellphone.</li>
+  <li>Detailed instructions for how to access the 1Password master vault.</li>
+</ul>
+
+<h4 id="example-text">Example Text</h4>
+
+<p>Here is some example text from my own letter.</p>
+
+<p><em>Accessing a two-factor authentication protected gmail account:</em></p>
+
+<blockquote>
+  <p>My Gmail account is protected with two-factor authentication. This means you need both my password and the Google Authenticator app on my iPhone in order to access it. If you can’t access my phone, you can use a special one-time only backup code to get into my Gmail account without using the authenticator. Once you log in with a backup code, you should turn off two-factor authentication so that you don’t get locked out of the account.</p>
+</blockquote>
+
+<p><em>Accessing Dropbox and 1Password:</em></p>
+
+<blockquote>
+  <p>My writing as well as an encrypted archive containing all of my online passwords can be found in my Dropbox account.</p>
+</blockquote>
+
+<blockquote>
+  <p>Inside my Dropbox is a file called 1Password.agilekeychain. 
+This is an encrypted archive that contains all of my passwords, including those for important accounts like my bank account. It can be opened using a program called 1Password which is available at https://agilebits.com/onepassword.</p>
+</blockquote>
+
+<h4 id="bonus-list-your-online-assets">Bonus: List Your Online Assets</h4>
+
+<p>Passing on all of your online accounts to your survivors isn’t useful if they don’t know what’s worth saving. At the end of the letter, write down a list of every online asset that’s important or valuable to you. For instance, web domains, online photo storage accounts, and anything you’ve written online and want preserved.</p>
+
+
+<small>
+<a class='comments-link' href='/2014/09/making-a-digital-will-for-your-online-accounts/#disqus_thread'></a>
+</small>
+<hr class='postDivider'>
+</article>
+<article>
+<header>
+<h1>
+<a href='/2014/06/fountain-loader-for-google-drive/' title='Fountain Loader for Google Drive'>Fountain Loader for Google Drive</a>
+</h1>
+<div class='postDate'>
+<a href='/2014/06/fountain-loader-for-google-drive/' title='Permalink'>
+<small>
+Jun 27 2014
+
+</small>
+</a>
+</div>
+</header>
+
+<p><a href="http://fountainloader.com" title="Fountain Loader">Fountain Loader</a> is an online previewer and converter for <a href="http://fountain.io/" title="Fountain: A markup language for screenwriting">Fountain screenplay documents</a>. It works with Google Drive™, making it easy to write screenplays in Google Docs.</p>
+
+<div class="video-container">
+    <video loop controls poster="http://fountainloader.com/videos/fountain-loader-2.png">
+    <source id="webmsource" src="http://fountainloader.com/videos/fountain-loader-2.webm" type="video/webm">
+    <source id="mp4source" src="http://fountainloader.com/videos/fountain-loader-2.mp4" type="video/mp4">
+    <img src="http://fountainloader.com/videos/fountain-loader-2.gif">
+    </video>
+</div>
+
+<h2 id="why-did-i-make-this">Why did I make this</h2>
+
+<p>Google Docs is the best collaborative writing program I’ve found. It lets me and my writing partner work on a script simultaneously, sometimes even working on the same sentence at the same time.</p>
+
+<p>But Google Docs is butt ugly. It doesn’t even have a decent Courier font.<sup id="fnref:font"><a href="#fn:font" class="footnote">1</a></sup> I’m used to writing code and staring at ugly markup, but my writing partner can’t stand it. Google Docs just doesn’t look like a screenplay to him.</p>
+
+<p>Fountain Loader bridges the visual gap between Google Docs and the final script. It loads our script as we work on it and generates a preview in another tab. It can generate both a traditional screenplay preview as well as a multicamera sitcom preview. It can also watch the file and update as the document changes.<sup id="fnref:caveat"><a href="#fn:caveat" class="footnote">2</a></sup></p>
+
+<p>Then, once our script is ready to send out, Fountain Loader’s export feature lets us download the script as either a Final Draft file or a fountain file.</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li><strong>Pretty damn accurate:</strong> The preview should be very close to how your script will look when output by Final Draft.<sup id="fnref:differences"><a href="#fn:differences" class="footnote">3</a></sup></li>
+  <li><strong>Responsive:</strong> Multiple layouts so you can preview screenplays on your phone or tablet.</li>
+  <li><strong>Detect Changes mode:</strong> Watches your document and generates new previews with each change.</li>
+  <li><strong>Multicam Support:</strong> Fountain Loader supports multicamera sitcoms. By placing “Format: Mulitcam” at the top of your script, Fountain Loader will preview your script with <a href="http://screenwriting.io/how-are-multicamera-tv-scripts-formatted/" title="How are Multicamera TV Scripts Formatted?">multicam formatting</a>, and when exporting your script as an FDX, Fountain Loader will apply multicam styles there too.</li>
+  <li><strong>Act Break Support:</strong> Fountain Loader also supports Final Draft act break elements. If you use Fountain markup to center some key words  (Teaser, Cold Opening, Act One, Act Two, Tag, etc.) then Fountain Loader will automatically convert those into true act break elements when you export into Final Draft.</li>
+  <li><strong>Script Note Support:</strong> Fountain Loader also supports Final Draft script notes. If you write a script note using Fountain’s [[note]] syntax, that note will be applied to the element above the note.</li>
+  <li><strong>Safe:</strong> Fountain Loader renders everything locally in Javascript. When using the HTML preview feature, your screenplay goes directly from Google Drive to your browser without being saved on a server. When using the export feature, a version of your script exists on my server for about two seconds before it’s automatically deleted.</li>
+  <li><strong>Tested:</strong> I wrote an episode of an NBC sitcom with this. It works.</li>
+</ul>
+
+<h2 id="update">Update</h2>
+
+<p>Version 2.0 - Released 06/29/2015</p>
+
+<h2 id="possible-future-features">Possible Future Features</h2>
+
+<ul>
+  <li>More formatting/template options. Maybe even a Template: metatag that lets you define your own Final Draft elements.</li>
+  <li>Use Fountain outlining elements to create fast-links to jump through a script (e.g. jump to act two).</li>
+  <li>Toggle to hide notes and outline elements.</li>
+</ul>
+
+<h2 id="link">Link</h2>
+
+<p>Check it out at <a href="http://fountainloader.com">http://fountainloader.com</a>.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:font">
+      <p>I use <a href="https://www.google.com/fonts/specimen/Cousine" title="Google Fonts Cousine">cousine</a>, a coding font that has the same metrics as Courier. <a href="#fnref:font" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:caveat">
+      <p>Caveat: This feature depends on <a href="https://developers.google.com/drive/web/manage-changes">Google Drive’s change feed system</a>, which doesn’t update as fast as you might guess. It groups changes together and only updates every few minutes. <a href="#fnref:caveat" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:differences">
+      <p>Why isn’t it 100% accurate? Well Final Draft handles spaces in dialogue text a little differently than a web browser handles text, so some things are just never going to look perfect. The output will also be a little longer than PDFs generated by <a href="http://quoteunquoteapps.com/highland/" title="Highland - Quote-Unquote Apps">John August’s Highland app</a>. Highland squeezes more dialogue onto a page than Final Draft. <a href="#fnref:differences" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+<small>
+<a class='comments-link' href='/2014/06/fountain-loader-for-google-drive/#disqus_thread'></a>
+</small>
+<hr class='postDivider'>
+</article>
+<article>
+<header>
+<h1>
+<a href='/2014/06/ranndy-random-name-generator/' title='Ranndy Random Name Generator'>Ranndy Random Name Generator</a>
+</h1>
+<div class='postDate'>
+<a href='/2014/06/ranndy-random-name-generator/' title='Permalink'>
+<small>
+Jun 20 2014
+
+</small>
+</a>
+</div>
+</header>
+
+<a href="http://ranndy.com" title="Ranndy Random Name Generator"><img src="/images/ranndyInterface-fbf13419.png" title="Ranndy Random Name Generator" /></a>
+
+<p><a href="http://ranndy.com" title="Ranndy Random Name Generator">Ranndy.com</a> is a random name generator for use in fiction writing and baby naming.</p>
+
+<p>The site is mobile friendly and presents an infinite scroll of random names with hundreds of millions of possibilities.</p>
+
+<h2 id="year-race-and-popularity">Year, Race, and Popularity…</h2>
+
+<p>Ranndy uses US Census data, so you can get very specific about what sort of random name you want.</p>
+
+<ul>
+  <li>
+    <p>If you’re writing a character who should be roughly 30 years old, you can ask Ranndy to only show you popular names from 1984.</p>
+  </li>
+  <li>
+    <p>If you’re writing a character with a specific racial/ethnic background (Native American sheriff, African American businessman, etc.) you can ask Ranndy to only show you surnames associated with that racial/ethnic group.</p>
+  </li>
+  <li>
+    <p>If you’re looking for a truly out there name, you can ask Ranndy to only show you unpopular names. For instance, only five unlucky babies in the US were named Ranndy with two n’s in the year 2005.</p>
+  </li>
+</ul>
+
+<h2 id="names-that-start-with">Names That Start With…</h2>
+
+<p>Ranndy can show you names that start with certain letters.</p>
+
+<ul>
+  <li>If you enter “Jo” in the Starts With field, Ranndy will only show you names that start with “Jo” like John, Jordan, Jose, etc.</li>
+</ul>
+
+<h2 id="excluding-names">Excluding Names…</h2>
+
+<p>Ranndy can also do the opposite, showing you names that DON’T start with certain letters. Just use the * character.</p>
+
+<ul>
+  <li>If you enter “D*, S*, P*” in the Starts With field, Ranndy won’t show you any names that start with D, S, or P. This is useful when you’re writing a screenplay and don’t want too many characters whose names sound or look similar on the page.</li>
+</ul>
+
+<h2 id="forcing-a-name">Forcing a Name…</h2>
+
+<p>Ranndy also doesn’t have to be quite so random. If you already know a first or last name that you love, you can force that name with the ^ character.</p>
+
+<ul>
+  <li>If you enter “Smith^” in the Last Name Starts With field, then Ranndy will show you random first names but every last name will be “Smith”. This is useful for baby naming and also creating family members for characters.</li>
+</ul>
+
+<h2 id="search-links">Search Links…</h2>
+
+<p>Every first and last name generated by the app contains a link to a Google search about that name.</p>
+
+<p>For example, if I generate the surname “Swisher” and want to know more about it, I can click on the name and quickly learn that the name is Austrian and originally meant “person who lives near a hill, stream, or church.”</p>
+
+<h2 id="change-log">Change Log</h2>
+
+<p><em>v0.4.0 - 03/12/2015</em></p>
+
+<ul>
+  <li>Added “Search Links” feature</li>
+</ul>
+
+<p><em>v0.3.0 - 11/29/2014</em></p>
+
+<ul>
+  <li>Added “Starts With” features.</li>
+  <li>Reworked first name popularity system. Now there are only high and low popularity choices instead of high, medium, and low. This should give a better variety of names in default searches without including too many weird names.</li>
+  <li>Changed how Ranndy reacts when a request brings up very few results. Example: If your parameters only brought up 10 possible last names, Ranndy will now repeat those 10 names over and over with randomly generated first names, rather than only showing you 10 total results.</li>
+</ul>
+
+<h2 id="technical-details">Technical Details</h2>
+
+<p>Ranndy’s front end is <a href="http://backbonejs.org/">backbone.js</a> and its backend is <a href="http://expressjs.com/">node.js/express</a>.</p>
+
+<small>
+<a class='comments-link' href='/2014/06/ranndy-random-name-generator/#disqus_thread'></a>
+</small>
+<hr class='postDivider'>
+</article>
+<article>
+<header>
+<h1>
+<a href='/2014/02/friday-night-lights-parenthood-webisodes/' title='Friday Night Lights Reunion'>Friday Night Lights Reunion</a>
+</h1>
+<div class='postDate'>
+<a href='/2014/02/friday-night-lights-parenthood-webisodes/' title='Permalink'>
+<small>
+Feb 13 2014
+
+</small>
+</a>
+</div>
+</header>
+
+<p>Partway through last year, I got an amazing opportunity to work on a secret project for NBC. Today that project is out. It’s a crossover between the cast of <em>Friday Night Lights</em> (one of the best dramas of the last ten years) with NBC’s <em>Parenthood</em> (one of the best dramas on TV today).</p>
+
+<p>If you’re a fan of FNL, I think you’ll really dig this little reunion. It’s called Friday Night at the Luncheonette.</p>
+
+<div class="video-container">
+	<iframe width="560" height="315" src="//www.youtube.com/embed/0UbUZjfvq1c?list=PLRUSbbQynOdH2NI5xLJ03K_tdIaTRTukk" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+<p>I wrote episode three.</p>
+
+<p><a href="http://www.youtube.com/watch?v=0UbUZjfvq1c&amp;list=PLRUSbbQynOdH2NI5xLJ03K_tdIaTRTukk&amp;feature=share" title="Friday Night at the Luncheonette">[Youtube]</a> – [<a href="http://www.nbc.com/parenthood/video/friday-night-at-the-luncheonette/2745592" title="Friday Night at the Luncheonette">NBC Video</a>]</p>
+
+<small>
+<a class='comments-link' href='/2014/02/friday-night-lights-parenthood-webisodes/#disqus_thread'></a>
+</small>
+<hr class='postDivider'>
+</article>
+<article>
+<header>
+<h1>
+<a href='/2013/12/walkscore-for-redfin-chrome-extension/' title='Walk Score for Redfin Chrome Extension'>Walk Score for Redfin Chrome Extension</a>
+</h1>
+<div class='postDate'>
+<a href='/2013/12/walkscore-for-redfin-chrome-extension/' title='Permalink'>
+<small>
+Dec 30 2013
+
+</small>
+</a>
+</div>
+</header>
+
+<img src="/images/walkscoreExtensionScreenshot-f66ea834.jpg" title="Walkscore Extension for Redfin" />
+
+<p>I’ve written <a href="https://chrome.google.com/webstore/detail/walkscore-for-redfin-and/jjejooaohjgoapilebkhgigocepijmnp" title="Walkscore for Redfin">a Chrome Extension to show Walk Score rankings on Redfin</a>.</p>
+
+<h2 id="background">Background</h2>
+
+<p><a href="http://www.walkscore.com" title="Walkscore">Walk Score<sup>®</sup></a> uses Google Maps to calculate how walkable, bikeable, and transit-friendly a house or apartment is. <a href="http://www.redfin.com" title="Redfin">Redfin.com</a> is a real estate site that lists houses and condos for sale. I’m house hunting, so I’ve spent a lot of time bouncing back and forth between these two sites.</p>
+
+<h2 id="how-to-use-it">How to Use It</h2>
+
+<p>While browsing Redfin, clicking on the extension (or using the keyboard shortcut Alt+W on the Mac) pops up a small window displaying the Walkscore.com page for that house.</p>
+
+<p>The extension also supports <a href="http://www.theMLS.com" title="TheMLS">TheMLS.com</a>, a site that real estate agents use to email listings to their clients.</p>
+
+<h2 id="how-to-install">How to Install</h2>
+
+<p>You can install the extension <a href="https://chrome.google.com/webstore/detail/walkscore-for-redfin-and/jjejooaohjgoapilebkhgigocepijmnp" title="Walkscore for Redfin">directly from the Chrome Webstore</a>.</p>
+
+
+<small>
+<a class='comments-link' href='/2013/12/walkscore-for-redfin-chrome-extension/#disqus_thread'></a>
+</small>
+<hr class='postDivider'>
+</article>
+<article>
+<header>
+<h1>
+<a href='/2013/11/kanye-west-concert-in-gifs/' title='Kanye West Concert in GIFs'>Kanye West Concert in GIFs</a>
+</h1>
+<div class='postDate'>
+<a href='/2013/11/kanye-west-concert-in-gifs/' title='Permalink'>
+<small>
+Nov 26 2013
+
+</small>
+</a>
+</div>
+</header>
+
+<p>On October 19th, 2013, Anna and I attended THE YEEZUS TOUR. The headliner was Kanye West and the opener was Kendrick Lamar.</p>
+
+<img src="/images/kanye_gifs/mountain-408748fa.gif" title="Mountain">
+
+<p></p>
+<a href='/2013/11/kanye-west-concert-in-gifs/#more'>More Kanye GIFs...</a>
+<small>
+<a class='comments-link' href='/2013/11/kanye-west-concert-in-gifs/#disqus_thread'></a>
+</small>
+<hr class='postDivider'>
+</article>
+<article>
+<header>
+<h1>
+<a href='/2013/11/beyonce-concert-in-gifs/' title='Beyonce Concert in GIFs'>Beyonce Concert in GIFs</a>
+</h1>
+<div class='postDate'>
+<a href='/2013/11/beyonce-concert-in-gifs/' title='Permalink'>
+<small>
+Nov 16 2013
+
+</small>
+</a>
+</div>
+</header>
+
+<p>On June 28th, 2013, Anna and I attended the BET Experience at LA Live. The headliner was Beyonce.</p>
+
+<img src="/images/beyonce_gifs/smoke-176ca351.gif" title="Smoke">
+
+<p></p>
+<a href='/2013/11/beyonce-concert-in-gifs/#more'>More Beyonce GIFs...</a>
+<small>
+<a class='comments-link' href='/2013/11/beyonce-concert-in-gifs/#disqus_thread'></a>
+</small>
+<hr class='postDivider'>
+</article>
+<article>
+<header>
+<h1>
+<a href='/2013/11/everpix-shutdown/' title='Everpix Shutdown'>Everpix Shutdown</a>
+</h1>
+<div class='postDate'>
+<a href='/2013/11/everpix-shutdown/' title='Permalink'>
+<small>
+Nov 14 2013
+
+</small>
+</a>
+</div>
+</header>
+
+<p>Sadly, <a href="https://support.everpix.com/entries/22586374" title="Everpix Shutdown FAQ">Everpix has announced that they are shutting down</a> and refunding their customers’ money. I’ve added an update to the end of <a href="http://simonganz.com/2013/08/everpix-review/" title="Everpix Review">my previous review</a>.</p>
+
+<p>I have become addicted to the easy photo sharing and storage that Everpix offered, and I may take a look to see if Flickr or anyone else have gotten their act together and can act as a reasonable replacement.</p>
+
+<small>
+<a class='comments-link' href='/2013/11/everpix-shutdown/#disqus_thread'></a>
+</small>
+<hr class='postDivider'>
+</article>
+<article>
+<header>
+<h1>
+<a href='/2013/08/ben-affleck-wont-ruin-batman-vs-superman/' title='Ben Affleck Won‘t Ruin Batman vs. Superman'>Ben Affleck Won‘t Ruin Batman vs. Superman</a>
+</h1>
+<h2>
+<a href='/2013/08/ben-affleck-wont-ruin-batman-vs-superman/' title='That’s the Studio’s Job'>That’s the Studio’s Job</a>
+</h2>
+<div class='postDate'>
+<a href='/2013/08/ben-affleck-wont-ruin-batman-vs-superman/' title='Permalink'>
+<small>
+Aug 24 2013
+
+</small>
+</a>
+</div>
+</header>
+
+<p><a href="http://www.huffingtonpost.com/2013/08/22/ben-affleck-batman-man-of-steel_n_3801418.html" title="Ben Affleck is the Next Batman">Ben Affleck is going to be the next Batman</a>. And people are angry.</p>
+
+<p>But if Batman vs. Superman ends up being a terrible movie, it won’t be because of Affleck. It will be because of this:</p>
+
+<blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" align="center"><p>All this outrage over Affleck, yet no noise of the fact that theyve got less than two years to make a $200M movie they have no script for.</p>&mdash; Geoff LaTulippe (@DrGMLaTulippe) <a href="https://twitter.com/DrGMLaTulippe/statuses/370777905468432384">August 23, 2013</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>Batman wearing a Red Sox cap is the least of this movie’s problems.</p>
+
+<small>
+<a class='comments-link' href='/2013/08/ben-affleck-wont-ruin-batman-vs-superman/#disqus_thread'></a>
+</small>
+<hr class='postDivider'>
+</article>
+<article>
+<header>
+<h1>
+<a href='/2013/08/everpix-review/' title='Everpix Review'>Everpix Review</a>
+</h1>
+<div class='postDate'>
+<a href='/2013/08/everpix-review/' title='Permalink'>
+<small>
+Aug 17 2013
+
+</small>
+</a>
+</div>
+</header>
+
+<img src="/images/everpix-fe248e04.jpg" title="Everpix" />
+
+<p><a href="https://www.everpix.com/">Everpix</a> is a subscription photo service that promises unlimited online storage and automatic organization.</p>
+
+<p>Short Review… <strong>It does the first part, storage and sync, perfectly. The second part is still a work in progress.</strong></p>
+
+<p>Much Longer Review…</p>
+
+<h2 id="the-life-and-death-of-iphoto">The Life and Death of iPhoto</h2>
+
+<img src="/images/everpixIPhoto-f799e180.jpg" title="iPhoto" />
+
+<p>If you want to see what a perfect photo collection looks like, just visit an Apple store. On each display computer, you’ll find a copy of iPhoto<sup id="fnref:iPhoto"><a href="#fn:iPhoto" class="footnote">1</a></sup>, pre-set with Apple’s idealized vision of a family photo library.</p>
+
+<p>Apple’s sample library is organized along every axis. Each image is tagged with Events, Albums, Faces, Keywords, Locations, and even a Five-Star Rating scale. Each sample album is an idyllic vacation or outing, populated exclusively by beautiful, multicultural families who never take bad photos and whose trips happen in confined locations, with no stranger’s faces in the background.</p>
+
+<p>This is the dream world of iPhoto, as well as its mission statement: <strong>All of your photos, organized</strong>.</p>
+
+<p>But throw a real family with real photos at the program and it chokes on every word of that statement.</p>
+
+<ul>
+  <li>It can’t handle <strong>all</strong> of your photos because there are too many of them and they’re too big. You’re taking 8-megapixel pictures and shooting 1080p video with your iPhone. And god forbid you shoot a <a href="http://photo.net/learn/raw/">DSLR in RAW format</a>. Suddenly that 128GB SSD hard-drive in your Macbook Air is full and you’re rationing photos to save space.</li>
+  <li>And once your photos are in iPhoto, they’re no longer <strong>your</strong> photos. iPhoto buries them in its own convoluted file system. It only begrudgingly lets you share them using aging plug-ins to services like Facebook and Flickr.</li>
+  <li>And it’s not <strong>organized</strong> unless you obsessively do the work of tagging every photo yourself. I like to imagine that the fictional mom in Apple’s sample iPhoto library is suffering from OCD. Are you coming to bed honey? “One minute! Just need to rate all the vacation photos on a 5-point scale!”</li>
+</ul>
+
+<h2 id="everpix-fk-organizing">Everpix: F**k Organizing</h2>
+
+<p>The goal of Everpix is simple: <strong>All of your photos.</strong> That’s it.</p>
+
+<p>Everpix gives up on the idea that anyone is going to organize anything. The service is a giant, bottomless bucket into which you quickly and easily dump every photo you take.</p>
+
+<p>If the service had a motto, it would be <em>“Upload Everything and Let God Sort It Out.”</em></p>
+
+<p>Yes, Everpix <a href="http://blog.everpix.com/post/40309088612/to-reclaim-your-photos-kill-the-algorithm" title="Kill the Algorithm">claims to organize your photos automatically</a>, but this is happy talk. A fantasy.</p>
+
+<blockquote>
+  <p>We’re <strong>developing</strong> image analysis technology that understands your photos and helps you manage your collection.</p>
+</blockquote>
+
+<blockquote>
+  <p>We’re <strong>building</strong> new ways for you to enjoy and rediscover your pictures.</p>
+</blockquote>
+
+<p>Notice the present progressive tense (“-ing”). Automatic organization is something they’re working on, but what’s in the product right now is at best a proof of concept.</p>
+
+<p>Everpix hides duplicate photos, tries to guess which photos you’re most interested in, and tries to categorize photos by broad categories like People, Nature, Food, etc. It doesn’t do any of these things particularly well or accurately. <em>But that’s okay.</em></p>
+
+<p>Because what Everpix does do is great. <strong>Everpix syncs, stores, and displays decades of photos quickly and effortlessly</strong>.</p>
+
+<p>Install the Everpix app on your computer and your phone, and soon every photo you’ve ever taken is available everywhere. Despite the complete lack of organization, Everpix’s approach has put me in touch with more old photos in a week than iPhoto did in a decade.</p>
+
+<p>Like this hilarious, random New York couple in 2004:</p>
+
+<img src="/images/everpixNewYorkCouple-9748c8ba.jpg" title="The couple that reads together..." />
+
+<p>Or my little brother-in-law’s smile in 2007:</p>
+
+<img src="/images/everpixJoey-272398bf.jpg" title="Joey smiles" />
+
+<p>I hadn’t seen either of these photos in years. Probably not since they were taken.</p>
+
+<h2 id="alternatives">Alternatives</h2>
+
+<ul>
+  <li><strong>Flickr</strong> now offers one terabyte of free storage, but that number is more of a dare than reality. As in “I dare you to somehow manually upload one terabyte of photos when our service caps each upload session to 200 photos.”</li>
+  <li><strong>Facebook</strong> is designed for sharing. It’s great at that task, but it doesn’t keep high quality copies of your photos and it’s impossible to use the service without sharing everything.</li>
+  <li><strong>Dropbox</strong> has added some fantastic photo sharing and photo album features. But I have 70 gigs of photos going back a decade. At current prices, that means spending $100-a-year and eventually $200-a-year once I add another 30 gigs of photos.</li>
+  <li><strong>iCloud Photostream</strong> is barely a photo service. It’s useful in that it quickly moves photos from one device to all of your devices, but it only stores your last 1000 photos and cannot be upgraded or relied upon.</li>
+</ul>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Everpix is a solid service. They offer <a href="http://evrpx.co/invite?r=simong%40gmail.com">18 months</a> of photo storage for free and unlimited photo storage for $49-a-year. The website and iOS apps are barebones, but each is being <a href="http://status.everpix.com">rapidly updated</a>.</p>
+
+<p>Having all of my photos backed up and instantly accessible is well worth the price of admission. Any other features they add over the next year are gravy.</p>
+
+<hr />
+
+<h1 id="update-november-14-2013">Update: November 14, 2013</h1>
+
+<p>Sadly, <a href="https://support.everpix.com/entries/22586374" title="Everpix Shutdown FAQ">Everpix has announced that they are shutting down</a> and refunding their customers’ money. The Verge has <a href="http://www.theverge.com/2013/11/5/5039216/everpix-life-and-death-inside-the-worlds-best-photo-startup" title="Life and Death Inside the World's Best Photo Startup">a longform piece on their final days as a company</a>.</p>
+
+<p>Though I did not use Everpix every day, I loved the security that came with knowing all of my photos were being synced continuously and effortlessly to the cloud. I also loved being able to dig out a photo from years earlier whenever I wanted using their web and iOS applications. As of now, I have no idea how I’ll replace the service.</p>
+
+<hr />
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:iPhoto">
+      <p>iPhoto 2011 to be exact. Apple hasn’t updated it in years and it doesn’t sync with its newer iOS counterparts at all. <a href="#fnref:iPhoto" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+<small>
+<a class='comments-link' href='/2013/08/everpix-review/#disqus_thread'></a>
+</small>
+<hr class='postDivider'>
+</article>
+<div class='pagination'>
+<ul>
+<li class=''>
+<a href="/">&#8592;</a>
+</li>
+<li>
+<a href="/">1</a>
+</li>
+<li class='active'>
+<span>2</span>
+</li>
+<li>
+<a href="/page/3/">3</a>
+</li>
+<li>
+<a href="/page/4/">4</a>
+</li>
+<li class=''>
+<a href="/page/3/">&#8594;</a>
+</li>
+</ul>
+</div>
+<script>
+  var disqus_shortname = 'simonganz';
+  
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function () {
+  var s = document.createElement('script'); s.async = true;
+  s.type = 'text/javascript';
+  s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+  (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+  }());
+</script>
+
+</div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script>
+  window.jQuery || document.write('<script src="/javascripts/libs/jquery-1.9.0.min-002da8cb.js"><\/script>')
+</script>
+<!-- = javascript_include_tag "libs/holder" -->
+<script src="/javascripts/libs/modernizr-2.6.1.min-7a33327d.js"></script>
+<script src="/javascripts/libs/bigfoot.min-fbac4fe2.js"></script><script src="/javascripts/plugins-a48abc09.js"></script><script src="/javascripts/script-a28d568e.js"></script>
+</body>
 </html>

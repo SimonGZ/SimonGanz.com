@@ -4,461 +4,483 @@
 <!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
 <html class='no-js'>
-  <!--<![endif]-->
-  <head>
-    <meta charset='utf-8'>
-    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
-    <title>Simon Ganz</title>
-    <meta content='Personal blog of Simon Ganz, covering topics such as screenwriting, comedy, and technology.' name='description'>
-    <meta content='Simon Ganz' name='author'>
-    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
-    <meta content='Simon Ganz' property='og:title'>
-    <meta content='SimonGanz.com' property='og:site_name'>
-    <meta content='http://simonganz.com/page/4/' property='og:url'>
-    <meta content='Personal blog of Simon Ganz, covering topics such as screenwriting, comedy, and technology.' property='og:description'>
-    <meta property='og:image'>
-    <link href='/feed.xml' rel='alternate' title='SimonGanz.com' type='application/atom+xml'>
-    <link href="/stylesheets/screen-0069180a.css" rel="stylesheet" />
-    <script type='text/javascript'>
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-41213917-1']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-  </head>
-  <body>
-    <!--[if lt IE 7]>
-      <p class='chromeframe'>
-        You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.
-      </p>
-    <![endif]-->
-    <div class='container'>
-      <header class='title' role='banner'>
-        <h1>
-          <a href='/' title='Simon Ganz.com'>
-            Simon Ganz
-          </a>
-        </h1>
-      </header>
-      <nav role='navigation'>
-        <ul>
-          <li>
-            <a href='http://twitter.com/simonganz' title='@simonganz'>Twitter</a>
-          </li>
-          <li>
-            <a href='/projects/' title='Projects'>Projects</a>
-          </li>
-          <li>
-            <a href='/about/' title='About'>About</a>
-          </li>
-        </ul>
-      </nav>
-      <div id='main-content' role='main'>
-        <article>
-          <header>
-            <h1>
-              <a href='/2013/06/rounded-rectangles-deprecated/' title='Rounded Rectangles Deprecated'>Rounded Rectangles Deprecated</a>
-            </h1>
-            <h2>
-              <a href='/2013/06/rounded-rectangles-deprecated/' title="They Used to Be 'Everywhere'">They Used to Be 'Everywhere'</a>
-            </h2>
-            <div class='postDate'>
-              <a href='/2013/06/rounded-rectangles-deprecated/' title='Permalink'>
-                <small>
-                  Jun 28 2013
-                  
-                </small>
-              </a>
-            </div>
-          </header>
-          <p>I was reading through the pre-release documentation for iOS 7 and came across this gem:</p>
-          
-          <blockquote>
-            <p>The rounded rectangle button has been deprecated in iOS 7.</p>
-          </blockquote>
-          
-          <p>Why is this amusing? Because <a href="http://www.folklore.org/StoryView.py?story=Round_Rects_Are_Everywhere.txt" title="Round Rects Are Everywhere">rounded rectangles were one of the big user interface innovations of the Macintosh</a> and were demanded by Steve Jobs himself:</p>
-          
-          <blockquote>
-            <p>Steve suddenly got more intense. “Rectangles with rounded corners are everywhere! Just look around this room!”. And sure enough, there were lots of them, like the whiteboard and some of the desks and tables. Then he pointed out the window. “And look outside, there’s even more, practically everywhere you look!”. He even persuaded Bill to take a quick walk around the block with him, pointing out every rectangle with rounded corners that he could find.</p>
-          </blockquote>
-          
-          <p>Nearly every button on the Mac and on iOS has been a rounded rectangle for the past thirty years. So there’s something charmingly radical about a modern day Apple engineer calmly stating that they’ve been discontinued.</p>
-          <small>
-            <a class='comments-link' href='/2013/06/rounded-rectangles-deprecated/#disqus_thread'></a>
-          </small>
-          <hr class='postDivider'>
-        </article>
-        <article>
-          <header>
-            <h1>
-              <a href='/2013/06/add-emacs-key-bindings-to-mac-os-x/' title='How to Add Incredibly Powerful Emacs-style Shortcuts to Mac OS X'>How to Add Incredibly Powerful Emacs-style Shortcuts to Mac OS X</a>
-            </h1>
-            <div class='postDate'>
-              <a href='/2013/06/add-emacs-key-bindings-to-mac-os-x/' title='Permalink'>
-                <small>
-                  Jun 28 2013
-                  
-                </small>
-              </a>
-            </div>
-          </header>
-          <h2 id="what-is-emacs">What is Emacs?</h2>
-          
-          <p><a href="http://www.gnu.org/software/emacs/" title="GNU Emacs">Emacs</a> is a very nerdy text editor/email program/development suite/nuclear reactor.</p>
-          
-          <p>It’s ugly and weird and hard to use because it dates back to a time before computers had mice. But for that same reason, it has amazing tools and shortcuts for rapidly editing and moving through text with only your keyboard.</p>
-          
-          <p>Mac OS X has always had some of <a href="http://www.hcs.harvard.edu/~jrus/Site/System%20Bindings.html" title="Mac OS X Default Key Bindings">these shortcuts baked in</a>. For instance, type <em>Ctrl+e</em> in an OS X text field and the cursor will jump to the end of a line. Type <em>Ctrl+k</em> and everything between the cursor and the end of the line will be deleted (this is crazy useful when editing; I suggest trying it out).</p>
-          
-          <p>I learned these shortcuts for convenience sake a few years back, but recently the trackpad on my Macbook Pro died and I was forced to turn to them full time.<sup id="fnref:magic"><a href="#fn:magic" class="footnote">1</a></sup> The problem is that by default, OS X only allows you to use a few select Emacs shortcuts that utilize the ctrl key. Many other powerful Emacs shortcuts are unavailable (including every shortcut that uses the alt key, referred to as the “meta” key in Emacs lingo).</p>
-          
-          <p>But you can change this.</p>
-          
-          <h2 id="changing-mac-os-x-key-bindings">Changing Mac OS X Key Bindings</h2>
-          
-          <p>These directions are adapted from <a href="http://www.hcs.harvard.edu/~jrus/site/cocoa-text.html" title="Customizing the Cocoa Text System">this excellent 2006 article by Jacob Rus</a> and <a href="http://brettterpstra.com/2011/08/13/keybinding-madness/" title="Keybinding Madness">this excellent 2011 post by Brett Terpstra</a>.</p>
-          
-          <ol>
-            <li>Create a folder named “KeyBindings” in the ~/Library directory.<sup id="fnref:library"><a href="#fn:library" class="footnote">2</a></sup></li>
-            <li>Download <a href="https://github.com/ttscoff/KeyBindings/zipball/master" title="Brett Terpstra Killer Keybindings">this DefaultKeyBinding.dict zip file</a>.</li>
-            <li>Unzip the files and place the DefaultKeyBinding.dict file into the newly created KeyBindings folder.</li>
-          </ol>
-          
-          <p>Now as soon as you restart any running apps, you’ll have access to an <a href="http://ttscoff.github.io/KeyBindings/" title="Brett Terpstra Killer Keybindings">insanely powerful list of keyboard shortcuts</a> in almost every Mac OS X application.</p>
-          
-          <p>You can do crazy powerful things like uppercase words with <em>Ctrl+U</em> or copy entire paragraphs instantly by typing <em>Alt+y</em>. You can move paragraphs using only your keyboard (<em>Ctrl+Command+K</em>) or delete trailing whitespaces off a line (<em>Ctrl+Alt+Right Arrow</em>).</p>
-          
-          <p>These key bindings will be overkill for most people, and they may even break a few shortcuts on your computer, but the possibilities are incredible. You can even customize them yourself by editing the DefaultKeyBinding.dict file in a text editor, adding to or tweaking the shortcuts to fit your own workflow.</p>
-          
-          <p>If you spend a lot of time typing text or coding on Mac OS X, you owe it to yourself to play around with a few of these shortcuts and see how they can speed up your life.</p>
-          
-          <hr />
-          
-          <div class="footnotes">
-            <ol>
-              <li id="fn:magic">
-                <p>I eventually bought a <a href="http://www.apple.com/magictrackpad/" title="Apple - Magic Trackpad - Multi-Touch trackpad for your desktop.">Magic Trackpad</a> as a replacement. <a href="#fnref:magic" class="reversefootnote">&#8617;</a></p>
-              </li>
-              <li id="fn:library">
-                <p>By default, the User’s library folder is hidden in Mac OS X. You can access it by opening Finder, selecting the Go menu from the menubar, and holding down the alt key to make the Library option appear. <a href="#fnref:library" class="reversefootnote">&#8617;</a></p>
-              </li>
-            </ol>
-          </div>
-          <small>
-            <a class='comments-link' href='/2013/06/add-emacs-key-bindings-to-mac-os-x/#disqus_thread'></a>
-          </small>
-          <hr class='postDivider'>
-        </article>
-        <article>
-          <header>
-            <h1>
-              <a class='linklog' href='http://www.motherjones.com/kevin-drum/2013/06/supreme-court-prop-8-ruling-problem' title='Overturning Prop 8 Affects Future California Initiatives'>Overturning Prop 8 Affects Future California Initiatives→</a>
-            </h1>
-            <div class='postDate'>
-              <a href='/2013/06/how-overturning-prop-8-affects-future-initiatives/' title='Permalink'>
-                <small>
-                  Jun 26 2013
-                  - Permalink
-                </small>
-              </a>
-            </div>
-          </header>
-          <p>One interesting <a href="http://www.motherjones.com/kevin-drum/2013/06/supreme-court-prop-8-ruling-problem" title="Kevin Drum: Supreme Court Prop 8 Ruling Problem">side note</a> to today’s Supreme Court decision regarding Proposition 8:</p>
-          
-          <blockquote>
-            <p>The Court’s reasoning does not take into account the fundamental principles or the practical dynamics of the initiative system in California, which uses this mechanism to control and to bypass public officials—the same officials who would not defend the initiative, an injury the Court now leaves unremedied. The Court’s decision also has implications for the 26 other States that use an initiative or popular referendum system and which, like California, may choose to have initiative proponents stand in for the State when public officials decline to defend an initiative in litigation.</p>
-          </blockquote>
-          
-          <p>By finding that the proponents of a ballot measure have no standing to sue in federal court, the majority has set up a system in which California and other states can roll back voter initiatives they disagree with by simply refusing to defend them in federal court.</p>
-          
-          <p>This is undemocratic and strange, but I have to admit it doesn’t bother me much because…</p>
-          
-          <h2 id="the-initiative-system-sucks">The Initiative System Sucks</h2>
-          
-          <p>The initiative process in California is fundamentally broken. Rather than encouraging democracy, it undermines it by diffusing authority for basic decisionmaking in the state. No politician in California is ever responsible for anything because everything is subject to referendum. Voters elect politicians who cannot change how money is spent or raised or how crimes are punished. Then we all complain that nothing gets done in Sacramento.</p>
-          
-          <p>Worse, the initiative process distills every complex issue into a binary choice: Yes or no with no potential for compromise or revision.</p>
-          
-          <p>True, sometimes the system does good work. It offers chances for reform on issues like drugs or political redistricting that would probably die in the capitol. But more often it works as a system for millionaires and corporations to foist their personal agendas on California. <a href="http://ballotpedia.org/wiki/index.php/California_Proposition_15,_No_Fees_for_Television_Programs_Transmitted_to_Home_Televisions_(1964)" title="Prop 15 Bans Cable Television">A 1960s proposition sponsored by theater owners banned cable television in the entire state</a>, and Proposition 13 famously destroyed local politics in California by capping property taxes.</p>
-          
-          <p>The initiative process has become less odious in recent years (Prop 8 excepted) simply because liberals have gotten better and better at abusing it the way conservatives did thirty years ago. Despite that, I’m glad that the Supreme Court inadvertently smashed up the intiative system in their zeal to avoid deciding on gay marriage directly.</p>
-          <small>
-            <a class='comments-link' href='/2013/06/how-overturning-prop-8-affects-future-initiatives/#disqus_thread'></a>
-          </small>
-          <hr class='postDivider'>
-        </article>
-        <article>
-          <header>
-            <h1>
-              <a class='linklog' href='http://news.xbox.com/2013/06/update' title='Microsoft Caves'>Microsoft Caves→</a>
-            </h1>
-            <h2>
-              <a href='http://news.xbox.com/2013/06/update' title='Xbox One Will Play Used Games'>Xbox One Will Play Used Games</a>
-            </h2>
-            <div class='postDate'>
-              <a href='/2013/06/xbox-one-will-play-used-games/' title='Permalink'>
-                <small>
-                  Jun 19 2013
-                  - Permalink
-                </small>
-              </a>
-            </div>
-          </header>
-          <p>I previously voiced <a href="http://simonganz.com/2013/05/pa-report-xbox-one-will-kill-used-games/" title="Xbox One Will Kill Used Games">my displeasure with Microsoft’s planned console DRM scheme</a>. In short, it had more restrictions than digital distribution systems like <a href="http://steampowered.com/" title="Welcome to Steam">Steam</a> or iOS while offering few of the benefits.</p>
-          
-          <p>I wasn’t the only person annoyed. Sony drew blood with <a href="http://www.youtube.com/watch?v=4vfjdaU3lkA" title="PS4: How to Share Used Games">vicious and biting videos</a> at Microsoft’s expense, and even <a href="http://www.navytimes.com/article/20130614/OFFDUTY02/306140030" title="Xbox One Has Singlehandedly Alienated the Military">US military publications spoke out against the system</a>. Microsoft tried to stanch the bleeding, promising that you could share your game with ten friends and log in your console from your phone and etc etc, but these were complicated digital solutions to problems that don’t exist with current generation consoles.</p>
-          
-          <p>It’s not a huge surprise then that Microsoft has folded their hand and <a href="http://news.xbox.com/2013/06/update" title="Xbox One Policy Change Update">given up on the whole scheme</a>.</p>
-          
-          <p>This was an unforced error by Microsoft. They designed the new system around their own corporate needs and only belatedly considered how the changes would affect real users. They never made an affirmative case for why this system would be better than the status quo. They just tried to muscle it through. I think the final straw for Microsoft was realizing that none of the major publishers, the very companies this system would most benefit, publicly backed Microsoft’s position during the controversy.</p>
-          <small>
-            <a class='comments-link' href='/2013/06/xbox-one-will-play-used-games/#disqus_thread'></a>
-          </small>
-          <hr class='postDivider'>
-        </article>
-        <article>
-          <header>
-            <h1>
-              <a class='linklog' href='http://badassdigest.com/2013/06/12/film-crit-hulk-smash-the-age-of-the-convoluted-blockbuster/' title='Story vs. Plot'>Story vs. Plot→</a>
-            </h1>
-            <div class='postDate'>
-              <a href='/2013/06/story-vs-plot/' title='Permalink'>
-                <small>
-                  Jun 12 2013
-                  - Permalink
-                </small>
-              </a>
-            </div>
-          </header>
-          <p><a href="http://badassdigest.com/2013/06/12/film-crit-hulk-smash-the-age-of-the-convoluted-blockbuster/" title="The Age of the Convoluted Blockbuster">Film Crit Hulk’s latest article</a> dives into convoluted blockbusters like <em>Star Trek Into Darkness</em>, and he makes a particularly deep point about the difference between story and plot:</p>
-          
-          <blockquote>
-            <p>And so when we look at the stories in Abrams’ work we don’t find much in the way of story at all. We find plots. It’s all master secretive plans built on reveals upon reveals upon reveals. We watch as brilliant characters play a high-stakes game of trying to outsmart each other. We watch those plans get teased out in incomprehensible ways. We watch them unravel a story without a hint of organic discovery.</p>
-          </blockquote>
-          
-          <p><em>Lost</em> fans should be shaking their heads in recognition right now.</p>
-          
-          <p>Hulk’s post clarifies a lesson I’ve been trying to learn. <strong>Screenplay is a way to tell a story, but it is not the story itself.</strong></p>
-          
-          <p>Story is something underneath the screenplay. It’s what the dialogue, action, plot, and pacing of the screenplay are trying to convey.</p>
-          
-          <p>Without a story, a screenplay is just empty mechanics. It’s hollow and unfulfilling. In short, it’s <a href="http://www.imdb.com/title/tt1055369/" title="Transformers 2">Transformers 2</a>.</p>
-          <small>
-            <a class='comments-link' href='/2013/06/story-vs-plot/#disqus_thread'></a>
-          </small>
-          <hr class='postDivider'>
-        </article>
-        <article>
-          <header>
-            <h1>
-              <a class='linklog' href='http://www.apple.com/osx/preview/#icloud-keychain' title='iCloud Keychain'>iCloud Keychain→</a>
-            </h1>
-            <div class='postDate'>
-              <a href='/2013/06/icloud-keychain/' title='Permalink'>
-                <small>
-                  Jun 10 2013
-                  - Permalink
-                </small>
-              </a>
-            </div>
-          </header>
-          <img src="/images/icloudKeychainPassword-07d4eeb4.jpg" title="iCloud Keychain" />
-          
-          <p>I am so glad to hear that <a href="http://www.apple.com/osx/preview/#icloud-keychain" title="iCloud Keychain">Apple is adding a password auto-generator</a> to future versions of Safari on Mac and iOS.</p>
-          
-          <p>As someone who has worked tech support as a personal assistant (and for my parents), I can tell you that people use terrible passwords. They pick a common word, maybe slap a number on the end, and then use that same password for everything.</p>
-          
-          <p>Normal people don’t realize <a href="http://arstechnica.com/security/2013/05/how-crackers-make-minced-meat-out-of-your-passwords/" title="How Crackers Make Minced Meat out of Your Passwords">how easy it is to crack even the most eXtR3m3!! passwords</a>.</p>
-          
-          <p>I use <a href="http://agilebits.com/onepassword" title="1Password - AgileBits">1Password</a> to generate random unique passwords for every online account, and I’ve tried to set that system up for other people too. But it’s fiddly and complicated. It requires a browser extension, and it requires the user to remember to actually use the damn thing.</p>
-          
-          <p>Apple’s solution will not be the best password solution, but just as they did with personal backups and Time Machine, they’re taking something complicated and vital and distilling it down to something simple enough for my mom to use.</p>
-          
-          <p>I think this will be a huge security improvement for average users.</p>
-          <small>
-            <a class='comments-link' href='/2013/06/icloud-keychain/#disqus_thread'></a>
-          </small>
-          <hr class='postDivider'>
-        </article>
-        <article>
-          <header>
-            <h1>
-              <a class='linklog' href='http://www.wired.com/gadgetlab/2013/06/why-google-reader-got-the-ax/' title='Why Google Killed Reader'>Why Google Killed Reader→</a>
-            </h1>
-            <div class='postDate'>
-              <a href='/2013/06/why-google-killed-reader/' title='Permalink'>
-                <small>
-                  Jun  7 2013
-                  - Permalink
-                </small>
-              </a>
-            </div>
-          </header>
-          <blockquote>
-            <p>“As a culture we have moved into a realm where the consumption of news is a near-constant process. Users with smartphones and tablets are consuming news in bits and bites throughout the course of the day — replacing the old standard behaviors of news consumption over breakfast along with a leisurely read at the end of the day.”</p>
-          </blockquote>
-          
-          <p>I don’t like <a href="http://www.wired.com/gadgetlab/2013/06/why-google-reader-got-the-ax/" title="Why Google Reader Got the Axe">Google’s explanation for killing Google Reader</a>.</p>
-          
-          <p>Yes, Twitter and social media have changed how we consume news and internet posts. But the niche Google Reader and <a href="http://en.wikipedia.org/wiki/RSS" title="RSS - Wikipedia, the free encyclopedia">RSS</a> serve is not about “leisurely” browsing of the internet over eggs and bacon.</p>
-          
-          <p>By checking my RSS feed, I can skim and select from hundreds of stories from my favorite sites and authors in less than a minute.<sup id="fnref:small"><a href="#fn:small" class="footnote">1</a></sup></p>
-          
-          <p>In contrast, Twitter and Facebook give me a random shotgun blast full of memes, links, and advertisements. I do not want to like or follow every public figure, author, or company that interests me and then have those people shit up my social feed. My social feed is just that, social. It shows me what <em>other</em> people think I should be reading, which is not always what <em>I</em> want to read.</p>
-          
-          <p>I understand that RSS has always been a niche technology and that Google is probably making the right choice by focusing their efforts on more casual users. But I think Wired hits on a darker, potentially more accurate explanation for the change:</p>
-          
-          <blockquote>
-            <p>Now and Plus do one thing: They keep you in Google’s world. It’s a de-emphasis of content source. In other words, rather than reading Cat Fancy religiously, you’re reading the Animals category religiously — a category populated by the sites Google’s products think you’ll enjoy most.</p>
-          </blockquote>
-          
-          <hr />
-          
-          <div class="footnotes">
-            <ol>
-              <li id="fn:small">
-                <p>I can also subscribe to small sites and webcomics without worrying that I’ll miss their rare updates in my stream. <a href="#fnref:small" class="reversefootnote">&#8617;</a></p>
-              </li>
-            </ol>
-          </div>
-          <small>
-            <a class='comments-link' href='/2013/06/why-google-killed-reader/#disqus_thread'></a>
-          </small>
-          <hr class='postDivider'>
-        </article>
-        <article>
-          <header>
-            <h1>
-              <a class='linklog' href='http://www.slate.com/blogs/moneybox/2013/06/07/prism_tech_exports_will_nsa_revelations_block_american_companies_abroad.html' title='Will PRISM Harm the US Tech Industry'>Will PRISM Harm the US Tech Industry→</a>
-            </h1>
-            <div class='postDate'>
-              <a href='/2013/06/prism-harms-us-tech-industry/' title='Permalink'>
-                <small>
-                  Jun  7 2013
-                  - Permalink
-                </small>
-              </a>
-            </div>
-          </header>
-          <blockquote>
-            <p>Imagine if it had come out in the 1980s that Japanese intelligence agencies were tracking the location of every Toyota and Honda vehicle, and then the big response from the Japanese government was to reassure people that <em>Japanese</em> citizens weren’t being spied upon this way. There would have been—legitimately—massive political pressure to get Japanese cars out of foreign markets.</p>
-          </blockquote>
-          
-          <p>Matt Yglesias has <a href="http://www.slate.com/blogs/moneybox/2013/06/07/prism_tech_exports_will_nsa_revelations_block_american_companies_abroad.html" title="Prism Tech Exports: Will NSA Revelations Block American Companies Abroad">a great blog post</a> puncturing some of the insular, parochial American reactions to <a href="http://www.washingtonpost.com/investigations/us-intelligence-mining-data-from-nine-us-internet-companies-in-broad-secret-program/2013/06/06/3a0c0da8-cebf-11e2-8845-d970ccb04497_story.html" title="US Intelligence Mining Data from Nine US Internet Companies">the spying scandal</a>.</p>
-          
-          <p>Very few Americans seem to care about civil liberties or the Bill of Rights, but have we considered how these national security programs could hobble our biggest exports? If you lived in another country and were using products made by US companies like Google, Apple, Facebook, etc., would you be okay with those products feeding your information directly to a foreign government?</p>
-          <small>
-            <a class='comments-link' href='/2013/06/prism-harms-us-tech-industry/#disqus_thread'></a>
-          </small>
-          <hr class='postDivider'>
-        </article>
-        <article>
-          <header>
-            <h1>
-              <a class='linklog' href='http://kotaku.com/the-xbox-one-just-had-a-very-bad-day-511766497' title='Microsoft Clarifies Xbox One Used Games Policy'>Microsoft Clarifies Xbox One Used Games Policy→</a>
-            </h1>
-            <div class='postDate'>
-              <a href='/2013/06/xbox-one-used-games/' title='Permalink'>
-                <small>
-                  Jun  6 2013
-                  - Permalink
-                </small>
-              </a>
-            </div>
-          </header>
-          <p>Kotaku has <a href="http://kotaku.com/the-xbox-one-just-had-a-very-bad-day-511766497">a cynical rundown</a> of how Xbox One will handle used games. Basically, <a href="http://simonganz.com/2013/05/pa-report-xbox-one-will-kill-used-games/">my fears</a> are confirmed:</p>
-          
-          <blockquote>
-            <p>The Xbox One will allow the sale of used games, at “participating retailers”, but only if the publisher allows it. Publishers being the very people opposed most fiercely to used video game sales.</p>
-          </blockquote>
-          
-          <p>Microsoft understands that this change is going to piss off a lot of people, so they’re trying to pull a Pontius Pilate and offload the final decision onto the publishers. “Oh we really wish you could still buy and sell used games, but we left it as an option for the publishers, and those gosh darn meanies didn’t implement it!”</p>
-          <small>
-            <a class='comments-link' href='/2013/06/xbox-one-used-games/#disqus_thread'></a>
-          </small>
-          <hr class='postDivider'>
-        </article>
-        <article>
-          <header>
-            <h1>
-              <a href='/2013/06/get-rid-of-fruit-flies/' title='How to Get Rid of Fruit Flies'>How to Get Rid of Fruit Flies</a>
-            </h1>
-            <div class='postDate'>
-              <a href='/2013/06/get-rid-of-fruit-flies/' title='Permalink'>
-                <small>
-                  Jun  6 2013
-                  
-                </small>
-              </a>
-            </div>
-          </header>
-          <p>Fruit flies are tiny insects that lay their eggs on the skin of ripe or fermenting fruit. They’re harmless, but you’ll occasionally find a batch of them swirling around your kitchen.</p>
-          
-          <p>Here’s an easy way to get rid of them:</p>
-          
-          <ol>
-            <li>Take a wine glass.</li>
-            <li>Pour in some apple cider vinegar.</li>
-            <li>Put in a couple drops of dishwashing liquid.</li>
-          </ol>
-          
-          <p>The flies are attracted to the vinegar, but the curved glass and the dishwashing soap make it impossible for them to land on the surface, so they fall through and drown.</p>
-          
-          <p>There are other <a href="http://insects.about.com/od/insectssociety/qt/Make-A-Vinegar-Trap-For-Fruit-Flies.htm">elaborate traps</a> you can make (and obviously you should clean your kitchen as well), but the simple trap works very well.</p>
-          <small>
-            <a class='comments-link' href='/2013/06/get-rid-of-fruit-flies/#disqus_thread'></a>
-          </small>
-          <hr class='postDivider'>
-        </article>
-        <div class='pagination'>
-          <ul>
-            <li class=''>
-              <a href="/page/3/">&#8592;</a>
-            </li>
-            <li>
-              <a href="/page/2/">2</a>
-            </li>
-            <li>
-              <a href="/page/3/">3</a>
-            </li>
-            <li class='active'>
-              <span>4</span>
-            </li>
-            <li>
-              <a href="/page/5/">5</a>
-            </li>
-            <li>
-              <a href="/page/6/">6</a>
-            </li>
-            <li class=''>
-              <a href="/page/5/">&#8594;</a>
-            </li>
-          </ul>
-        </div>
-        <script>
-          var disqus_shortname = 'simonganz';
-          
-          /* * * DON'T EDIT BELOW THIS LINE * * */
-          (function () {
-          var s = document.createElement('script'); s.async = true;
-          s.type = 'text/javascript';
-          s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
-          (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-          }());
-        </script>
-      </div>
-    </div>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script>
-      window.jQuery || document.write('<script src="/javascripts/libs/jquery-1.9.0.min-002da8cb.js"><\/script>')
-    </script>
-    <!-- = javascript_include_tag "libs/holder" -->
-    <script src="/javascripts/libs/modernizr-2.6.1.min-7a33327d.js"></script>
-    <script src="/javascripts/libs/bigfoot.min-fbac4fe2.js"></script><script src="/javascripts/plugins-a48abc09.js"></script><script src="/javascripts/script-a28d568e.js"></script>
-  </body>
+<!--<![endif]-->
+<head>
+<meta charset='utf-8'>
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<title>Simon Ganz</title>
+<meta content='Personal blog of Simon Ganz, covering topics such as screenwriting, comedy, and technology.' name='description'>
+<meta content='Simon Ganz' name='author'>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<meta content='Simon Ganz' property='og:title'>
+<meta content='SimonGanz.com' property='og:site_name'>
+<meta content='http://simonganz.com/page/4/' property='og:url'>
+<meta content='Personal blog of Simon Ganz, covering topics such as screenwriting, comedy, and technology.' property='og:description'>
+<meta property='og:image'>
+<link href='/feed.xml' rel='alternate' title='SimonGanz.com' type='application/atom+xml'>
+<link href="/stylesheets/screen-0069180a.css" rel="stylesheet" />
+<script type='text/javascript'>
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-41213917-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class='chromeframe'>
+You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.
+</p>
+<![endif]-->
+<div class='container'>
+<header class='title' role='banner'>
+<h1>
+<a href='/' title='Simon Ganz.com'>
+Simon Ganz
+</a>
+</h1>
+</header>
+<nav role='navigation'>
+<ul>
+<li>
+<a href='http://twitter.com/simonganz' title='@simonganz'>Twitter</a>
+</li>
+<li>
+<a href='/projects/' title='Projects'>Projects</a>
+</li>
+<li>
+<a href='/about/' title='About'>About</a>
+</li>
+</ul>
+</nav>
+<div id='main-content' role='main'>
+<article>
+<header>
+<h1>
+<a href='/2013/06/access-the-ios-developer-library-without-a-developer-account/' title='Access the iOS 7 Developer Library without a Developer Account'>Access the iOS 7 Developer Library without a Developer Account</a>
+</h1>
+<div class='postDate'>
+<a href='/2013/06/access-the-ios-developer-library-without-a-developer-account/' title='Permalink'>
+<small>
+Jun 28 2013
+
+</small>
+</a>
+</div>
+</header>
+
+<p>Apple makes <a href="https://developer.apple.com/" title="Apple Developer Program">their developer libraries</a> freely available online with one important exception: Prerelease libraries can only be accessed by registered developers.</p>
+
+<p>Why would a non-developer want to read these? Well if you’re like me, you might be tech-savvy and curious about iOS 7 or Mavericks but not want to spend $99 to become a registered developer. Luckily there’s an easy solution.</p>
+
+<h2 id="become-a-safari-developer">Become a Safari Developer</h2>
+
+<p>Simply sign up to become <a href="https://developer.apple.com/programs/safari/" title="Safari Developer Program">a Safari extensions developer</a>. It’s a free program that carries some of the same benefits as a paid iOS or Mac developer membership.</p>
+
+<p>Simply by providing your address and an Apple ID, you gain the ability to read prerelease developer documents and <a href="http://simonganz.com/2013/06/rounded-rectangles-deprecated/" title="Rounded Rectangles Deprecated">learn details</a> about Apple software months before it’s released.</p>
+
+
+<small>
+<a class='comments-link' href='/2013/06/access-the-ios-developer-library-without-a-developer-account/#disqus_thread'></a>
+</small>
+<hr class='postDivider'>
+</article>
+<article>
+<header>
+<h1>
+<a href='/2013/06/rounded-rectangles-deprecated/' title='Rounded Rectangles Deprecated'>Rounded Rectangles Deprecated</a>
+</h1>
+<h2>
+<a href='/2013/06/rounded-rectangles-deprecated/' title='They Used to Be &#39;Everywhere&#39;'>They Used to Be 'Everywhere'</a>
+</h2>
+<div class='postDate'>
+<a href='/2013/06/rounded-rectangles-deprecated/' title='Permalink'>
+<small>
+Jun 28 2013
+
+</small>
+</a>
+</div>
+</header>
+
+<p>I was reading through the pre-release documentation for iOS 7 and came across this gem:</p>
+
+<blockquote>
+  <p>The rounded rectangle button has been deprecated in iOS 7.</p>
+</blockquote>
+
+<p>Why is this amusing? Because <a href="http://www.folklore.org/StoryView.py?story=Round_Rects_Are_Everywhere.txt" title="Round Rects Are Everywhere">rounded rectangles were one of the big user interface innovations of the Macintosh</a> and were demanded by Steve Jobs himself:</p>
+
+<blockquote>
+  <p>Steve suddenly got more intense. “Rectangles with rounded corners are everywhere! Just look around this room!”. And sure enough, there were lots of them, like the whiteboard and some of the desks and tables. Then he pointed out the window. “And look outside, there’s even more, practically everywhere you look!”. He even persuaded Bill to take a quick walk around the block with him, pointing out every rectangle with rounded corners that he could find.</p>
+</blockquote>
+
+<p>Nearly every button on the Mac and on iOS has been a rounded rectangle for the past thirty years. So there’s something charmingly radical about a modern day Apple engineer calmly stating that they’ve been discontinued.</p>
+
+<small>
+<a class='comments-link' href='/2013/06/rounded-rectangles-deprecated/#disqus_thread'></a>
+</small>
+<hr class='postDivider'>
+</article>
+<article>
+<header>
+<h1>
+<a href='/2013/06/add-emacs-key-bindings-to-mac-os-x/' title='How to Add Incredibly Powerful Emacs-style Shortcuts to Mac OS X'>How to Add Incredibly Powerful Emacs-style Shortcuts to Mac OS X</a>
+</h1>
+<div class='postDate'>
+<a href='/2013/06/add-emacs-key-bindings-to-mac-os-x/' title='Permalink'>
+<small>
+Jun 28 2013
+
+</small>
+</a>
+</div>
+</header>
+
+<h2 id="what-is-emacs">What is Emacs?</h2>
+
+<p><a href="http://www.gnu.org/software/emacs/" title="GNU Emacs">Emacs</a> is a very nerdy text editor/email program/development suite/nuclear reactor.</p>
+
+<p>It’s ugly and weird and hard to use because it dates back to a time before computers had mice. But for that same reason, it has amazing tools and shortcuts for rapidly editing and moving through text with only your keyboard.</p>
+
+<p>Mac OS X has always had some of <a href="http://www.hcs.harvard.edu/~jrus/Site/System%20Bindings.html" title="Mac OS X Default Key Bindings">these shortcuts baked in</a>. For instance, type <em>Ctrl+e</em> in an OS X text field and the cursor will jump to the end of a line. Type <em>Ctrl+k</em> and everything between the cursor and the end of the line will be deleted (this is crazy useful when editing; I suggest trying it out).</p>
+
+<p>I learned these shortcuts for convenience sake a few years back, but recently the trackpad on my Macbook Pro died and I was forced to turn to them full time.<sup id="fnref:magic"><a href="#fn:magic" class="footnote">1</a></sup> The problem is that by default, OS X only allows you to use a few select Emacs shortcuts that utilize the ctrl key. Many other powerful Emacs shortcuts are unavailable (including every shortcut that uses the alt key, referred to as the “meta” key in Emacs lingo).</p>
+
+<p>But you can change this.</p>
+
+<h2 id="changing-mac-os-x-key-bindings">Changing Mac OS X Key Bindings</h2>
+
+<p>These directions are adapted from <a href="http://www.hcs.harvard.edu/~jrus/site/cocoa-text.html" title="Customizing the Cocoa Text System">this excellent 2006 article by Jacob Rus</a> and <a href="http://brettterpstra.com/2011/08/13/keybinding-madness/" title="Keybinding Madness">this excellent 2011 post by Brett Terpstra</a>.</p>
+
+<ol>
+  <li>Create a folder named “KeyBindings” in the ~/Library directory.<sup id="fnref:library"><a href="#fn:library" class="footnote">2</a></sup></li>
+  <li>Download <a href="https://github.com/ttscoff/KeyBindings/zipball/master" title="Brett Terpstra Killer Keybindings">this DefaultKeyBinding.dict zip file</a>.</li>
+  <li>Unzip the files and place the DefaultKeyBinding.dict file into the newly created KeyBindings folder.</li>
+</ol>
+
+<p>Now as soon as you restart any running apps, you’ll have access to an <a href="http://ttscoff.github.io/KeyBindings/" title="Brett Terpstra Killer Keybindings">insanely powerful list of keyboard shortcuts</a> in almost every Mac OS X application.</p>
+
+<p>You can do crazy powerful things like uppercase words with <em>Ctrl+U</em> or copy entire paragraphs instantly by typing <em>Alt+y</em>. You can move paragraphs using only your keyboard (<em>Ctrl+Command+K</em>) or delete trailing whitespaces off a line (<em>Ctrl+Alt+Right Arrow</em>).</p>
+
+<p>These key bindings will be overkill for most people, and they may even break a few shortcuts on your computer, but the possibilities are incredible. You can even customize them yourself by editing the DefaultKeyBinding.dict file in a text editor, adding to or tweaking the shortcuts to fit your own workflow.</p>
+
+<p>If you spend a lot of time typing text or coding on Mac OS X, you owe it to yourself to play around with a few of these shortcuts and see how they can speed up your life.</p>
+
+<hr />
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:magic">
+      <p>I eventually bought a <a href="http://www.apple.com/magictrackpad/" title="Apple - Magic Trackpad - Multi-Touch trackpad for your desktop.">Magic Trackpad</a> as a replacement. <a href="#fnref:magic" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:library">
+      <p>By default, the User’s library folder is hidden in Mac OS X. You can access it by opening Finder, selecting the Go menu from the menubar, and holding down the alt key to make the Library option appear. <a href="#fnref:library" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+<small>
+<a class='comments-link' href='/2013/06/add-emacs-key-bindings-to-mac-os-x/#disqus_thread'></a>
+</small>
+<hr class='postDivider'>
+</article>
+<article>
+<header>
+<h1>
+<a class='linklog' href='http://www.motherjones.com/kevin-drum/2013/06/supreme-court-prop-8-ruling-problem' title='Overturning Prop 8 Affects Future California Initiatives'>Overturning Prop 8 Affects Future California Initiatives→</a>
+</h1>
+<div class='postDate'>
+<a href='/2013/06/how-overturning-prop-8-affects-future-initiatives/' title='Permalink'>
+<small>
+Jun 26 2013
+- Permalink
+</small>
+</a>
+</div>
+</header>
+
+<p>One interesting <a href="http://www.motherjones.com/kevin-drum/2013/06/supreme-court-prop-8-ruling-problem" title="Kevin Drum: Supreme Court Prop 8 Ruling Problem">side note</a> to today’s Supreme Court decision regarding Proposition 8:</p>
+
+<blockquote>
+  <p>The Court’s reasoning does not take into account the fundamental principles or the practical dynamics of the initiative system in California, which uses this mechanism to control and to bypass public officials—the same officials who would not defend the initiative, an injury the Court now leaves unremedied. The Court’s decision also has implications for the 26 other States that use an initiative or popular referendum system and which, like California, may choose to have initiative proponents stand in for the State when public officials decline to defend an initiative in litigation.</p>
+</blockquote>
+
+<p>By finding that the proponents of a ballot measure have no standing to sue in federal court, the majority has set up a system in which California and other states can roll back voter initiatives they disagree with by simply refusing to defend them in federal court.</p>
+
+<p>This is undemocratic and strange, but I have to admit it doesn’t bother me much because…</p>
+
+<h2 id="the-initiative-system-sucks">The Initiative System Sucks</h2>
+
+<p>The initiative process in California is fundamentally broken. Rather than encouraging democracy, it undermines it by diffusing authority for basic decisionmaking in the state. No politician in California is ever responsible for anything because everything is subject to referendum. Voters elect politicians who cannot change how money is spent or raised or how crimes are punished. Then we all complain that nothing gets done in Sacramento.</p>
+
+<p>Worse, the initiative process distills every complex issue into a binary choice: Yes or no with no potential for compromise or revision.</p>
+
+<p>True, sometimes the system does good work. It offers chances for reform on issues like drugs or political redistricting that would probably die in the capitol. But more often it works as a system for millionaires and corporations to foist their personal agendas on California. <a href="http://ballotpedia.org/wiki/index.php/California_Proposition_15,_No_Fees_for_Television_Programs_Transmitted_to_Home_Televisions_(1964)" title="Prop 15 Bans Cable Television">A 1960s proposition sponsored by theater owners banned cable television in the entire state</a>, and Proposition 13 famously destroyed local politics in California by capping property taxes.</p>
+
+<p>The initiative process has become less odious in recent years (Prop 8 excepted) simply because liberals have gotten better and better at abusing it the way conservatives did thirty years ago. Despite that, I’m glad that the Supreme Court inadvertently smashed up the intiative system in their zeal to avoid deciding on gay marriage directly.</p>
+
+<small>
+<a class='comments-link' href='/2013/06/how-overturning-prop-8-affects-future-initiatives/#disqus_thread'></a>
+</small>
+<hr class='postDivider'>
+</article>
+<article>
+<header>
+<h1>
+<a class='linklog' href='http://news.xbox.com/2013/06/update' title='Microsoft Caves'>Microsoft Caves→</a>
+</h1>
+<h2>
+<a href='http://news.xbox.com/2013/06/update' title='Xbox One Will Play Used Games'>Xbox One Will Play Used Games</a>
+</h2>
+<div class='postDate'>
+<a href='/2013/06/xbox-one-will-play-used-games/' title='Permalink'>
+<small>
+Jun 19 2013
+- Permalink
+</small>
+</a>
+</div>
+</header>
+
+<p>I previously voiced <a href="http://simonganz.com/2013/05/pa-report-xbox-one-will-kill-used-games/" title="Xbox One Will Kill Used Games">my displeasure with Microsoft’s planned console DRM scheme</a>. In short, it had more restrictions than digital distribution systems like <a href="http://steampowered.com/" title="Welcome to Steam">Steam</a> or iOS while offering few of the benefits.</p>
+
+<p>I wasn’t the only person annoyed. Sony drew blood with <a href="http://www.youtube.com/watch?v=4vfjdaU3lkA" title="PS4: How to Share Used Games">vicious and biting videos</a> at Microsoft’s expense, and even <a href="http://www.navytimes.com/article/20130614/OFFDUTY02/306140030" title="Xbox One Has Singlehandedly Alienated the Military">US military publications spoke out against the system</a>. Microsoft tried to stanch the bleeding, promising that you could share your game with ten friends and log in your console from your phone and etc etc, but these were complicated digital solutions to problems that don’t exist with current generation consoles.</p>
+
+<p>It’s not a huge surprise then that Microsoft has folded their hand and <a href="http://news.xbox.com/2013/06/update" title="Xbox One Policy Change Update">given up on the whole scheme</a>.</p>
+
+<p>This was an unforced error by Microsoft. They designed the new system around their own corporate needs and only belatedly considered how the changes would affect real users. They never made an affirmative case for why this system would be better than the status quo. They just tried to muscle it through. I think the final straw for Microsoft was realizing that none of the major publishers, the very companies this system would most benefit, publicly backed Microsoft’s position during the controversy.</p>
+
+
+<small>
+<a class='comments-link' href='/2013/06/xbox-one-will-play-used-games/#disqus_thread'></a>
+</small>
+<hr class='postDivider'>
+</article>
+<article>
+<header>
+<h1>
+<a class='linklog' href='http://badassdigest.com/2013/06/12/film-crit-hulk-smash-the-age-of-the-convoluted-blockbuster/' title='Story vs. Plot'>Story vs. Plot→</a>
+</h1>
+<div class='postDate'>
+<a href='/2013/06/story-vs-plot/' title='Permalink'>
+<small>
+Jun 12 2013
+- Permalink
+</small>
+</a>
+</div>
+</header>
+
+<p><a href="http://badassdigest.com/2013/06/12/film-crit-hulk-smash-the-age-of-the-convoluted-blockbuster/" title="The Age of the Convoluted Blockbuster">Film Crit Hulk’s latest article</a> dives into convoluted blockbusters like <em>Star Trek Into Darkness</em>, and he makes a particularly deep point about the difference between story and plot:</p>
+
+<blockquote>
+  <p>And so when we look at the stories in Abrams’ work we don’t find much in the way of story at all. We find plots. It’s all master secretive plans built on reveals upon reveals upon reveals. We watch as brilliant characters play a high-stakes game of trying to outsmart each other. We watch those plans get teased out in incomprehensible ways. We watch them unravel a story without a hint of organic discovery.</p>
+</blockquote>
+
+<p><em>Lost</em> fans should be shaking their heads in recognition right now.</p>
+
+<p>Hulk’s post clarifies a lesson I’ve been trying to learn. <strong>Screenplay is a way to tell a story, but it is not the story itself.</strong></p>
+
+<p>Story is something underneath the screenplay. It’s what the dialogue, action, plot, and pacing of the screenplay are trying to convey.</p>
+
+<p>Without a story, a screenplay is just empty mechanics. It’s hollow and unfulfilling. In short, it’s <a href="http://www.imdb.com/title/tt1055369/" title="Transformers 2">Transformers 2</a>.</p>
+
+
+<small>
+<a class='comments-link' href='/2013/06/story-vs-plot/#disqus_thread'></a>
+</small>
+<hr class='postDivider'>
+</article>
+<article>
+<header>
+<h1>
+<a class='linklog' href='http://www.apple.com/osx/preview/#icloud-keychain' title='iCloud Keychain'>iCloud Keychain→</a>
+</h1>
+<div class='postDate'>
+<a href='/2013/06/icloud-keychain/' title='Permalink'>
+<small>
+Jun 10 2013
+- Permalink
+</small>
+</a>
+</div>
+</header>
+
+<img src="/images/icloudKeychainPassword-07d4eeb4.jpg" title="iCloud Keychain" />
+
+<p>I am so glad to hear that <a href="http://www.apple.com/osx/preview/#icloud-keychain" title="iCloud Keychain">Apple is adding a password auto-generator</a> to future versions of Safari on Mac and iOS.</p>
+
+<p>As someone who has worked tech support as a personal assistant (and for my parents), I can tell you that people use terrible passwords. They pick a common word, maybe slap a number on the end, and then use that same password for everything.</p>
+
+<p>Normal people don’t realize <a href="http://arstechnica.com/security/2013/05/how-crackers-make-minced-meat-out-of-your-passwords/" title="How Crackers Make Minced Meat out of Your Passwords">how easy it is to crack even the most eXtR3m3!! passwords</a>.</p>
+
+<p>I use <a href="http://agilebits.com/onepassword" title="1Password - AgileBits">1Password</a> to generate random unique passwords for every online account, and I’ve tried to set that system up for other people too. But it’s fiddly and complicated. It requires a browser extension, and it requires the user to remember to actually use the damn thing.</p>
+
+<p>Apple’s solution will not be the best password solution, but just as they did with personal backups and Time Machine, they’re taking something complicated and vital and distilling it down to something simple enough for my mom to use.</p>
+
+<p>I think this will be a huge security improvement for average users.</p>
+
+
+<small>
+<a class='comments-link' href='/2013/06/icloud-keychain/#disqus_thread'></a>
+</small>
+<hr class='postDivider'>
+</article>
+<article>
+<header>
+<h1>
+<a class='linklog' href='http://www.wired.com/gadgetlab/2013/06/why-google-reader-got-the-ax/' title='Why Google Killed Reader'>Why Google Killed Reader→</a>
+</h1>
+<div class='postDate'>
+<a href='/2013/06/why-google-killed-reader/' title='Permalink'>
+<small>
+Jun  7 2013
+- Permalink
+</small>
+</a>
+</div>
+</header>
+
+<blockquote>
+  <p>“As a culture we have moved into a realm where the consumption of news is a near-constant process. Users with smartphones and tablets are consuming news in bits and bites throughout the course of the day — replacing the old standard behaviors of news consumption over breakfast along with a leisurely read at the end of the day.”</p>
+</blockquote>
+
+<p>I don’t like <a href="http://www.wired.com/gadgetlab/2013/06/why-google-reader-got-the-ax/" title="Why Google Reader Got the Axe">Google’s explanation for killing Google Reader</a>.</p>
+
+<p>Yes, Twitter and social media have changed how we consume news and internet posts. But the niche Google Reader and <a href="http://en.wikipedia.org/wiki/RSS" title="RSS - Wikipedia, the free encyclopedia">RSS</a> serve is not about “leisurely” browsing of the internet over eggs and bacon.</p>
+
+<p>By checking my RSS feed, I can skim and select from hundreds of stories from my favorite sites and authors in less than a minute.<sup id="fnref:small"><a href="#fn:small" class="footnote">1</a></sup></p>
+
+<p>In contrast, Twitter and Facebook give me a random shotgun blast full of memes, links, and advertisements. I do not want to like or follow every public figure, author, or company that interests me and then have those people shit up my social feed. My social feed is just that, social. It shows me what <em>other</em> people think I should be reading, which is not always what <em>I</em> want to read.</p>
+
+<p>I understand that RSS has always been a niche technology and that Google is probably making the right choice by focusing their efforts on more casual users. But I think Wired hits on a darker, potentially more accurate explanation for the change:</p>
+
+<blockquote>
+  <p>Now and Plus do one thing: They keep you in Google’s world. It’s a de-emphasis of content source. In other words, rather than reading Cat Fancy religiously, you’re reading the Animals category religiously — a category populated by the sites Google’s products think you’ll enjoy most.</p>
+</blockquote>
+
+<hr />
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:small">
+      <p>I can also subscribe to small sites and webcomics without worrying that I’ll miss their rare updates in my stream. <a href="#fnref:small" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+<small>
+<a class='comments-link' href='/2013/06/why-google-killed-reader/#disqus_thread'></a>
+</small>
+<hr class='postDivider'>
+</article>
+<article>
+<header>
+<h1>
+<a class='linklog' href='http://www.slate.com/blogs/moneybox/2013/06/07/prism_tech_exports_will_nsa_revelations_block_american_companies_abroad.html' title='Will PRISM Harm the US Tech Industry'>Will PRISM Harm the US Tech Industry→</a>
+</h1>
+<div class='postDate'>
+<a href='/2013/06/prism-harms-us-tech-industry/' title='Permalink'>
+<small>
+Jun  7 2013
+- Permalink
+</small>
+</a>
+</div>
+</header>
+
+<blockquote>
+  <p>Imagine if it had come out in the 1980s that Japanese intelligence agencies were tracking the location of every Toyota and Honda vehicle, and then the big response from the Japanese government was to reassure people that <em>Japanese</em> citizens weren’t being spied upon this way. There would have been—legitimately—massive political pressure to get Japanese cars out of foreign markets.</p>
+</blockquote>
+
+<p>Matt Yglesias has <a href="http://www.slate.com/blogs/moneybox/2013/06/07/prism_tech_exports_will_nsa_revelations_block_american_companies_abroad.html" title="Prism Tech Exports: Will NSA Revelations Block American Companies Abroad">a great blog post</a> puncturing some of the insular, parochial American reactions to <a href="http://www.washingtonpost.com/investigations/us-intelligence-mining-data-from-nine-us-internet-companies-in-broad-secret-program/2013/06/06/3a0c0da8-cebf-11e2-8845-d970ccb04497_story.html" title="US Intelligence Mining Data from Nine US Internet Companies">the spying scandal</a>.</p>
+
+<p>Very few Americans seem to care about civil liberties or the Bill of Rights, but have we considered how these national security programs could hobble our biggest exports? If you lived in another country and were using products made by US companies like Google, Apple, Facebook, etc., would you be okay with those products feeding your information directly to a foreign government?</p>
+
+
+<small>
+<a class='comments-link' href='/2013/06/prism-harms-us-tech-industry/#disqus_thread'></a>
+</small>
+<hr class='postDivider'>
+</article>
+<article>
+<header>
+<h1>
+<a class='linklog' href='http://kotaku.com/the-xbox-one-just-had-a-very-bad-day-511766497' title='Microsoft Clarifies Xbox One Used Games Policy'>Microsoft Clarifies Xbox One Used Games Policy→</a>
+</h1>
+<div class='postDate'>
+<a href='/2013/06/xbox-one-used-games/' title='Permalink'>
+<small>
+Jun  6 2013
+- Permalink
+</small>
+</a>
+</div>
+</header>
+
+<p>Kotaku has <a href="http://kotaku.com/the-xbox-one-just-had-a-very-bad-day-511766497">a cynical rundown</a> of how Xbox One will handle used games. Basically, <a href="http://simonganz.com/2013/05/pa-report-xbox-one-will-kill-used-games/">my fears</a> are confirmed:</p>
+
+<blockquote>
+  <p>The Xbox One will allow the sale of used games, at “participating retailers”, but only if the publisher allows it. Publishers being the very people opposed most fiercely to used video game sales.</p>
+</blockquote>
+
+<p>Microsoft understands that this change is going to piss off a lot of people, so they’re trying to pull a Pontius Pilate and offload the final decision onto the publishers. “Oh we really wish you could still buy and sell used games, but we left it as an option for the publishers, and those gosh darn meanies didn’t implement it!”</p>
+
+<small>
+<a class='comments-link' href='/2013/06/xbox-one-used-games/#disqus_thread'></a>
+</small>
+<hr class='postDivider'>
+</article>
+<div class='pagination'>
+<ul>
+<li class=''>
+<a href="/page/3/">&#8592;</a>
+</li>
+<li>
+<a href="/page/2/">2</a>
+</li>
+<li>
+<a href="/page/3/">3</a>
+</li>
+<li class='active'>
+<span>4</span>
+</li>
+<li>
+<a href="/page/5/">5</a>
+</li>
+<li>
+<a href="/page/6/">6</a>
+</li>
+<li class=''>
+<a href="/page/5/">&#8594;</a>
+</li>
+</ul>
+</div>
+<script>
+  var disqus_shortname = 'simonganz';
+  
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function () {
+  var s = document.createElement('script'); s.async = true;
+  s.type = 'text/javascript';
+  s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+  (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+  }());
+</script>
+
+</div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script>
+  window.jQuery || document.write('<script src="/javascripts/libs/jquery-1.9.0.min-002da8cb.js"><\/script>')
+</script>
+<!-- = javascript_include_tag "libs/holder" -->
+<script src="/javascripts/libs/modernizr-2.6.1.min-7a33327d.js"></script>
+<script src="/javascripts/libs/bigfoot.min-fbac4fe2.js"></script><script src="/javascripts/plugins-a48abc09.js"></script><script src="/javascripts/script-a28d568e.js"></script>
+</body>
 </html>
