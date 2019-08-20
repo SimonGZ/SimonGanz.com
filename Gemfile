@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem "middleman"
-gem 'middleman-compass', '>= 4.0.0'
+# gem 'middleman-compass', '>= 4.0.0'
 
 
 gem "middleman-blog"

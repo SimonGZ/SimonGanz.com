@@ -2,7 +2,6 @@
 // Main Stylesheet
 //
 
-@import "compass";
 @import "h5bp/normalize.css";
 @import "h5bp/main.css";
 
@@ -91,7 +90,7 @@ $body-size: 17px;
     display: block;
     height: auto;
     margin-top: $line-height;
-    @include border-radius;
+    border-radius: 5px;
   }
   header.title {
     width: 100%;
