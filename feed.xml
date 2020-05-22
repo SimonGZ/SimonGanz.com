@@ -4,10 +4,27 @@
   <id>http://simonganz.com/</id>
   <link href="http://simonganz.com/"/>
   <link href="http://simonganz.com/feed.xml" rel="self"/>
-  <updated>2018-06-04T22:01:00-07:00</updated>
+  <updated>2020-05-21T17:12:00-07:00</updated>
   <author>
     <name>Simon Ganz</name>
   </author>
+  <entry>
+    <title>Map of Los Angeles Preferential Parking Districts</title>
+    <link rel="alternate" href="/2020/05/map-of-los-angeles-preferential-parking-districts/"/>
+    <id>http://simonganz.com/2020/05/map-of-los-angeles-preferential-parking-districts/</id>
+    <published>2020-05-21T17:12:00-07:00</published>
+    <updated>2020-05-21T17:12:00-07:00</updated>
+    <author>
+      <name>Simon Ganz</name>
+    </author>
+    <content type="html">
+&lt;p&gt;Posting this so I have an easy place to find it. LADOT provides &lt;a href="https://data.lacity.org/A-Livable-and-Sustainable-City/LADOT-Preferential-Parking-Districts-PPD-/2ckn-xmjp"&gt;their own map&lt;/a&gt; but it’s ugly and hard to use.&lt;/p&gt;
+
+&lt;div class="video-container"&gt;
+&lt;iframe src="https://www.google.com/maps/d/u/0/embed?mid=17m7ggdswPCIAC_7SNzcaqqiBzLnZH0_s" width="640" height="480"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+    </content>
+  </entry>
   <entry>
     <title>Advice for New Television Staff Writers</title>
     <link rel="alternate" href="/2018/06/advice-for-new-tv-staff-writers/"/>
@@ -169,22 +186,6 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Infinite thanks to the &lt;a href="http://www.ayzenberg.com/" title="Ayzenberg Group"&gt;Ayzenberg creative agency&lt;/a&gt; for inviting us to work on this with them and their awesome in-house writers.&lt;/p&gt;
-
-    </content>
-  </entry>
-  <entry>
-    <title>About a Babymoon</title>
-    <link rel="alternate" href="/2015/08/about-a-babymoon/"/>
-    <id>http://simonganz.com/2015/08/about-a-babymoon/</id>
-    <published>2015-08-25T21:18:00-07:00</published>
-    <updated>2015-08-25T21:18:00-07:00</updated>
-    <author>
-      <name>Simon Ganz</name>
-    </author>
-    <content type="html">
-&lt;img src="/images/about-a-boy-de83aa38.jpg" title="About a Boy" /&gt;
-
-&lt;p&gt;Though NBC cancelled About a Boy earlier this year, thankfully the episode my partner and I wrote was still made and produced. Episode 217, About a Babymoon, is now available online at &lt;a href="https://www.amazon.com/About-a-Babymoon/dp/B011CGNKQQ/ref=as_sl_pc_qf_sp_asin_til?tag=simongcom-20&amp;amp;linkCode=w00&amp;amp;linkId=AX2W3CAHYG63LZZW&amp;amp;creativeASIN=B011CGNKQQ"&gt;Amazon&lt;/a&gt; and &lt;a href="https://itunes.apple.com/us/tv-season/about-a-babymoon/id916041060?i=1020546458"&gt;iTunes&lt;/a&gt;.&lt;/p&gt;
 
     </content>
   </entry>
