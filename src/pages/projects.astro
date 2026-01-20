@@ -1,0 +1,49 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const title = "Simon Ganz's Projects";
+const description = "List of publicly available projects created by Simon Ganz.";
+---
+
+<BaseLayout title={title} description={description}>
+    <div id="projects">
+        <h1 class="project_category">Television & Web Media</h1>
+        <article>
+            <header></header>
+            <ul>
+                <li><a href="https://www.netflix.com/title/80095815" title="Santa Clarita Diet">Santa Clarita Diet</a></li>
+                <li><a href="https://www.go90.com/a/pd5LlGvACWw" title="Miss 2059">Miss 2059</a></li>
+                <li><a href="http://huntthetruth.tumblr.com" title="Hunt the Truth">Hunt the Truth Season Two</a></li>
+                <li><a href="http://www.nbc.com/about-a-boy" title="About a Boy - NBC.com">About a Boy</a></li>
+                <li><a href="http://simonganz.com/2014/02/friday-night-lights-parenthood-webisodes/" title="Friday Night at the Luncheonette">Parenthood Web Series</a></li>
+            </ul>
+        </article>
+
+        <h1 class="project_category">Tech Projects</h1>
+        <article>
+            <header></header>
+            <h1><a href="http://simonganz.com/2014/06/fountain-loader-for-google-drive/" title="Fountain Loader for Google Drive">Fountain Loader for Google Drive</a></h1>
+            <p>This is a web app I created that makes it easy to write screenplays in Google Docs. It uses John August's <a href="http://fountain.io/" title="Fountain - A markup language for screenwriting.">Fountain screenwriting syntax</a>.</p>
+
+            <h1><a href="http://simonganz.com/2014/06/ranndy-random-name-generator/" title="Ranndy Random Name Generator">Ranndy the Random Name Generator</a></h1>
+            <p>A web app that generates random names for use in fiction writing and baby naming. It uses US Census data so it can generate hundreds of millions of random names.</p>
+
+            <h1><a href="http://simonganz.com/2013/04/the-dehulkifier/" title="The DeHulkifier">The DeHulkifier</a></h1>
+            <p>A bookmarklet to properly capitalize articles by film writer <a href="https://twitter.com/filmcrithulk" title="FILM CRIT HULK (@FilmCritHULK) - Twitter">Film Crit Hulk</a>.</p>
+
+            <h1><a href="http://simonganz.com/2013/12/walkscore-for-redfin-chrome-extension/" title="Walk Score for Redfin Chrome Extension">Walkscore for Redfin Chrome Extension</a></h1>
+            <p>A Chrome extension that displays Walkscore.com ratings on Redfin.com real estate pages.</p>
+        </article>
+
+        <h1 class="project_category">Comedy Projects</h1>
+        <article>
+            <header></header>
+            <h1><a href="http://www.youtube.com/watch?v=IE-utC68l2I" title="Bill Clinton Robocall 2012 - YouTube">Bill Clinton Robocall</a></h1>
+            <p>Short comedy sketch I made during the 2012 election.</p>
+
+            <h1><a href="http://www.dailysquelch.com" title="The Daily Squelch">The Daily Squelch</a></h1>
+            <p>A now-defunct comedy site I ran in college.</p>
+        </article>
+    </div>
+    <hr />
+</BaseLayout>

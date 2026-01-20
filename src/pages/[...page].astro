@@ -1,0 +1,190 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths({ paginate }) {
+    const posts = (await getCollection('blog')).sort(
+        (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+    );
+    return paginate(posts, { pageSize: 10 });
+}
+
+const { page } = Astro.props;
+const title = "Simon Ganz";
+const description = "Personal blog of Simon Ganz, covering topics such as screenwriting, comedy, and technology.";
+
+// Helper to render MDX excerpt
+// Astro doesn't have a built-in "render just excerpt" for MDX easily without loading full content.
+// But we can check for "<!-- more -->" in the raw body if we want, OR simple render the whole thing and hide with CSS (not ideal).
+// Ideally, we render the Content component. If the MDX file has "<!-- more -->" (which we replaced READMORE with),
+// MDX itself doesn't automatically split it unless we use a remark plugin.
+// HOWEVER, a simpler Astro way for MDX is just to render the content and let the user decide.
+// But MDX compiles to a component.
+//
+// A common Astro pattern is to use a remark plugin to put the excerpt in frontmatter or just render the whole listing if acceptable.
+// Given "legacy look and feel", the index page showed:
+// 1. Full content IF no readmore.
+// 2. Partial content IF readmore.
+//
+// We can achieve this by rendering the post <Content /> but we need to stop it at the separator if present.
+// Since we are using standard "<!-- more -->", we can use `remark-excerpt` or similar, 
+// OR we can manually process this.
+//
+// Let's try rendering the <Content /> and assume we will hide the rest via CSS? No, that sends too much data.
+// 
+// Better approach: We injected reference to `<!-- more -->` in migration.
+// Let's just render the full content for now, but restrict it if needed?
+// Actually, Astro's `post.render()` returns `{ Content, headings, remarkPluginFrontmatter }`.
+// If we want valid HTML on the index, we really should render the component.
+// 
+// Let's use a standard trick: render the component components but we need to split.
+// Actually, `<!-- more -->` is a comment. In MDX it might be stripped or stay as comment.
+//
+// Let's assume for this step we will just render the `Content` component.
+// AND we will implement a custom component wrapper to handle the "read more" logic?
+// No, that's complex.
+//
+// Simpler: The migration script replaced READMORE with `<!-- more -->`.
+// Let's use `remark` to split the content.
+// Actually, let's keep it simple. Index page renders a list of posts. 
+// We will iterate and render <post.Content />.
+// But we need to define components that handle the `more` tag?
+//
+// Wait, the user said: "The way the old site worked... by default the whole blog post was on the index page unless... READMORE".
+// So we DO want to render the full content by default.
+// 
+// So, we will render <Content /> for each post in the loop.
+// BUT, if there IS a more tag, we only want to show the first part.
+// 
+// Astro doesn't support "rendering part of MDX" out of the box easily without plugins.
+// PROPOSAL: Use a remark plugin to truncate the AST at the `more` marker.
+// I will invoke the `Content` component, but I'll configure mdx with a remark plugin in `astro.config.mjs`?
+// No, that would apply to the individual post page too!
+//
+// Solution: We need TWO renderings? No.
+// Solution: The migration replaced READMORE with `<!-- more -->`.
+// I will create a `Preview.astro` component that takes the post.
+// It will render the content.
+// BUT, how to truncate?
+// 
+// Let's update `astro.config.mjs` to include a remark plugin that populates `excerpt`?
+// Or we can just do what the user asked: "Plan a way to replace this functionality".
+//
+// I'll stick to the plan:
+// 1. Use a remark plugin to extract excerpt to frontmatter?
+// 2. OR, simply string manipulate the compiled output? No, compiled is code.
+//
+// Let's go with: Render FULL content on index.
+// But if "readMoreText" exists in data, we use that?
+// No, the marker determines the split point.
+//
+// Let's add a remark plugin that splits the content if `<!-- more -->` is found, 
+// keeping only the first part for a special "excerpt" property? 
+// 
+// actually, a simpler way for MDX:
+// Content on index page:
+// <Content components={{ ... }} />
+//
+// If I use a property in the frontmatter `hasReadMore: true`, I can decide to render differently.
+//
+// Let's try to just render everything for now (simplest "modern" Astro).
+// BUT, if the file is huge, that's bad.
+//
+// Let's stick to the user's specific request.
+// "Plan a way to replace this functionality".
+//
+// I will implement a custom `PostContent.astro` that renders the post.
+// And on the index page, I will use a remark plugin to ADD `excerpt` HTML to the frontmatter (injected).
+// Then on index, I render `post.render().remarkPluginFrontmatter.excerpt` if it exists.
+// If NOT, I render `<Content />`.
+// 
+// Let's do that. I need to install `remark-excerpt`? Or write a simple one.
+//
+// Actually, I can write a local plugin in `remark-excerpt.mjs`.
+// And add it to `astro.config.mjs`.
+---
+
+<BaseLayout title={title} description={description}>
+    {page.data.map(async (post, index) => {
+        const { Content, remarkPluginFrontmatter } = await post.render();
+        const hasExcerpt = !!remarkPluginFrontmatter.excerpt;
+        const isLast = index === page.data.length - 1;
+        
+        return (
+            <article>
+                <header>
+                    <h1>
+                        <a href={`/${post.data.date.toISOString().slice(0, 4)}/${post.data.date.toISOString().slice(5, 7)}/${post.slug}/`} title={post.data.title}>{post.data.title}</a>
+                    </h1>
+                    <div class='postDate'>
+                        <a href={`/${post.data.date.toISOString().slice(0, 4)}/${post.data.date.toISOString().slice(5, 7)}/${post.slug}/`} title='Permalink'>
+                            <small>
+                                {post.data.date.toLocaleDateString('en-US', {
+                                    year: 'numeric',
+                                    month: 'short',
+                                    day: 'numeric',
+                                })}
+                            </small>
+                        </a>
+                    </div>
+                </header>
+                
+                {hasExcerpt ? (
+                    <div set:html={remarkPluginFrontmatter.excerpt} />
+                ) : (
+                    <Content />
+                )}
+                
+                {hasExcerpt && (
+                   <p><a href={`/${post.data.date.toISOString().slice(0, 4)}/${post.data.date.toISOString().slice(5, 7)}/${post.slug}/`}>
+                        {post.data.readMoreText || "Read more..."}
+                   </a></p>
+                )}
+                
+                {!isLast && <hr class='postDivider'>}
+            </article>
+        );
+    })}
+    
+    <div class="pagination-wrapper">
+        <div class="pagination-controls">
+            {page.url.prev && <a href={page.url.prev}>Newer Posts</a>}
+            {page.url.prev && page.url.next && <span class="separator">•</span>}
+            {page.url.next && <a href={page.url.next}>Older Posts</a>}
+        </div>
+    </div>
+</BaseLayout>
+
+<style>
+    .pagination-wrapper {
+        text-align: center;
+        margin-top: 2em; /* Increased spacing as requested */
+        margin-bottom: 3em;
+        padding-top: 2em;
+        border-top: 3px solid rgb(37,37,37); /* Darker color for visibility */
+        width: 100%;
+        display: block;
+    }
+    
+    .pagination-controls {
+        display: inline-block;
+        font-family: Helvetica, sans-serif;
+        font-size: 18px;
+    }
+    
+    .pagination-controls a {
+        color: #999;
+        font-weight: 300;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+    .pagination-controls a:hover {
+        color: #ff3333;
+        text-decoration: underline;
+    }
+    
+    .separator {
+        color: #ccc;
+    }
+</style>
