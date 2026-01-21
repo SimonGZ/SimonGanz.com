@@ -1,0 +1,85 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const allProjects = await getCollection("projects");
+
+const creativeProjects = allProjects
+  .filter((project) => project.data.type === "creative")
+  .sort((a, b) => a.data.order - b.data.order);
+
+const techProjects = allProjects
+  .filter((project) => project.data.type === "tech")
+  .sort((a, b) => a.data.order - b.data.order);
+---
+
+<BaseLayout
+  title="Projects | Simon Ganz"
+  description="Creative and Technical Projects by Simon Ganz"
+>
+  <section>
+    <h1>Projects</h1>
+
+    <h2>Creative</h2>
+    <div class="projects-grid">
+      {
+        creativeProjects.map((project) => (
+          <div class="project-card">
+            <h3>
+              <a href={`/projects/${project.slug}/`}>{project.data.title}</a>
+            </h3>
+            <p>{project.data.description}</p>
+          </div>
+        ))
+      }
+    </div>
+
+    <h2>Technology</h2>
+    <div class="projects-grid">
+      {
+        techProjects.map((project) => (
+          <div class="project-card">
+            <h3>
+              <a href={`/projects/${project.slug}/`}>{project.data.title}</a>
+              {project.data.status === "inactive" && (
+                <span class="status-badge inactive">Inactive</span>
+              )}
+              {project.data.status === "active" && (
+                <span class="status-badge active">Active</span>
+              )}
+            </h3>
+            <p>{project.data.description}</p>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .projects-grid {
+    display: grid;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  .project-card {
+    border: 1px solid #eee;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  .status-badge {
+    font-size: 0.8em;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+  }
+  .status-badge.inactive {
+    background-color: #f0f0f0;
+    color: #666;
+  }
+  .status-badge.active {
+    background-color: #e6fffa;
+    color: #047481;
+  }
+</style>
