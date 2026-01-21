@@ -1,58 +1,52 @@
 ---
-import '../styles/global.css';
+import "../styles/global.css";
 
 interface Props {
-	title: string;
-	description?: string;
+  title: string;
+  description?: string;
 }
 
-const { title, description = "Personal blog of Simon Ganz, covering topics such as screenwriting, comedy, and technology." } = Astro.props;
+const {
+  title,
+  description = "Personal blog of Simon Ganz, covering topics such as screenwriting, comedy, and technology.",
+} = Astro.props;
 ---
 
-<!DOCTYPE html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class='no-js'>
-<!--<![endif]-->
-<head>
-    <meta charset='utf-8'>
-    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
     <title>{title}</title>
-    <meta content={description} name='description'>
-    <meta content='Simon Ganz' name='author'>
-    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <meta content={description} name="description" />
+    <meta content="Simon Ganz" name="author" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <!-- OG tags and others can be added here progressively -->
-</head>
-<body>
-    <div class='container'>
-        <header class='title' role='banner'>
-            <h1>
-                <a href='/' title='Simon Ganz.com'>
-                    Simon Ganz
-                </a>
-            </h1>
-        </header>
-        <nav role='navigation'>
-            <ul>
-                <li>
-                    <a href='http://twitter.com/simonganz' title='@simonganz'>Twitter</a>
-                </li>
-                <li>
-                    <a href='/projects/' title='Projects'>Projects</a>
-                </li>
-                <li>
-                    <a href='/about/' title='About'>About</a>
-                </li>
-            </ul>
-        </nav>
-        <div id='main-content' role='main'>
-            <slot />
-        </div>
+  </head>
+  <body>
+    <div class="container">
+      <header class="title" role="banner">
+        <h1>
+          <a href="/" title="Simon Ganz.com"> Simon Ganz </a>
+        </h1>
+      </header>
+      <nav role="navigation">
+        <ul>
+          <li>
+            <a href="http://twitter.com/simonganz" title="@simonganz">Twitter</a
+            >
+          </li>
+          <li>
+            <a href="/projects/" title="Projects">Projects</a>
+          </li>
+          <li>
+            <a href="/about/" title="About">About</a>
+          </li>
+        </ul>
+      </nav>
+      <div id="main-content" role="main">
+        <slot />
+      </div>
     </div>
-    
-    <!-- Legacy scripts - we might want to replace these with modern equivalents or just drop them if not needed -->
-    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script> -->
-</body>
+  </body>
 </html>
