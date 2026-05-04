@@ -26,7 +26,7 @@ const techProjects = allProjects
         creativeProjects.map((project) => (
           <div class="project-card">
             <h3>
-              <a href={`/projects/${project.slug}/`}>{project.data.title}</a>
+              <a href={`/projects/${project.id}/`}>{project.data.title}</a>
             </h3>
             <p>{project.data.description}</p>
           </div>
@@ -40,7 +40,7 @@ const techProjects = allProjects
         techProjects.map((project) => (
           <div class="project-card">
             <h3>
-              <a href={`/projects/${project.slug}/`}>{project.data.title}</a>
+              <a href={`/projects/${project.id}/`}>{project.data.title}</a>
               {project.data.status === "inactive" && (
                 <span class="status-badge inactive">Inactive</span>
               )}

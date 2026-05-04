@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths({ paginate }) {
     const posts = (await getCollection('blog')).sort(
@@ -106,7 +106,7 @@ const description = "Personal blog of Simon Ganz, covering topics such as screen
 
 <BaseLayout title={title} description={description}>
     {page.data.map(async (post, index) => {
-        const { Content, remarkPluginFrontmatter } = await post.render();
+        const { Content, remarkPluginFrontmatter } = await render(post);
         const hasExcerpt = !!remarkPluginFrontmatter.excerpt;
         const isLast = index === page.data.length - 1;
         
@@ -114,10 +114,10 @@ const description = "Personal blog of Simon Ganz, covering topics such as screen
             <article>
                 <header>
                     <h1>
-                        <a href={`/${post.data.date.toISOString().slice(0, 4)}/${post.data.date.toISOString().slice(5, 7)}/${post.slug}/`} title={post.data.title}>{post.data.title}</a>
+                        <a href={`/${post.data.date.toISOString().slice(0, 4)}/${post.data.date.toISOString().slice(5, 7)}/${post.id}/`} title={post.data.title}>{post.data.title}</a>
                     </h1>
                     <div class='postDate'>
-                        <a href={`/${post.data.date.toISOString().slice(0, 4)}/${post.data.date.toISOString().slice(5, 7)}/${post.slug}/`} title='Permalink'>
+                        <a href={`/${post.data.date.toISOString().slice(0, 4)}/${post.data.date.toISOString().slice(5, 7)}/${post.id}/`} title='Permalink'>
                             <small>
                                 {post.data.date.toLocaleDateString('en-US', {
                                     year: 'numeric',
@@ -136,7 +136,7 @@ const description = "Personal blog of Simon Ganz, covering topics such as screen
                 )}
                 
                 {hasExcerpt && (
-                   <p><a href={`/${post.data.date.toISOString().slice(0, 4)}/${post.data.date.toISOString().slice(5, 7)}/${post.slug}/`}>
+                   <p><a href={`/${post.data.date.toISOString().slice(0, 4)}/${post.data.date.toISOString().slice(5, 7)}/${post.id}/`}>
                         {post.data.readMoreText || "Read more..."}
                    </a></p>
                 )}
