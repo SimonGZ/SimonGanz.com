@@ -11,81 +11,437 @@ const creativeProjects = allProjects
 const techProjects = allProjects
   .filter((project) => project.data.type === "tech")
   .sort((a, b) => a.data.order - b.data.order);
+
+const availableHeroImages = new Set([
+  "/images/HTT2.jpg",
+  "/images/SCD.jpg",
+  "/images/about-a-boy.jpg",
+  "/images/hulk.jpg",
+  "/images/miss2059.jpg",
+  "/images/ranndyInterface.png",
+  "/images/walkscoreExtensionScreenshot.jpg",
+]);
+
+const getHeroImage = (project) =>
+  project.data.heroImage && availableHeroImages.has(project.data.heroImage)
+    ? project.data.heroImage
+    : undefined;
+
+const getProjectClass = (project) =>
+  `project-card project-card-${project.data.type} project-${project.id}`;
 ---
 
 <BaseLayout
   title="Projects | Simon Ganz"
   description="Creative and Technical Projects by Simon Ganz"
 >
-  <section>
-    <h1>Projects</h1>
+  <section class="projects-page">
+    <header class="projects-intro">
+      <h1>Projects</h1>
+    </header>
 
-    <h2>Creative</h2>
-    <div class="projects-grid">
-      {
-        creativeProjects.map((project) => (
-          <div class="project-card">
-            <h3>
-              <a href={`/projects/${project.id}/`}>{project.data.title}</a>
-            </h3>
-            <p>{project.data.description}</p>
-          </div>
-        ))
-      }
-    </div>
+    <section class="project-section" aria-labelledby="creative-heading">
+      <div class="section-heading">
+        <h2 id="creative-heading">Creative</h2>
+        <span>{creativeProjects.length} selected projects</span>
+      </div>
 
-    <h2>Technology</h2>
-    <div class="projects-grid">
-      {
-        techProjects.map((project) => (
-          <div class="project-card">
-            <h3>
-              <a href={`/projects/${project.id}/`}>{project.data.title}</a>
-              {project.data.status === "inactive" && (
-                <span class="status-badge inactive">Inactive</span>
-              )}
-              {project.data.status === "active" && (
-                <span class="status-badge active">Active</span>
-              )}
-            </h3>
-            <p>{project.data.description}</p>
-          </div>
-        ))
-      }
-    </div>
+      <div class="creative-grid">
+        {
+          creativeProjects.map((project, index) => (
+            <article class={`${getProjectClass(project)} ${index === 0 ? "project-card-featured" : ""}`}>
+              <a class="project-link" href={`/projects/${project.id}/`}>
+                <div class="project-media" aria-hidden="true">
+                  {getHeroImage(project) ? (
+                    <img src={getHeroImage(project)} alt="" loading={index === 0 ? "eager" : "lazy"} />
+                  ) : (
+                    <div class="project-placeholder" />
+                  )}
+                </div>
+                <div class="project-copy">
+                  <h3>{project.data.title}</h3>
+                  <p>{project.data.description}</p>
+                </div>
+              </a>
+            </article>
+          ))
+        }
+      </div>
+    </section>
+
+    <section class="project-section" aria-labelledby="technology-heading">
+      <div class="section-heading">
+        <h2 id="technology-heading">Technology</h2>
+        <span>{techProjects.length} tools and experiments</span>
+      </div>
+
+      <div class="tech-grid">
+        {
+          techProjects.map((project) => (
+            <article class={getProjectClass(project)}>
+              <a class="project-link" href={`/projects/${project.id}/`}>
+                <div class="project-media" aria-hidden="true">
+                  {getHeroImage(project) ? (
+                    <img src={getHeroImage(project)} alt="" loading="lazy" />
+                  ) : (
+                    <div class="project-placeholder" />
+                  )}
+                </div>
+                <div class="project-copy">
+                  <div class="project-title-row">
+                    <h3>{project.data.title}</h3>
+                    {project.data.status && (
+                      <span class={`status-badge ${project.data.status}`}>
+                        {project.data.status === "active" ? "Active" : "Inactive"}
+                      </span>
+                    )}
+                  </div>
+                  <p>{project.data.description}</p>
+                </div>
+              </a>
+            </article>
+          ))
+        }
+      </div>
+    </section>
   </section>
 </BaseLayout>
 
 <style>
-  .projects-grid {
+  .projects-page {
+    padding-bottom: 3rem;
+  }
+
+  .projects-intro {
+    margin-bottom: 2.25rem;
+  }
+
+  .projects-intro h1 {
+    color: #252525;
+    margin-bottom: 0;
+  }
+
+  .project-section {
+    margin: 0 0 3.75rem;
+  }
+
+  .section-heading {
+    align-items: baseline;
+    border-top: 3px solid #252525;
+    display: flex;
+    gap: 0.75rem;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding-top: 0.7rem;
+  }
+
+  .section-heading h2 {
+    color: #252525;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 1.1;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  .section-heading span {
+    color: #7c7770;
+    font-size: 14px;
+    line-height: 1;
+  }
+
+  .creative-grid,
+  .tech-grid {
     display: grid;
-    gap: 2rem;
-    margin-bottom: 3rem;
+    gap: 1rem;
   }
+
   .project-card {
-    border: 1px solid #eee;
-    padding: 1rem;
+    background: #f3f3f3;
+    border: 1px solid #dddddd;
     border-radius: 8px;
+    overflow: hidden;
+    transition: border-color 160ms ease;
   }
-  .project-card h3 {
+
+  .project-link,
+  .project-link:visited {
+    color: #252525;
+    display: grid;
+    min-height: 100%;
     text-decoration: none;
   }
-  .project-card h3 a {
-    text-decoration: underline;
+
+  .project-link:hover h3 {
+    color: #ff3333;
   }
+
+  .project-card:hover {
+    border-color: #bdbdbd;
+  }
+
+  .project-media {
+    aspect-ratio: 16 / 10;
+    background: #eee8df;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .project-media img {
+    border-radius: 0;
+    display: block;
+    height: 100%;
+    margin: 0;
+    object-fit: cover;
+    width: 100%;
+    transition: transform 240ms ease;
+  }
+
+  .project-card:hover .project-media img {
+    transform: scale(1.025);
+  }
+
+  .project-media:after {
+    background:
+      linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),
+      linear-gradient(90deg, rgba(253, 253, 253, 0.1), rgba(255, 51, 51, 0.05));
+    bottom: 0;
+    content: "";
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .project-copy {
+    background:
+      linear-gradient(135deg, rgba(255, 51, 51, 0.1), rgba(255, 51, 51, 0) 34%),
+      linear-gradient(180deg, #ffffff, #f1f1f1);
+    border-top: 1px solid rgba(37, 37, 37, 0.08);
+    min-height: 100%;
+    padding: 1rem;
+  }
+
+  .project-card h3 {
+    color: #252525;
+    font-size: 24px;
+    line-height: 1.05;
+    margin: 0;
+    text-decoration: none;
+  }
+
+  .project-card p {
+    color: #3d3b38;
+    font-size: 17px;
+    line-height: 1.35;
+    margin: 0.65rem 0 0;
+  }
+
+  .project-title-row {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding-right: 4.4rem;
+    position: relative;
+  }
+
   .status-badge {
-    font-size: 0.8em;
-    padding: 0.2rem 0.5rem;
     border-radius: 4px;
-    margin-left: 0.5rem;
-    vertical-align: middle;
+    display: inline-flex;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    padding: 0.35rem 0.45rem;
+    position: absolute;
+    right: 0;
+    top: 0.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
   }
-  .status-badge.inactive {
-    background-color: #f0f0f0;
-    color: #666;
-  }
+
   .status-badge.active {
-    background-color: #e6fffa;
-    color: #047481;
+    background: #d9fff4;
+    color: #046b5b;
+  }
+
+  .status-badge.inactive {
+    background: #eeeae5;
+    color: #625f59;
+  }
+
+  .project-placeholder {
+    height: 100%;
+    position: relative;
+    width: 100%;
+  }
+
+  .project-fountain-loader .project-placeholder {
+    background:
+      linear-gradient(90deg, rgba(37, 37, 37, 0.08) 1px, transparent 1px) 20px 0 / 18px 100%,
+      linear-gradient(#f9f7f2, #e7e1d8);
+  }
+
+  .project-fountain-loader .project-placeholder:before,
+  .project-fountain-loader .project-placeholder:after {
+    background: rgba(37, 37, 37, 0.72);
+    border-radius: 2px;
+    content: "";
+    height: 8px;
+    left: 12%;
+    position: absolute;
+    right: 18%;
+  }
+
+  .project-fountain-loader .project-placeholder:before {
+    box-shadow:
+      0 26px rgba(37, 37, 37, 0.35),
+      0 52px rgba(37, 37, 37, 0.2);
+    top: 24%;
+  }
+
+  .project-fountain-loader .project-placeholder:after {
+    background: #ff3333;
+    right: 48%;
+    top: 68%;
+  }
+
+  .project-friday-night-at-the-luncheonette .project-placeholder {
+    background:
+      linear-gradient(180deg, rgba(37, 37, 37, 0.16), rgba(37, 37, 37, 0.08) 48%, rgba(37, 37, 37, 0.18) 49%, rgba(37, 37, 37, 0.08) 50%),
+      radial-gradient(circle at 38% 28%, rgba(255, 255, 255, 0.85) 0 9%, transparent 10%),
+      radial-gradient(circle at 61% 31%, rgba(255, 255, 255, 0.7) 0 7%, transparent 8%),
+      linear-gradient(135deg, #ff3333, #6d2d2d 54%, #252525);
+  }
+
+  .project-friday-night-at-the-luncheonette .project-placeholder:before {
+    background: rgba(255, 255, 255, 0.82);
+    border-radius: 2px;
+    box-shadow:
+      0 14px rgba(255, 255, 255, 0.32),
+      0 28px rgba(255, 255, 255, 0.18);
+    content: "";
+    height: 8px;
+    left: 18%;
+    position: absolute;
+    top: 62%;
+    width: 44%;
+  }
+
+  .project-friday-night-at-the-luncheonette .project-placeholder:after {
+    border: 2px solid rgba(255, 255, 255, 0.74);
+    border-radius: 999px;
+    content: "";
+    height: 62px;
+    position: absolute;
+    right: 14%;
+    top: calc(50% - 31px);
+    width: 62px;
+  }
+
+  @media (min-width: 620px) {
+    .creative-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .project-card-featured {
+      grid-column: span 2;
+    }
+
+    .project-card-featured .project-link {
+      grid-template-columns: minmax(0, 1.35fr) minmax(220px, 0.65fr);
+    }
+
+    .project-card-featured .project-media {
+      aspect-ratio: 16 / 9;
+    }
+
+    .project-card-featured .project-copy {
+      align-self: end;
+      padding: 1.2rem;
+    }
+
+    .tech-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (min-width: 900px) {
+    .projects-page {
+      margin-left: calc((671px - min(94vw, 1080px)) / 2);
+      width: min(94vw, 1080px);
+    }
+
+    .creative-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .project-card-featured {
+      grid-column: span 2;
+    }
+
+    .project-card-featured .project-link {
+      display: grid;
+      grid-template-columns: minmax(0, 1.45fr) minmax(260px, 0.55fr);
+    }
+
+    .project-card-featured .project-media {
+      aspect-ratio: 16 / 9;
+      height: auto;
+      min-height: 0;
+    }
+
+    .project-card-featured .project-media:after {
+      background:
+        linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.24)),
+        linear-gradient(90deg, rgba(255, 51, 51, 0.08), rgba(0, 0, 0, 0));
+    }
+
+    .project-card-featured .project-copy {
+      align-self: end;
+      border-left: 1px solid rgba(37, 37, 37, 0.08);
+      border-top: 0;
+      padding: 1.5rem;
+      position: static;
+    }
+
+    .project-card-featured h3 {
+      color: #252525;
+      font-size: 34px;
+      max-width: 520px;
+      text-shadow: none;
+    }
+
+    .project-card-featured p {
+      color: #3d3b38;
+      max-width: 620px;
+      text-shadow: none;
+    }
+
+    .project-card-featured:hover h3 {
+      color: #ff3333;
+    }
+
+    .tech-grid {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .project-card-tech .project-media {
+      aspect-ratio: 4 / 3;
+    }
+
+    .project-card-tech h3 {
+      font-size: 20px;
+    }
+
+    .project-card-tech p {
+      display: -webkit-box;
+      font-size: 15px;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      line-height: 1.35;
+      overflow: hidden;
+    }
   }
 </style>
