@@ -43,7 +43,7 @@
   margin-top: 12px;
 }
 .container header.title h1 {
-  font-size: 52px;
+  font-size: 46px;
 }
 .container header.title a,
 .container header.title a:visited {
@@ -51,6 +51,29 @@
   font-family: Helvetica;
   font-weight: 700;
   font-style: normal;
+}
+.container header.title .site-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  white-space: nowrap;
+}
+.container header.title .site-title img {
+  display: block;
+  width: 52px;
+  height: auto;
+  margin: 0;
+  border-radius: 0;
+}
+@media (max-width: 379px) {
+  .container header.title h1,
+  .container header.title .site-title {
+    font-size: 40px;
+    line-height: 1.1em;
+  }
+  .container header.title .site-title img {
+    width: 44px;
+  }
 }
 .container nav {
   margin: 4px 0 25px 0;
@@ -267,6 +290,15 @@ hr:after {
     font-size: 90px;
     line-height: 90px;
   }
+  .container header.title .site-title img {
+    width: 108px;
+  }
+  .container header.title .site-title {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 1rem;
+  }
   nav {
     font-size: 25px;
   }
@@ -291,4 +323,3 @@ hr:after {
     line-height: 25px;
   }
 } 
-
