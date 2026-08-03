@@ -1,0 +1,55 @@
+---
+import { type CollectionEntry, getCollection, render } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("projects");
+  return posts.map((post) => ({
+    params: { slug: post.id },
+    props: post,
+  }));
+}
+type Props = CollectionEntry<"projects">;
+
+const post = Astro.props;
+const { Content } = await render(post);
+---
+
+<BaseLayout title={post.data.title} description={post.data.description}>
+  <article>
+    <h1>{post.data.title}</h1>
+    {
+      post.data.type === "tech" && post.data.status && (
+        <p class="status-indicator">
+          Status: <strong>{post.data.status}</strong>
+        </p>
+      )
+    }
+    {
+      post.data.heroImage && (
+        <img
+          class="project-hero"
+          src={post.data.heroImage}
+          alt={`${post.data.title} hero image`}
+        />
+      )
+    }
+    <Content />
+  </article>
+</BaseLayout>
+
+<style>
+  .status-indicator {
+    font-style: italic;
+    color: #666;
+  }
+
+  .project-hero {
+    display: block;
+    height: auto;
+    margin: 1.5em auto 2em;
+    max-height: 32rem;
+    max-width: 100%;
+    object-fit: contain;
+  }
+</style>

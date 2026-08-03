@@ -1,0 +1,57 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const {
+  title,
+  description = "Personal blog of Simon Ganz, covering topics such as screenwriting, comedy, and technology.",
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+    <title>{title}</title>
+    <meta content={description} name="description" />
+    <meta content="Simon Ganz" name="author" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <!-- OG tags and others can be added here progressively -->
+  </head>
+  <body>
+    <div class="container">
+      <header class="title" role="banner">
+        <h1>
+          <a class="site-title" href="/" title="Simon Ganz.com">
+            <img
+              src="/images/simon-logo.svg"
+              alt=""
+              aria-hidden="true"
+              width="2019"
+              height="1535"
+            />
+            <span>Simon Ganz</span>
+          </a>
+        </h1>
+      </header>
+      <nav role="navigation">
+        <ul>
+          <li>
+            <a href="/projects/" title="Projects">Projects</a>
+          </li>
+          <li>
+            <a href="/about/" title="About">About</a>
+          </li>
+        </ul>
+      </nav>
+      <div id="main-content" role="main">
+        <slot />
+      </div>
+    </div>
+  </body>
+</html>

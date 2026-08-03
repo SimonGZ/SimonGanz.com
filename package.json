@@ -1,0 +1,22 @@
+{
+  "name": "certain-crater",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "new-post": "node new-post.mjs"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^5.0.4",
+    "astro": "^6.2.1",
+    "hast-util-to-html": "^9.0.5",
+    "mdast-util-to-hast": "^13.2.1",
+    "mdast-util-to-string": "^4.0.0"
+  },
+  "devDependencies": {
+    "@astrojs/language-server": "^2.16.7"
+  }
+}
