@@ -25,7 +25,15 @@ const { Content } = await render(post);
         </p>
       )
     }
-    <hr />
+    {
+      post.data.heroImage && (
+        <img
+          class="project-hero"
+          src={post.data.heroImage}
+          alt={`${post.data.title} hero image`}
+        />
+      )
+    }
     <Content />
   </article>
 </BaseLayout>
@@ -34,5 +42,14 @@ const { Content } = await render(post);
   .status-indicator {
     font-style: italic;
     color: #666;
+  }
+
+  .project-hero {
+    display: block;
+    height: auto;
+    margin: 1.5em auto 2em;
+    max-height: 32rem;
+    max-width: 100%;
+    object-fit: contain;
   }
 </style>
