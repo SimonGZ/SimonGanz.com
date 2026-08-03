@@ -6,7 +6,12 @@ description: "A review of Star Trek Into Darkness, examining how the film misuse
 
 
 
-<img src="/images/starTrekIntoDarkness.jpg" title="Star Trek Into Darkness" />
+import { Picture } from 'astro:assets';
+import intoDarkness from '../../assets/images/starTrekIntoDarkness.jpg';
+import wrathOfKhan from '../../assets/images/wrathOfKhan.jpg';
+import intoDarkness2 from '../../assets/images/starTrekIntoDarkness2.jpg';
+
+<Picture src={intoDarkness} formats={['avif', 'webp']} alt="Star Trek Into Darkness" />
 
 
 *NOTE: This review contains spoilers and nerdery.*
@@ -26,7 +31,7 @@ The real problem is deeper. Star Trek Into Darkness borrows haphazardly from Sta
 ## "Aren't You Dead?"
 
 
-<img src="/images/wrathOfKhan.jpg" title="Star Trek II: Wrath of Khan" />
+<Picture src={wrathOfKhan} formats={['avif', 'webp']} alt="Star Trek II: Wrath of Khan" />
 
 
 Wrath of Khan is beloved because it has a powerful thematic story that is appropriate to its characters and its context.
@@ -49,7 +54,7 @@ Wrath of Khan knows the story it's trying to tell and it selects every element t
 ## "Khaaaaaaaaaan!"
 
 
-<img src="/images/starTrekIntoDarkness2.jpg" title="Star Trek Into Darkness" />
+<Picture src={intoDarkness2} formats={['avif', 'webp']} alt="Star Trek Into Darkness" />
 
 
 Compare this to Into Darkness, which remixes the elements and climactic scenes from Wrath of Khan using a cast of 30-somethings going on their first missions.

@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
+import { Picture } from "astro:assets";
 
 const allProjects = await getCollection("projects");
 
@@ -11,24 +12,6 @@ const creativeProjects = allProjects
 const techProjects = allProjects
   .filter((project) => project.data.type === "tech")
   .sort((a, b) => a.data.order - b.data.order);
-
-const availableHeroImages = new Set([
-  "/images/HTT2.jpg",
-  "/images/SCD.jpg",
-  "/images/about-a-boy.jpg",
-  "/images/friday-night-at-the-luncheonette.jpg",
-  "/images/fountain-loader-screenshot.png",
-  "/images/hulk.jpg",
-  "/images/jumpcut-logo.png",
-  "/images/miss2059.jpg",
-  "/images/ranndyInterface.png",
-  "/images/walkscoreExtensionScreenshot.jpg",
-]);
-
-const getHeroImage = (project) =>
-  project.data.heroImage && availableHeroImages.has(project.data.heroImage)
-    ? project.data.heroImage
-    : undefined;
 
 const getProjectClass = (project) =>
   `project-card project-card-${project.data.type} project-${project.id}`;
@@ -55,8 +38,8 @@ const getProjectClass = (project) =>
             <article class={`${getProjectClass(project)} ${index === 0 ? "project-card-featured" : ""}`}>
               <a class="project-link" href={`/projects/${project.id}/`}>
                 <div class="project-media" aria-hidden="true">
-                  {getHeroImage(project) ? (
-                    <img src={getHeroImage(project)} alt="" loading={index === 0 ? "eager" : "lazy"} />
+                  {project.data.heroImage ? (
+                    <Picture src={project.data.heroImage} formats={['avif', 'webp']} widths={[400, 800]} sizes="(max-width: 700px) 95vw, 400px" alt="" loading={index === 0 ? "eager" : "lazy"} />
                   ) : (
                     <div class="project-placeholder" />
                   )}
@@ -84,8 +67,8 @@ const getProjectClass = (project) =>
             <article class={getProjectClass(project)}>
               <a class="project-link" href={`/projects/${project.id}/`}>
                 <div class="project-media" aria-hidden="true">
-                  {getHeroImage(project) ? (
-                    <img src={getHeroImage(project)} alt="" loading="lazy" />
+                  {project.data.heroImage ? (
+                    <Picture src={project.data.heroImage} formats={['avif', 'webp']} widths={[400, 800]} sizes="(max-width: 700px) 95vw, 400px" alt="" loading="lazy" />
                   ) : (
                     <div class="project-placeholder" />
                   )}

@@ -1,4 +1,7 @@
 ---
+import { Image } from 'astro:assets';
+import mapPreview from '../assets/images/preferential-parking-map-preview.png';
+
 interface Props {
   src: string;
   title: string;
@@ -8,9 +11,9 @@ const { src, title } = Astro.props;
 ---
 
 <div class="deferred-map" data-deferred-map data-src={src} data-title={title}>
-  <img
+  <Image
     class="deferred-map__preview"
-    src="/images/preferential-parking-map-preview.png"
+    src={mapPreview}
     alt="Preview of Los Angeles preferential parking districts"
     width="1280"
     height="720"

@@ -6,7 +6,10 @@ description: "Tips for dealing with Craigslist buyers."
 
 
 
-<img src="/images/garageSale.jpg" title="Craigslist sales" />
+import { Picture } from 'astro:assets';
+import garageSale from '../../assets/images/garageSale.jpg';
+
+<Picture src={garageSale} formats={['avif', 'webp']} alt="Craigslist sales" />
 <small><a href="http://www.flickr.com/photos/wonderal/3532838482/">Photo Credit: wonder_al</a></small>
 
 

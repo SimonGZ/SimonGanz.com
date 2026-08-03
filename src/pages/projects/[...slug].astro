@@ -1,6 +1,7 @@
 ---
 import { type CollectionEntry, getCollection, render } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { Picture } from "astro:assets";
 
 export async function getStaticPaths() {
   const posts = await getCollection("projects");
@@ -27,9 +28,12 @@ const { Content } = await render(post);
     }
     {
       post.data.heroImage && (
-        <img
+        <Picture
           class="project-hero"
           src={post.data.heroImage}
+          formats={['avif', 'webp']}
+          widths={[640, 960, 1280]}
+          sizes="(max-width: 671px) 95vw, 671px"
           alt={`${post.data.title} hero image`}
         />
       )
@@ -44,7 +48,7 @@ const { Content } = await render(post);
     color: #666;
   }
 
-  .project-hero {
+  :global(.project-hero) {
     display: block;
     height: auto;
     margin: 1.5em auto 2em;

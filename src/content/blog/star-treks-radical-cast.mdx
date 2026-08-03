@@ -5,7 +5,10 @@ description: "A reboot of Star Trek cannot reflect the radical nature of the 196
 tags: "film"
 ---
 
-<img src="/images/StarTrekTOSCrew.jpg" title="Star Trek Original Crew" />
+import { Picture } from 'astro:assets';
+import originalCrew from '../../assets/images/StarTrekTOSCrew.jpg';
+
+<Picture src={originalCrew} formats={['avif', 'webp']} alt="Star Trek Original Crew" />
 
 > At the time, though, this was disconcertingly radical, it didn't respect conventional norms. There was a black woman who wasn't a cook or maid; there was a Russian (the Enemy of the current Cold War), and a Japanese (an Enemy from a previous war). Sulu and Chekov looked like the Bad Guys -- but they weren't. Spock, too, looked weird, alien, almost devilish -- as though he, too, was supposed to be a Bad Guy.
 

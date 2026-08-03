@@ -7,7 +7,10 @@ description: "Man of Steel lacks original or inventive ideas for its superhero f
 
 
 
-<img src="/images/manOfSteel.jpg" title="Man of Steel" />
+import { Picture } from 'astro:assets';
+import manOfSteel from '../../assets/images/manOfSteel.jpg';
+
+<Picture src={manOfSteel} formats={['avif', 'webp']} alt="Man of Steel" />
 
 
 I did not like Man of Steel. If you want to know why, I recommend two posts about the film: 

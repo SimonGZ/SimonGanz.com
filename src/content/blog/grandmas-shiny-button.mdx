@@ -4,7 +4,10 @@ date: 2011-04-06T00:00:00.000Z
 description: "A series of increasingly elaborate attempts to make Mets games accessible to a visually impaired grandmother."
 ---
 
-<img src="/images/powermate.jpg" title="Griffin Powermate" />
+import { Picture } from 'astro:assets';
+import powermate from '../../assets/images/powermate.jpg';
+
+<Picture src={powermate} formats={['avif', 'webp']} alt="Griffin Powermate" />
 
 ## The Problem
 
