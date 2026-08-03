@@ -1,0 +1,48 @@
+---
+interface Props {
+  src: string;
+  title: string;
+}
+
+const { src, title } = Astro.props;
+---
+
+<div class="video-container deferred-youtube" data-deferred-youtube data-src={src} data-title={title}>
+  <div class="deferred-youtube__placeholder" aria-label={`Video: ${title}`} role="status">
+    Video loads when it enters the viewport.
+  </div>
+</div>
+
+<script>
+  const loadYouTube = (container: HTMLElement) => {
+    if (container.dataset.loaded === 'true') return;
+
+    const iframe = document.createElement('iframe');
+    iframe.src = container.dataset.src ?? '';
+    iframe.title = container.dataset.title ?? 'YouTube video';
+    iframe.width = '560';
+    iframe.height = '315';
+    iframe.loading = 'lazy';
+    iframe.allowFullscreen = true;
+    iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+    container.replaceChildren(iframe);
+    container.dataset.loaded = 'true';
+  };
+
+  const containers = document.querySelectorAll<HTMLElement>('[data-deferred-youtube]');
+
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          loadYouTube(entry.target as HTMLElement);
+          observer.unobserve(entry.target);
+        }
+      });
+    });
+
+    containers.forEach((container) => observer.observe(container));
+  } else {
+    containers.forEach(loadYouTube);
+  }
+</script>

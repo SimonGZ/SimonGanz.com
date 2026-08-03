@@ -158,6 +158,20 @@
   height: 100%;
 }
 
+.container article .deferred-youtube {
+  background: #111;
+}
+
+.container article .deferred-youtube__placeholder {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  font: 14px/1.4 Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
 /* Kept global because blog content rendered through the index's dynamic MDX
    path does not reliably retain Astro component style-scope attributes. */
 .deferred-map {

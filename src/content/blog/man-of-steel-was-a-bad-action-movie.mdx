@@ -9,6 +9,7 @@ description: "Man of Steel lacks original or inventive ideas for its superhero f
 
 import { Picture } from 'astro:assets';
 import manOfSteel from '../../assets/images/manOfSteel.jpg';
+import DeferredYouTube from '../../components/DeferredYouTube.astro';
 
 <Picture src={manOfSteel} formats={['avif', 'webp']} alt="Man of Steel" />
 
@@ -32,9 +33,10 @@ The action scenes also lack character. We rarely understand the personal stakes 
 
 What's so sad about this is that fun goofy action shouldn't require you to turn your brain off or ignore the story. Just look at the batpod sequence in *The Dark Knight*:
 
-<div class="video-container">
-  <iframe width="560" height="315" src="//www.youtube.com/embed/FPaTv98wUsE" frameborder="0" allowfullscreen></iframe>
-</div>
+<DeferredYouTube
+  src="https://www.youtube.com/embed/FPaTv98wUsE"
+  title="The Dark Knight batpod sequence"
+/>
 
 The *Dark Knight* batpod sequence is much, much smaller than even the opening action scenes in Man of Steel, but it feels grounded and visceral. Harvey Dent, a character we've spent significant time with, is in mortal peril after bravely standing up to the Joker by claiming that he is Batman. If the Joker kills Harvey, the city will be thrown into further panic and chaos. Also in the audience's mind: Harvey and Batman are competing for the same woman, Rachel, so Batman saving Harvey will have significant personal consequences.
 
