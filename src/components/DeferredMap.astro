@@ -1,0 +1,42 @@
+---
+interface Props {
+  src: string;
+  title: string;
+}
+
+const { src, title } = Astro.props;
+---
+
+<div class="deferred-map" data-deferred-map data-src={src} data-title={title}>
+  <img
+    class="deferred-map__preview"
+    src="/images/preferential-parking-map-preview.png"
+    alt="Preview of Los Angeles preferential parking districts"
+    width="1280"
+    height="720"
+  />
+  <button class="deferred-map__button" type="button">
+    <span class="deferred-map__badge">
+      <span class="deferred-map__badge-mark" aria-hidden="true">MAP</span>
+      <span>Click to Load Map</span>
+    </span>
+    <span class="sr-only">Load the interactive map of Los Angeles preferential parking districts.</span>
+  </button>
+</div>
+
+<script>
+  document.querySelectorAll('[data-deferred-map]').forEach((container) => {
+    const button = container.querySelector('button');
+
+    button?.addEventListener('click', () => {
+      const iframe = document.createElement('iframe');
+      iframe.src = container.dataset.src ?? '';
+      iframe.title = container.dataset.title ?? 'Interactive map';
+      iframe.width = '640';
+      iframe.height = '480';
+      iframe.loading = 'lazy';
+      iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+      container.replaceChildren(iframe);
+    }, { once: true });
+  });
+</script>
