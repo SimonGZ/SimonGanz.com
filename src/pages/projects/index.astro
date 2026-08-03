@@ -222,7 +222,6 @@ const getProjectClass = (project) =>
       linear-gradient(135deg, rgba(255, 51, 51, 0.1), rgba(255, 51, 51, 0) 34%),
       linear-gradient(180deg, #ffffff, #f1f1f1);
     border-top: 1px solid rgba(37, 37, 37, 0.08);
-    min-height: 100%;
     padding: 1rem;
   }
 
@@ -357,11 +356,15 @@ const getProjectClass = (project) =>
     }
 
     .project-card-featured .project-media {
-      aspect-ratio: 16 / 9;
+      aspect-ratio: auto;
+      height: clamp(260px, 26vw, 300px);
     }
 
     .project-card-featured .project-copy {
-      align-self: end;
+      align-self: stretch;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       padding: 1.2rem;
     }
 
@@ -390,8 +393,8 @@ const getProjectClass = (project) =>
     }
 
     .project-card-featured .project-media {
-      aspect-ratio: 16 / 9;
-      height: auto;
+      aspect-ratio: auto;
+      height: clamp(260px, 26vw, 300px);
       min-height: 0;
     }
 
@@ -402,7 +405,7 @@ const getProjectClass = (project) =>
     }
 
     .project-card-featured .project-copy {
-      align-self: end;
+      align-self: stretch;
       border-left: 1px solid rgba(37, 37, 37, 0.08);
       border-top: 0;
       padding: 1.5rem;
